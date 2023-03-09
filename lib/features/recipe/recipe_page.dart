@@ -18,13 +18,22 @@ class RecipePage extends ConsumerWidget implements IPage {
     return preparation.join("\n");
   }
 
+  void _backNavigate() {
+    if (Modular.args.params['category_id'] != null &&
+        Modular.args.params['category_id'].toString().isNotEmpty) {
+      Modular.to.navigate(PageConstant.recipes
+          .replaceFirst(":id", Modular.args.params['category_id']));
+    } else {
+      Modular.to.navigate(PageConstant.categories);
+    }
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     Recipe recipe = ref.read(recipeProvider);
     return WillPopScope(
         onWillPop: () async {
-          Modular.to.navigate(PageConstant.recipes
-              .replaceFirst(":id", Modular.args.params['category_id']));
+          _backNavigate();
           return false;
         },
         child: CupertinoPageScaffold(
@@ -40,8 +49,7 @@ class RecipePage extends ConsumerWidget implements IPage {
                     size: 25,
                   ),
                 ),
-                onTap: () => Modular.to.navigate(PageConstant.recipes
-                    .replaceFirst(":id", Modular.args.params['category_id'])),
+                onTap: () => _backNavigate(),
               ),
             ),
             child: SafeArea(

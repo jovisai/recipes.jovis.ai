@@ -1,20 +1,36 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:recipes_jovis_ai/core/helpers.dart';
 import 'package:recipes_jovis_ai/core/interfaces/page_definition.dart';
 import 'package:recipes_jovis_ai/features/recipe_repository.dart';
+import 'package:recipes_jovis_ai/features/recipes_list/recipes.dart';
+
+class SearchQuery {
+  final String query;
+  final List<Recipe> results;
+
+  SearchQuery(this.query, this.results);
+}
 
 final recipeCategoriesProvider =
     Provider((ref) => Modular.get<RecipeRepository>().getCategories());
 
-class CategoriesPage extends ConsumerWidget implements IPage {
-  const CategoriesPage({super.key});
+final searchProvider = StateProvider<String>((ref) => "");
 
+final searchResultsProvider = StateProvider<List<Recipe>>((ref) =>
+    Modular.get<RecipeRepository>().findRecipes(ref.watch(searchProvider)));
+
+class CategoriesPage extends ConsumerWidget implements IPage {
+  CategoriesPage({super.key});
+  final _debouncer = Debouncer(milliseconds: 500);
+
+  final _textSearchController = TextEditingController();
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    print("hello");
     var recipeCategories = ref.read(recipeCategoriesProvider);
+    List<Recipe> recipes = ref.watch(searchResultsProvider);
     return CupertinoPageScaffold(
         navigationBar: const CupertinoNavigationBar(
             border: Border(bottom: BorderSide.none)),
@@ -31,37 +47,41 @@ class CategoriesPage extends ConsumerWidget implements IPage {
                         style: TextStyle(fontSize: AppDefault.xxFontSize),
                       ),
                     ),
-                    const Padding(
-                        padding: EdgeInsets.only(top: 8.0, bottom: 38.0),
+                    Padding(
+                        padding: const EdgeInsets.only(top: 8.0, bottom: 38.0),
                         child: CupertinoSearchTextField(
+                            controller: _textSearchController,
+                            onChanged: (value) => _debouncer.run(() => ref
+                                .read(searchProvider.notifier)
+                                .update((state) => value)),
                             placeholder:
-                                "Search through ingredients and recipes")),
-                    Expanded(
-                      child: ListView.builder(
-                          itemCount: recipeCategories.length,
-                          itemBuilder: (BuildContext context, int index) {
-                            return Column(
-                              children: [
-                                const Divider(
-                                  height: 1,
-                                ),
-                                CupertinoListTile(
-                                    onTap: () => Modular.to.navigate(
-                                        PageConstant.recipes.replaceFirst(
-                                            ":id", recipeCategories[index].id)),
-                                    padding: const EdgeInsets.only(
-                                        left: 0, top: 10.0, bottom: 28),
-                                    subtitle: Text(
-                                        "${recipeCategories[index].count} recipes"),
-                                    title: Text(
-                                      recipeCategories[index].name,
-                                      style: const TextStyle(
-                                          fontSize: AppDefault.xFontSize),
-                                    )),
-                              ],
-                            );
-                          }),
-                    )
+                                "Search titles, ingredients, cold, hot, soup, juice, lemon, rice etc")),
+                    if (recipes.isEmpty)
+                      Expanded(
+                        child: ListView.builder(
+                            itemCount: recipeCategories.length,
+                            itemBuilder: (BuildContext context, int index) {
+                              return Column(
+                                children: [
+                                  CupertinoListTile(
+                                      onTap: () => Modular.to.navigate(
+                                          PageConstant.recipes.replaceFirst(
+                                              ":id",
+                                              recipeCategories[index].id)),
+                                      padding: const EdgeInsets.only(
+                                          left: 0, top: 10.0, bottom: 28),
+                                      subtitle: Text(
+                                          "${recipeCategories[index].count} recipes"),
+                                      title: Text(
+                                        recipeCategories[index].name,
+                                        style: const TextStyle(
+                                            fontSize: AppDefault.xFontSize),
+                                      )),
+                                ],
+                              );
+                            }),
+                      ),
+                    if (recipes.isNotEmpty) RecipeList(recipes: recipes)
                   ],
                 ))));
   }

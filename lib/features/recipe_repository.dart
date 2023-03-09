@@ -51,5 +51,29 @@ class RecipeRepository {
         .firstWhere((element) => element['id'].toString() == categoryId);
     return firstWhere["name"];
   }
-  // Modular.args.params['domain']
+
+  List<Recipe> findRecipes(String query) {
+    List<Recipe> returnData = [];
+    if (query.trim().isNotEmpty) {
+      List<Map<String, Object>> recipes = dataset['recipes']!;
+      for (Map recipe in recipes) {
+        try {
+          List<String> ingredients = [];
+          recipe['ingredients'].forEach((e) => ingredients.add(e.toString()));
+          List<String> preparation = [];
+          recipe['preparation'].forEach((e) => preparation.add(e.toString()));
+
+          if (recipe['title'].toString().contains(query) ||
+              ingredients.indexWhere((element) => element.contains(query)) >
+                  -1 ||
+              preparation.indexWhere((element) => element.contains(query)) >
+                  -1) {
+            returnData.add(Recipe(recipe['id'], recipe['title'],
+                recipe['category_id'], ingredients, preparation));
+          }
+        } catch (e) {}
+      }
+    }
+    return returnData;
+  }
 }

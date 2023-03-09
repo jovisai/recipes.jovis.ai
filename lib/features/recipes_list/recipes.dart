@@ -52,29 +52,7 @@ class RecipeListPage extends ConsumerWidget implements IPage {
                         Container(
                           height: 30,
                         ),
-                        Expanded(
-                          child: ListView.builder(
-                              itemCount: recipes.length,
-                              itemBuilder: (BuildContext context, int index) {
-                                return Column(
-                                  children: [
-                                    CupertinoListTile(
-                                        onTap: () => Modular.to.navigate(
-                                            PageConstant.recipe.replaceFirst(
-                                                ":category_id",
-                                                Modular.args.params['id']),
-                                            arguments: recipes[index]),
-                                        padding: const EdgeInsets.only(
-                                            left: 0, top: 10.0, bottom: 28),
-                                        title: Text(
-                                          recipes[index].title,
-                                          style: const TextStyle(
-                                              fontSize: AppDefault.xFontSize),
-                                        )),
-                                  ],
-                                );
-                              }),
-                        )
+                        RecipeList(recipes: recipes)
                       ],
                     )))));
   }
@@ -82,5 +60,41 @@ class RecipeListPage extends ConsumerWidget implements IPage {
   @override
   String route() {
     return PageConstant.recipes;
+  }
+}
+
+class RecipeList extends StatelessWidget {
+  const RecipeList({
+    super.key,
+    required this.recipes,
+  });
+
+  final List<Recipe> recipes;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: ListView.builder(
+          itemCount: recipes.length,
+          itemBuilder: (BuildContext context, int index) {
+            return Column(
+              children: [
+                CupertinoListTile(
+                    onTap: () => {
+                          Modular.to.navigate(
+                              PageConstant.recipe.replaceFirst(":category_id",
+                                  Modular.args.params['id'] ?? ""),
+                              arguments: recipes[index])
+                        },
+                    padding:
+                        const EdgeInsets.only(left: 0, top: 10.0, bottom: 28),
+                    title: Text(
+                      recipes[index].title,
+                      style: const TextStyle(fontSize: AppDefault.xFontSize),
+                    )),
+              ],
+            );
+          }),
+    );
   }
 }

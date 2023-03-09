@@ -27,7 +27,7 @@ class AppModule extends Module {
 
   @override
   List<ModularRoute> get routes => [
-        createChildRoute(const CategoriesPage()),
+        createChildRoute(CategoriesPage()),
         createChildRoute(const RecipeListPage()),
         createChildRoute(const RecipePage())
       ];

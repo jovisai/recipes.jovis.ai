@@ -1,3 +1,7 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
+
 String slugify(String string) {
   return string.replaceAll(RegExp(r"[^a-zA-Z0-9]+"), "-").toLowerCase();
 }
@@ -32,4 +36,16 @@ class ShowDefinitions {
   static const int onlyTitleAndImage = 3;
   static const int onlyImage = 4;
   static const int onlyImageAndSummary = 5;
+}
+
+class Debouncer {
+  final int milliseconds;
+  Timer? _timer;
+
+  Debouncer({required this.milliseconds});
+
+  run(VoidCallback action) {
+    _timer?.cancel();
+    _timer = Timer(Duration(milliseconds: milliseconds), action);
+  }
 }
