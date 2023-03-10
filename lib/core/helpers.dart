@@ -12,11 +12,12 @@ class Constants {
 }
 
 class AppDefault {
-  static const double xxFontSize = 38;
-  static const double xFontSize = xxFontSize / 1.618;
-  static const double mmFontSize = xFontSize / 1.618;
-  static const List<double> fontSizes = [14, 16, 18];
-
+  static const double xxFontSize = 39.81;
+  static const double xFontSize = 33.18;
+  static const double mmFontSize = 27.65;
+  static const double mFontSize = 23.04;
+  static const double ssFontSize = 19.20;
+  static const double sFontSize = 16.00;
   static const double sizeDown = 2;
   static const String fontFamily = 'Quicksand';
 }

@@ -28,12 +28,9 @@ class CategoriesPage extends ConsumerWidget implements IPage {
   final _textSearchController = TextEditingController();
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    print("hello");
     var recipeCategories = ref.read(recipeCategoriesProvider);
     List<Recipe> recipes = ref.watch(searchResultsProvider);
     return CupertinoPageScaffold(
-        navigationBar: const CupertinoNavigationBar(
-            border: Border(bottom: BorderSide.none)),
         child: SafeArea(
             child: Padding(
                 padding: const EdgeInsets.all(30.0),
@@ -41,14 +38,14 @@ class CategoriesPage extends ConsumerWidget implements IPage {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Padding(
-                      padding: EdgeInsets.only(top: 8.0),
+                      padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
                       child: Text(
                         "What would you like to cook today?",
                         style: TextStyle(fontSize: AppDefault.xxFontSize),
                       ),
                     ),
                     Padding(
-                        padding: const EdgeInsets.only(top: 8.0, bottom: 38.0),
+                        padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
                         child: CupertinoSearchTextField(
                             controller: _textSearchController,
                             onChanged: (value) => _debouncer.run(() => ref
@@ -64,19 +61,19 @@ class CategoriesPage extends ConsumerWidget implements IPage {
                               return Column(
                                 children: [
                                   CupertinoListTile(
-                                      onTap: () => Modular.to.navigate(
-                                          PageConstant.recipes.replaceFirst(
-                                              ":id",
-                                              recipeCategories[index].id)),
-                                      padding: const EdgeInsets.only(
-                                          left: 0, top: 10.0, bottom: 28),
-                                      subtitle: Text(
-                                          "${recipeCategories[index].count} recipes"),
-                                      title: Text(
-                                        recipeCategories[index].name,
-                                        style: const TextStyle(
-                                            fontSize: AppDefault.xFontSize),
-                                      )),
+                                    onTap: () => Modular.to.navigate(
+                                        PageConstant.recipes.replaceFirst(
+                                            ":id", recipeCategories[index].id)),
+                                    padding: const EdgeInsets.only(
+                                        left: 0, top: 10.0, bottom: 28),
+                                    subtitle: Text(
+                                        "${recipeCategories[index].count} recipes"),
+                                    title: Text(
+                                      recipeCategories[index].name,
+                                      style: const TextStyle(
+                                          fontSize: AppDefault.mFontSize),
+                                    ),
+                                  ),
                                 ],
                               );
                             }),

@@ -3,6 +3,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:recipes_jovis_ai/core/helpers.dart';
 import 'package:recipes_jovis_ai/core/interfaces/page_definition.dart';
+import 'package:recipes_jovis_ai/core/widgets/navigation_back_button.dart';
 import 'package:recipes_jovis_ai/features/recipe_repository.dart';
 
 final recipeListsProvider = Provider.autoDispose((ref) =>
@@ -24,20 +25,11 @@ class RecipeListPage extends ConsumerWidget implements IPage {
           return false;
         },
         child: CupertinoPageScaffold(
-            navigationBar: CupertinoNavigationBar(
-                border: const Border(bottom: BorderSide.none),
-                padding: const EdgeInsetsDirectional.all(0),
-                leading: GestureDetector(
-                  child: Container(
-                    width: 55,
-                    color: CupertinoTheme.of(context).barBackgroundColor,
-                    child: const Icon(
-                      CupertinoIcons.back,
-                      size: 25,
-                    ),
-                  ),
-                  onTap: () => Modular.to.navigate(PageConstant.categories),
-                )),
+            navigationBar: const CupertinoNavigationBar(
+                border: Border(bottom: BorderSide.none),
+                padding: EdgeInsetsDirectional.all(0),
+                leading:
+                    NavigationBackButton(backRoute: PageConstant.categories)),
             child: SafeArea(
                 child: Padding(
                     padding: const EdgeInsets.all(30.0),
@@ -47,7 +39,7 @@ class RecipeListPage extends ConsumerWidget implements IPage {
                         Text(
                           ref.read(categoryNameProvider).toString(),
                           style:
-                              const TextStyle(fontSize: AppDefault.xxFontSize),
+                              const TextStyle(fontSize: AppDefault.xFontSize),
                         ),
                         Container(
                           height: 30,
@@ -88,10 +80,9 @@ class RecipeList extends StatelessWidget {
                         },
                     padding:
                         const EdgeInsets.only(left: 0, top: 10.0, bottom: 28),
-                    title: Text(
-                      recipes[index].title,
-                      style: const TextStyle(fontSize: AppDefault.xFontSize),
-                    )),
+                    title: Text(recipes[index].title,
+                        style:
+                            const TextStyle(fontSize: AppDefault.mFontSize))),
               ],
             );
           }),
