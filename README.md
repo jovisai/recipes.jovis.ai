@@ -4,6 +4,8 @@
 ![Screen recording](/screenshots/demo.gif "Simulation")
 
 
+## Credits
+<a href="https://www.flaticon.com/free-icons/spice" title="spice icons">Spice icons created by Smashicons - Flaticon</a>
 
 ## MIT License
 
