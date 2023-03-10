@@ -40,6 +40,7 @@ class MainApplication extends ConsumerWidget {
       theme: const CupertinoThemeData(
           primaryColor: CupertinoColors.activeGreen,
           brightness: Brightness.light,
+          barBackgroundColor: CupertinoColors.white,
           textTheme: CupertinoTextThemeData(
               navTitleTextStyle: TextStyle(fontWeight: FontWeight.bold))),
       routeInformationParser: Modular.routeInformationParser,
