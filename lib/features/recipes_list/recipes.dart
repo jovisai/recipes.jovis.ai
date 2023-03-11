@@ -27,7 +27,7 @@ class RecipeListPage extends ConsumerWidget implements IPage {
         child: CupertinoPageScaffold(
             navigationBar: const CupertinoNavigationBar(
                 border: Border(bottom: BorderSide.none),
-                padding: EdgeInsetsDirectional.all(0),
+                padding: EdgeInsetsDirectional.only(top: 20),
                 leading:
                     NavigationBackButton(backRoute: PageConstant.categories)),
             child: SafeArea(

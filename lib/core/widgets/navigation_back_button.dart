@@ -10,18 +10,21 @@ class NavigationBackButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(left: 28.0),
-      child: CupertinoButton(
-        padding: EdgeInsets.zero,
-        color: CupertinoColors.activeGreen,
-        borderRadius: BorderRadius.circular(50),
-        child: const Icon(
-          CupertinoIcons.back,
-          size: 25,
-        ),
-        onPressed: () => Modular.to.navigate(backRoute),
+    return GestureDetector(
+      child: Padding(
+        padding: const EdgeInsets.only(left: 25.0),
+        child: Row(children: [
+          Icon(
+            CupertinoIcons.back,
+            size: 25,
+          ),
+          Text(
+            "Back",
+            style: TextStyle(color: CupertinoColors.activeGreen),
+          )
+        ]),
       ),
+      onTap: () => Modular.to.navigate(backRoute),
     );
   }
 }

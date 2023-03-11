@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.recipes_jovis_ai">
+    package="com.jovis.recipes">
    <application
-        android:label="recipes_jovis_ai"
+        android:label="Vegetarian Recipes"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

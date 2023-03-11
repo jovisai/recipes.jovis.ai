@@ -39,7 +39,7 @@ class RecipePage extends ConsumerWidget implements IPage {
         child: CupertinoPageScaffold(
             navigationBar: CupertinoNavigationBar(
                 border: const Border(bottom: BorderSide.none),
-                padding: const EdgeInsetsDirectional.all(0),
+                padding: const EdgeInsetsDirectional.only(top: 20),
                 leading: NavigationBackButton(backRoute: _backNavigate())),
             child: SafeArea(
                 child: Padding(
