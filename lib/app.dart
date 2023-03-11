@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:recipes_jovis_ai/core/helpers.dart';
 
 class AppEntry extends ConsumerWidget {
   const AppEntry({Key? key}) : super(key: key);

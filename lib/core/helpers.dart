@@ -9,7 +9,7 @@ String slugify(String string) {
 class Constants {
   static String favorites = "Favorites";
   static String hearted = "hearted_channels";
-  static String GSearchAPI = "AIzaSyARV_EjWYlVg8_GUooSPhuZN_8BF6Hhkf8";
+  static String gSearchAPI = "AIzaSyARV_EjWYlVg8_GUooSPhuZN_8BF6Hhkf8";
 }
 
 class AppDefault {

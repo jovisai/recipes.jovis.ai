@@ -13,7 +13,7 @@ class NavigationBackButton extends StatelessWidget {
     return GestureDetector(
       child: Padding(
         padding: const EdgeInsets.only(left: 25.0),
-        child: Row(children: [
+        child: Row(children: const [
           Icon(
             CupertinoIcons.back,
             size: 25,
