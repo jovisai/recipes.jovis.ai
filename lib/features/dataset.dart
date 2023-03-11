@@ -2,22 +2,22 @@ const dataset = {
   "categories": [
     {
       "id": "north-indian-vegetarian-dishes",
-      "name": "North indian vegetarian dishes",
+      "name": "North indian recipes",
       "count": 55
     },
     {
       "id": "south-indian-vegetarian-recipes",
-      "name": "South indian vegetarian recipes",
+      "name": "South indian recipes",
       "count": 53
     },
     {
       "id": "west-indian-vegetarian-recipes",
-      "name": "West indian vegetarian recipes",
+      "name": "West indian recipes",
       "count": 56
     },
     {
       "id": "east-indian-vegetarian-recipes",
-      "name": "East indian vegetarian recipes",
+      "name": "East indian recipes",
       "count": 23
     },
     {"id": "andhra-recipe", "name": "Andhra recipe", "count": 19},
@@ -29,17 +29,17 @@ const dataset = {
       "name": "Maharashtrian recipes",
       "count": 14
     },
-    {"id": "rajasthani-recipe", "name": "Rajasthani recipe", "count": 28},
+    {"id": "rajasthani-recipe", "name": "Rajasthani recipes", "count": 28},
     {"id": "gujarathi-recipes", "name": "Gujarathi recipes", "count": 27},
-    {"id": "punjabhi-food", "name": "Punjabhi food", "count": 22},
+    {"id": "punjabhi-food", "name": "Punjabi recipes", "count": 22},
     {"id": "cabbage-recipes", "name": "Cabbage recipes", "count": 12},
     {"id": "cake-recipes", "name": "Cake recipes", "count": 25},
-    {"id": "chutney-recipe", "name": "Chutney recipe", "count": 30},
+    {"id": "chutney-recipe", "name": "Chutney recipes", "count": 30},
     {"id": "cookie-recipes", "name": "Cookie recipes", "count": 9},
     {"id": "coconut-recipes", "name": "Coconut recipes", "count": 17},
     {"id": "corn-recipes", "name": "Corn recipes", "count": 1},
     {"id": "dal-recipes", "name": "Dal recipes", "count": 18},
-    {"id": "pickle-recipe", "name": "Pickle recipe", "count": 33},
+    {"id": "pickle-recipe", "name": "Pickle recipes", "count": 33},
     {"id": "jam-jelly-recipes", "name": "Jam & jelly recipes", "count": 16},
     {"id": "kebab-recipes", "name": "Kebab recipes", "count": 2},
     {
@@ -51,7 +51,7 @@ const dataset = {
     {"id": "raita-recipes", "name": "Raita recipes", "count": 5},
     {"id": "rice-recipes", "name": "Rice recipes", "count": 19},
     {"id": "salad-recipes", "name": "Salad recipes", "count": 12},
-    {"id": "sauce-recipe", "name": "Sauce recipe", "count": 9},
+    {"id": "sauce-recipe", "name": "Sauce recipes", "count": 9},
     {"id": "soup-recipes", "name": "Soup recipes", "count": 11},
     {"id": "diwali-recipes", "name": "Diwali recipes", "count": 17},
     {"id": "navratri-recipes", "name": "Navratri recipes", "count": 17},
@@ -82,16 +82,11 @@ const dataset = {
         "1 medium tomato, chopped "
       ],
       "preparation": [
-        "In pot soak beans overnight in water to cover generously. Next day, drain beans, cover ",
-        "with fresh water and bring to boil. ",
-        "Add salt, coriander, cumin and turmeric. Simmer until beans are just tender, about 30 to ",
-        "45 minutes.",
+        "In pot soak beans overnight in water to cover generously. Next day, drain beans, cover with fresh water and bring to boil. ",
+        "Add salt, coriander, cumin and turmeric. Simmer until beans are just tender, about 30 to 45 minutes.",
         "Heat oil in deep saucepan. Add onion, garlic, ginger and cumin.",
-        "Fry 10 minutes and add tomato. Cook another 5 minutes and add lobia (black eyed ",
-        "beans) and cooking liquid. Continue to simmer, uncovered, until lobhia are soft but ",
-        "not completely dissolved.",
-        "Mixture should be soupy",
-        "Top"
+        "Fry 10 minutes and add tomato. Cook another 5 minutes and add lobia (black eyed beans) and cooking liquid. Continue to simmer, uncovered, until lobhia are soft but not completely dissolved.",
+        "Mixture should be soupy"
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "lobia-recipe-black-eye-beans-curry"
@@ -120,17 +115,12 @@ const dataset = {
       ],
       "preparation": [
         "Mix all pakora ingredients except oil and add about ½ cup of water. Mix well.",
-        "Heat oil in a Kadhai and deep fry vegetable and gram flour mixture after making into ",
-        "small balls. Fry till pakoras are golden brown.",
-        "Beat Curd/Yogurt and mix gram flour in it. Blend thoroughly so as to ensure that there are ",
-        "no lumps. Add turmeric powder, salt and 3 cups of water. ",
+        "Heat oil in a Kadhai and deep fry vegetable and gram flour mixture after making into small balls. Fry till pakoras are golden brown.",
+        "Beat Curd/Yogurt and mix gram flour in it. Blend thoroughly so as to ensure that there are no lumps. Add turmeric powder, salt and 3 cups of water. ",
         "Heat oil in a Kadhai. Add fenugreek seeds and dry red chili. Stir fry for half minute. Add ",
-        "Gram flour and Yogurt mixture. Bring it to a boil and simmer on a slow fire for about ",
-        "15 minutes. Stir occasionally.",
-        "Add red chili powder and fried pakoras and again simmer the punjabi kadi for about ",
-        "5 minutes.",
-        "Serve punjabi kadhi hot with steamed rice.",
-        ""
+        "Gram flour and Yogurt mixture. Bring it to a boil and simmer on a slow fire for about 15 minutes. Stir occasionally.",
+        "Add red chili powder and fried pakoras and again simmer the punjabi kadi for about 5 minutes.",
+        "Serve punjabi kadhi hot with steamed rice."
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "punjabi-kadhi-recipe"
@@ -188,14 +178,10 @@ const dataset = {
       ],
       "preparation": [
         "Soak kabuli chana overnight.",
-        "Mix in a little water to the soaked chana, tie tea leaves in a piece of cloth and put it in ",
-        "water and then boil the chana until soft and dark in colour, strain and keep aside.",
+        "Mix in a little water to the soaked chana, tie tea leaves in a piece of cloth and put it in water and then boil the chana until soft and dark in colour, strain and keep aside.",
         "Heat up oil mix in bayleaf and cut onion, stir fry until golden brown in colour.",
-        "Mix in ginger, garlic paste and slit green chillies, stir for some time, then mix in cut ",
-        "tomatoes, red chilli powder, coriander powder, turmeric powder, chana masala and ",
-        "cumin powder, stir fry for some time.",
-        "Mix in boiled chana and approximately 1 cup of water and stir fry till chana gets coated ",
-        "with the thick masala.",
+        "Mix in ginger, garlic paste and slit green chillies, stir for some time, then mix in cut tomatoes, red chilli powder, coriander powder, turmeric powder, chana masala and  cumin powder, stir fry for some time.",
+        "Mix in boiled chana and approximately 1 cup of water and stir fry till chana gets coated with the thick masala.",
         "Sprinkle garam masala and salt mix well and serve hot."
       ],
       "category_id": "north-indian-vegetarian-dishes",
@@ -215,16 +201,13 @@ const dataset = {
         "1 pinch Haldi "
       ],
       "preparation": [
-        "Mix besan while adding 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya powder ",
-        "and ghee.",
+        "Mix besan while adding 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya powder and ghee.",
         "Make a stiff dough. Make 5-6 thin and long strips of the dough. ",
         "Put these strips in boiling water and cook for 5 minutes. Cut these gattas into small pieces.",
-        "Strain the curd through a strainer. Add 1/2 tsp. salt, 1/2 tsp red chilly powder, 1/2 ",
-        "tsp. dhaniya powder and haldi to the curd. Mix well.",
+        "Strain the curd through a strainer. Add 1/2 tsp. salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya powder and haldi to the curd. Mix well.",
         "Add the gatta pieces. Heat oil in a kadahi. Put the tadka of jeera and add the curd mixture. ",
         "Cook it for 5-7 minutes while stirring continuously till it comes to a boil.",
-        "Simmer the flame and cook for another 5-7 minutes.Turn off the gas. Finally put the tadka ",
-        "of red chilly powder. Serve shahi gatta curry with missi roti and pakori ki kadhi."
+        "Simmer the flame and cook for another 5-7 minutes.Turn off the gas. Finally put the tadka of red chilly powder. Serve shahi gatta curry with missi roti and pakori ki kadhi."
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "rajasthani-gatta-curry-recipe"
@@ -257,9 +240,7 @@ const dataset = {
         "Drain, cool and cut into 1\" long pieces.",
         "Heat up oil to smoking point.",
         "Take off the heat up and cool slightly.",
-        "Heat up again, mix in asafoetida, mustard seeds and when the seeds crackle, mix in ",
-        "the gattes.",
-        "SautÃ©.",
+        "Heat up again, mix in asafoetida, mustard seeds and when the seeds crackle, mix in the gattes.",
         "Mix in coriander powder, crushed red chillies, garam masala powder and amchur powder.",
         "Stir to mix well.",
         "Serve hot."
@@ -286,16 +267,11 @@ const dataset = {
       ],
       "preparation": [
         "Soak the dal for 5-6 hours. Strain it and grind in a grinder. Strain the curd through a strainer. ",
-        "Add 1tsp salt, 1/2tsp. red chilly powder, 1/2 tsp. dhaniya, 2 tsp. mungdal paste and ",
-        "haldi. Mix well and keep aside.",
-        "Now take the dal and add 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya and ",
-        "soda. Mix well. ",
-        "Heat oil in a kadahi and fry pakories of small size to a golden brown color. Now heat oil in ",
-        "a kadahi and put the tadka of mustard seeds, hing and kari patta. ",
-        "Add the mixture of curd. Cook it for 10-15 minutes. Add the pakories and cook for3-",
-        "4 minutes.",
-        "Finally put the tadka of red chilly powder on pakodi kadhi. Serve hot it with shahi gatte ",
-        "and missi roti."
+        "Add 1tsp salt, 1/2tsp. red chilly powder, 1/2 tsp. dhaniya, 2 tsp. mungdal paste and haldi. Mix well and keep aside.",
+        "Now take the dal and add 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya and soda. Mix well. ",
+        "Heat oil in a kadahi and fry pakories of small size to a golden brown color. Now heat oil in a kadahi and put the tadka of mustard seeds, hing and kari patta. ",
+        "Add the mixture of curd. Cook it for 10-15 minutes. Add the pakories and cook for 3-4 minutes.",
+        "Finally put the tadka of red chilly powder on pakodi kadhi. Serve hot it with shahi gatte and missi roti."
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "pakodi-ki-kadhi-recipe"
@@ -356,11 +332,9 @@ const dataset = {
         "Soak bengal gram overnight in 4 cup water.",
         "Drain, mix in 6 cup of water and pressure stir fry till done.",
         "Mash the grams slightly.",
-        "Heat up ghee and oil, mix in cumin seeds, when they crackle mix in the whole garam ",
-        "masala, fry for 1-2 minutes.",
+        "Heat up ghee and oil, mix in cumin seeds, when they crackle mix in the whole garam masala, fry for 1-2 minutes.",
         "Mix in asafoetida and choped green chillies, sautÃ©.",
-        "Mix yogurt, gram flour, 1 cup water and dry spices and mix in to the sautÃ©ed whole ",
-        "garam masala.",
+        "Mix yogurt, gram flour, 1 cup water and dry spices and mix in to the sautÃ©ed whole garam masala.",
         "Keep stirring till it boils.",
         "Mix in the grams along with the water they were boiled in.",
         "Mix in salt to taste.",
@@ -404,8 +378,7 @@ const dataset = {
         "Heat clarified butter in a pan. ",
         "Add onion, tomato, garlic, ginger paste and brown it, stirring continously. ",
         "Add poppy seeds and fry for 2 minutes and then turn off the gas. ",
-        "To this mixture add makhana, cottage cheese, cream , salt, red chili pepper, turmeric, ",
-        "dried pudina leaves. ",
+        "To this mixture add makhana, cottage cheese, cream , salt, red chili pepper, turmeric, dried pudina leaves. ",
         "Keep this mixture aside for half an hour. ",
         "After half an hour put the pan on the flame and add milk. ",
         "When it comes to a boil add 3 cups of water. ",
@@ -455,8 +428,7 @@ const dataset = {
         "Heat oil in a pan. ",
         "Add cumin seed and bay leaf. ",
         "Add onion, tomato paste and brown it, stirring continously. ",
-        "When it leaves oil add curd, cashewnut powder, salt, red chili powder, turmeric, ",
-        "garam masala. ",
+        "When it leaves oil add curd, cashewnut powder, salt, red chili powder, turmeric, garam masala. ",
         "Stir it continously for a minute. ",
         "Then add 2 cup of water. ",
         "Put on the lid and simmer for 5 minutes. ",
@@ -514,8 +486,7 @@ const dataset = {
         "Salt as per taste "
       ],
       "preparation": [
-        "Melt the butter in a pan, add slit green chillies, tomato puree, kasuri methi, salt, red ",
-        "chilli powder and simmer for 4-5 minutes. ",
+        "Melt the butter in a pan, add slit green chillies, tomato puree, kasuri methi, salt, red chilli powder and simmer for 4-5 minutes. ",
         "Add the cream and garam masala powder and cook further for 2-3 minutes. ",
         "Add the paneer pieces and cook for a minute. Serve hot garnished with coriander. "
       ],
@@ -549,8 +520,7 @@ const dataset = {
         "Then add tomato paste. ",
         "Continue cooking it on medium flame till ghee/oil begins to separate. ",
         "Put off the flame. ",
-        "Add cottage cheese, cream , curd, salt, red chili powder, turmeric, garam masala, ",
-        "dried pudina leaves and mix well. ",
+        "Add cottage cheese, cream , curd, salt, red chili powder, turmeric, garam masala, dried pudina leaves and mix well. ",
         "Keep it aside for an hour. ",
         "Put the pan on the flame and then add milk to the mixture. ",
         "Simmer for 5 minutes and then finally put off the gas. ",
@@ -587,10 +557,8 @@ const dataset = {
         "Fry the mixture in the remaining oil until golden brown and oil starts separating. ",
         "Add salt, red chilli powder, white pepper, turmeric powder, garam masala. Saute for 1-",
         "2 minutes. ",
-        "Add milk to make the gravy. Bring the gravy to boil. Reduce the heat and cook until the ",
-        "gravy becomes thick. ",
-        "Put a portion of the dry fruits in the gravy while it is being cooked. Keep the rest of dry ",
-        "fruits for decorating. ",
+        "Add milk to make the gravy. Bring the gravy to boil. Reduce the heat and cook until the gravy becomes thick. ",
+        "Put a portion of the dry fruits in the gravy while it is being cooked. Keep the rest of dry fruits for decorating. ",
         "Finally add paneer cubes and 1 tbsp cream. Heat for 5 minutes.",
         "Garnish shahi paneer with cream and dry fruits and coriander leaves."
       ],
@@ -630,8 +598,7 @@ const dataset = {
         "Heat clarified butter in a pan. ",
         "Add onion, tomato, garlic, ginger paste and brown it, stirring continously. ",
         "Add poppy seeds and fry for 2 minutes and then turn off the gas. ",
-        "To this mixture add makhana, cottage cheese, cream , salt, red chili pepper, turmeric, ",
-        "dried pudina leaves. ",
+        "To this mixture add makhana, cottage cheese, cream , salt, red chili pepper, turmeric, dried pudina leaves. ",
         "Keep this mixture aside for half an hour. ",
         "After half an hour put the pan on the flame and add milk. ",
         "When it comes to a boil add 3 cups of water. ",
@@ -667,8 +634,7 @@ const dataset = {
         "1 tsp of oil and mix well. ",
         "Marinate alu pieces for 15 minutes. ",
         "Heat oil and deep fry the aloo. Keep aside. ",
-        "Heat 2 tsp of oil, add onions and saute till brown. Add salt, turmeric powder, red ",
-        "chilli powder, annardana powder, garam masala and mix well. ",
+        "Heat 2 tsp of oil, add onions and saute till brown. Add salt, turmeric powder, red chilli powder, annardana powder, garam masala and mix well. ",
         "Add the aloo (potato) and toss well. Simmer the flame and cook for another 5- 6 minutes. ",
         "Garnish with corainder leaves and serve punjabi aloo amritsari hot with paratha."
       ],
@@ -694,12 +660,10 @@ const dataset = {
         "Wash, wipe and trim ladyfingers.",
         "Make a deep slit on one side of the ladyfinger to create a pocket.",
         "Take off and finely slice onion.",
-        "Mix red chilli powder, coriander powder, turmeric powder, pomegranate seed powder, ",
-        "garam masala powder and salt with four-tblsp oil to make a thick paste.",
+        "Mix red chilli powder, coriander powder, turmeric powder, pomegranate seed powder, garam masala powder and salt with four-tblsp oil to make a thick paste.",
         "Stuff the ladyfingers liberally with this masala paste.",
         "Heat up oil in a pot and stir fry cut onion for two to three minutes or until translucent.",
-        "Gently slide in the stuffed ladyfingers and stir fry on medium heat up for five minutes ",
-        "turning them occasionally.",
+        "Gently slide in the stuffed ladyfingers and stir fry on medium heat up for five minutes turning them occasionally.",
         "Sprinkle lemon juice and serve hot."
       ],
       "category_id": "north-indian-vegetarian-dishes",
@@ -807,15 +771,13 @@ const dataset = {
         "Boil green peas.",
         "Heat up oil in a pan, mix in onion paste and stir fry till pink.",
         "Mix in ginger-garlic paste and sautÃ©.",
-        "Mix in tomato puree, turmeric powder, red chilli powder and roast till the oil leaves ",
-        "the masala.",
+        "Mix in tomato puree, turmeric powder, red chilli powder and roast till the oil leaves the masala.",
         "Mix in boiled peas and stir.",
         "Mix in salt, roasted khoya and stir.",
         "Mix in broken cashewnuts and raisins.",
         "Mix in coriander powder and stir to mix well.",
         "Take off the heat.",
-        "Sprinkle cut green chillies, roasted sesame seeds, crushed red chillies on the bread ",
-        "croutons and mix well.",
+        "Sprinkle cut green chillies, roasted sesame seeds, crushed red chillies on the bread croutons and mix well.",
         "To serve assemble the khoya-peas masala in a dish and cover with bread crouton mixture.",
         "Sprinkle with cut coriander."
       ],
@@ -844,10 +806,8 @@ const dataset = {
       "preparation": [
         "Clean and wash sarson, spinach and bathuwa. Chop the leaves finely.",
         "Chop ginger, garlic cloves and chillies. ",
-        "Pressure cook the spinach, sarson, bathuwa with garlic, ginger and chillies. When cool, ",
-        "grind it to smooth paste. ",
-        "Heat ghee in a vessel, add hing and onions. Fry until light brown. Add salt and ",
-        "turmeric powder. Mix well. ",
+        "Pressure cook the spinach, sarson, bathuwa with garlic, ginger and chillies. When cool, grind it to smooth paste. ",
+        "Heat ghee in a vessel, add hing and onions. Fry until light brown. Add salt and turmeric powder. Mix well. ",
         "Add the ground saag and simmer the flame. Cook for few minutes. ",
         "Add the maize flour, red chilli powder, sugar and stir well. ",
         "Serve hot with paratha or makki ki roti. "
@@ -880,13 +840,11 @@ const dataset = {
         "Soak the sangar in haldi water for whole night. Put it in a pressure cooker and wait for ",
         "1 whistle.",
         "Turn off the gas. Strain the sangar through a strainer. Keep the strained water aside.",
-        "Heat mustard oil in a kadahi. Now give tadka by adding mustard (grounded), hing, jeera ",
-        "and sabut red chilly. ",
+        "Heat mustard oil in a kadahi. Now give tadka by adding mustard (grounded), hing, jeera and sabut red chilly. ",
         "When the tadka is ready add the masala paste. Add curd, sangar and soaked amchur. ",
         "( soak it for a 1/2 hour).",
         "Add to the kadahi. If required add the strained water. Cook it for 10-15 minutes.",
-        "You can enjoy this vegetable for 8-10 days if kept in a refrigerator. Serve sangri ki sabzi ",
-        "hot with dal ke parathe."
+        "You can enjoy this vegetable for 8-10 days if kept in a refrigerator. Serve sangri ki sabzi hot with dal ke parathe."
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "sangri-ki-sabzi-recipe"
@@ -948,12 +906,10 @@ const dataset = {
       "preparation": [
         "Wash and wipe the ladyfingers.",
         "Snip off the two ends and slit on one side.",
-        "Mix everything bengal gram flour, 1 tsp fennel seeds and all other dry masalas except ",
-        "cumin and onion seeds.",
+        "Mix everything bengal gram flour, 1 tsp fennel seeds and all other dry masalas except cumin and onion seeds.",
         "Mix in a tblsp of oil and salt and mix well.",
         "Stuff this masala into the ladyfingers.",
-        "Heat up 3 tblsp of oil, mix in the remaining fennel seeds, cumin seeds, green chillies ",
-        "and onion seeds, fry for a minute.",
+        "Heat up 3 tblsp of oil, mix in the remaining fennel seeds, cumin seeds, green chillies and onion seeds, fry for a minute.",
         "Mix in ladyfingers and stir fry for 5 minutes, cover and stir fry stirring till they are cooked.",
         "Uncover and stir fry till the ladyfingers are crisp.",
         "Serve hot."
@@ -1004,16 +960,13 @@ const dataset = {
         "1 bay leaf"
       ],
       "preparation": [
-        "Cream curd, mix in besan and salt, red chilli powder, coriander powder and turmeric ",
-        "powder to it.",
+        "Cream curd, mix in besan and salt, red chilli powder, coriander powder and turmeric powder to it.",
         "Peel, wash and cut potatoes into 1 centimeter cubes.",
         "Keep aside in water.",
         "Dry roast mangodi on hot tawa until crunchy and slightly browned.",
-        "Heat up oil, mix in brown bay leaf, cumin seeds, coriander seeds, whole red chillies and ",
-        "salt and cook.",
+        "Heat up oil, mix in brown bay leaf, cumin seeds, coriander seeds, whole red chillies and salt and cook.",
         "Mix in potatoes and stir fry stirring constantly until golden brown.",
-        "Mix in ginger paste, mangodi, tomato puree and yogurt mixture, mix in 1 cup of water ",
-        "and mix well.",
+        "Mix in ginger paste, mangodi, tomato puree and yogurt mixture, mix in 1 cup of water and mix well.",
         "Mix in garam masala powder and cut coriander leaves.",
         "Stir fry for a further few minutes and serve hot."
       ],
@@ -1037,8 +990,7 @@ const dataset = {
       ],
       "preparation": [
         "Heat oil and add crushed garlic and fry till brown. Add cumin seeds and dry red chilies.",
-        "When cumin seeds are done and chilies turn brown add salt, turmeric, chili powder ",
-        "and chopped tomato. Sauté foe a moment. ",
+        "When cumin seeds are done and chilies turn brown add salt, turmeric, chili powder and chopped tomato. Sauté foe a moment. ",
         "Now add potatoes and mix well. Cook till potatoes are half done on a medium flame. ",
         "Add methi and cook on a medium flame till done and till water is fully absorbed. ",
         "Serve the aloo methi hot with chapati or paratha."
@@ -1064,17 +1016,12 @@ const dataset = {
         "1tsp chopped coriander leaves "
       ],
       "preparation": [
-        "Slice off the top from the aloo (potatoes) - a thick slice to be used as a lid later, and ",
-        "carefully scoop the inside. ",
-        "Place the Cauliflower, capsicum, peas, onion, chilies, garlic and half salt in a saucepan ",
-        "with the water. ",
+        "Slice off the top from the aloo (potatoes) - a thick slice to be used as a lid later, and carefully scoop the inside. ",
+        "Place the Cauliflower, capsicum, peas, onion, chilies, garlic and half salt in a saucepan with the water. ",
         "Parboil until the water is fully absorbed into the mixture. ",
-        "Fill the mixture into the potatoes, cover with the potato lids and secure with wooden ",
-        "cocktail sticks (toothpicks). ",
-        "Heat the ghee in a kadhai or saucepan and cook the tomatoes with the remaining salt over ",
-        "a moderate heat for 2 minutes. ",
-        "Carefully arrange the stuffed aloo (potatoes) over the tomato mixture, cover tightly and ",
-        "cook potatoes in their own steam for about 10 minutes until tender. ",
+        "Fill the mixture into the potatoes, cover with the potato lids and secure with wooden cocktail sticks (toothpicks). ",
+        "Heat the ghee in a kadhai or saucepan and cook the tomatoes with the remaining salt over a moderate heat for 2 minutes. ",
+        "Carefully arrange the stuffed aloo (potatoes) over the tomato mixture, cover tightly and cook potatoes in their own steam for about 10 minutes until tender. ",
         "Garnish the stuffed aloo with chopped coriander and serve hot with roti or paratha. ",
         "_TOP_________"
       ],
@@ -1100,8 +1047,7 @@ const dataset = {
       ],
       "preparation": [
         "Cut the paner into cubes.",
-        "Mix together the cottage cheese, 1 tsp salt, egg, corn flour, garlic, ginger and water to ",
-        "just coat the paneer pieces with the mixture. ",
+        "Mix together the cottage cheese, 1 tsp salt, egg, corn flour, garlic, ginger and water to just coat the paneer pieces with the mixture. ",
         "Heat oil in a pan and fry the paneer pieces caoted with mixture till golden in color. ",
         "Heat 2 tbsp of the oil in a wok and stir fry the onions in it over high heat for half a minute.",
         "Add the green chillies, salt, soya sauce, vinegar, ajinomoto and the fried paneer cubes. ",
@@ -1167,15 +1113,12 @@ const dataset = {
       ],
       "preparation": [
         "Make a paste by grinding together half the onions, the garlic and coriander seeds. ",
-        "Heat the ghee in a frying pan and cut the paneer into 2.5-cm/1-inch cubes. Fry the paneer ",
-        "to a light brown and remove to drain on a plate. ",
-        "Add the remaining onion and the ginger to the ghee / oil in a pan and add the bay leaves ",
-        "and fry until the onion is golden brown.",
+        "Heat the ghee in a frying pan and cut the paneer into 2.5-cm/1-inch cubes. Fry the paneer to a light brown and remove to drain on a plate. ",
+        "Add the remaining onion and the ginger to the ghee / oil in a pan and add the bay leaves and fry until the onion is golden brown.",
         "Add the turmeric and the paste mixture and fry until the ghee starts to separate. ",
         "Add the paneer and mutter (peas) along with the yogurt, chili, tomato and salt. Stir for 5-",
         "6 minutes over low heat. ",
-        "Pour in the water and simmer gently for 20 minutes. Serve the matar paneer sprinkled ",
-        "with garam masala and coriander. "
+        "Pour in the water and simmer gently for 20 minutes. Serve the matar paneer sprinkled with garam masala and coriander. "
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "mattar-paneer-recipe"
@@ -1202,8 +1145,7 @@ const dataset = {
         "Now add onions and fry till golden brown. ",
         "Add all spices except red chili powder. ",
         "Now add the spinach (palak) and little water if needed and cook for 4-5 minutes. ",
-        "Cut paneer into pieces (Paneer can be fried to golden brown in a seperate pan or can be ",
-        "used as it is). ",
+        "Cut paneer into pieces (Paneer can be fried to golden brown in a seperate pan or can be used as it is). ",
         "Add Paneer pieces to the gravy and cook until done. ",
         "Take out in a bowl.",
         "Just before serving, heat pure ghee in a small pan. ",
@@ -1231,11 +1173,9 @@ const dataset = {
       ],
       "preparation": [
         "Chop the onions, tomatoes and chillies finely. ",
-        "Heat oil in a deep bottomed pan, add the cumin seeds, chopped onions and the ginger ",
-        "garlic paste, fry till brown. ",
+        "Heat oil in a deep bottomed pan, add the cumin seeds, chopped onions and the ginger garlic paste, fry till brown. ",
         "Add the chillies and tomatoes and fry till they are soft and pulpy.",
-        "Add turmeric powder, garam masala powder, salt and little water so that all the masalas ",
-        "are well combined. ",
+        "Add turmeric powder, garam masala powder, salt and little water so that all the masalas are well combined. ",
         "Add grated paneer and fry for 5 minutes till the paneer blends into the masala. ",
         "Garnish with chopped coriander and serve hot. ",
         "TOP___________"
@@ -1259,8 +1199,7 @@ const dataset = {
       "preparation": [
         "Cut the tip and the very bottom from the okra just to clean it, but do not slice.",
         "Heat oil in a pan over medium heat. Add onion and cook for 3 minutes.",
-        "Add all ingredients except okra, tomato and cilantro. Cook for 3 minutes. Add okra, then ",
-        "cook for 6 to 8 minutes. Garnish with tomato and cilantro.",
+        "Add all ingredients except okra, tomato and cilantro. Cook for 3 minutes. Add okra, then cook for 6 to 8 minutes. Garnish with tomato and cilantro.",
         "Serve the bhindi bhaji with rice, naan or pita bread."
       ],
       "category_id": "north-indian-vegetarian-dishes",
@@ -1289,17 +1228,12 @@ const dataset = {
         "Hara dhania (green coriander), chopped for garnishing"
       ],
       "preparation": [
-        "Squeeze water out of the ghiya; mix in salt, ginger and black pepper. Sauté over high ",
-        "flame, to dry up excess liquid and leave to cool. ",
+        "Squeeze water out of the ghiya; mix in salt, ginger and black pepper. Sauté over high flame, to dry up excess liquid and leave to cool. ",
         "Add singhare ka atta, mix well and shape into walnut sized balls. ",
         "Deep-fry koftas to a golden brown over high flame and keep aside. ",
         "Heat ghee; add jeera followed by ginger and sauté to a light brown.",
-        "Grind the khus-khus into a paste. Add dhania powder, salt and chilli powder and sauté till ",
-        "oil separates. ",
-        "Add 2-3 cups water and bring to a boil, then simmer for about 10 minutes. Add koftas ",
-        "and dahi, simmer for another 2 minutes, and serve hot. Garnish the lauki ke kofte with ",
-        "hara dhania. ",
-        ""
+        "Grind the khus-khus into a paste. Add dhania powder, salt and chilli powder and sauté till oil separates. ",
+        "Add 2-3 cups water and bring to a boil, then simmer for about 10 minutes. Add koftas and dahi, simmer for another 2 minutes, and serve hot. Garnish the lauki ke kofte with hara dhania. "
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "lauki-ke-kofte-recipe"
@@ -1367,12 +1301,10 @@ const dataset = {
         "Peel, mash and add salt to taste.",
         "Keep aside.",
         "Mix all the other ingredients for the kofta into a paste.",
-        "Make rounds of the potato dough and place a little of the prepared mixture in the center ",
-        "of each round.",
+        "Make rounds of the potato dough and place a little of the prepared mixture in the center of each round.",
         "Seal the edges and shape into stuffed rounds. Deep fry each kofta till golden brown. ",
         "Drain and keep aside.",
-        "Blend together the onions, ginger, garlic and the poppy seeds and fry in 3 tbsp of oil ",
-        "till brown and the oil begins to seperate.",
+        "Blend together the onions, ginger, garlic and the poppy seeds and fry in 3 tbsp of oil till brown and the oil begins to seperate.",
         "Add the pureed tomatoes and the masala powders.",
         "Add the sugar and the ground peanuts.",
         "The gravy will begin to thicken.",
@@ -1380,9 +1312,7 @@ const dataset = {
         "Mix in some water if necessary.",
         "When the gravy comes to a boil, add the koftas.",
         "Heat through and serve the malai kofta.",
-        "Note: In this malai kofta receipe , the koftas should be put in just before eating the dish ",
-        "or else they will turn soggy.",
-        null,
+        "Note: In this malai kofta receipe , the koftas should be put in just before eating the dish or else they will turn soggy.",
         "TOP_______"
       ],
       "category_id": "north-indian-vegetarian-dishes",
@@ -1443,21 +1373,17 @@ const dataset = {
         "Coriander leaves for decoration "
       ],
       "preparation": [
-        "Boil tomatoes till tender. Allow them to cool. Then peel off the tomato skin to make ",
-        "puree. Readymade tomato puree can also be used. ",
+        "Boil tomatoes till tender. Allow them to cool. Then peel off the tomato skin to make puree. Readymade tomato puree can also be used. ",
         "Take 1 tbsp ghee and slightly fry the dry fruits for about 1 min on medium heat. ",
         "Heat oil in a pan. Fry onions and ginger-garlic paste till golden brown. ",
         "Add salt, turmeric powder, red chilli powder, coriander powder, garam masala and fry for 2-",
         "3 minutes. ",
         "Next add tomato puree and dry fruits. Stir well and cook the mixture for 4 minutes. ",
         "Ensure that the mixture doesn't stick to bottom of pan. ",
-        "Add milk (use water alternatively). Bring it to boil. Reduce the heat and cook until the ",
-        "gravy becomes thick. ",
+        "Add milk (use water alternatively). Bring it to boil. Reduce the heat and cook until the gravy becomes thick. ",
         "Add paneer to the gravy and stir well. ",
         "Finally add all the vegetables to the above gravy and cook for 5-7 minutes. ",
-        "Serve the navratan korma hot. Put cream and chopped coriander leaves on the ",
-        "navaratna korma decorate . ",
-        ""
+        "Serve the navratan korma hot. Put cream and chopped coriander leaves on the navaratna korma decorate . "
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "navratan-korma-recipe"
@@ -1479,11 +1405,9 @@ const dataset = {
       ],
       "preparation": [
         "Wash the tomatoes and set dry.",
-        "Cut the top of tomato (tamatar ) like a cap. Gently scoop out the centers . Keep aside ",
-        "the scooped portion and chop the cut tops .",
+        "Cut the top of tomato (tamatar ) like a cap. Gently scoop out the centers . Keep aside the scooped portion and chop the cut tops .",
         "Heat oil in a kadhai add chopped onions and green chilies till tender.",
-        "Now add the pulp and chopped tomato and fry for a minute and all dry masalas and fry for ",
-        "a minute more. ",
+        "Now add the pulp and chopped tomato and fry for a minute and all dry masalas and fry for a minute more. ",
         "Add paneer ,mix well and cock for a minute. ",
         "Fill tomatoes with the mixture.",
         "Top with grated cheese and chopped coriander. ",
@@ -1513,15 +1437,10 @@ const dataset = {
         "2 tbsp chopped, fresh green coriander "
       ],
       "preparation": [
-        "Place the aubergine (eggplant), carrots, peas, French beans and potato in a medium-",
-        "sized saucepan. Add 250ml/8fl oz/1 cup water. Bring to the boil. Cover, turn the heat ",
-        "to medium and cook for 4 minutes or until the vegeatbles are just tender.",
-        "Meanwhile put the coconut, chillies, poppy seeds and salt in the container of an ",
-        "electric blender. Add 150ml/5fl oz water and grind to a fine paste. Set aside.",
+        "Place the aubergine (eggplant), carrots, peas, French beans and potato in a medium-sized saucepan. Add 250ml/8fl oz/1 cup water. Bring to the boil. Cover, turn the heat to medium and cook for 4 minutes or until the vegeatbles are just tender.",
+        "Meanwhile put the coconut, chillies, poppy seeds and salt in the container of an electric blender. Add 150ml/5fl oz water and grind to a fine paste. Set aside.",
         "When the vegetables are cooked, add the spice paste and another 150ml/5fl oz water. ",
-        "Stir and simmer gently for 5 minutes. Now add the tomatoes, the yogurt and the ",
-        "garam masala. Stir gently to mix well. Bring to the boil and simmer gently for 2-3 ",
-        "minutes. Turn into a serving dish and garnish the vegetable curry with the fresh coriander. "
+        "Stir and simmer gently for 5 minutes. Now add the tomatoes, the yogurt and the garam masala. Stir gently to mix well. Bring to the boil and simmer gently for 2-3 minutes. Turn into a serving dish and garnish the vegetable curry with the fresh coriander. "
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "vegetable-curry-recipe"
@@ -1558,8 +1477,7 @@ const dataset = {
         "Pressure cook the whole arbi with three cups of water to give one whistle.",
         "Keep on low flame for 2-3 minutes.",
         "Remove from fire. Cool and drain.",
-        "To prepare makhani gray, put tomatoes in a bandi, add one cup of water, ginger and ",
-        "garlic paste, green chilli, red chilli powder, laung and chot elaichi.",
+        "To prepare makhani gray, put tomatoes in a bandi, add one cup of water, ginger and garlic paste, green chilli, red chilli powder, laung and chot elaichi.",
         "Boil. Cover and cook on low heat till it is reduced to a saucy consistency.",
         "Remove from fire.",
         "Blend in a mixer.",
@@ -1573,13 +1491,11 @@ const dataset = {
         "Peel and flatten each piece or arbi.",
         "Sprinkle some salt and red chilli powder on it.",
         "Sprinkle dry besan.",
-        "Overturn the pieces and sprinkle salt, red chilli and besan on the other side too.",
-        "mix, so as to coat lightly.",
+        "Overturn the pieces and sprinkle salt, red chilli and besan on the other side too.mix, so as to coat lightly.",
         "Heat oil on a large tawa, add half the arbi and sauté over medium heat till golden.",
         "Shift the fried arbi from the center to the sides (periphery) of the tawa.",
         "Add the rest of the arbi, fry and shift to the sides.",
-        "In the same oil, add ajwain, when it turns golden, add chopped onions, grated ginger ",
-        "and green chilli and sauté for three minutes.",
+        "In the same oil, add ajwain, when it turns golden, add chopped onions, grated ginger and green chilli and sauté for three minutes.",
         "Add 1/2 tsp salt.",
         "Return the arbi to the center, add red chillies and half of the coriander.",
         "Fry for a minute.",
@@ -1613,17 +1529,13 @@ const dataset = {
       ],
       "preparation": [
         "Soak Chole in water overnight or for about 6 hr. ",
-        "Cook the chole with salt and enough water in the cooker for about 20 minutes or till ",
-        "fully done.",
+        "Cook the chole with salt and enough water in the cooker for about 20 minutes or till fully done.",
         "Drain, reserving 1 cup of cooking liquid. ",
-        "Finely chop the remaining ginger. Heat oil and sauté onions till golden, then add garlic ",
-        "and chopped ginger and green chilies. Sauté for 5 minutes. ",
-        "Add tomatoes, coriander, cumin, turmeric and chili powder and sauté over low heat until ",
-        "the oil separates.",
+        "Finely chop the remaining ginger. Heat oil and sauté onions till golden, then add garlic and chopped ginger and green chilies. Sauté for 5 minutes. ",
+        "Add tomatoes, coriander, cumin, turmeric and chili powder and sauté over low heat until the oil separates.",
         "Add chole, the reserved cooking liquid, salt and half of the coriander leaves. ",
         "Simmer, uncovered until the liquid has been absorbed. ",
-        "Add a pinch of garam masala and serve pindi chana sprinkled with the remaining ",
-        "garam masala, coriander leaves and shredded ginger. "
+        "Add a pinch of garam masala and serve pindi chana sprinkled with the remaining garam masala, coriander leaves and shredded ginger. "
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "pindi-chana-recipe"
@@ -1652,8 +1564,7 @@ const dataset = {
         "Cut the stalk of each okra and make lengthwise slit. ",
         "Combine stuffing ingredients and mix well. Stuff each okra with the mixture. ",
         "Sauté cumin with the little oil until it starts to crackle. ",
-        "Add onions, green chilies and ginger. Sauté till onion turns transparent, then put in ",
-        "asafetida and cook for a few seconds. ",
+        "Add onions, green chilies and ginger. Sauté till onion turns transparent, then put in asafetida and cook for a few seconds. ",
         "Add tomato and cook until it turns pulpy. ",
         "Add the okra and cook for 5 minutes until tender and well coated with the sauce (masala). ",
         "Serve stuffed bhindi hot with chapati, paratha or rice."
@@ -1677,16 +1588,13 @@ const dataset = {
         "Oil/ghee for frying "
       ],
       "preparation": [
-        "Wash the capsicum and boil them whole till they are tender (not too much), drain water ",
-        "and keep aside to cool.",
+        "Wash the capsicum and boil them whole till they are tender (not too much), drain water and keep aside to cool.",
         "Mash the boiled potatoes. ",
         "Now in a pan heat 2-tbsp oil/ghee and add chopped onion and fry till it turns golden brown. ",
         "Now add all spices, mashed potatoes and peas and fry for few moments.",
-        "With a sharp knife cut the stem of the capsicum and take out seeds from the top gently ",
-        "and add the stuffing in it. ",
+        "With a sharp knife cut the stem of the capsicum and take out seeds from the top gently and add the stuffing in it. ",
         "Now take oil/ghee in a kadhai and fry the stuffed capsicums on all sides. ",
-        "Garnish the bharawan capsicum with grated paneer, chopped coriander leaves and ",
-        "thinly sliced rings of tomato. Serve hot. "
+        "Garnish the bharawan capsicum with grated paneer, chopped coriander leaves and thinly sliced rings of tomato. Serve hot. "
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "stuffed-capsicum-recipe"
@@ -1717,8 +1625,7 @@ const dataset = {
         "Saute it till light golden brown in colour.",
         "Add ginger paste and garlic paste and sauté it.",
         "Add the tomato puree and sauté it.",
-        "Now add the green chillies, cumin seeds powder, coriander powder, red chilli powder, ",
-        "curd and salt.",
+        "Now add the green chillies, cumin seeds powder, coriander powder, red chilli powder, curd and salt.",
         "Cook the masala for 5-6 minutes.",
         "Add the rajma, mix it well and add half a cup of water.",
         "Cook it for another 15- 20 minutes.",
@@ -1748,12 +1655,9 @@ const dataset = {
       "preparation": [
         "Break the aloo (potatoes), by holding each in the palm of your hand and closing the fist. ",
         "Keep these unevenly broken potatoes aside until further use.",
-        "Heat the ghee, add cumin and asafoetida. When the cumin splutters, add ginger and sauté ",
-        "till slightly fried.",
+        "Heat the ghee, add cumin and asafoetida. When the cumin splutters, add ginger and sauté till slightly fried.",
         "Lower the flame, add yogurt 1 tbsp at a time, stirring vigorously until all of it is well blended.",
-        "Add garam masala, coriander, salt, turmeric and chilli powder. Stir a few times until ",
-        "well mixed, add potatoes and green chillies, turn around over high heat, until they ",
-        "look slightly fried.",
+        "Add garam masala, coriander, salt, turmeric and chilli powder. Stir a few times until well mixed, add potatoes and green chillies, turn around over high heat, until they look slightly fried.",
         "Add about 2 cups water, bring the mixture to a boil, and then simmer uncovered for about ",
         "15 minutes.",
         "Serve aloo dahi wale hot, garnished with coriander leaves."
@@ -1827,12 +1731,9 @@ const dataset = {
         "Salt To Taste"
       ],
       "preparation": [
-        "Par boil the potatoes in a large saucepan of boiling water for 10 minutes. Drain well and ",
-        "set aside. ",
-        "Heat the oil in a large frying pan and fry the cumin seeds for about 2 minutes, until ",
-        "they begin to splutter. Add the green chilli and fry for a further 1 minute. ",
-        "Add the cauliflower florets and fry, stirring, for 5 minutes. Add the potatoes, the ",
-        "ground spices and salt and cook for 7-10 minutes, until the vegetable are tender. ",
+        "Par boil the potatoes in a large saucepan of boiling water for 10 minutes. Drain well and set aside. ",
+        "Heat the oil in a large frying pan and fry the cumin seeds for about 2 minutes, until they begin to splutter. Add the green chilli and fry for a further 1 minute. ",
+        "Add the cauliflower florets and fry, stirring, for 5 minutes. Add the potatoes, the ground spices and salt and cook for 7-10 minutes, until the vegetable are tender. ",
         "Garnish the aloo gobi with coriander and serve with tomato and onion salad and pickle."
       ],
       "category_id": "north-indian-vegetarian-dishes",
@@ -1851,9 +1752,7 @@ const dataset = {
         "Salt To Taste"
       ],
       "preparation": [
-        "Boil, peel and cube the potatoes. Heat oil in a pan, add the mustard seeds, slit green ",
-        "chillies, curry leaves, fry till the seeds start spluttering, add salt and turmeric powder ",
-        "and cubed aloo (potatoes), add little water so that the aloo (potatoes) absorb the masala ",
+        "Boil, peel and cube the potatoes. Heat oil in a pan, add the mustard seeds, slit green chillies, curry leaves, fry till the seeds start spluttering, add salt and turmeric powder and cubed aloo (potatoes), add little water so that the aloo (potatoes) absorb the masala ",
         "and simmer for 4-5 minutes till well blended. Serve the aloo sabzi hot with roti or paratha.",
         "For a different taste in aloo sabzi , you can substitute mustard seeds with cumin seeds. "
       ],
@@ -1876,14 +1775,10 @@ const dataset = {
       ],
       "preparation": [
         "Break the potatoes, by holding them in your palm and closing your fists.",
-        "Heat oil and add the badis in very briefly-just put them in, quickly turn them over and ",
-        "remove from oil, keep aside. They should barely get darkened.",
-        "In the same oil, add cumin, when it splutters, add the potatoes and fry over high flame ",
-        "but just slightly. Add salt, turmeric and badis.",
-        "Stir-fry till mixed well. Add enough water to cover the potatoes and badis, bring to a boil ",
-        "and simmer, till the badis get soft, but hold their shape.",
-        "Add the yogurt and mix well and serve the aloo badi curry immediately garnished ",
-        "with coriander leaves."
+        "Heat oil and add the badis in very briefly-just put them in, quickly turn them over and remove from oil, keep aside. They should barely get darkened.",
+        "In the same oil, add cumin, when it splutters, add the potatoes and fry over high flame but just slightly. Add salt, turmeric and badis.",
+        "Stir-fry till mixed well. Add enough water to cover the potatoes and badis, bring to a boil and simmer, till the badis get soft, but hold their shape.",
+        "Add the yogurt and mix well and serve the aloo badi curry immediately garnished with coriander leaves."
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "aloo-badiyan-rasedaar-recipe"
@@ -1900,15 +1795,11 @@ const dataset = {
         "1 tsp dried mango powder "
       ],
       "preparation": [
-        "Heat oil in a kadahi to a point when a piece of potato put in, comes up at once. Put in ",
-        "the potato rounds, lower flame to medium and fry to a creamish colour, with the edges a ",
-        "little darker.",
+        "Heat oil in a kadahi to a point when a piece of potato put in, comes up at once. Put in the potato rounds, lower flame to medium and fry to a creamish colour, with the edges a little darker.",
         "Remove from kadahi, drain excess oil. Put aside to cool a little. ",
         "Once cool, flatten by pressing between palms. ",
-        "Just before serving, reheat oil and re-fry aloo (potatoes) to a golden brown, over high ",
-        "flame to make them crisp on the outside and fully cooked inside.",
-        "Drain excess oil on absorbent paper. Mix in salt, red and black pepper, dried mango ",
-        "powder and coriander and serve hot aloo took. "
+        "Just before serving, reheat oil and re-fry aloo (potatoes) to a golden brown, over high flame to make them crisp on the outside and fully cooked inside.",
+        "Drain excess oil on absorbent paper. Mix in salt, red and black pepper, dried mango powder and coriander and serve hot aloo took. "
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "aloo-took-recipe"
@@ -1936,12 +1827,9 @@ const dataset = {
       "preparation": [
         "Combine ginger, green chilies & coconut in blender with 1/3 cup of water till smooth. ",
         "Add garam masala & pulse for a few seconds. Set aside. ",
-        "Heat ghee. Whe hot, add mustard & cumin seeds & fry for a few seconds. Stir in the ",
-        "asafetida & almost immediately put in the potatoes. Stir fry for 5 minutes Then pour in ",
-        "the mixture from the blender. Add the turmeric, coriander, eggplant, salt & half the ",
+        "Heat ghee. Whe hot, add mustard & cumin seeds & fry for a few seconds. Stir in the asafetida & almost immediately put in the potatoes. Stir fry for 5 minutes Then pour in the mixture from the blender. Add the turmeric, coriander, eggplant, salt & half the ",
         "fresh coriander. Mix very gently so as not to break the vegetables.",
-        "Reduce heat & fry very gently until the liquid has evaporated. In the aloo baigan mix ",
-        "lemon juice & remaining coriander greens & serve."
+        "Reduce heat & fry very gently until the liquid has evaporated. In the aloo baigan mix lemon juice & remaining coriander greens & serve."
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "aloo-baigan-recipe"
@@ -1968,7 +1856,6 @@ const dataset = {
         "Stir several times and then arrange the tomato and lemon slices over the mixture.",
         "Cover, lowering the heat and cook for another 5 minutes.",
         "Serve the aloo palak hot as a side dish.",
-        null,
         "South Indian Vegetarian Recipes",
         "          1. Coconut Rice  ",
         "2.  ",
@@ -2126,8 +2013,7 @@ const dataset = {
         "Sauté them for a minute. ",
         "Take the pan off the gas. Add in the rice. ",
         "Mix the salt and desiccated coconut. ",
-        "Just before serving, mix all the ingredients with yogurt (curd) and milk. Curd rice is ready ",
-        "to be served."
+        "Just before serving, mix all the ingredients with yogurt (curd) and milk. Curd rice is ready to be served."
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "curd-rice-recipe"
@@ -2158,25 +2044,20 @@ const dataset = {
         "Salt To taste"
       ],
       "preparation": [
-        "Wash and soak the basmati rice for half an hour. Drain the water. Put the rice, some ",
-        "more water and add half the whole garam masala and salt in a pan. ",
+        "Wash and soak the basmati rice for half an hour. Drain the water. Put the rice, some more water and add half the whole garam masala and salt in a pan. ",
         "Bring the rice to a boil and cook until the rice is done. Drain and keep aside.",
         "Dice the peeled potatoes and carrots and wash them. Slice the onions and green chilies.",
         "Peel ginger and garlic and chop finely. Chop the coriander and mint leaves.",
         "Soak the almonds in water for half an hour and keep aside.",
         "Beat the curd in a bowl and divide into two equal portions.",
         "Dissolve saffron in warm milk and add it to one portion of the curd mixture.",
-        "Heat ghee, add the remaining garam masala and sauté over medium heat until it begins ",
-        "to crackle.",
+        "Heat ghee, add the remaining garam masala and sauté over medium heat until it begins to crackle.",
         "Add onions until golden brown. Then add green chilies, ginger, garlic and stir for a minute.",
-        "Add turmeric and chili powder, saute for half a minute add the chopped vegetables and ",
-        "stir for a minute.",
-        "Add the portion of plain curd, stir, add 2/3 cup water, and bring to a boil, then simmer ",
-        "until the vegetables are cooked.",
+        "Add turmeric and chili powder, saute for half a minute add the chopped vegetables and stir for a minute.",
+        "Add the portion of plain curd, stir, add 2/3 cup water, and bring to a boil, then simmer until the vegetables are cooked.",
         "Add the dry fruits and nuts when the vegetables are done.",
         "In the handi with the cooked vegetables, sprinkle little saffron curd, mint and coriander.",
-        "Then spread half the rice and again sprinkle the remaining saffron-curd, mint and ",
-        "coriander and top it with the remaining rice.",
+        "Then spread half the rice and again sprinkle the remaining saffron-curd, mint and coriander and top it with the remaining rice.",
         "Place a moist cloth on top, cover the lid tightly so that it gets sealed.",
         "Put the handi on dum in a pre-heated oven for 15-20 minutes.",
         "Serve the hyderabadi biryani hot with mint chutney and other vegtables."
@@ -2229,12 +2110,10 @@ const dataset = {
         "a few chopped corriander leaves"
       ],
       "preparation": [
-        "Wash rice and dhal, drain away all the water, to the rice/dhal mixture add the ",
-        "turmeric powder, corriander powder, chilly powder, sambar powder and salt.",
+        "Wash rice and dhal, drain away all the water, to the rice/dhal mixture add the turmeric powder, corriander powder, chilly powder, sambar powder and salt.",
         "Add 4 cups of water to tamrind paste mix and pour into the dhal/rice mixture.",
         "Cook in pressure cooker for 10 to 12 minutes.",
-        "Add ghee in the pan and fry the shallots (sambar onions), as it's getting brown add ",
-        "the mustard seeds, cashewnuts, curry leaves.",
+        "Add ghee in the pan and fry the shallots (sambar onions), as it's getting brown add the mustard seeds, cashewnuts, curry leaves.",
         "Add this seasoning to the Sambar Bath.",
         "Sprinkle with chopped Corriander Leaves.",
         "Serve hot."
@@ -2264,8 +2143,7 @@ const dataset = {
         "Pressure Cook the rice and spread on a plate. keep aside.",
         "Heat the non-stick skillet add fenugreek and asafoetida dry fry (without oil) for a minute.",
         "Grind this into a fine powder. Set aside.",
-        "To the tamarind juice add salt, turmeric powder, jaggery, ground powder of fenugreek ",
-        "and asafoetida.",
+        "To the tamarind juice add salt, turmeric powder, jaggery, ground powder of fenugreek and asafoetida.",
         "Fry mustard, red chillies, channa dhal, peanuts and curry leaves in sesame oil.",
         "Pour into the tamarind juice mixture.",
         "Boil tamarind juice till it reaches thick gravy form and until oil comes out with good flavour.",
@@ -2333,8 +2211,7 @@ const dataset = {
         "Grease the idle holder or pan well and fill each of thm with 3/4th full of batter. ",
         "Steam cook idlis on medium flame for about 10 minutes or until done. ",
         "Use a butter knife to remove the idlis. ",
-        "Serve them with sambhar or chutney. ",
-        ""
+        "Serve them with sambhar or chutney. "
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "idli-recipe"
@@ -2386,16 +2263,13 @@ const dataset = {
         "Salt to taste "
       ],
       "preparation": [
-        "Chop the onions, chillies, ginger, tomatoes , potatoes, carrots into small pieces and ",
-        "keep aside. ",
-        "Heat oil and add chana dal, urad dal, mustard seeds and curry leaves. When they start ",
-        "to crackle , add peanuts and cashewnuts. Fry till they turn golden brown. ",
+        "Chop the onions, chillies, ginger, tomatoes , potatoes, carrots into small pieces and keep aside. ",
+        "Heat oil and add chana dal, urad dal, mustard seeds and curry leaves. When they start to crackle , add peanuts and cashewnuts. Fry till they turn golden brown. ",
         "Add potatoes, carrots and fry for 4-5 minutes. ",
         "Then add chillies, ginger , onions, peas and tomatoes. ",
         "Cook until they are done. ",
         "After that add salt and 41/2 cups of water, cover with a lid and let it boil . ",
-        "When the water comes to boil add vermecelli and simultaneously stir ( so that no lumps ",
-        "will be formed). ",
+        "When the water comes to boil add vermecelli and simultaneously stir ( so that no lumps will be formed). ",
         "Cover the upma with a lid for 5-6 minutes and then add 2tbsp of ghee and stir well. ",
         "Serve hot with coconut chutney. "
       ],
@@ -2436,25 +2310,15 @@ const dataset = {
         "1/4 tsp nutmeg (jaiphal) powder"
       ],
       "preparation": [
-        "Clean, wash and soak rice for about 30-45 minutes. Peel and chop the onions. Wash and ",
-        "chop the tomatoes.",
-        "Wash and dice all the vegetables into equal sized pieces. Squeeze lemon, strain and ",
-        "keep juice aside.",
-        "Heat 4 tablespoons oil and fry the masala ingredients till light brown. Cool and grind to ",
-        "a smooth paste with little water.",
-        "Dry roast the ingredients for the garam masala powder for 2-3 minutes and pound it into ",
-        "a coarse powder. Wash and chop the coriander leaves and mint leaves. Wash and slit ",
-        "the green chillies and keep aside.",
-        "Heat the remaining oil and fry the onions till golden brown. Wash and add the curry ",
-        "leaves, green chillies and masala paste. Fry till oil separates. Add the chopped tomatoes ",
-        "and cook on high heat till the moisture evaporates.",
-        "Add the vegetables and stir. Cook for a couple of minutes on high heat, drain the rice ",
-        "well and add the vegetable mixture. Add salt to taste.",
+        "Clean, wash and soak rice for about 30-45 minutes. Peel and chop the onions. Wash and chop the tomatoes.",
+        "Wash and dice all the vegetables into equal sized pieces. Squeeze lemon, strain and keep juice aside.",
+        "Heat 4 tablespoons oil and fry the masala ingredients till light brown. Cool and grind to a smooth paste with little water.",
+        "Dry roast the ingredients for the garam masala powder for 2-3 minutes and pound it into a coarse powder. Wash and chop the coriander leaves and mint leaves. Wash and slit the green chillies and keep aside.",
+        "Heat the remaining oil and fry the onions till golden brown. Wash and add the curry leaves, green chillies and masala paste. Fry till oil separates. Add the chopped tomatoes and cook on high heat till the moisture evaporates.",
+        "Add the vegetables and stir. Cook for a couple of minutes on high heat, drain the rice well and add the vegetable mixture. Add salt to taste.",
         "Add double the quantity or enough hot water as per the quality of the rice.",
-        "Bring to boil and reduce to medium heat. Cover and cook, stirring once in a while till ",
-        "almost done.",
-        "Sprinkle the chopped mint and coriander leaves, garam masala powder, sprinkle the ",
-        "lemon juice, stir well, cover with a tight lid.",
+        "Bring to boil and reduce to medium heat. Cover and cook, stirring once in a while till almost done.",
+        "Sprinkle the chopped mint and coriander leaves, garam masala powder, sprinkle the lemon juice, stir well, cover with a tight lid.",
         "Keep on hot charcoal for about 10 minutes.",
         "Open when ready to serve."
       ],
@@ -2474,20 +2338,13 @@ const dataset = {
         "coconut (narial) oil for frying"
       ],
       "preparation": [
-        "Dry roast the rice in a warm frying pan without letting the color change. Wash and soak ",
-        "for about half an hour, drain and spread on a cotton cloth to absorb the excess ",
-        "moisture. Grind to a fine powder.",
+        "Dry roast the rice in a warm frying pan without letting the color change. Wash and soak for about half an hour, drain and spread on a cotton cloth to absorb the excess moisture. Grind to a fine powder.",
         "Broil the urad dal to light brown colour, cool and grind into a smooth powder.",
         "Sieve both the flours together through a fine sieve.",
-        "Dissolve asafoetida and salt in one fourth cup water and add the cumin seeds, make a ",
-        "firm dough with the sieved flour. Rub in the butter and knead with light hands to ",
-        "fully incorporate the butter.",
-        "To make the murukkus, grease your fingers and take a little dough. Roll them between ",
-        "your palm to a tubular form. Form this roll into circles, while twisting them along. Make ",
-        "two circles next to each other. Press the ends into the circle to secure. Make two batches at ",
+        "Dissolve asafoetida and salt in one fourth cup water and add the cumin seeds, make a firm dough with the sieved flour. Rub in the butter and knead with light hands to fully incorporate the butter.",
+        "To make the murukkus, grease your fingers and take a little dough. Roll them between your palm to a tubular form. Form this roll into circles, while twisting them along. Make two circles next to each other. Press the ends into the circle to secure. Make two batches at ",
         "a time, cover with a wet cloth to prevent them from drying.",
-        "Heat oil and fry them in batches. Take them on a plate and gently slide them into the oil ",
-        "and fry on both sides till it becomes light golden brown and crisp.",
+        "Heat oil and fry them in batches. Take them on a plate and gently slide them into the oil and fry on both sides till it becomes light golden brown and crisp.",
         "Drain and let it cool before serving them. Store in a dry air-tight container."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -2515,15 +2372,11 @@ const dataset = {
       ],
       "preparation": [
         "Wash and soak the rice and the dals for about 4 hours.",
-        "Wash and grind the green chillies, ginger, coriander leaves, curry leaves with red chillies ",
-        "and salt to a coarse paste.",
+        "Wash and grind the green chillies, ginger, coriander leaves, curry leaves with red chillies and salt to a coarse paste.",
         "Peel and chop the onion finely and keep aside.",
         "Drain and grind the rice and dal to a coarse batter. Rest the batter for about an hour.",
-        "Mix the paste, asafoetida, onion and coconut to this batter and mix well. Check for salt ",
-        "and keep aside.",
-        "Heat a heavy dosa griddle, smear oil and spread one ladle full of this batter to a thick ",
-        "circular shape. Make a few holes in the center. Pour oil on the sides and in the center, ",
-        "cover and cook over low heat.",
+        "Mix the paste, asafoetida, onion and coconut to this batter and mix well. Check for salt and keep aside.",
+        "Heat a heavy dosa griddle, smear oil and spread one ladle full of this batter to a thick circular shape. Make a few holes in the center. Pour oil on the sides and in the center, cover and cook over low heat.",
         "Turn over and pour the oil and let it cook till it is crisp all around and golden brown in color.",
         "You can make about 8-10 adais. Serve hot with the chutney of your choice."
       ],
@@ -2550,15 +2403,11 @@ const dataset = {
         "refined oil (tel) to fry"
       ],
       "preparation": [
-        "Blend rava, rice flour and buttermilk to make a thin batter, add asafoetida and required ",
-        "salt. Stand the batter for at least 6 hours.",
-        "Wash and finely chop the ginger, green chillies and curry leaves. Chop the coconut ",
-        "and cashew nut into very small bits.",
-        "Crush the peppercorns and cumin seeds. Heat the ghee and roast peppercorn and ",
-        "cumin seeds in it and add to the batter.",
+        "Blend rava, rice flour and buttermilk to make a thin batter, add asafoetida and required salt. Stand the batter for at least 6 hours.",
+        "Wash and finely chop the ginger, green chillies and curry leaves. Chop the coconut and cashew nut into very small bits.",
+        "Crush the peppercorns and cumin seeds. Heat the ghee and roast peppercorn and cumin seeds in it and add to the batter.",
         "Mix the chopped greens, coconut and cashew into the batter. Stir well.",
-        "Grease a non-stick tawa, smear little oil. Pour a ladle full of the batter and spread by ",
-        "swirling the tava.",
+        "Grease a non-stick tawa, smear little oil. Pour a ladle full of the batter and spread by swirling the tava.",
         "Pour a tablespoon oil around and on the dosa.",
         "Cook till it is crisp and golden in color. Remove and serve hot."
       ],
@@ -2587,16 +2436,12 @@ const dataset = {
         "salt (namak) to taste"
       ],
       "preparation": [
-        "Clean, wash and boil rice and slightly overcook it. Drain well and cool. When it reaches ",
-        "room temperature, mix in the milk, asafoetida and salt to taste.",
-        "Wash and chop green chillies and ginger finely. Peel and deseed cucumber. Grate, mix in ",
-        "a little salt and keep aside.",
+        "Clean, wash and boil rice and slightly overcook it. Drain well and cool. When it reaches room temperature, mix in the milk, asafoetida and salt to taste.",
+        "Wash and chop green chillies and ginger finely. Peel and deseed cucumber. Grate, mix in a little salt and keep aside.",
         "Peel and grate the carrot and mango and keep separately. Slice the grapes into two and keep.",
-        "Heat oil in a small pan and temper with mustard seeds, asafoetida, red chilli and curry ",
-        "leaves. Add the ginger and green chillies, stir well and add to the prepared rice.",
+        "Heat oil in a small pan and temper with mustard seeds, asafoetida, red chilli and curry leaves. Add the ginger and green chillies, stir well and add to the prepared rice.",
         "Add the yogurt, cream and the grapes. Mix well and chill in the refrigerator.",
-        "Squeeze out excess water from the cucumber. Garnish the rice with the grated ",
-        "cucumber, carrot and mango and serve."
+        "Squeeze out excess water from the cucumber. Garnish the rice with the grated cucumber, carrot and mango and serve."
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "bagala-baath-recipe"
@@ -2645,21 +2490,13 @@ const dataset = {
         "8-10 curry leaves (kari patta)"
       ],
       "preparation": [
-        "Peel and dice the potatoes into 1 inch cubes. String the beans and halve them, cut them ",
-        "into one inch pieces. Shell the peas. Wash cauliflower and separate the cauliflower ",
-        "florets. Peel and dice the carrots into 1 inch cubes. Peel and dice the pumpkin into 1 ",
+        "Peel and dice the potatoes into 1 inch cubes. String the beans and halve them, cut them into one inch pieces. Shell the peas. Wash cauliflower and separate the cauliflower florets. Peel and dice the carrots into 1 inch cubes. Peel and dice the pumpkin into 1 ",
         "inch cubes.",
-        "Add warm water to one cup of scraped coconut and extract thick and thin milk. Keep ",
-        "aside. Dissolve tamarind pulp in half cup of water.",
-        "Heat a little oil and sautÃ© 2 whole red chillies, cumin, coriander, garlic and the ",
-        "remaining half cup of scraped coconut till a nice aroma is given out. Grind into a fine paste.",
-        "Boil the vegetables in the thin coconut milk with turmeric powder, tamarind extract and ",
-        "salt till three-fourth done. Add the ground masala and cook for 10 minutes.",
-        "Heat a little oil separately and add the remaining red chillies broken into two, mustard ",
-        "seeds and urad dal. Add curry leaves and add this to the vegetables.",
-        "Continue cooking the vegetables till done. Then add the thick coconut milk and simmer ",
-        "for two to three minutes. Serve hot with boiled rice.",
-        "ok "
+        "Add warm water to one cup of scraped coconut and extract thick and thin milk. Keep aside. Dissolve tamarind pulp in half cup of water.",
+        "Heat a little oil and sautÃ© 2 whole red chillies, cumin, coriander, garlic and the remaining half cup of scraped coconut till a nice aroma is given out. Grind into a fine paste.",
+        "Boil the vegetables in the thin coconut milk with turmeric powder, tamarind extract and salt till three-fourth done. Add the ground masala and cook for 10 minutes.",
+        "Heat a little oil separately and add the remaining red chillies broken into two, mustard seeds and urad dal. Add curry leaves and add this to the vegetables.",
+        "Continue cooking the vegetables till done. Then add the thick coconut milk and simmer for two to three minutes. Serve hot with boiled rice.ok "
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "milk-recipe"
@@ -2680,10 +2517,8 @@ const dataset = {
         "Wash, wipe and cut the mangoes with skin into very tiny pieces.",
         "Wash and slit the green chillies and keep aside.",
         "Heat the oil, temper with mustard seeds, add asafoetida, salt and red chilli powder.",
-        "Stir and add the green chillies and mangoes, toss well and cook for about two to ",
-        "three minutes.",
-        "Remove and cool. It is ready to serve and can be kept for 6-7 days at ",
-        "refrigerated temperature."
+        "Stir and add the green chillies and mangoes, toss well and cook for about two to three minutes.",
+        "Remove and cool. It is ready to serve and can be kept for 6-7 days at refrigerated temperature."
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "mango-pesarel-recipe"
@@ -2705,13 +2540,11 @@ const dataset = {
       ],
       "preparation": [
         "Wash and scrub cucumbers thoroughly and then grate with the skin.",
-        "Pour yogurt (made of skimmed milk) into a clean muslin cloth and hang it for half an ",
-        "hour, preferably in a cool place.",
+        "Pour yogurt (made of skimmed milk) into a clean muslin cloth and hang it for half an hour, preferably in a cool place.",
         "Peel, wash and finely chop ginger. Wash green chillies, remove stem and finely chop.",
         "Grind together scraped coconut, green chillies and ginger to a fine paste.",
         "Mix together the grated cucumber, ground coconut masala and yogurt. Add salt to taste.",
-        "Heat oil in a small pan, add mustard seeds. When they start to crackle, add curry ",
-        "leaves, whole red chillies broken into two, stir for a moment.",
+        "Heat oil in a small pan, add mustard seeds. When they start to crackle, add curry leaves, whole red chillies broken into two, stir for a moment.",
         "Pour it on to the yogurt mixture. Stir it thoroughly.",
         "Serve chilled."
       ],
@@ -2743,18 +2576,12 @@ const dataset = {
       "preparation": [
         "Roast the rava in a dry kadai without the color changing, remove and cool.",
         "Wash, peel and cut the vegetables to small dices of equal size.",
-        "Peel and chop onion and ginger fine. Wash and slit the green chillies and squeeze the ",
-        "lemon, strain and keep juice.",
-        "Boil water, add little salt and cook carrot, beans and cauliflower for 10 minutes, drain ",
-        "and reserve.",
-        "Heat oil, temper with mustard seeds, red chillies, urad dal and curry leaves. Add the ",
-        "green chillies and stir.",
-        "Add the onion, ginger and cook for a few minutes. Add the capsicum and green peas ",
-        "and sautÃ© for about 5 minutes. Add the cooked vegetables, sprinkle asafoetida and salt ",
-        "to taste.",
+        "Peel and chop onion and ginger fine. Wash and slit the green chillies and squeeze the lemon, strain and keep juice.",
+        "Boil water, add little salt and cook carrot, beans and cauliflower for 10 minutes, drain and reserve.",
+        "Heat oil, temper with mustard seeds, red chillies, urad dal and curry leaves. Add the green chillies and stir.",
+        "Add the onion, ginger and cook for a few minutes. Add the capsicum and green peas and sautÃ© for about 5 minutes. Add the cooked vegetables, sprinkle asafoetida and salt to taste.",
         "Pour 4 cups water and bring to boil.",
-        "When the water starts boiling, add the rava in a flow, stirring continuously to prevent ",
-        "lumps from forming.",
+        "When the water starts boiling, add the rava in a flow, stirring continuously to prevent lumps from forming.",
         "Cook for a few more minutes stirring all the while.",
         "Remove, drizzle lemon juice and serve hot."
       ],
@@ -2774,10 +2601,8 @@ const dataset = {
       ],
       "preparation": [
         "Wash and slit the green chillies and keep aside. Cut Pumpkin into cubes.",
-        "Boil the vegetables in 1 cup water with salt and slit green chilies. Stir frequently till ",
-        "the vegetables are soft and completely cooked.",
-        "Mash the vegetables lightly with a ladle, pour the raw coconut oil, mix and add the ",
-        "curry leaves.",
+        "Boil the vegetables in 1 cup water with salt and slit green chilies. Stir frequently till the vegetables are soft and completely cooked.",
+        "Mash the vegetables lightly with a ladle, pour the raw coconut oil, mix and add the curry leaves.",
         "Adjust salt to taste and serve."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -2806,23 +2631,14 @@ const dataset = {
         "salt (namak) to taste"
       ],
       "preparation": [
-        "Wash, string and cut French beans into half centimeter sized dices. Cook beans in ",
-        "salted boiling water for two to three minutes. Drain well and reserve. Wash, remove ",
-        "stems and finely chop green chillies.",
-        "Soak all the dals for about twenty minutes. Drain and grind to a thick paste with dry ",
-        "red chillies, salt and asafoetida powder. Add water if required.",
-        "Apply a little oil on a piece of banana leaf according to the size of the steamer or the ",
-        "pressure cooker. Spread dal paste evenly on it and steam in a cooker for fifteen minutes ",
-        "or till cooked. Insert a toothpick or needle into the dal mixture and if it comes out clean ",
+        "Wash, string and cut French beans into half centimeter sized dices. Cook beans in salted boiling water for two to three minutes. Drain well and reserve. Wash, remove stems and finely chop green chillies.",
+        "Soak all the dals for about twenty minutes. Drain and grind to a thick paste with dry red chillies, salt and asafoetida powder. Add water if required.",
+        "Apply a little oil on a piece of banana leaf according to the size of the steamer or the pressure cooker. Spread dal paste evenly on it and steam in a cooker for fifteen minutes or till cooked. Insert a toothpick or needle into the dal mixture and if it comes out clean ",
         "then it is cooked.",
-        "Turn out cooked dal on a large plate and cool. Crumble cooked dal to a coarse powder ",
-        "with your palm and fingers. If dal is quite dry and solid, then you can blend it briefly in a ",
-        "food processor to crumble.",
+        "Turn out cooked dal on a large plate and cool. Crumble cooked dal to a coarse powder with your palm and fingers. If dal is quite dry and solid, then you can blend it briefly in a food processor to crumble.",
         "Heat oil in a shallow pan, temper with mustard seeds, red chillies, urad dal and curry leaves.",
         "Stir-fry briefly and add chopped green chillies.",
-        "Add the cooked beans and crumbled dal mixture. Toss on high heat for a two to ",
-        "three minutes. Reduce heat and cook, stirring frequently for five to six minutes or till ",
-        "the beans and dal start sizzling.",
+        "Add the cooked beans and crumbled dal mixture. Toss on high heat for a two to three minutes. Reduce heat and cook, stirring frequently for five to six minutes or till the beans and dal start sizzling.",
         "Adjust seasoning and serve hot."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -2844,12 +2660,10 @@ const dataset = {
       ],
       "preparation": [
         "Churn the yogurt. Add about 1/4 litre chilled water. Churn briefly.",
-        "Wash green chillies and fresh coriander leaves, wash and peel ginger. Chop all the ",
-        "three ingredients finely.",
+        "Wash green chillies and fresh coriander leaves, wash and peel ginger. Chop all the three ingredients finely.",
         "Pound curry leaves with required quantity of salt.",
         "Dry roast the cumin seeds and crush into a fine powder.",
-        "Add the prepared ingredients to churned yogurt. Mix in asafoetida powder. Adjust salt ",
-        "and refrigerate for about 1/2 hour.",
+        "Add the prepared ingredients to churned yogurt. Mix in asafoetida powder. Adjust salt and refrigerate for about 1/2 hour.",
         "Strain and serve in tall glass tumblers with some crushed ice."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -2869,11 +2683,9 @@ const dataset = {
         "2 tblsp coconut (narial) oil (tel)"
       ],
       "preparation": [
-        "Take raw jackfruit cut into 12-16 segments. Choose large jackfruit segments, which are ",
-        "not fully ripe. De-seed and cut into two or three pieces.",
+        "Take raw jackfruit cut into 12-16 segments. Choose large jackfruit segments, which are not fully ripe. De-seed and cut into two or three pieces.",
         "Soak half the coconut with rice and grind lightly.",
-        "Broil the dal in a kadhai for a couple of minutes, cool, wash and boil in two cups water till ",
-        "soft and completely cooked.",
+        "Broil the dal in a kadhai for a couple of minutes, cool, wash and boil in two cups water till soft and completely cooked.",
         "Add the jackfruit sections and continue cooking.",
         "Add chilli powder, red chilies broken into two and salt. Stir well.",
         "Add the scraped coconut and the coconut paste to the vegetable. Simmer till it thickens.",
@@ -2906,8 +2718,7 @@ const dataset = {
         "In thuvar dal water cook the vegetables..",
         "After the veggies are cooked, add tamarind paste.",
         "Now add the cooked thuvar dal and simmer for a few more minutes",
-        "Heat some oil in a pan, splutter mustard, then add methi, red chillies, green chillies, ",
-        "curry leaves, hing, turmeric, and sambhar powder and keep frying for a few minutes.",
+        "Heat some oil in a pan, splutter mustard, then add methi, red chillies, green chillies, curry leaves, hing, turmeric, and sambhar powder and keep frying for a few minutes.",
         "Season the sambhar with the above prepared tadka.",
         "Sprinkle coriander on top."
       ],
@@ -2938,14 +2749,11 @@ const dataset = {
       ],
       "preparation": [
         "Put whole tomatoes in boiling water, simmer for 3 minutes, keep it aside to cool.",
-        "Heat 1/4 tsp. oil in a small pan, add pepper corns and 1 tsp. cumin seeds and roast ",
-        "till aromatic, pound it in a mortar till powdered. Keep aside.",
+        "Heat 1/4 tsp. oil in a small pan, add pepper corns and 1 tsp. cumin seeds and roast till aromatic, pound it in a mortar till powdered. Keep aside.",
         "Peel away the broken skin of boiled tomatoes and mash them into a pulp",
-        "To the thick tomato pulp, add roasted whole chillies, all leaves, all masalas, salt, ",
-        "tamarind, jaggery and blend it with the blender.",
+        "To the thick tomato pulp, add roasted whole chillies, all leaves, all masalas, salt, tamarind, jaggery and blend it with the blender.",
         "In a deep pan, add the stock.",
-        "Heat ghee in a small pan, add mustard and remaining cumin seeds, asafoetida and allow ",
-        "to splutter.",
+        "Heat ghee in a small pan, add mustard and remaining cumin seeds, asafoetida and allow to splutter.",
         "Add garlic to it and stir.",
         "Season the rasam with the prepared tadka.",
         "Bring to a boil and simmer for 2-3 minutes. Keep aside covered for 10 minutes before serving.",
@@ -2973,11 +2781,8 @@ const dataset = {
       ],
       "preparation": [
         "Blend coconut, curd and green chillies in a blender.",
-        "Add 1 cup water, red chilly powder, turmeric and salt to the mixture,bring to a boil ",
-        "and remove from the heat.",
-        "Heat the oil separately. Add mustard seeds, cumin seeds, fenugreek seeds to the oil and ",
-        "let them splutter, then add the chopped onion, the red chillies,the garlic, the ginger and ",
-        "the curry leaves and season the curry with it."
+        "Add 1 cup water, red chilly powder, turmeric and salt to the mixture,bring to a boil and remove from the heat.",
+        "Heat the oil separately. Add mustard seeds, cumin seeds, fenugreek seeds to the oil and let them splutter, then add the chopped onion, the red chillies,the garlic, the ginger and the curry leaves and season the curry with it."
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "moru-curry-recipe"
@@ -3016,10 +2821,8 @@ const dataset = {
         "10 gms Cumin Powder"
       ],
       "preparation": [
-        "Grate the coconut. Add 1/2 glass warm water to the grated coconut. Extract the first ",
-        "coconut milk by filtering the mixture of coconut and water.",
-        "Extract the second milk by adding 1 1/2 glass warm water. Repeat the process to extract ",
-        "the third milk.",
+        "Grate the coconut. Add 1/2 glass warm water to the grated coconut. Extract the first coconut milk by filtering the mixture of coconut and water.",
+        "Extract the second milk by adding 1 1/2 glass warm water. Repeat the process to extract the third milk.",
         "Saute broken wheat lightly in one teaspoon ghee.",
         "Cook the brown wheat in 1 1/2 liters of water.",
         "Add the third milk and the second milk to the wheat and bring to a boil.",
@@ -3047,8 +2850,7 @@ const dataset = {
         "Heat oil in a wok",
         "Add the onions and green chilies to it and sautÃ©",
         "Once the onions become pink in color, add the ground spices and mix well.",
-        "Now add the bendakaya and salt and see that it gets wrapped and mixed nicely with ",
-        "the onions and spices.",
+        "Now add the bendakaya and salt and see that it gets wrapped and mixed nicely with the onions and spices.",
         "Cover the wok and lower the heat just for two minutes.",
         "Take off the heat and fry by stirring on high heat for another 5 minutes and take off the heat.",
         "Serve hot with chapatis"
@@ -3134,19 +2936,15 @@ const dataset = {
       ],
       "preparation": [
         "First of all, soak the ball of tamarind in a cup of water.",
-        "Now heat oil in a pan and let splutter for half a minute the fenugreek seeds, mustard ",
-        "seeds, cumin seeds, dry coriander seeds and whole red chilies.",
+        "Now heat oil in a pan and let splutter for half a minute the fenugreek seeds, mustard seeds, cumin seeds, dry coriander seeds and whole red chilies.",
         "Take this off the heat, let it cool and grind into a paste.",
         "Now in the same remaining oil, fry the chopped eggplants, tomatoes and green chilies.",
         "Take aside and grind this also in a paste.",
         "You should now slowly mix both the pastes uniformly",
         "Now take the tamarind ball and mix with water evenly.",
-        "Once done, sieve this entire tamarind paste to take of any seeds and get a smooth ",
-        "tamarind water.",
-        "Now mix this tamarind water and salt in the previously made mixture of tomatoes, ",
-        "eggplants and spices.",
-        "Once this is done, you should again heat oil in a small pan and put the mustard seeds, ",
-        "garlic and curry leaves in it and let it splutter.",
+        "Once done, sieve this entire tamarind paste to take of any seeds and get a smooth tamarind water.",
+        "Now mix this tamarind water and salt in the previously made mixture of tomatoes, eggplants and spices.",
+        "Once this is done, you should again heat oil in a small pan and put the mustard seeds, garlic and curry leaves in it and let it splutter.",
         "Add this tadka to the chutney and serve with rice or the main food."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -3191,8 +2989,7 @@ const dataset = {
         "Boil it till mango pieces are tender",
         "Now to this add jaggery and let it cook till it melts and blends into the mixture",
         "Remove from heat and keep aside",
-        "Now in a pan, heat oil and add mustard seeds let them splutter, add neem flower and fry ",
-        "till light brown",
+        "Now in a pan, heat oil and add mustard seeds let them splutter, add neem flower and fry till light brown",
         "Now add chilli powder and salt",
         "Mix well",
         "Take this neem flower tadka and add it to the tamarind and mango juice",
@@ -3250,8 +3047,7 @@ const dataset = {
         "To this add the Bengal gram flour and fry well.",
         "Now you should add the tamarind pulp and 3 or more cups of water.",
         "Once the water starts boling, add curry leaves, cumin and fenugreek powder and chili powder.",
-        "Cover and let it boil till the time the sorakaya pieces are tender and the consistency is of ",
-        "a desired curry.",
+        "Cover and let it boil till the time the sorakaya pieces are tender and the consistency is of a desired curry.",
         "Garnish with coriander and serve hot."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -3295,8 +3091,7 @@ const dataset = {
       "preparation": [
         "Peel and cut the jackfruit into small cubes by rubbing oil in your hands.",
         "Now add turmeric in water and boil the jackfruit for around fifteen minutes till it is tender.",
-        "In a pan heat the oil and add the green chilies, chana dal, urad dal, mustard seeds whole ",
-        "red chilies, ground nuts and curry leaves.",
+        "In a pan heat the oil and add the green chilies, chana dal, urad dal, mustard seeds whole red chilies, ground nuts and curry leaves.",
         "Once they start spluttering, add tamarind paste and a little water.",
         "Now add the boiled jackfruit and mix well.",
         "Serve hot with steaming rice."
@@ -3319,8 +3114,7 @@ const dataset = {
       ],
       "preparation": [
         "Peel, grate or chop the raw mango and mix well with the rice.",
-        "Heat oil in a pan and add the lentils, mustard seeds, whole red chilies, curry leaves ",
-        "and turmeric powder.",
+        "Heat oil in a pan and add the lentils, mustard seeds, whole red chilies, curry leaves and turmeric powder.",
         "Add the rice to this and mix well.",
         "Add salt suiting to your taste and serve hot."
       ],
@@ -3373,9 +3167,7 @@ const dataset = {
         "Heat oil in a pan and add asafetida, urad dal and whole red chilies in it.",
         "Take them out and keep aside once they start spluttering.",
         "In the same oil, fry the mustard seeds and keep them aside separately",
-        "Now in a mortar and pestle, beat the coriander leaves, tamarind and the fried urad ",
-        "dal mixture. (or grind in a mixie) to this chutney, add salt to your taste and the fried ",
-        "mustard seeds.",
+        "Now in a mortar and pestle, beat the coriander leaves, tamarind and the fried urad dal mixture. (or grind in a mixie) to this chutney, add salt to your taste and the fried mustard seeds.",
         "Store in a jar and refrigerate."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -3427,8 +3219,7 @@ const dataset = {
       ],
       "preparation": [
         "Grind coconut with green chilies and cumin seeds in paste and keep it aside.",
-        "Heat coconut oil in a thick bottom vessel, add vegetables and cook it on a low flame ",
-        "without adding water.",
+        "Heat coconut oil in a thick bottom vessel, add vegetables and cook it on a low flame without adding water.",
         "When the vegetables are cooked, add turmeric powder, salt and mix well.",
         "Put bananas and mango pieces in cooked vegetables and cover the vessel.",
         "When steam comes out, add the coconut paste and stir well.",
@@ -3456,8 +3247,7 @@ const dataset = {
         "Deep fry ladyfinger in oil till crisp.",
         "Pound grated coconut; green chilies and mustard into a thick paste and keep it aside.",
         "Take oil in pan and over high flame season mustard, red chilli andÂ curry leaves.",
-        "Lower the flame, add curd and the ground ingredients and let it simmer for few ",
-        "minutes stirring continuously..",
+        "Lower the flame, add curd and the ground ingredients and let it simmer for few minutes stirring continuously..",
         "Add fried lady finger and salt to it and remove from flame after it boils.",
         "Note: You can use Pavakkai (Bitter Gourd) instead of Ladies Finger as a variation)"
       ],
@@ -3515,18 +3305,13 @@ const dataset = {
       "preparation": [
         "Wash and cut the vegetables into 2\" square pieces. They should be thick",
         "Grind the coconut and cumin to a smooth paste without adding water. Keep it aside.",
-        "Fry the methi seeds to a golden brown in a drop of oil and grind to a fine powder and ",
-        "keep this aside also..",
-        "In 1/2cup of water dissolve the pepper powder and strain it through a clean cloth. Cook ",
-        "the vegetables in this water with turmeric powder and salt.. When the water dries, add ",
+        "Fry the methi seeds to a golden brown in a drop of oil and grind to a fine powder and keep this aside also..",
+        "In 1/2cup of water dissolve the pepper powder and strain it through a clean cloth. Cook the vegetables in this water with turmeric powder and salt.. When the water dries, add ",
         "1tsp ghee",
-        "Add the beaten sour curds to the cooked vegetables and boil, stirring occasionally, until ",
-        "the gravy is thickened.",
-        "Add the grinded coconut mixture and fenugreek powder into it and bring the gravy to ",
-        "boil stirring continuously.",
+        "Add the beaten sour curds to the cooked vegetables and boil, stirring occasionally, until the gravy is thickened.",
+        "Add the grinded coconut mixture and fenugreek powder into it and bring the gravy to boil stirring continuously.",
         "Remove the gravy from flame.",
-        "Heat oil in a pan. When it smokes add the mustard seeds. When the mustard splutters, ",
-        "add the red chillies broken into halves and curry leaves and season the gravy with it.",
+        "Heat oil in a pan. When it smokes add the mustard seeds. When the mustard splutters, add the red chillies broken into halves and curry leaves and season the gravy with it.",
         "Enjoy it with rice."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -3547,8 +3332,7 @@ const dataset = {
         "Boil the fried dal in water till it is cooked.",
         "Make a thick solution by heating jaggery with some water .",
         "Take milk from the coconut thrice. Keep the thick milk taken 1st, aside.",
-        "Add the third milk and the second milk with the jaggery solution to the boiled dal .",
-        "and simmer on a low flame till thick.",
+        "Add the third milk and the second milk with the jaggery solution to the boiled dal .and simmer on a low flame till thick.",
         "Finally add the first milk and simmer it for a while.",
         "Season it with fried nut, raisins.",
         "Stir well and remove from fire immediately"
@@ -3581,8 +3365,7 @@ const dataset = {
         "Soak beans overnight.",
         "Cook pumpkin with beans after adding enough water and salt",
         "Put the grounded paste to the pumpkin, boil for sometime and keep aside.",
-        "Heat oil in a pan, season mustard, curry leaves and dry chillies and add the thick ",
-        "coconut milk. Pour it to the cooked pumpkin curry and stir well",
+        "Heat oil in a pan, season mustard, curry leaves and dry chillies and add the thick coconut milk. Pour it to the cooked pumpkin curry and stir well",
         "Yummy erussery is ready to be served."
       ],
       "category_id": "south-indian-vegetarian-recipes",
@@ -3605,8 +3388,7 @@ const dataset = {
         "Salt to taste"
       ],
       "preparation": [
-        "Cook mango/pineapple with 3 green chillies, turmeric powder, chilli powder, cumin ",
-        "powder water and salt",
+        "Cook mango/pineapple with 3 green chillies, turmeric powder, chilli powder, cumin powder water and salt",
         "Beat yogurt and add it to the mixture ,stirring it regularly.",
         "Remove the mixture from heat.",
         "Season with mustard seeds, curry leaves, fenugreek and whole red chilly, green chillies.",
@@ -3638,10 +3420,8 @@ const dataset = {
         "Pressure cook the bengal gram dal with salt and water to a thick gravy",
         "Clean and cut the vegetables into small pieces. Boil the vegetables by steaming.",
         "Heat oil and season mustard, white gram dal, dried red chillies and curry leaves.",
-        "Add the ground coconut mixture. Saute for sometime, till the water dries. Add the ",
-        "cooked vegetables, salt and bengal gram dal to it and simmer it on low heat",
-        "Heat 1tbsp ghee and fry the 1/4cup grated coconut in it till golden brown. Season ",
-        "the koottucurry with it and mix well."
+        "Add the ground coconut mixture. Saute for sometime, till the water dries. Add the cooked vegetables, salt and bengal gram dal to it and simmer it on low heat",
+        "Heat 1tbsp ghee and fry the 1/4cup grated coconut in it till golden brown. Season the koottucurry with it and mix well."
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "koottu-curry-recipe"
@@ -3714,8 +3494,7 @@ const dataset = {
         "Sieve the wheat flour and knead to a soft dough by adding enough water. Keep aside.",
         "Soak moong dal for one hour. Wash and drain all the water. ",
         "Cook the moong dal 1 cup of water. ",
-        "Heat oil in a pan, add the cumin seeds, asafoetida. Fry till they pop up. Add the cooked ",
-        "dal, salt, turmeric powder, red chilli powder and mix well. ",
+        "Heat oil in a pan, add the cumin seeds, asafoetida. Fry till they pop up. Add the cooked dal, salt, turmeric powder, red chilli powder and mix well. ",
         "Cook until the dal mixture is dry. Let it cool. ",
         "Take some portion of dough , make a small puri. Put some moong dal stuffing in center. ",
         "Close from all sides and roll again into thick, round paratha. ",
@@ -3747,19 +3526,14 @@ const dataset = {
         "3-4 tbsp. Ghee. "
       ],
       "preparation": [
-        "Shift wheat flour. Add salt, turmeric powder, ajama, red chili powder. Mix well. Add oil ",
-        "and knead the flour to roti like consistency.",
+        "Shift wheat flour. Add salt, turmeric powder, ajama, red chili powder. Mix well. Add oil and knead the flour to roti like consistency.",
         "Wash tuver dal and pressure cook it for three whistles.",
-        "Cool and remove the dal. Heat oil and ghee in a pot, then put cloves and cinnamon and ",
-        "then add mustard leaves. ",
+        "Cool and remove the dal. Heat oil and ghee in a pot, then put cloves and cinnamon and then add mustard leaves. ",
         "When they crackle add curry leaves, green chilies and a pinch of asafetida. Pour tover dal.",
-        "Mix tamarind and brown sugar water, cashew nuts, groundnut, garam masala, red ",
-        "chili powder and mix well. ",
-        "Add tomato pulp, turmeric powder, salt and 2 cups of water. Boil the dal. roll out big rotis ",
-        "and cut them into pieces and add these pieces in boiling dal.",
+        "Mix tamarind and brown sugar water, cashew nuts, groundnut, garam masala, red chili powder and mix well. ",
+        "Add tomato pulp, turmeric powder, salt and 2 cups of water. Boil the dal. roll out big rotis and cut them into pieces and add these pieces in boiling dal.",
         "Boil for 10 minutes and remove. Serve the dal dhokli warm. Sprinkle cilantro leaves. ",
-        "Note: Prepare kachori of green peas or of any other vegetable or coconut and add in ",
-        "boiling curry."
+        "Note: Prepare kachori of green peas or of any other vegetable or coconut and add in boiling curry."
       ],
       "category_id": "west-indian-vegetarian-recipes",
       "id": "guajrati-dal-dhokali-recipe"
@@ -3786,11 +3560,9 @@ const dataset = {
       "preparation": [
         "Beat the curd and add two cups of water. Add the besan, salt, turmeric powder and mix well.",
         "Make a paste of ginger, chillies, cinnamon and corainder leaves. ",
-        "Boil the curd mixture on slow heat and stir constinuosly. Add the ground paste, and ",
-        "boil again. ",
+        "Boil the curd mixture on slow heat and stir constinuosly. Add the ground paste, and boil again. ",
         "Heat oil in a pan, add all seasonings. Fry until they splutter. ",
-        "Pour this seasonings over guajarati kadhi. Garnish with corainder leaves and serve hot ",
-        "with rice. "
+        "Pour this seasonings over guajarati kadhi. Garnish with corainder leaves and serve hot with rice. "
       ],
       "category_id": "west-indian-vegetarian-recipes",
       "id": "gujarati-kadhi-recipe"
@@ -3815,14 +3587,10 @@ const dataset = {
         "Mix the rice and dal, wash, drain and dry on a clean cloth for a few hours.",
         "The grain should be completely. Grind to a coarse flour in dry grinder or at the flour mill. ",
         "This flour should be like very fine soji in texture. ",
-        "Store in airtight container and use as required. Will keep good upto 2 months. To ",
-        "make khaman, take 1 cup flour in a bowl. ",
-        "Add buttermilk, and mix well. Keep- aside for 4-5 hours. Dissolve sodabicarb in the oil. Add ",
-        "to batter. ",
-        "Mix all ingredients except red chilli powder and coriander. Pour immediately in a 6\" ",
-        "diam. greased plate.",
-        "Steam over water either in a cooker or steamer. Pierce knife, and check, should come ",
-        "out clean if done.",
+        "Store in airtight container and use as required. Will keep good upto 2 months. To make khaman, take 1 cup flour in a bowl. ",
+        "Add buttermilk, and mix well. Keep- aside for 4-5 hours. Dissolve sodabicarb in the oil. Add to batter. ",
+        "Mix all ingredients except red chilli powder and coriander. Pour immediately in a 6\" diam. greased plate.",
+        "Steam over water either in a cooker or steamer. Pierce knife, and check, should come out clean if done.",
         "Sprinkle the chilli powder and coriander, steam again for 2-3 minutes.",
         "Cut dhaman dhokla into squares or diamonds and serve hot with coconut chutney. "
       ],
@@ -3850,10 +3618,8 @@ const dataset = {
       ],
       "preparation": [
         "Mix water, flour, salt and turmeric to form a batter. Heat oil in a heavy pan, add batter. ",
-        "Stir vigorously and evenly to avoid lump formation. Cook till the mixture does not taste ",
-        "raw, stirring continuously. When done (about 7-8 minutes), pour a ladleful in a large plate.",
-        "Spread as thin as possible with the back of a large flat spoon. Use circular ",
-        "outward movements as for dosas. ",
+        "Stir vigorously and evenly to avoid lump formation. Cook till the mixture does not taste raw, stirring continuously. When done (about 7-8 minutes), pour a ladleful in a large plate.",
+        "Spread as thin as possible with the back of a large flat spoon. Use circular outward movements as for dosas. ",
         "When cool, cut into 2\" wide strips. Carefully roll each strip, repeat for all plates.",
         "Place in a serving dish. For seasoning: Sprinkle coconut and coriander all over khandvi rolls.",
         "Heat oil in a small pan. Add cumin, asafoetida, curry leaves and chillies. ",
@@ -3882,12 +3648,9 @@ const dataset = {
       ],
       "preparation": [
         "Wash and soak the moong dal and rice together. Drain.",
-        "In a bowl, mix the dal and rice with the turmeric powder, peppercorns, 4 1/2 cups of ",
-        "water and salt.",
-        "Pressure cook for 3 to 4 whistles and set aside for 20 minutes till the steam has ",
-        "been released.",
-        "Remove from the pressure cooker, add the ghee and mix well.Serve khichu hot with ",
-        "kadhi and papad."
+        "In a bowl, mix the dal and rice with the turmeric powder, peppercorns, 4 1/2 cups of water and salt.",
+        "Pressure cook for 3 to 4 whistles and set aside for 20 minutes till the steam has been released.",
+        "Remove from the pressure cooker, add the ghee and mix well.Serve khichu hot with kadhi and papad."
       ],
       "category_id": "west-indian-vegetarian-recipes",
       "id": "gujarati-khichu-recipe"
@@ -3933,8 +3696,7 @@ const dataset = {
         "Mix in a pinch of salt and milk and prepare dough.",
         "Smoothen and knead the dough well for 15 minutes.",
         "Make small balls and keep covered.",
-        "Prepare a smooth mixture of poppy seeds, desiccated coconut, ground dates, ",
-        "green cardamom powder and sugar.",
+        "Prepare a smooth mixture of poppy seeds, desiccated coconut, ground dates, green cardamom powder and sugar.",
         "Make small balls of even size.",
         "Roll out maida balls into small rounds.",
         "Put the date stuffing on one side, fold to look like semi circle and seal the edges.",
@@ -3970,8 +3732,7 @@ const dataset = {
         "Wash the lentils and bring them to boil in 200 ml water, then simmer.",
         "When nearly done, mix in turmeric, tamarind water, green chillies, jaggery, peanuts and salt.",
         "Simmer (boil slowly at low temperature) until dal is cooked.",
-        "Heat up the oil in a small pan, mix in the mustard seeds when they crackle, mix in ",
-        "cumin seeds, asafoetida, fenugreek seeds and curry leaves.",
+        "Heat up the oil in a small pan, mix in the mustard seeds when they crackle, mix in cumin seeds, asafoetida, fenugreek seeds and curry leaves.",
         "Take off the heat up after a minute and pour out the oil and spices into the dal.",
         "Serve hot decorated with coriander leaves."
       ],
@@ -4074,8 +3835,7 @@ const dataset = {
         "Take off and grate the mangoes.",
         "Combine the grated mangos with rest of the ingredients evenly.",
         "Spread the mixture in a shallow wide mouthed jar and cover with a thin cloth.",
-        "Keep the mixture in the sun for 5 days till the syrup attains a single thread ",
-        "consistency, stirring thrice daily.",
+        "Keep the mixture in the sun for 5 days till the syrup attains a single thread consistency, stirring thrice daily.",
         "This pickle lasts for a very long time"
       ],
       "category_id": "west-indian-vegetarian-recipes",
@@ -4107,8 +3867,7 @@ const dataset = {
         "Heat up salt slightly in a dry pot on low heat.",
         "Take it off and in the same pan, heat up red chilli powder similarly.",
         "Mix in both these ingredients to the oil masala.",
-        "Mix in the gunda and the mango pieces cubes to the masala mixture and mix till all of ",
-        "them are well coated with the masala.",
+        "Mix in the gunda and the mango pieces cubes to the masala mixture and mix till all of them are well coated with the masala.",
         "Transfer into a dry ceramic or a glass jar.",
         "Set it aside for 4 â€“ 5 days without mixing.",
         "Heat up enough oil to completely cover the pickled gunda and mango cubes.",
@@ -4139,8 +3898,7 @@ const dataset = {
       "preparation": [
         "Wash and soak sabudana in water just enough to loosen and light for minimum 2 hrs. ",
         "Chop the potatoes into small cubes. Mix crushed groundnuts,sugar and salt and keep aside. ",
-        "Heat the oil/ghee in a pan and add mustard seeds. When the mustard seed crackle add ",
-        "cumin seeds, green chillies and curry leaves. ",
+        "Heat the oil/ghee in a pan and add mustard seeds. When the mustard seed crackle add cumin seeds, green chillies and curry leaves. ",
         "Add potatoes and stir well. Mix sabudana mixture and mix gently. ",
         "Mix the grated coconut and garnish with coriander leaves. ",
         "Sprinkle some lemon juice over it and serve hot."
@@ -4208,14 +3966,12 @@ const dataset = {
       ],
       "preparation": [
         "Sift rava through a muslin / cheese cloth or very fine sieve. ",
-        "Heat 1tbsp. pure ghee / unsalted butter and fry rava ,on a moderate heat, stiring ",
-        "constantly to light brown color and set aside. ",
+        "Heat 1tbsp. pure ghee / unsalted butter and fry rava ,on a moderate heat, stiring constantly to light brown color and set aside. ",
         "Now heat 2 tbsp oil in a pan and add mustard seeds and allow them to splatter. ",
         "Add the daals : channa & urad & curry leaves to it and fry till they turn red. ",
         "Add onion, ginger and green chilies. Sauté for 2-3 minutes. ",
         "Add all the vegetables, turmeric & chili powder, and salt to taste. ",
-        "Now add 3 cups of water and cover the pan and allow it simmer on low heat until ",
-        "the vegetables are done. ",
+        "Now add 3 cups of water and cover the pan and allow it simmer on low heat until the vegetables are done. ",
         "Add the fried rava to it stirring constantly till it becomes little thick. ",
         "Take off from the heat and lemon juice if desired. ",
         "Serve hot garnished with cashews and coriander."
@@ -4247,16 +4003,13 @@ const dataset = {
         "Salt to taste "
       ],
       "preparation": [
-        "Chop the onions, chillies, ginger, tomatoes , potatoes, carrots into small pieces and ",
-        "keep aside. ",
-        "Heat oil and add chana dal, urad dal, mustard seeds and curry leaves. When they start ",
-        "to crackle , add peanuts and cashewnuts. Fry till they turn golden brown. ",
+        "Chop the onions, chillies, ginger, tomatoes , potatoes, carrots into small pieces and keep aside. ",
+        "Heat oil and add chana dal, urad dal, mustard seeds and curry leaves. When they start to crackle , add peanuts and cashewnuts. Fry till they turn golden brown. ",
         "Add potatoes, carrots and fry for 4-5 minutes. ",
         "Then add chillies, ginger , onions, peas and tomatoes. ",
         "Cook until they are done. ",
         "After that add salt and 41/2 cups of water, cover with a lid and let it boil . ",
-        "When the water comes to boil add vermecelli and simultaneously stir ( so that no lumps ",
-        "will be formed). ",
+        "When the water comes to boil add vermecelli and simultaneously stir ( so that no lumps will be formed). ",
         "Cover the upma with a lid for 5-6 minutes and then add 2tbsp of ghee and stir well. ",
         "Serve hot with coconut chutney"
       ],
@@ -4286,8 +4039,7 @@ const dataset = {
         "Soak the poha in water. Wash and drain all the water. ",
         "Add some salt , turmeric powder , keep aside. ",
         "Peel and cut the potatoes into small cubes, chop the onions, chillies, corainder leaves. ",
-        "Heat oil and put chana dal, urad dal, mustard seeds, peanuts, curry leaves and fry until ",
-        "they crackle. ",
+        "Heat oil and put chana dal, urad dal, mustard seeds, peanuts, curry leaves and fry until they crackle. ",
         "Add potatoes , saute for few minutes, then add chopped onions, chillies. ",
         "Cook till they are done. Add the poha, corainder leaves and stir. ",
         "Keep it on slow flame for 5- 7 minutes. ",
@@ -4404,8 +4156,7 @@ const dataset = {
         "Simmer the lentils in double their quantity of water until soft. ",
         "Add all the spices, coconut, jaggery and salt. ",
         "Simmer for a minute and remove from the heat. ",
-        "Heat oil in separate pan and add mustard seeds, allow them to pop and then add ",
-        "cumin seeds, asafoetida and curry leaves. ",
+        "Heat oil in separate pan and add mustard seeds, allow them to pop and then add cumin seeds, asafoetida and curry leaves. ",
         "Stir for few seconds. ",
         "Pour this over the cooked lentil, mix well. ",
         "Serve hot, garnished with chopped coriander leaves. ",
@@ -4441,8 +4192,7 @@ const dataset = {
         "Don't cook in a pressure cooker. ",
         "Drain it. ",
         "Heat the oil and add cumin seeds and fry till brown. ",
-        "Add onions and fry for a minute, then add ginger, garlic, green chilies and sautÃ© for ",
-        "few seconds. ",
+        "Add onions and fry for a minute, then add ginger, garlic, green chilies and sautÃ© for few seconds. ",
         "Now add chopped tomatoes, turmeric, chili powder and coriander and fry. ",
         "Add potatoes, drained sprouts and salt, mix well. ",
         "Pour lemon juice. ",
@@ -4495,8 +4245,7 @@ const dataset = {
         "Oil for frying"
       ],
       "preparation": [
-        "Add salt, chili powder, garam masala, coriander, and green chilies to the mashed ",
-        "aloo (potatoes) and mix well.",
+        "Add salt, chili powder, garam masala, coriander, and green chilies to the mashed aloo (potatoes) and mix well.",
         "In a bowl take a cup of gram flour; add turmeric powder, little salt and chili powder to it. ",
         "Add little water bit by bit and mixing with hand make a batter (neither too thick nor too lose).",
         "Make small balls of aloo (potato) mixture.",
@@ -4530,16 +4279,14 @@ const dataset = {
         "In a bowl add gram flour (besan), Curd and water. ",
         "Mix well and make a smooth batter. The batter should be of thick consistency. ",
         "Add salt and set aside for 4 hours covered with a lid. ",
-        "Take the ginger and green chili paste and add to the batter. Also add turmeric powder ",
-        "and mix well. ",
+        "Take the ginger and green chili paste and add to the batter. Also add turmeric powder and mix well. ",
         "Keep the steamer or cooker ready on gas. ",
         "Grease a baking dish (it should fit in the steamer or cooker). ",
         "Now in small bowl take a tsp. of soda bi-carb or eno, 1tsp oil and lemon juice and mix well. ",
         "Add this to the batter and mix well. ",
         "Pour the batter into the greased pan and steam for 10-12 minutes or till done. ",
         "Cool for sometime and cut into big cubes. ",
-        "Heat little oil in a small pan and add mustard seeds and curry leaves allow to ",
-        "splutter. Remove and pour it over dhoklas. ",
+        "Heat little oil in a small pan and add mustard seeds and curry leaves allow to splutter. Remove and pour it over dhoklas. ",
         "Garnish the besan dhokla with coriander and slited green chilies. ",
         "Serve with hari chutney. "
       ],
@@ -4609,11 +4356,9 @@ const dataset = {
         "Pistachios and Almonds "
       ],
       "preparation": [
-        "Hang the curds in a muslin cloth in a cool place for approximately 3 hours until all the ",
-        "liquid (whey) has drained off.",
+        "Hang the curds in a muslin cloth in a cool place for approximately 3 hours until all the liquid (whey) has drained off.",
         "Rub the saffron into the warm milk until it dissolves.",
-        "Mix together the hung curds, sugar, saffron mixture and cardamom in a bowl and churn ",
-        "using a hand blender.",
+        "Mix together the hung curds, sugar, saffron mixture and cardamom in a bowl and churn using a hand blender.",
         "Place in the refrigerator.",
         "Serve gujarati shrikhand cold garnished with slivers of pistachios and almonds. "
       ],
@@ -4648,8 +4393,7 @@ const dataset = {
         "Heat oil in a pan, add the seasonings. Fry until they turn brown. ",
         "Add chopped ginger, garlic, chillies and fry for 4-5 minutes. ",
         "Add onions and tomatoes, salt, turmeric powder and cook until done. ",
-        "Mash the dals. Add the dals with 2 cups of water. Simmer the flame and let the dal boil ",
-        "for few minutes. ",
+        "Mash the dals. Add the dals with 2 cups of water. Simmer the flame and let the dal boil for few minutes. ",
         "Add the lemon juice, corainder leaves and stir well. ",
         "Serve hot with rice and papads. "
       ],
@@ -4675,8 +4419,7 @@ const dataset = {
         "Pressure cook tuvar dal with sufficient water and turmeric powder. ",
         "Mash the dal, after it has been cooked. ",
         "Chop the garlic cloves finely. ",
-        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they ",
-        "pop up. ",
+        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they pop up. ",
         "Add the dal with 2 cups of water and salt. ",
         "Cook until the toor daal boils, then add jaggery. Cook for 4-5 minutes more.",
         "When the tuvar dal is cooled add lemon juice and serve. "
@@ -4706,8 +4449,7 @@ const dataset = {
         "Heat oil in a pan, add the tomatoes, salt, turmeric powder and cook for 4-5 minutes. ",
         "Add the potatoes, eggplant, all the dry masalas, sugar, 3 cups of water and mix well. ",
         "Cover with a lid and simmer the heat. Cook until the vegetables are done. ",
-        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot ",
-        "with chapati or rice."
+        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot with chapati or rice."
       ],
       "category_id": "west-indian-vegetarian-recipes",
       "id": "vangi-batata-bhaji-recipe"
@@ -4734,8 +4476,7 @@ const dataset = {
         "Wash and drain the rice. Keep aside. ",
         "Heat the ghee in a cooker, add the cloves, cinnamon, cumin seeds and fry for 2-3 minutes.",
         "Add the asafoetida, vegetables and salt and stir for few minutes ",
-        "Add the turmeric powder, chilli powder, garam masala and rice and stir again for 5 ",
-        "minutes till it is evenly mixed.",
+        "Add the turmeric powder, chilli powder, garam masala and rice and stir again for 5 minutes till it is evenly mixed.",
         "Add 3 cups of hot water, cover the lid. Cook using the weight.",
         "Serve vargharelo bhaat hot with kadhi and papad. "
       ],
@@ -4800,8 +4541,7 @@ const dataset = {
         "Heat up 2 tblsp of oil in a kadhai, mix in cumin seeds and stir fry till they crackle.",
         "Mix in cut garlic and stir fry for a while, but do not let it brown.",
         "Then mix in gram flour and stir fry for another five minutes on a slow heat.",
-        "Mix in coriander powder, garam masala powder, red chilli powder, turmeric powder and ",
-        "stir fry for one minute.",
+        "Mix in coriander powder, garam masala powder, red chilli powder, turmeric powder and stir fry for one minute.",
         "Take off the kadhai from heat up and mix in yogurt, a little water.",
         "Mix and stir fry again.",
         "Mix in half the cut coriander and the fried potatoes.",
@@ -4837,8 +4577,7 @@ const dataset = {
         "Mix in rice.",
         "Stir fry for few minutes.",
         "Mix in four cup of boiling water.",
-        "Lower the heat up to simmer (boil slowly at low temperature) and stir fry until all the ",
-        "water has been absorbed.",
+        "Lower the heat up to simmer (boil slowly at low temperature) and stir fry until all the water has been absorbed.",
         "Serve hot, decorated with cut coriander and cut green garlic."
       ],
       "category_id": "west-indian-vegetarian-recipes",
@@ -4965,8 +4704,7 @@ const dataset = {
         "Put the rest of the vegetables in layers one on top of the other.",
         "Sprinkle salt and turmeric powder.",
         "Stir fry for five minutes on high flame heat.",
-        "Pour out one cup of water, cover and simmer (boil slowly at low temperature) on a very ",
-        "low heat up for 10-15 minutes.",
+        "Pour out one cup of water, cover and simmer (boil slowly at low temperature) on a very low heat up for 10-15 minutes.",
         "Mix in fried muthiyas and again simmer (boil slowly at low temperature) for 15 minutes.",
         "Shake the vegetables occasionally but do not use a spoon to stir.",
         "Serve hot decorated with scraped coconut."
@@ -4986,17 +4724,14 @@ const dataset = {
         "Ghee for deep frying"
       ],
       "preparation": [
-        "Blend the flour, salt and sugar in a large bowl. Rub the melted ghee into it and ",
-        "gradually using enough water to make a stiff but pliable dough. ",
+        "Blend the flour, salt and sugar in a large bowl. Rub the melted ghee into it and gradually using enough water to make a stiff but pliable dough. ",
         "Cover the dough with damp cloth and set aside for 30 minutes.",
         "Knead dough a little again. Dough should be stiff enough to roll without extra flour. ",
         "Make small balls of the dough and cover them with damp cloth. ",
         "Take one ball of dough and dip a corner of ball in melted ghee or oil and roll it out into 5 to ",
         "6 inches round. Repeat the same process to roll out all pooris.",
-        "Heat plenty of oil in a kadhai until very hot. Put in a luchi and immediately start flickering ",
-        "hot oil over the top of it with a spatula so that it will swell up like a ball. ",
-        "This should take only a few seconds. Flip the luchi over and cook the other side until ",
-        "golden brown. ",
+        "Heat plenty of oil in a kadhai until very hot. Put in a luchi and immediately start flickering hot oil over the top of it with a spatula so that it will swell up like a ball. ",
+        "This should take only a few seconds. Flip the luchi over and cook the other side until golden brown. ",
         "Serve hot with curries or vegetables."
       ],
       "category_id": "west-indian-vegetarian-recipes",
@@ -5025,8 +4760,7 @@ const dataset = {
         "Soak the poha in water. Wash and drain all the water. ",
         "Add some salt , turmeric powder , keep aside. ",
         "Peel and cut the potatoes into small cubes, chop the onions, chillies, corainder leaves. ",
-        "Heat oil and put chana dal, urad dal, mustard seeds, peanuts, curry leaves and fry until ",
-        "they crackle. ",
+        "Heat oil and put chana dal, urad dal, mustard seeds, peanuts, curry leaves and fry until they crackle. ",
         "Add potatoes , saute for few minutes, then add chopped onions, chillies. ",
         "Cook till they are done. Add the poha, corainder leaves and stir. ",
         "Keep it on slow flame for 5- 7 minutes. ",
@@ -5120,8 +4854,7 @@ const dataset = {
       ],
       "preparation": [
         "Bring the daal to boil in the water and simmer until soft and mushy. ",
-        "Heat the oil in a pan and add mustard seeds, as soon as they pop, add the asafoetida, ",
-        "cumin seeds, turmeric powder, chilies and curry leaves. ",
+        "Heat the oil in a pan and add mustard seeds, as soon as they pop, add the asafoetida, cumin seeds, turmeric powder, chilies and curry leaves. ",
         "Saute for a minute and add the cooked dal. ",
         "Bring to boil and add the tomatoes, salt and coriander leaves. ",
         "Remove from the heat. ",
@@ -5159,8 +4892,7 @@ const dataset = {
         "Grind the mixture to a paste using blender. ",
         "Add little water if needed. ",
         "Slit each eggplant lengthwise into four, keeping the stem end intact. ",
-        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews ",
-        "and turmeric powder. ",
+        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews and turmeric powder. ",
         "Stuff the eggplants with this mixture, reserving some. ",
         "Roll the potatoes in the remaining mixture. ",
         "Heat the remaining oil in a pan and add the vegetables. ",
@@ -5199,25 +4931,19 @@ const dataset = {
         "Heat oil or ghee in a kadhai or deep-frying pan over a moderate heat. ",
         "Place the peanuts in a wire-mesh sieve and lower it into the oil. ",
         "Fry until golden brown, lift out the sieve, and transfer the nuts to paper towels to drain. ",
-        "In separate batches, fry the cashews, almonds, pistachios, pumpkin seeds and pine nuts ",
-        "until golden brown, and drain on paper towels. ",
+        "In separate batches, fry the cashews, almonds, pistachios, pumpkin seeds and pine nuts until golden brown, and drain on paper towels. ",
         "Pat the nuts dry with more paper towels, bolt off any excess oil. ",
         "Transfer all the nuts to a bowl. ",
-        "Raise the heat of the oil and place the green chilies in the sieve and lower it into the oil ",
-        "and fry until crisp. ",
+        "Raise the heat of the oil and place the green chilies in the sieve and lower it into the oil and fry until crisp. ",
         "Lift out the sieve and transfer the chilies to the paper towels to drain. ",
-        "Add the fennel seeds, curry leaves and fresh coriander to the sieve and fry in the same ",
-        "way until the leaves are dark green and crisp. ",
+        "Add the fennel seeds, curry leaves and fresh coriander to the sieve and fry in the same way until the leaves are dark green and crisp. ",
         "Drain on paper towels. ",
-        "Now add half of flat rice to the sieve, lower it into the oil and fry for 1 minute or until ",
-        "the frothing oil subsides and poha floats. ",
+        "Now add half of flat rice to the sieve, lower it into the oil and fry for 1 minute or until the frothing oil subsides and poha floats. ",
         "It should not brown only turn golden yellow. ",
         "Fry the remaining flat rice dry on paper towel, blot all the excess oil. ",
         "Add the flat rice to the nuts bowl and toss to mix. ",
-        "Combine the raisins, currants and dates in a bowl and add the salt , sugar & spices in ",
-        "another bowl. ",
-        "Sprinkle 1/2 of the spice mixture into the dried fruit and the remaining into the nuts, ",
-        "toss well. ",
+        "Combine the raisins, currants and dates in a bowl and add the salt , sugar & spices in another bowl. ",
+        "Sprinkle 1/2 of the spice mixture into the dried fruit and the remaining into the nuts, toss well. ",
         "Finally, combine all the ingredients and toss to mix. ",
         "Cool to room temperature and store in an air tight container. ",
         "Keeps well upto 2 months. "
@@ -5242,8 +4968,7 @@ const dataset = {
         "4 tblsp Oil "
       ],
       "preparation": [
-        "Heat a heavy bottom pan and gram flour, roast it constantly stirring to avoid ",
-        "lumps formation, on a moderate heat. ",
+        "Heat a heavy bottom pan and gram flour, roast it constantly stirring to avoid lumps formation, on a moderate heat. ",
         "As soon as the smell and color changes, remove it from the heat. ",
         "Heat oil in another pan and add mustard seeds, allow them to pop. ",
         "Add cumin seeds, asafoetida and curry leaves. ",
@@ -5276,19 +5001,15 @@ const dataset = {
       "preparation": [
         "Wash the chana daal and cook with a little or just enough water. ",
         "Drain out the extra water. ",
-        "Add sugar or jaggery to the cooked daal and cook on low heat until the mixture ",
-        "becomes thick. ",
+        "Add sugar or jaggery to the cooked daal and cook on low heat until the mixture becomes thick. ",
         "Remove from heat and pass it through a sieve while still hot. ",
         "Add grated nutmeg and cardamom powder. ",
         "Stir well and remove from heat and keep aside to cool. ",
         "Mix the wheat flour, flour, oil and enough water knead into a smooth dough. ",
         "Keep it aside for an hour or two. ",
-        "Divide the gram daal mixture into ping pong sized balls and the flour dough into ",
-        "slightly smaller balls and roll them out a little. ",
-        "Place the gram daal ball in the centre of the rolled flour dough and close it to cover the ",
-        "filling completely. ",
-        "Roll out into a chapati and bake on a non stick tawa till done on both sides, adding a ",
-        "little ghee around. ",
+        "Divide the gram daal mixture into ping pong sized balls and the flour dough into slightly smaller balls and roll them out a little. ",
+        "Place the gram daal ball in the centre of the rolled flour dough and close it to cover the filling completely. ",
+        "Roll out into a chapati and bake on a non stick tawa till done on both sides, adding a little ghee around. ",
         "Fry till done. ",
         "Serve hot with pure ghee. "
       ],
@@ -5346,8 +5067,7 @@ const dataset = {
         "Drain and set aside. ",
         "Heat the oil and saute the mustard seeds with the asafoetida. ",
         "When the seeds start to pop add the onions and fry till golden. ",
-        "Add the val , eggplant, all spices and salt, mix well and add little water and cook until ",
-        "the beans are soft but not mushy. ",
+        "Add the val , eggplant, all spices and salt, mix well and add little water and cook until the beans are soft but not mushy. ",
         "Cook over high heat to dry the water. ",
         "Remove from heat and add coconut and drumsticks. ",
         "Stir gently and serve hot. "
@@ -5449,16 +5169,12 @@ const dataset = {
         "2 Green chillies finely chopped"
       ],
       "preparation": [
-        "Heat a pan with oil & add the onions. Fry till translucent. Add tomatoes,salt,add all ",
-        "the powders and fry till the oil floats on top.",
+        "Heat a pan with oil & add the onions. Fry till translucent. Add tomatoes,salt,add all the powders and fry till the oil floats on top.",
         "Steam all the other vegetables seperately & add them to the onion mixture.",
-        "Add a cup of water & let it cook to boiling consistency. Then With the help of a potato ",
-        "masher keep mashing the mixture till it cooks nicely.",
-        "When all the vegetables are cooked thoroughly garnish with coriander & lemon juice ",
-        "and serve with Pav.",
+        "Add a cup of water & let it cook to boiling consistency. Then With the help of a potato masher keep mashing the mixture till it cooks nicely.",
+        "When all the vegetables are cooked thoroughly garnish with coriander & lemon juice and serve with Pav.",
         "For the pavs:",
-        "Slit open the pavs from the middle. Apply butter in the inside & place them on a pre-",
-        "heated frying pan.When they get golden brown from the inside take them off. ",
+        "Slit open the pavs from the middle. Apply butter in the inside & place them on a pre-heated frying pan.When they get golden brown from the inside take them off. ",
         "Serve hot with bhajji."
       ],
       "category_id": "west-indian-vegetarian-recipes",
@@ -5492,21 +5208,18 @@ const dataset = {
       ],
       "preparation": [
         "Boil, peel and mash the potatoes well. ",
-        "Take the mashed potatoes into a bowl, add ginger garlic paste, dhania powder, jeera ",
-        "powder, turmeric powder and salt. ",
+        "Take the mashed potatoes into a bowl, add ginger garlic paste, dhania powder, jeera powder, turmeric powder and salt. ",
         "Mix and knead well into a dough. ",
         "Now, add the bread crumbs and knead well. ",
         "Divide the dough into balls. ",
         "Press each ball with hand so that it would make into a round patty. ",
         "Heat oil in a kadai and fry the prepared patties in the oil till golden brown on both sides. ",
-        "Take out the patties from the oil and put them into a bowl with tissue paper to drain ",
-        "the excess oil.",
+        "Take out the patties from the oil and put them into a bowl with tissue paper to drain the excess oil.",
         "To prepare the ragada: ",
         "Wash and soak channa for about 6 - 8 hours. ",
         "Boil channa with baking soda in pressure cooker till soft. ",
         "Heat oil in a kadai, add chopped onions, fry till the onions are light golden brown. ",
-        "Add ginger garlic paste, turmeric powder, garam masala powder, chat masala powder, ",
-        "red chilli powder and fry for 30 seconds. ",
+        "Add ginger garlic paste, turmeric powder, garam masala powder, chat masala powder, red chilli powder and fry for 30 seconds. ",
         "Now add tomatoes and salt. ",
         "Cover and cook on medium heat for 3-5 minutes until the tomatoes are soft. ",
         "Now, add the boiled peas, enough water, curd and mix well. ",
@@ -5541,18 +5254,15 @@ const dataset = {
         "4 tblsp mustard oil"
       ],
       "preparation": [
-        "Take off and cut the potatoes into quarters, cut the cauliflower into medium sized florets, ",
-        "cut tomatoes into quarters.",
+        "Take off and cut the potatoes into quarters, cut the cauliflower into medium sized florets, cut tomatoes into quarters.",
         "Take off and cut the onions.",
         "Heat up oil in a pot and when very hot fry the potatoes lightly and drain.",
         "Then fry the florets of cauliflower till they turn a little brown.",
         "Remove and keep it aside.",
         "Take off the oil.",
-        "In the same pot heat up ghee and mix in the bay leaves and the whole garam masala and ",
-        "stir fry for 30 seconds.",
+        "In the same pot heat up ghee and mix in the bay leaves and the whole garam masala and stir fry for 30 seconds.",
         "Mix in cut onion and fry till golden in colour.",
-        "Mix in the masala powders and stir fry for a minute taking care that the masala does not ",
-        "stick to the bottom.",
+        "Mix in the masala powders and stir fry for a minute taking care that the masala does not stick to the bottom.",
         "Mix in a tblsp of water if necessary.",
         "Mix in the potatoes, cauliflower and the tomatoes.",
         "Stir fry for a while.",
@@ -5585,11 +5295,9 @@ const dataset = {
         "Remove, cool and heat up the oil again on medium heat.",
         "Mix in kalonji and stir-fry briefly.",
         "Mix in potato pieces and stir fry on medium heat up for five minutes, stirring frequently.",
-        "Mix in the poppy seeds paste, stir and mix in half cup of water, cover and stir fry on low ",
-        "heat up till the potatoes are almost done.",
+        "Mix in the poppy seeds paste, stir and mix in half cup of water, cover and stir fry on low heat up till the potatoes are almost done.",
         "Take off the lid, mix in salt, sugar and slit green chillies.",
-        "Continue to stir fry for a minute more or till potatoes are completely cooked, stir in desi ",
-        "ghee and serve hot."
+        "Continue to stir fry for a minute more or till potatoes are completely cooked, stir in desi ghee and serve hot."
       ],
       "category_id": "east-indian-vegetarian-recipes",
       "id": "aloo-posto-recipe"
@@ -5662,10 +5370,8 @@ const dataset = {
         "salt to taste"
       ],
       "preparation": [
-        "Mix the salt, sugar and mangoes and leave it in the sun for a couple of days or till ",
-        "the mangoes are tender.",
-        "After sun drying the mangoes mix in the ginger paste, tamarind pulp, chilli powder, ",
-        "mustard powder and oil and stir fry on low heat up till it reaches a one-thread consistency.",
+        "Mix the salt, sugar and mangoes and leave it in the sun for a couple of days or till the mangoes are tender.",
+        "After sun drying the mangoes mix in the ginger paste, tamarind pulp, chilli powder, mustard powder and oil and stir fry on low heat up till it reaches a one-thread consistency.",
         "Take off from heat.",
         "Cool and store."
       ],
@@ -5739,8 +5445,7 @@ const dataset = {
         "Now, mix in the mashed paneer.",
         "This will thicken the batter.",
         "Lastly, mix in the powdered cardamom.",
-        "The batter, finally, must be of medium thick consistency so that it can easily be dropped ",
-        "from a spoon.",
+        "The batter, finally, must be of medium thick consistency so that it can easily be dropped from a spoon.",
         "Make syrup of one string consistency with the sugar and 11/2 cup of water.",
         "Heat up ghee in a kadhai.",
         "Drop spoonfuls of batter and fry till golden.",
@@ -5774,11 +5479,9 @@ const dataset = {
         "Heat up the ghee in a vessel, mix in the cumin seeds and let it splutter.",
         "Mix in the cumin paste mixed with a little water, ginger juice and turmeric powder.",
         "Stir fry for 2 minutes.",
-        "Mix in the potatoes, green chillies, garam masala powder, sugar and salt and cover and ",
-        "stir fry till the potatoes are tender.",
+        "Mix in the potatoes, green chillies, garam masala powder, sugar and salt and cover and stir fry till the potatoes are tender.",
         "Take off the paneer from the water and mix in to the potatoes.",
-        "Mix in milk and the remaining water and allow it to simmer (boil slowly at low ",
-        "temperature) for another 2 to 3 minutes.",
+        "Mix in milk and the remaining water and allow it to simmer (boil slowly at low temperature) for another 2 to 3 minutes.",
         "Serve hot."
       ],
       "category_id": "east-indian-vegetarian-recipes",
@@ -5805,11 +5508,9 @@ const dataset = {
         "Mix in oil and enough water to knead into a firm dough.",
         "Cover with a damp cloth and keep aside.",
         "Bring the sugar and water to boil.",
-        "Simmer (boil slowly at low temperature) to obtain sugar syrup of three string consistency ",
-        "and keep aside.",
+        "Simmer (boil slowly at low temperature) to obtain sugar syrup of three string consistency and keep aside.",
         "Heat up one tsp ghee in a pot and fry the semolina till light brown.",
-        "Mix in milk, sugar and coconut and keep stirring on a low heat up till the mixture ",
-        "becomes thick.",
+        "Mix in milk, sugar and coconut and keep stirring on a low heat up till the mixture becomes thick.",
         "Take off from heat.",
         "Mix in cardamom powder and nutmeg powder.",
         "Cool and divide into 12 portions.",
@@ -5954,8 +5655,7 @@ const dataset = {
       ],
       "preparation": [
         "Melt sugar in water and heat up to make a thin syrup.",
-        "Knead the paneer with flour and shape into oval shaped fingers, mix in them to the ",
-        "sugar syrup and boil for eight minutes.",
+        "Knead the paneer with flour and shape into oval shaped fingers, mix in them to the sugar syrup and boil for eight minutes.",
         "Take off from heat up and mix in lemon color to the syrup.",
         "Cool for a while and take off the chum-chums from the syrup.",
         "Mix in saffron and cardamom powder to sugarless, creamy, condensed milk.",
@@ -6014,8 +5714,7 @@ const dataset = {
         "Cover with a damp cloth and keep aside.",
         "Spread a little ghee on a flat surface.",
         "Keep one chappati on it.",
-        "Apply some ghee to the chappati and gently pull the edges of the chappati so that it ",
-        "gradually spreads into a thin one.",
+        "Apply some ghee to the chappati and gently pull the edges of the chappati so that it gradually spreads into a thin one.",
         "Fold into half and again into half to resemble a triangle.",
         "Keep it covered with a damp cloth.",
         "Preheat up the oven to 190Âºc.",
@@ -6058,8 +5757,7 @@ const dataset = {
         "When the rice is half done mix in masala paste, green chillies and vegetables, simmer ",
         "(boil slowly at low temperature) till they are cooked.",
         "In the meanwhile dal and rice will also be cooked.",
-        "Make a flavor by heating ghee mix in red chillies, bay leaves, garam masala and stir fry for ",
-        "a minute.",
+        "Make a flavor by heating ghee mix in red chillies, bay leaves, garam masala and stir fry for a minute.",
         "Stir in the flavor mixture into cooked khichuri.",
         "Serve hot with pure ghee on top."
       ],
@@ -6132,10 +5830,8 @@ const dataset = {
         "Wash and mix in the curry leaves and the marinated chicken.",
         "Stir fry on high flame heat up to seal the surface of the meat.",
         "Mix in the masala paste and mix thoroughly.",
-        "Pour out 11/2 cup of water and simmer (boil slowly at low temperature) till the chicken ",
-        "is almost cooked.",
-        "Sprinkle salt to taste, stir well and simmer (boil slowly at low temperature) till it thickens ",
-        "to the required consistency."
+        "Pour out 11/2 cup of water and simmer (boil slowly at low temperature) till the chicken is almost cooked.",
+        "Sprinkle salt to taste, stir well and simmer (boil slowly at low temperature) till it thickens to the required consistency."
       ],
       "category_id": "east-indian-vegetarian-recipes",
       "id": "kozhi-thengai-kozhambu-recipe"
@@ -6203,8 +5899,7 @@ const dataset = {
         "1 tsp panch phoron powder"
       ],
       "preparation": [
-        "Mix all the above the ingredients except the panch phoron and stir fry on low heat up till ",
-        "one thread consistency is reached and the olives soft.",
+        "Mix all the above the ingredients except the panch phoron and stir fry on low heat up till one thread consistency is reached and the olives soft.",
         "When cooked mix in the panch phoron.",
         "Cool and store."
       ],
@@ -6257,8 +5952,7 @@ const dataset = {
         "Heat oil in a wok",
         "Add the onions and green chilies to it and sautÃ©",
         "Once the onions become pink in color, add the ground spices and mix well.",
-        "Now add the bendakaya and salt and see that it gets wrapped and mixed nicely with ",
-        "the onions and spices.",
+        "Now add the bendakaya and salt and see that it gets wrapped and mixed nicely with the onions and spices.",
         "Cover the wok and lower the heat just for two minutes.",
         "Take off the heat and fry by stirring on high heat for another 5 minutes and take off the heat.",
         "Serve hot with chapatis"
@@ -6303,8 +5997,7 @@ const dataset = {
       "preparation": [
         "Deep fry the gongura leaves and chilies.",
         "Grind them into a paste and keep aside.",
-        "Now roast the all the whole seeds and whole red chilies, grind and mix it with the ",
-        "gongura leaves. Season with salt and a fry of mustard seeds."
+        "Now roast the all the whole seeds and whole red chilies, grind and mix it with the gongura leaves. Season with salt and a fry of mustard seeds."
       ],
       "category_id": "andhra-recipe",
       "id": "gongura-pickle-recipe"
@@ -6352,8 +6045,7 @@ const dataset = {
       ],
       "preparation": [
         "Heat a heavy bottom pan and dry roast all the dals.",
-        "Take off the dals and in the same pan add 1 tsp oil and fry the cumin seeds, red chili ",
-        "and curry leaves.",
+        "Take off the dals and in the same pan add 1 tsp oil and fry the cumin seeds, red chili and curry leaves.",
         "Mix them with the roasted lentils and grind into a smooth powder and store."
       ],
       "category_id": "andhra-recipe",
@@ -6421,9 +6113,7 @@ const dataset = {
         "Heat oil in a pan and add asafetida, urad dal and whole red chilies in it.",
         "Take them out and keep aside once they start spluttering.",
         "In the same oil, fry the mustard seeds and keep them aside separately",
-        "Now in a mortar and pestle, beat the coriander leaves, tamarind and the fried urad ",
-        "dal mixture. (or grind in a mixie) to this chutney, add salt to your taste and the fried ",
-        "mustard seeds.",
+        "Now in a mortar and pestle, beat the coriander leaves, tamarind and the fried urad dal mixture. (or grind in a mixie) to this chutney, add salt to your taste and the fried mustard seeds.",
         "Store in a jar and refrigerate."
       ],
       "category_id": "andhra-recipe",
@@ -6518,8 +6208,7 @@ const dataset = {
       "preparation": [
         "Peel and cut the jackfruit into small cubes by rubbing oil in your hands.",
         "Now add turmeric in water and boil the jackfruit for around fifteen minutes till it is tender.",
-        "In a pan heat the oil and add the green chilies, chana dal, urad dal, mustard seeds whole red ",
-        "chilies, ground nuts and curry leaves.",
+        "In a pan heat the oil and add the green chilies, chana dal, urad dal, mustard seeds whole red chilies, ground nuts and curry leaves.",
         "Once they start spluttering, add tamarind paste and a little water.",
         "Now add the boiled jackfruit and mix well.",
         "Serve hot with steaming rice."
@@ -6576,8 +6265,7 @@ const dataset = {
         "To this add the Bengal gram flour and fry well.",
         "Now you should add the tamarind pulp and 3 or more cups of water.",
         "Once the water starts boling, add curry leaves, cumin and fenugreek powder and chili powder.",
-        "Cover and let it boil till the time the sorakaya pieces are tender and the consistency is of ",
-        "a desired curry.",
+        "Cover and let it boil till the time the sorakaya pieces are tender and the consistency is of a desired curry.",
         "Garnish with coriander and serve hot."
       ],
       "category_id": "andhra-recipe",
@@ -6602,8 +6290,7 @@ const dataset = {
         "Boil it till mango pieces are tender",
         "Now to this add jaggery and let it cook till it melts and blends into the mixture",
         "Remove from heat and keep aside",
-        "Now in a pan, heat oil and add mustard seeds let them splutter, add neem flower and fry ",
-        "till light brown",
+        "Now in a pan, heat oil and add mustard seeds let them splutter, add neem flower and fry till light brown",
         "Now add chilli powder and salt",
         "Mix well",
         "Take this neem flower tadka and add it to the tamarind and mango juice",
@@ -6655,19 +6342,15 @@ const dataset = {
       ],
       "preparation": [
         "First of all, soak the ball of tamarind in a cup of water.",
-        "Now heat oil in a pan and let splutter for half a minute the fenugreek seeds, mustard ",
-        "seeds, cumin seeds, dry coriander seeds and whole red chilies.",
+        "Now heat oil in a pan and let splutter for half a minute the fenugreek seeds, mustard seeds, cumin seeds, dry coriander seeds and whole red chilies.",
         "Take this off the heat, let it cool and grind into a paste.",
         "Now in the same remaining oil, fry the chopped eggplants, tomatoes and green chilies.",
         "Take aside and grind this also in a paste.",
         "You should now slowly mix both the pastes uniformly",
         "Now take the tamarind ball and mix with water evenly.",
-        "Once done, sieve this entire tamarind paste to take of any seeds and get a smooth ",
-        "tamarind water.",
-        "Now mix this tamarind water and salt in the previously made mixture of tomatoes, ",
-        "eggplants and spices.",
-        "Once this is done, you should again heat oil in a small pan and put the mustard seeds, ",
-        "garlic and curry leaves in it and let it splutter.",
+        "Once done, sieve this entire tamarind paste to take of any seeds and get a smooth tamarind water.",
+        "Now mix this tamarind water and salt in the previously made mixture of tomatoes, eggplants and spices.",
+        "Once this is done, you should again heat oil in a small pan and put the mustard seeds, garlic and curry leaves in it and let it splutter.",
         "Add this tadka to the chutney and serve with rice or the main food."
       ],
       "category_id": "andhra-recipe",
@@ -6718,18 +6401,15 @@ const dataset = {
         "4 tblsp mustard oil"
       ],
       "preparation": [
-        "Take off and cut the potatoes into quarters, cut the cauliflower into medium sized florets, ",
-        "cut tomatoes into quarters.",
+        "Take off and cut the potatoes into quarters, cut the cauliflower into medium sized florets, cut tomatoes into quarters.",
         "Take off and cut the onions.",
         "Heat up oil in a pot and when very hot fry the potatoes lightly and drain.",
         "Then fry the florets of cauliflower till they turn a little brown.",
         "Remove and keep it aside.",
         "Take off the oil.",
-        "In the same pot heat up ghee and mix in the bay leaves and the whole garam masala and ",
-        "stir fry for 30 seconds.",
+        "In the same pot heat up ghee and mix in the bay leaves and the whole garam masala and stir fry for 30 seconds.",
         "Mix in cut onion and fry till golden in colour.",
-        "Mix in the masala powders and stir fry for a minute taking care that the masala does not ",
-        "stick to the bottom.",
+        "Mix in the masala powders and stir fry for a minute taking care that the masala does not stick to the bottom.",
         "Mix in a tblsp of water if necessary.",
         "Mix in the potatoes, cauliflower and the tomatoes.",
         "Stir fry for a while.",
@@ -6762,11 +6442,9 @@ const dataset = {
         "Remove, cool and heat up the oil again on medium heat.",
         "Mix in kalonji and stir-fry briefly.",
         "Mix in potato pieces and stir fry on medium heat up for five minutes, stirring frequently.",
-        "Mix in the poppy seeds paste, stir and mix in half cup of water, cover and stir fry on low ",
-        "heat up till the potatoes are almost done.",
+        "Mix in the poppy seeds paste, stir and mix in half cup of water, cover and stir fry on low heat up till the potatoes are almost done.",
         "Take off the lid, mix in salt, sugar and slit green chillies.",
-        "Continue to stir fry for a minute more or till potatoes are completely cooked, stir in desi ",
-        "ghee and serve hot."
+        "Continue to stir fry for a minute more or till potatoes are completely cooked, stir in desi ghee and serve hot."
       ],
       "category_id": "bengali-recipes",
       "id": "aloo-posto-recipe"
@@ -6839,10 +6517,8 @@ const dataset = {
         "salt to taste"
       ],
       "preparation": [
-        "Mix the salt, sugar and mangoes and leave it in the sun for a couple of days or till ",
-        "the mangoes are tender.",
-        "After sun drying the mangoes mix in the ginger paste, tamarind pulp, chilli powder, ",
-        "mustard powder and oil and stir fry on low heat up till it reaches a one-thread consistency.",
+        "Mix the salt, sugar and mangoes and leave it in the sun for a couple of days or till the mangoes are tender.",
+        "After sun drying the mangoes mix in the ginger paste, tamarind pulp, chilli powder, mustard powder and oil and stir fry on low heat up till it reaches a one-thread consistency.",
         "Take off from heat.",
         "Cool and store."
       ],
@@ -6916,8 +6592,7 @@ const dataset = {
         "Now, mix in the mashed paneer.",
         "This will thicken the batter.",
         "Lastly, mix in the powdered cardamom.",
-        "The batter, finally, must be of medium thick consistency so that it can easily be dropped ",
-        "from a spoon.",
+        "The batter, finally, must be of medium thick consistency so that it can easily be dropped from a spoon.",
         "Make syrup of one string consistency with the sugar and 11/2 cup of water.",
         "Heat up ghee in a kadhai.",
         "Drop spoonfuls of batter and fry till golden.",
@@ -6951,11 +6626,9 @@ const dataset = {
         "Heat up the ghee in a vessel, mix in the cumin seeds and let it splutter.",
         "Mix in the cumin paste mixed with a little water, ginger juice and turmeric powder.",
         "Stir fry for 2 minutes.",
-        "Mix in the potatoes, green chillies, garam masala powder, sugar and salt and cover and ",
-        "stir fry till the potatoes are tender.",
+        "Mix in the potatoes, green chillies, garam masala powder, sugar and salt and cover and stir fry till the potatoes are tender.",
         "Take off the paneer from the water and mix in to the potatoes.",
-        "Mix in milk and the remaining water and allow it to simmer (boil slowly at low ",
-        "temperature) for another 2 to 3 minutes.",
+        "Mix in milk and the remaining water and allow it to simmer (boil slowly at low temperature) for another 2 to 3 minutes.",
         "Serve hot."
       ],
       "category_id": "bengali-recipes",
@@ -6987,15 +6660,13 @@ const dataset = {
         "Then boil them.",
         "When cooked, grind to make a smooth paste.",
         "Mix in the salt, onions, green chillies and cut coriander leaves.",
-        "When the mixture is well blended, form into 12 balls, dip in beaten egg and roll ",
-        "in bredcrumbs.",
+        "When the mixture is well blended, form into 12 balls, dip in beaten egg and roll in bredcrumbs.",
         "Fry in hot mustard oil.",
         "Keep aside.",
         "Extract milk from the coconut.",
         "Grind the big size onion, garam masala, turmeric, ginger to a fine paste for the gravy.",
         "Heat up oil in a saucepan.",
-        "When it smokes, fry the bay leaves and ground masala for 4 to 5 minutes, stirring all the ",
-        "time and adding a little water to keep the spices from scorching.",
+        "When it smokes, fry the bay leaves and ground masala for 4 to 5 minutes, stirring all the time and adding a little water to keep the spices from scorching.",
         "Gradually stir in the coconut milk extract and a little salt.",
         "Mix in the koftas and allow the curry to simmer (boil slowly at low temperature) for about ",
         "10 minutes, till the gravy becomes rich and thick.",
@@ -7078,13 +6749,11 @@ const dataset = {
       ],
       "preparation": [
         "Melt sugar in water and heat up to make a thin syrup.",
-        "Knead the paneer with flour and shape into oval shaped fingers, mix in them to the ",
-        "sugar syrup and boil for eight minutes.",
+        "Knead the paneer with flour and shape into oval shaped fingers, mix in them to the sugar syrup and boil for eight minutes.",
         "Take off from heat up and mix in lemon color to the syrup.",
         "Cool for a while and take off the chum-chums from the syrup.",
         "Mix in saffron and cardamom powder to sugarless, creamy, condensed milk.",
-        "Spread this on each piece and serve.",
-        null
+        "Spread this on each piece and serve."
       ],
       "category_id": "bengali-recipes",
       "id": "chum-chum-recipe"
@@ -7139,8 +6808,7 @@ const dataset = {
         "Cover with a damp cloth and keep aside.",
         "Spread a little ghee on a flat surface.",
         "Keep one chappati on it.",
-        "Apply some ghee to the chappati and gently pull the edges of the chappati so that it ",
-        "gradually spreads into a thin one.",
+        "Apply some ghee to the chappati and gently pull the edges of the chappati so that it gradually spreads into a thin one.",
         "Fold into half and again into half to resemble a triangle.",
         "Keep it covered with a damp cloth.",
         "Preheat up the oven to 190Âºc.",
@@ -7184,8 +6852,7 @@ const dataset = {
         "When the rice is half done mix in masala paste, green chillies and vegetables, simmer ",
         "(boil slowly at low temperature) till they are cooked.",
         "In the meanwhile dal and rice will also be cooked.",
-        "Make a flavor by heating ghee mix in red chillies, bay leaves, garam masala and stir fry for ",
-        "a minute.",
+        "Make a flavor by heating ghee mix in red chillies, bay leaves, garam masala and stir fry for a minute.",
         "Stir in the flavor mixture into cooked khichuri.",
         "Serve hot with pure ghee on top."
       ],
@@ -7270,11 +6937,9 @@ const dataset = {
         "Mix in oil and enough water to knead into a firm dough.",
         "Cover with a damp cloth and keep aside.",
         "Bring the sugar and water to boil.",
-        "Simmer (boil slowly at low temperature) to obtain sugar syrup of three string consistency ",
-        "and keep aside.",
+        "Simmer (boil slowly at low temperature) to obtain sugar syrup of three string consistency and keep aside.",
         "Heat up one tsp ghee in a pot and fry the semolina till light brown.",
-        "Mix in milk, sugar and coconut and keep stirring on a low heat up till the mixture ",
-        "becomes thick.",
+        "Mix in milk, sugar and coconut and keep stirring on a low heat up till the mixture becomes thick.",
         "Take off from heat.",
         "Mix in cardamom powder and nutmeg powder.",
         "Cool and divide into 12 portions.",
@@ -7310,20 +6975,16 @@ const dataset = {
         "Pat dry with a kitchen towel and apply salt and turmeric powder.",
         "Wash, take off and cut potatoes into half-inch thick finger sized pieces.",
         "Wash, take off stems and slit the green chillies.",
-        "Dry roast coriander and cumin seeds briefly, cool and grind to a fine paste, adding a ",
-        "little water.",
+        "Dry roast coriander and cumin seeds briefly, cool and grind to a fine paste, adding a little water.",
         "Heat up two-tblsp mustard oil in a pot till it just reaches smoking point.",
         "Remove, cool and heat up the oil again on medium heat.",
         "Mix in the fish slices, few at a time and fry for a minute on each side.",
         "Remove and keep aside.",
         "Mix in potato pieces to the pot and stir fry for two to three minutes.",
         "Heat up remaining oil in the same pan, mix in kalonji, slit green chillies and stir-fry briefly.",
-        "Mix in coriander-cumin paste and stir fry on low heat up for a minute sprinkling a little ",
-        "water, if required.",
-        "Mix in two-cup of water, sautÃ©ed potatoes, salt and simmer (boil slowly at low ",
-        "temperature) for four to five minutes or until the potatoes are completely cooked.",
-        "Gently slide in the pot fried fish slices and simmer (boil slowly at low temperature) for two ",
-        "to three minutes or until the fish is cooked.",
+        "Mix in coriander-cumin paste and stir fry on low heat up for a minute sprinkling a little water, if required.",
+        "Mix in two-cup of water, sautÃ©ed potatoes, salt and simmer (boil slowly at low temperature) for four to five minutes or until the potatoes are completely cooked.",
+        "Gently slide in the pot fried fish slices and simmer (boil slowly at low temperature) for two to three minutes or until the fish is cooked.",
         "Serve hot with steamed rice."
       ],
       "category_id": "bengali-recipes",
@@ -7412,8 +7073,7 @@ const dataset = {
         "1 tsp panch phoron powder"
       ],
       "preparation": [
-        "Mix all the above the ingredients except the panch phoron and stir fry on low heat up till ",
-        "one thread consistency is reached and the olives soft.",
+        "Mix all the above the ingredients except the panch phoron and stir fry on low heat up till one thread consistency is reached and the olives soft.",
         "When cooked mix in the panch phoron.",
         "Cool and store."
       ],
@@ -7437,8 +7097,7 @@ const dataset = {
         "Knead khoya well.",
         "Make peas sized balls.",
         "Keep aside.",
-        "Stir fry the ground coconut in a kadhai over high flame heat, mix in sugar and the ",
-        "condensed milk.",
+        "Stir fry the ground coconut in a kadhai over high flame heat, mix in sugar and the condensed milk.",
         "Stir well.",
         "When the mixture dries a little mix in the milk powder and green cardamom powder.",
         "Keep stirring continuously.",
@@ -7546,17 +7205,13 @@ const dataset = {
       ],
       "preparation": [
         "Cook the mungdal to a paste like consistency .",
-        "In a big bowl add rice flour, mungdal paste, turmeric, salt, chili powder, carom seeds ",
-        "or cumin seeds.",
+        "In a big bowl add rice flour, mungdal paste, turmeric, salt, chili powder, carom seeds or cumin seeds.",
         "Mix lightly. Heat oil and add the sizzling hot oil to the rice flour mix. ",
         "Add water as needed to make a stiff dough. Knead thoroughly with hand not food processor.",
-        "Take a lemon size dough and place it in a chakli mould or icing bag with star nozzle. Heat ",
-        "oil for frying. ",
-        "Test the oil by dropping a small piece of dough and wait for 3 seconds if it does not rise to ",
-        "the top then oil needs to be heated. ",
+        "Take a lemon size dough and place it in a chakli mould or icing bag with star nozzle. Heat oil for frying. ",
+        "Test the oil by dropping a small piece of dough and wait for 3 seconds if it does not rise to the top then oil needs to be heated. ",
         "Gently make a spiral with the chakli mould or icing bag and deep fry to a golden brown.",
-        "Cool moong dal chakli completely before storing in an airtight container.",
-        null
+        "Cool moong dal chakli completely before storing in an airtight container."
       ],
       "category_id": "goan-recipes",
       "id": "spicy-crunchy-spirals"
@@ -7582,8 +7237,7 @@ const dataset = {
         "Sieve the wheat flour and knead to a soft dough by adding enough water. Keep aside.",
         "Soak moong dal for one hour. Wash and drain all the water. ",
         "Cook the moong dal 1 cup of water. ",
-        "Heat oil in a pan, add the cumin seeds, asafoetida. Fry till they pop up. Add the cooked ",
-        "dal, salt, turmeric powder, red chilli powder and mix well. ",
+        "Heat oil in a pan, add the cumin seeds, asafoetida. Fry till they pop up. Add the cooked dal, salt, turmeric powder, red chilli powder and mix well. ",
         "Cook until the dal mixture is dry. Let it cool. ",
         "Take some portion of dough , make a small puri. Put some moong dal stuffing in center. ",
         "Close from all sides and roll again into thick, round paratha. ",
@@ -7615,19 +7269,14 @@ const dataset = {
         "3-4 tbsp. Ghee. "
       ],
       "preparation": [
-        "Shift wheat flour. Add salt, turmeric powder, ajama, red chili powder. Mix well. Add oil ",
-        "and knead the flour to roti like consistency.",
+        "Shift wheat flour. Add salt, turmeric powder, ajama, red chili powder. Mix well. Add oil and knead the flour to roti like consistency.",
         "Wash tuver dal and pressure cook it for three whistles.",
-        "Cool and remove the dal. Heat oil and ghee in a pot, then put cloves and cinnamon and ",
-        "then add mustard leaves. ",
+        "Cool and remove the dal. Heat oil and ghee in a pot, then put cloves and cinnamon and then add mustard leaves. ",
         "When they crackle add curry leaves, green chilies and a pinch of asafetida. Pour tover dal.",
-        "Mix tamarind and brown sugar water, cashew nuts, groundnut, garam masala, red ",
-        "chili powder and mix well. ",
-        "Add tomato pulp, turmeric powder, salt and 2 cups of water. Boil the dal. roll out big rotis ",
-        "and cut them into pieces and add these pieces in boiling dal.",
+        "Mix tamarind and brown sugar water, cashew nuts, groundnut, garam masala, red chili powder and mix well. ",
+        "Add tomato pulp, turmeric powder, salt and 2 cups of water. Boil the dal. roll out big rotis and cut them into pieces and add these pieces in boiling dal.",
         "Boil for 10 minutes and remove. Serve the dal dhokli warm. Sprinkle cilantro leaves. ",
-        "Note: Prepare kachori of green peas or of any other vegetable or coconut and add in ",
-        "boiling curry."
+        "Note: Prepare kachori of green peas or of any other vegetable or coconut and add in boiling curry."
       ],
       "category_id": "goan-recipes",
       "id": "guajrati-dal-dhokali-recipe"
@@ -7654,11 +7303,9 @@ const dataset = {
       "preparation": [
         "Beat the curd and add two cups of water. Add the besan, salt, turmeric powder and mix well.",
         "Make a paste of ginger, chillies, cinnamon and corainder leaves. ",
-        "Boil the curd mixture on slow heat and stir constinuosly. Add the ground paste, and ",
-        "boil again. ",
+        "Boil the curd mixture on slow heat and stir constinuosly. Add the ground paste, and boil again. ",
         "Heat oil in a pan, add all seasonings. Fry until they splutter. ",
-        "Pour this seasonings over guajarati kadhi. Garnish with corainder leaves and serve hot ",
-        "with rice. "
+        "Pour this seasonings over guajarati kadhi. Garnish with corainder leaves and serve hot with rice. "
       ],
       "category_id": "goan-recipes",
       "id": "gujarati-kadhi-recipe"
@@ -7683,14 +7330,10 @@ const dataset = {
         "Mix the rice and dal, wash, drain and dry on a clean cloth for a few hours.",
         "The grain should be completely. Grind to a coarse flour in dry grinder or at the flour mill. ",
         "This flour should be like very fine soji in texture. ",
-        "Store in airtight container and use as required. Will keep good upto 2 months. To ",
-        "make khaman, take 1 cup flour in a bowl. ",
-        "Add buttermilk, and mix well. Keep- aside for 4-5 hours. Dissolve sodabicarb in the oil. Add ",
-        "to batter. ",
-        "Mix all ingredients except red chilli powder and coriander. Pour immediately in a 6\" ",
-        "diam. greased plate.",
-        "Steam over water either in a cooker or steamer. Pierce knife, and check, should come ",
-        "out clean if done.",
+        "Store in airtight container and use as required. Will keep good upto 2 months. To make khaman, take 1 cup flour in a bowl. ",
+        "Add buttermilk, and mix well. Keep- aside for 4-5 hours. Dissolve sodabicarb in the oil. Add to batter. ",
+        "Mix all ingredients except red chilli powder and coriander. Pour immediately in a 6\" diam. greased plate.",
+        "Steam over water either in a cooker or steamer. Pierce knife, and check, should come out clean if done.",
         "Sprinkle the chilli powder and coriander, steam again for 2-3 minutes.",
         "Cut dhaman dhokla into squares or diamonds and serve hot with coconut chutney. "
       ],
@@ -7718,10 +7361,8 @@ const dataset = {
       ],
       "preparation": [
         "Mix water, flour, salt and turmeric to form a batter. Heat oil in a heavy pan, add batter. ",
-        "Stir vigorously and evenly to avoid lump formation. Cook till the mixture does not taste ",
-        "raw, stirring continuously. When done (about 7-8 minutes), pour a ladleful in a large plate.",
-        "Spread as thin as possible with the back of a large flat spoon. Use circular ",
-        "outward movements as for dosas. ",
+        "Stir vigorously and evenly to avoid lump formation. Cook till the mixture does not taste raw, stirring continuously. When done (about 7-8 minutes), pour a ladleful in a large plate.",
+        "Spread as thin as possible with the back of a large flat spoon. Use circular outward movements as for dosas. ",
         "When cool, cut into 2\" wide strips. Carefully roll each strip, repeat for all plates.",
         "Place in a serving dish. For seasoning: Sprinkle coconut and coriander all over khandvi rolls.",
         "Heat oil in a small pan. Add cumin, asafoetida, curry leaves and chillies. ",
@@ -7750,12 +7391,9 @@ const dataset = {
       ],
       "preparation": [
         "Wash and soak the moong dal and rice together. Drain.",
-        "In a bowl, mix the dal and rice with the turmeric powder, peppercorns, 4 1/2 cups of ",
-        "water and salt.",
-        "Pressure cook for 3 to 4 whistles and set aside for 20 minutes till the steam has ",
-        "been released.",
-        "Remove from the pressure cooker, add the ghee and mix well.Serve khichu hot with ",
-        "kadhi and papad."
+        "In a bowl, mix the dal and rice with the turmeric powder, peppercorns, 4 1/2 cups of water and salt.",
+        "Pressure cook for 3 to 4 whistles and set aside for 20 minutes till the steam has been released.",
+        "Remove from the pressure cooker, add the ghee and mix well.Serve khichu hot with kadhi and papad."
       ],
       "category_id": "goan-recipes",
       "id": "gujarati-khichu-recipe"
@@ -7801,8 +7439,7 @@ const dataset = {
         "Mix in a pinch of salt and milk and prepare dough.",
         "Smoothen and knead the dough well for 15 minutes.",
         "Make small balls and keep covered.",
-        "Prepare a smooth mixture of poppy seeds, desiccated coconut, ground dates, ",
-        "green cardamom powder and sugar.",
+        "Prepare a smooth mixture of poppy seeds, desiccated coconut, ground dates, green cardamom powder and sugar.",
         "Make small balls of even size.",
         "Roll out maida balls into small rounds.",
         "Put the date stuffing on one side, fold to look like semi circle and seal the edges.",
@@ -7838,8 +7475,7 @@ const dataset = {
         "Wash the lentils and bring them to boil in 200 ml water, then simmer.",
         "When nearly done, mix in turmeric, tamarind water, green chillies, jaggery, peanuts and salt.",
         "Simmer (boil slowly at low temperature) until dal is cooked.",
-        "Heat up the oil in a small pan, mix in the mustard seeds when they crackle, mix in ",
-        "cumin seeds, asafoetida, fenugreek seeds and curry leaves.",
+        "Heat up the oil in a small pan, mix in the mustard seeds when they crackle, mix in cumin seeds, asafoetida, fenugreek seeds and curry leaves.",
         "Take off the heat up after a minute and pour out the oil and spices into the dal.",
         "Serve hot decorated with coriander leaves."
       ],
@@ -7942,8 +7578,7 @@ const dataset = {
         "Take off and grate the mangoes.",
         "Combine the grated mangos with rest of the ingredients evenly.",
         "Spread the mixture in a shallow wide mouthed jar and cover with a thin cloth.",
-        "Keep the mixture in the sun for 5 days till the syrup attains a single thread ",
-        "consistency, stirring thrice daily.",
+        "Keep the mixture in the sun for 5 days till the syrup attains a single thread consistency, stirring thrice daily.",
         "This pickle lasts for a very long time."
       ],
       "category_id": "goan-recipes",
@@ -7975,8 +7610,7 @@ const dataset = {
         "Heat up salt slightly in a dry pot on low heat.",
         "Take it off and in the same pan, heat up red chilli powder similarly.",
         "Mix in both these ingredients to the oil masala.",
-        "Mix in the gunda and the mango pieces cubes to the masala mixture and mix till all of ",
-        "them are well coated with the masala.",
+        "Mix in the gunda and the mango pieces cubes to the masala mixture and mix till all of them are well coated with the masala.",
         "Transfer into a dry ceramic or a glass jar.",
         "Set it aside for 4 â€“ 5 days without mixing.",
         "Heat up enough oil to completely cover the pickled gunda and mango cubes.",
@@ -8022,11 +7656,9 @@ const dataset = {
         "Pistachios and Almonds "
       ],
       "preparation": [
-        "Hang the curds in a muslin cloth in a cool place for approximately 3 hours until all the ",
-        "liquid (whey) has drained off.",
+        "Hang the curds in a muslin cloth in a cool place for approximately 3 hours until all the liquid (whey) has drained off.",
         "Rub the saffron into the warm milk until it dissolves.",
-        "Mix together the hung curds, sugar, saffron mixture and cardamom in a bowl and churn ",
-        "using a hand blender.",
+        "Mix together the hung curds, sugar, saffron mixture and cardamom in a bowl and churn using a hand blender.",
         "Place in the refrigerator.",
         "Serve gujarati shrikhand cold garnished with slivers of pistachios and almonds. "
       ],
@@ -8061,8 +7693,7 @@ const dataset = {
         "Heat oil in a pan, add the seasonings. Fry until they turn brown. ",
         "Add chopped ginger, garlic, chillies and fry for 4-5 minutes. ",
         "Add onions and tomatoes, salt, turmeric powder and cook until done. ",
-        "Mash the dals. Add the dals with 2 cups of water. Simmer the flame and let the dal boil ",
-        "for few minutes. ",
+        "Mash the dals. Add the dals with 2 cups of water. Simmer the flame and let the dal boil for few minutes. ",
         "Add the lemon juice, corainder leaves and stir well. ",
         "Serve hot with rice and papads. "
       ],
@@ -8088,8 +7719,7 @@ const dataset = {
         "Pressure cook tuvar dal with sufficient water and turmeric powder. ",
         "Mash the dal, after it has been cooked. ",
         "Chop the garlic cloves finely. ",
-        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they ",
-        "pop up. ",
+        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they pop up. ",
         "Add the dal with 2 cups of water and salt. ",
         "Cook until the toor daal boils, then add jaggery. Cook for 4-5 minutes more.",
         "When the tuvar dal is cooled add lemon juice and serve. "
@@ -8119,8 +7749,7 @@ const dataset = {
         "Heat oil in a pan, add the tomatoes, salt, turmeric powder and cook for 4-5 minutes. ",
         "Add the potatoes, eggplant, all the dry masalas, sugar, 3 cups of water and mix well. ",
         "Cover with a lid and simmer the heat. Cook until the vegetables are done. ",
-        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot ",
-        "with chapati or rice."
+        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot with chapati or rice."
       ],
       "category_id": "goan-recipes",
       "id": "vangi-batata-bhaji-recipe"
@@ -8147,8 +7776,7 @@ const dataset = {
         "Wash and drain the rice. Keep aside. ",
         "Heat the ghee in a cooker, add the cloves, cinnamon, cumin seeds and fry for 2-3 minutes.",
         "Add the asafoetida, vegetables and salt and stir for few minutes ",
-        "Add the turmeric powder, chilli powder, garam masala and rice and stir again for 5 ",
-        "minutes till it is evenly mixed.",
+        "Add the turmeric powder, chilli powder, garam masala and rice and stir again for 5 minutes till it is evenly mixed.",
         "Add 3 cups of hot water, cover the lid. Cook using the weight.",
         "Serve vargharelo bhaat hot with kadhi and papad. "
       ],
@@ -8213,8 +7841,7 @@ const dataset = {
         "Heat up 2 tblsp of oil in a kadhai, mix in cumin seeds and stir fry till they crackle.",
         "Mix in cut garlic and stir fry for a while, but do not let it brown.",
         "Then mix in gram flour and stir fry for another five minutes on a slow heat.",
-        "Mix in coriander powder, garam masala powder, red chilli powder, turmeric powder and ",
-        "stir fry for one minute.",
+        "Mix in coriander powder, garam masala powder, red chilli powder, turmeric powder and stir fry for one minute.",
         "Take off the kadhai from heat up and mix in yogurt, a little water.",
         "Mix and stir fry again.",
         "Mix in half the cut coriander and the fried potatoes.",
@@ -8250,8 +7877,7 @@ const dataset = {
         "Mix in rice.",
         "Stir fry for few minutes.",
         "Mix in four cup of boiling water.",
-        "Lower the heat up to simmer (boil slowly at low temperature) and stir fry until all the ",
-        "water has been absorbed.",
+        "Lower the heat up to simmer (boil slowly at low temperature) and stir fry until all the water has been absorbed.",
         "Serve hot, decorated with cut coriander and cut green garlic."
       ],
       "category_id": "goan-recipes",
@@ -8286,8 +7912,7 @@ const dataset = {
         "Stir fry for few seconds and mix in cut tomatoes.",
         "When tomatoes are cooked mix in corn, salt and little water.",
         "Stir fry for another 5-10 minutes.",
-        "Serve hot decorated with cut coriander.",
-        ""
+        "Serve hot decorated with cut coriander."
       ],
       "category_id": "goan-recipes",
       "id": "makai-na-bharta-recipe"
@@ -8313,8 +7938,7 @@ const dataset = {
         "Break the supari into coarse pieces.",
         "Heat up the ghee and stir fry the supari till golden.",
         "Take off and mix with the rest of the ingredients.",
-        "Cool and serve.",
-        ""
+        "Cool and serve."
       ],
       "category_id": "goan-recipes",
       "id": "masala-supari-recipe"
@@ -8380,8 +8004,7 @@ const dataset = {
         "Put the rest of the vegetables in layers one on top of the other.",
         "Sprinkle salt and turmeric powder.",
         "Stir fry for five minutes on high flame heat.",
-        "Pour out one cup of water, cover and simmer (boil slowly at low temperature) on a very ",
-        "low heat up for 10-15 minutes.",
+        "Pour out one cup of water, cover and simmer (boil slowly at low temperature) on a very low heat up for 10-15 minutes.",
         "Mix in fried muthiyas and again simmer (boil slowly at low temperature) for 15 minutes.",
         "Shake the vegetables occasionally but do not use a spoon to stir.",
         "Serve hot decorated with scraped coconut."
@@ -8407,8 +8030,7 @@ const dataset = {
       ],
       "preparation": [
         "Clean and cut the paaya into three pieces.",
-        "Tie the coriander seeds, cumin seeds, bay leaves, dagad phool, cinnamon, cloves, pepper ",
-        "and cardamoms in a small muslin cloth and secure the ends to form a small pouch.",
+        "Tie the coriander seeds, cumin seeds, bay leaves, dagad phool, cinnamon, cloves, pepper and cardamoms in a small muslin cloth and secure the ends to form a small pouch.",
         "Add enough water to the paaya and place over heat.",
         "Add the chopped onions and the spice pouch along with salt as per taste.",
         "Cook the gravy on slow fire, preferably over charcoal for 4 to 5 hours.",
@@ -8431,21 +8053,16 @@ const dataset = {
         "Cloves 8 nos"
       ],
       "preparation": [
-        "Wash and soak the rice for half hour. Then boil with salt and half the whole garam masala ",
-        "till almost done.",
-        "Wash and soak the chana dal for half an hour. Boil with salt, a little turmeric powder till ",
-        "just cooked (al dente).",
+        "Wash and soak the rice for half hour. Then boil with salt and half the whole garam masala till almost done.",
+        "Wash and soak the chana dal for half an hour. Boil with salt, a little turmeric powder till just cooked (al dente).",
         "Heat oil, add the remaining cinnamon, green cardamom, cloves and saute.",
         "Add shahi jeera and when they crackle add ginger and garlic pastes and saute.",
         "Add chopped green chillies and a little browned onions.",
-        "Add the cooked dal, garam masala powder, finely chopped coriander leaves and stir to ",
-        "mix well.",
+        "Add the cooked dal, garam masala powder, finely chopped coriander leaves and stir to mix well.",
         "Add turmeric powder, stir and take it off heat. Add yogurt and mix well.",
         "Transfer half of the dal mixture into another pan.",
-        "Spread half the rice over the dal mix, spread browned onions, garam masala ",
-        "powder, chopped mint leaves, lemon juice, saffron dissolved in water or milk.",
-        "Spread the remaining dal over this followed by rice, browned onions, garam masala ",
-        "powder, chopped mint leaves, lemon juice and saffron.",
+        "Spread half the rice over the dal mix, spread browned onions, garam masala powder, chopped mint leaves, lemon juice, saffron dissolved in water or milk.",
+        "Spread the remaining dal over this followed by rice, browned onions, garam masala powder, chopped mint leaves, lemon juice and saffron.",
         "Cover with a tight fitting lid. After 2-3 minutes lower the heat and let it cook till done."
       ],
       "category_id": "hyderabadi-recipes",
@@ -8471,8 +8088,7 @@ const dataset = {
         "Peel and slice onions. Chop tomatoes, de-seed and chop green chillies.",
         "Soak tamarind in lukewarm water for 15 minutes and squeeze out the pulp.",
         "Boil Arbi in salted water till tender, peel, slice the bigger ones into two pieces if desired.",
-        "Heat oil in a pan and sauté onions till golden brown. Add curry leaves, chopped chillies, ",
-        "ginger garlic paste and sauté for a few minutes.",
+        "Heat oil in a pan and sauté onions till golden brown. Add curry leaves, chopped chillies, ginger garlic paste and sauté for a few minutes.",
         "Add turmeric, red chilli powder and sauté for 3-4 minutes on a low heat.",
         "Add chopped tomatoes and cook till the tomatoes are completely mashed.",
         "Add the arbi and cook for 2 minutes pour one cup of water and salt, cook for2-3 minutes.",
@@ -8500,10 +8116,8 @@ const dataset = {
       "preparation": [
         "Wash and chop the tomatoes.",
         "Remove the seeds and chop the dates.",
-        "Heat oil in a pan and add mustard seeds. When they crackle, add chopped tomatoes, ",
-        "chopped green chilli and salt. Mix.",
-        "Add chopped dates and ½ cup of water. Add roasted cumin seed powder, raisins and cook ",
-        "for 5 minutes.",
+        "Heat oil in a pan and add mustard seeds. When they crackle, add chopped tomatoes, chopped green chilli and salt. Mix.",
+        "Add chopped dates and ½ cup of water. Add roasted cumin seed powder, raisins and cook for 5 minutes.",
         "Mash the tomatoes a little, add grated jaggery and sugar. Add a little water if required. ",
         "Cook till the jaggery has dissolved and blended well with the tomatoes."
       ],
@@ -8534,15 +8148,12 @@ const dataset = {
         "As per taste Salt"
       ],
       "preparation": [
-        "Rub turmeric, ginger, garlic and salt mixed with juice of 1 lemon on the prawns, leave ",
-        "aside for 1 hour.",
+        "Rub turmeric, ginger, garlic and salt mixed with juice of 1 lemon on the prawns, leave aside for 1 hour.",
         "Fry in hot oil the red chillies, fenugreek seeds, garlic and mustard seeds till they darken.",
         "Lower the flame to prevent burning.",
         "Add onions and fry till they are golden brown in colour.",
-        "Add cumin powder and stir, then add marinated prawns and stir-fry. Add green chillies ",
-        "and mix well.",
-        "Add tomato puree and cook on a low flame till the puree is cooked and oil leaves the sides ",
-        "of the pan.",
+        "Add cumin powder and stir, then add marinated prawns and stir-fry. Add green chillies and mix well.",
+        "Add tomato puree and cook on a low flame till the puree is cooked and oil leaves the sides of the pan.",
         "Add sugar dissolved in a tblsp of water, salt and mix.",
         "Before serving take a spoonful of oil from the gravy and heat it in separate frying pan.",
         "Add cumin seeds and fry till they are just brown.",
@@ -8574,8 +8185,7 @@ const dataset = {
         "Green Chillies 6"
       ],
       "preparation": [
-        "Clean the potatoes, french beans and broadbeans and cut into diamond shapes. Trim ",
-        "the brinjal top and slit into two.",
+        "Clean the potatoes, french beans and broadbeans and cut into diamond shapes. Trim the brinjal top and slit into two.",
         "Wash and chop fresh fenugreek leaves. Clean and chop coriander leaves.",
         "Slice onions. De-seed green chillies and chop.",
         "Heat oil in a cooking vessel, add sliced onions and lightly brown.",
@@ -8622,12 +8232,9 @@ const dataset = {
       "preparation": [
         "Wash, peel and cut all the vegetables into equal sized dices. Peel and chop the onion. ",
         "Wash and puree the tomatoes.",
-        "Heat two tablespoons oil and fry the paste ingredients till light brown, cool and grind to ",
-        "a paste with little water.",
-        "Wash and chop the coriander leaves. Boil the potatoes, cauliflower and carrots till half done ",
-        "in salted water. Drain and keep.",
-        "Heat oil and add the onion and fry till golden brown. Wash and add the curry leaves ",
-        "and masala paste. Fry till the oil separates.",
+        "Heat two tablespoons oil and fry the paste ingredients till light brown, cool and grind to a paste with little water.",
+        "Wash and chop the coriander leaves. Boil the potatoes, cauliflower and carrots till half done in salted water. Drain and keep.",
+        "Heat oil and add the onion and fry till golden brown. Wash and add the curry leaves and masala paste. Fry till the oil separates.",
         "Add the vegetables and continue stirring. Pour the tomato puree and bring to boil.",
         "Add two cups water and simmer till the vegetables are cooked and the gravy is thick.",
         "Sprinkle the garam masala, stir well and serve hot."
@@ -8688,11 +8295,8 @@ const dataset = {
         "Discard the residue and set aside.",
         "Wash the brinjals, make 2 inch slits along the length ensuring that the end is intact.",
         "Roast the onions on a griddle till they soften and turn light golden brown.",
-        "Dry roast together on medium heat the coriander seeds, sesame seeds, peanuts, ",
-        "cumin seeds, poppy seeds, dessicated coconut and the fenugreek seeds till they ",
-        "darken slighly and start emitting an aroma.",
-        "Grind together the onions, roasted spices, ginger, garlic, salt, turmeric powder, red ",
-        "chilli powder and jaggery to a fine paste.",
+        "Dry roast together on medium heat the coriander seeds, sesame seeds, peanuts, cumin seeds, poppy seeds, dessicated coconut and the fenugreek seeds till they darken slighly and start emitting an aroma.",
+        "Grind together the onions, roasted spices, ginger, garlic, salt, turmeric powder, red chilli powder and jaggery to a fine paste.",
         "Mix in the tamaind water.",
         "Keep aside some of this mixture and stuff the brinjals with the remaining mixture.",
         "Heat oil, add the curry leaves and saute for a few minutes.",
@@ -8724,8 +8328,7 @@ const dataset = {
       ],
       "preparation": [
         "Bring the daal to boil in the water and simmer until soft and mushy. ",
-        "Heat the oil in a pan and add mustard seeds, as soon as they pop, add the asafoetida, ",
-        "cumin seeds, turmeric powder, chilies and curry leaves. ",
+        "Heat the oil in a pan and add mustard seeds, as soon as they pop, add the asafoetida, cumin seeds, turmeric powder, chilies and curry leaves. ",
         "Saute for a minute and add the cooked dal. ",
         "Bring to boil and add the tomatoes, salt and coriander leaves. ",
         "Remove from the heat. ",
@@ -8763,8 +8366,7 @@ const dataset = {
         "Grind the mixture to a paste using blender. ",
         "Add little water if needed. ",
         "Slit each eggplant lengthwise into four, keeping the stem end intact. ",
-        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews ",
-        "and turmeric powder. ",
+        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews and turmeric powder. ",
         "Stuff the eggplants with this mixture, reserving some. ",
         "Roll the potatoes in the remaining mixture. ",
         "Heat the remaining oil in a pan and add the vegetables. ",
@@ -8803,25 +8405,19 @@ const dataset = {
         "Heat oil or ghee in a kadhai or deep-frying pan over a moderate heat. ",
         "Place the peanuts in a wire-mesh sieve and lower it into the oil. ",
         "Fry until golden brown, lift out the sieve, and transfer the nuts to paper towels to drain. ",
-        "In separate batches, fry the cashews, almonds, pistachios, pumpkin seeds and pine nuts ",
-        "until golden brown, and drain on paper towels. ",
+        "In separate batches, fry the cashews, almonds, pistachios, pumpkin seeds and pine nuts until golden brown, and drain on paper towels. ",
         "Pat the nuts dry with more paper towels, bolt off any excess oil. ",
         "Transfer all the nuts to a bowl. ",
-        "Raise the heat of the oil and place the green chilies in the sieve and lower it into the oil ",
-        "and fry until crisp. ",
+        "Raise the heat of the oil and place the green chilies in the sieve and lower it into the oil and fry until crisp. ",
         "Lift out the sieve and transfer the chilies to the paper towels to drain. ",
-        "Add the fennel seeds, curry leaves and fresh coriander to the sieve and fry in the same ",
-        "way until the leaves are dark green and crisp. ",
+        "Add the fennel seeds, curry leaves and fresh coriander to the sieve and fry in the same way until the leaves are dark green and crisp. ",
         "Drain on paper towels. ",
-        "Now add half of flat rice to the sieve, lower it into the oil and fry for 1 minute or until ",
-        "the frothing oil subsides and poha floats. ",
+        "Now add half of flat rice to the sieve, lower it into the oil and fry for 1 minute or until the frothing oil subsides and poha floats. ",
         "It should not brown only turn golden yellow. ",
         "Fry the remaining flat rice dry on paper towel, blot all the excess oil. ",
         "Add the flat rice to the nuts bowl and toss to mix. ",
-        "Combine the raisins, currants and dates in a bowl and add the salt , sugar & spices in ",
-        "another bowl. ",
-        "Sprinkle 1/2 of the spice mixture into the dried fruit and the remaining into the nuts, ",
-        "toss well. ",
+        "Combine the raisins, currants and dates in a bowl and add the salt , sugar & spices in another bowl. ",
+        "Sprinkle 1/2 of the spice mixture into the dried fruit and the remaining into the nuts, toss well. ",
         "Finally, combine all the ingredients and toss to mix. ",
         "Cool to room temperature and store in an air tight container. ",
         "Keeps well upto 2 months. "
@@ -8846,8 +8442,7 @@ const dataset = {
         "4 tblsp Oil "
       ],
       "preparation": [
-        "Heat a heavy bottom pan and gram flour, roast it constantly stirring to avoid ",
-        "lumps formation, on a moderate heat. ",
+        "Heat a heavy bottom pan and gram flour, roast it constantly stirring to avoid lumps formation, on a moderate heat. ",
         "As soon as the smell and color changes, remove it from the heat. ",
         "Heat oil in another pan and add mustard seeds, allow them to pop. ",
         "Add cumin seeds, asafoetida and curry leaves. ",
@@ -8896,8 +8491,7 @@ const dataset = {
         "Add chopped tomatoes and stir and take off from the heat. ",
         "Allow to cool. ",
         "Grind the mixture in a processor. ",
-        "Heat the remaining oil and add marinaded lamb pieces and marinade mixture and add ",
-        "little water, cover and cook until done. ",
+        "Heat the remaining oil and add marinaded lamb pieces and marinade mixture and add little water, cover and cook until done. ",
         "Now add the grinded mixture and simmer for 5-6 minutes. ",
         "Remove from the heat. ",
         "Serve hot with boiled rice. "
@@ -9013,14 +8607,12 @@ const dataset = {
         "Simmer the lentils in double their quantity of water until soft. ",
         "Add all the spices, coconut, jaggery and salt. ",
         "Simmer for a minute and remove from the heat. ",
-        "Heat oil in separate pan and add mustard seeds, allow them to pop and then add ",
-        "cumin seeds, asafoetida and curry leaves. ",
+        "Heat oil in separate pan and add mustard seeds, allow them to pop and then add cumin seeds, asafoetida and curry leaves. ",
         "Stir for few seconds. ",
         "Pour this over the cooked lentil, mix well. ",
         "Serve hot, garnished with chopped coriander leaves. ",
         "Goes well with boiled rice. ",
-        "Serve hot with tamarind chutney. ",
-        null
+        "Serve hot with tamarind chutney. "
       ],
       "category_id": "maharashtrian-recipes",
       "id": "puneri-daal-recipe"
@@ -9041,19 +8633,15 @@ const dataset = {
       "preparation": [
         "Wash the chana daal and cook with a little or just enough water. ",
         "Drain out the extra water. ",
-        "Add sugar or jaggery to the cooked daal and cook on low heat until the mixture ",
-        "becomes thick. ",
+        "Add sugar or jaggery to the cooked daal and cook on low heat until the mixture becomes thick. ",
         "Remove from heat and pass it through a sieve while still hot. ",
         "Add grated nutmeg and cardamom powder. ",
         "Stir well and remove from heat and keep aside to cool. ",
         "Mix the wheat flour, flour, oil and enough water knead into a smooth dough. ",
         "Keep it aside for an hour or two. ",
-        "Divide the gram daal mixture into ping pong sized balls and the flour dough into ",
-        "slightly smaller balls and roll them out a little. ",
-        "Place the gram daal ball in the centre of the rolled flour dough and close it to cover the ",
-        "filling completely. ",
-        "Roll out into a chapati and bake on a non stick tawa till done on both sides, adding a ",
-        "little ghee around. ",
+        "Divide the gram daal mixture into ping pong sized balls and the flour dough into slightly smaller balls and roll them out a little. ",
+        "Place the gram daal ball in the centre of the rolled flour dough and close it to cover the filling completely. ",
+        "Roll out into a chapati and bake on a non stick tawa till done on both sides, adding a little ghee around. ",
         "Fry till done. ",
         "Serve hot with pure ghee. "
       ],
@@ -9115,8 +8703,7 @@ const dataset = {
         "Don't cook in a pressure cooker. ",
         "Drain it. ",
         "Heat the oil and add cumin seeds and fry till brown. ",
-        "Add onions and fry for a minute, then add ginger, garlic, green chilies and sautÃ© for ",
-        "few seconds. ",
+        "Add onions and fry for a minute, then add ginger, garlic, green chilies and sautÃ© for few seconds. ",
         "Now add chopped tomatoes, turmeric, chili powder and coriander and fry. ",
         "Add potatoes, drained sprouts and salt, mix well. ",
         "Pour lemon juice. ",
@@ -9176,8 +8763,7 @@ const dataset = {
         "Drain and set aside. ",
         "Heat the oil and saute the mustard seeds with the asafoetida. ",
         "When the seeds start to pop add the onions and fry till golden. ",
-        "Add the val , eggplant, all spices and salt, mix well and add little water and cook until ",
-        "the beans are soft but not mushy. ",
+        "Add the val , eggplant, all spices and salt, mix well and add little water and cook until the beans are soft but not mushy. ",
         "Cook over high heat to dry the water. ",
         "Remove from heat and add coconut and drumsticks. ",
         "Stir gently and serve hot. "
@@ -9220,12 +8806,10 @@ const dataset = {
         "Add salt and 2 tbsp oil to maida. Add water and make a soft dough. Soak chana dal for ",
         "6 hours.",
         "Boil it in a pressure cooker with a glassful of water. Wait for 1 whistle. Turn off the gas.",
-        "Drain away the water and grind the dal. Heat 2 tbsp oil in a kadahi. Add dal paste and roast ",
-        "it for 3-4 minutes.",
+        "Drain away the water and grind the dal. Heat 2 tbsp oil in a kadahi. Add dal paste and roast it for 3-4 minutes.",
         "Add all the masala powder. When it cools down stuff this paste into maida balls. ",
         "The paranthas should be as thin as a papad. ",
-        "Make soft paranthas an hour before serving. Serve chana dal paratha with aloo dum , ",
-        "raita and chutney."
+        "Make soft paranthas an hour before serving. Serve chana dal paratha with aloo dum , raita and chutney."
       ],
       "category_id": "rajasthani-recipe",
       "id": "chana-dal-paratha-recipe"
@@ -9247,10 +8831,8 @@ const dataset = {
         "Heat the rest of the ghee in a kadahi. Make about 15-20 balls with the dough.",
         "Fry it on low flame till it becomes golden brown. Churn it in grinder after it cools down. ",
         "Mix khoya. Heat 1 tbsp. ghee in kadahi. ",
-        "Add cardamom seeds and dalchini. Add the above mixture of wheat flour and khoya. Fry it ",
-        "for one minute. When it cools down, add sugar and chopped almonds.",
-        "Mix well. Serve churma laddoo in a plate. You can enjoy the taste of choorma for 8-10 days ",
-        "if you keep it in an airtight box. To be served with Dal and Baati. "
+        "Add cardamom seeds and dalchini. Add the above mixture of wheat flour and khoya. Fry it for one minute. When it cools down, add sugar and chopped almonds.",
+        "Mix well. Serve churma laddoo in a plate. You can enjoy the taste of choorma for 8-10 days if you keep it in an airtight box. To be served with Dal and Baati. "
       ],
       "category_id": "rajasthani-recipe",
       "id": "rajasthani-churma-laddoo-recipe"
@@ -9284,13 +8866,9 @@ const dataset = {
       "preparation": [
         "Pressure cook rajma and black gram till it becomes soft. Heat 4 tbsps oil. Add onions. ",
         "Brown them. ",
-        "Add ginger-garlic paste and tomatoes. Fry. Add all the masalas, beans and salt.Simmer ",
-        "till well blended. The gravy should be thick. Pour over cream and ghee. Knead a soft ",
-        "dough with flour, ghee, curd, salt and just enough water.",
-        "Roll into lemon-sized balls. Cover and keep for one hour. Then roast in batches on hot ",
-        "coals till puffed and golden outside and spongy inside. Keep hot.",
-        "Garnish the daal with coriander leaves and slit green chillies. Dip hot (baati) dumplings in ",
-        "the daal while eating. "
+        "Add ginger-garlic paste and tomatoes. Fry. Add all the masalas, beans and salt.Simmer till well blended. The gravy should be thick. Pour over cream and ghee. Knead a soft dough with flour, ghee, curd, salt and just enough water.",
+        "Roll into lemon-sized balls. Cover and keep for one hour. Then roast in batches on hot coals till puffed and golden outside and spongy inside. Keep hot.",
+        "Garnish the daal with coriander leaves and slit green chillies. Dip hot (baati) dumplings in the daal while eating. "
       ],
       "category_id": "rajasthani-recipe",
       "id": "rajasthani-daal-bati-puffed-dough-dumplings-with-lentil-curry-"
@@ -9309,6 +8887,7 @@ const dataset = {
         "Syrup:",
         "1 1/2 cups Sugar  ",
         "1 cup Water",
+        " ",
         "Topping:",
         "1 tsp Cardamom Powder  ",
         "1 tbsp Almonds chopped  ",
@@ -9334,8 +8913,7 @@ const dataset = {
         "Keep sugar syrup in a wide flat bottomed container to fit in ghevar. ",
         "Dip ghevar in it, and remove, keep aside on mesh to drain excess syrup .",
         "Cool a little, top with silver foil. ",
-        "Splash a few drops of saffron milk, sprinkle some chopped dryfruit and a few pinches ",
-        "of cardamom powder. ",
+        "Splash a few drops of saffron milk, sprinkle some chopped dryfruit and a few pinches of cardamom powder. ",
         "Ghevar is ready to be served."
       ],
       "category_id": "rajasthani-recipe",
@@ -9364,16 +8942,13 @@ const dataset = {
         "1 bay leaf"
       ],
       "preparation": [
-        "Cream curd, mix in besan and salt, red chilli powder, coriander powder and turmeric ",
-        "powder to it.",
+        "Cream curd, mix in besan and salt, red chilli powder, coriander powder and turmeric powder to it.",
         "Peel, wash and cut potatoes into 1 centimeter cubes.",
         "Keep aside in water.",
         "Dry roast mangodi on hot tawa until crunchy and slightly browned.",
-        "Heat up oil, mix in brown bay leaf, cumin seeds, coriander seeds, whole red chillies and ",
-        "salt and cook.",
+        "Heat up oil, mix in brown bay leaf, cumin seeds, coriander seeds, whole red chillies and salt and cook.",
         "Mix in potatoes and stir fry stirring constantly until golden brown.",
-        "Mix in ginger paste, mangodi, tomato puree and yogurt mixture, mix in 1 cup of water ",
-        "and mix well.",
+        "Mix in ginger paste, mangodi, tomato puree and yogurt mixture, mix in 1 cup of water and mix well.",
         "Mix in garam masala powder and cut coriander leaves.",
         "Stir fry for a further few minutes and serve hot."
       ],
@@ -9400,13 +8975,10 @@ const dataset = {
         "Clean and wash the chicken, cut into big size pieces.",
         "Take off garlic.",
         "Soak red chillies in lukewarm water for 1/2 an hour.",
-        "Grind everything garlic, red chillies, cloves, green cardamoms, cinnamon and turmeric ",
-        "powder to a fine paste.",
+        "Grind everything garlic, red chillies, cloves, green cardamoms, cinnamon and turmeric powder to a fine paste.",
         "Apply the prepared masala and salt to the chicken and keep it to marinate for 2 hours.",
-        "Heat up oil in a kadhai, mix in cumin seeds, when they crackle mix in the marinated ",
-        "chicken and stir fry on high flame heat.",
-        "When all the moisture has evaporated, mix in beaten yogurt, mix in a little water ",
-        "and continue cooking on high flame heat.",
+        "Heat up oil in a kadhai, mix in cumin seeds, when they crackle mix in the marinated chicken and stir fry on high flame heat.",
+        "When all the moisture has evaporated, mix in beaten yogurt, mix in a little water and continue cooking on high flame heat.",
         "Stir fry till all moisture has evaporated and chicken has cooked.",
         "Adjust salt and stir fry till the masala coats the chicken.",
         "Serve hot, sprinkled with coriander leaves."
@@ -9442,11 +9014,9 @@ const dataset = {
         "Soak bengal gram overnight in 4 cup water.",
         "Drain, mix in 6 cup of water and pressure stir fry till done.",
         "Mash the grams slightly.",
-        "Heat up ghee and oil, mix in cumin seeds, when they crackle mix in the whole garam ",
-        "masala, fry for 1-2 minutes.",
+        "Heat up ghee and oil, mix in cumin seeds, when they crackle mix in the whole garam masala, fry for 1-2 minutes.",
         "Mix in asafoetida and choped green chillies, sautÃ©.",
-        "Mix yogurt, gram flour, 1 cup water and dry spices and mix in to the sautÃ©ed whole ",
-        "garam masala.",
+        "Mix yogurt, gram flour, 1 cup water and dry spices and mix in to the sautÃ©ed whole garam masala.",
         "Keep stirring till it boils.",
         "Mix in the grams along with the water they were boiled in.",
         "Mix in salt to taste.",
@@ -9498,13 +9068,10 @@ const dataset = {
         "Let the gattas cool a bit.",
         "Cut into 1\" pieces.",
         "Wash and soak rice for 1 hour.",
-        "Heat up ghee, mix in cumin seeds, when they crackle mix in whole garam masala, stir fry ",
-        "for a minute then mix in asafoetida powder.",
-        "Mix in turmeric powder, red chilli powder, garam masala, coriander powder and ginger ",
-        "paste, stir fry for 2-3 minutes.",
+        "Heat up ghee, mix in cumin seeds, when they crackle mix in whole garam masala, stir fry for a minute then mix in asafoetida powder.",
+        "Mix in turmeric powder, red chilli powder, garam masala, coriander powder and ginger paste, stir fry for 2-3 minutes.",
         "Mix in drained rice stir fry for 1 minute, mix in salt and 4 cup water.",
-        "When the water starts boiling mix in the gattas and peas, cover and stir fry till all water ",
-        "is absorbed and rice is done.",
+        "When the water starts boiling mix in the gattas and peas, cover and stir fry till all water is absorbed and rice is done.",
         "Serve hot."
       ],
       "category_id": "rajasthani-recipe",
@@ -9551,12 +9118,9 @@ const dataset = {
       ],
       "preparation": [
         "Soak rice in water for 2 hours. Drain. Heat the ghee and add the drained rice. Add milk.",
-        "Cover and cook on a low fire stirring occasionally but gently so that the rice grains do ",
-        "not break. ",
-        "As soon as the rice is cooked, add the cardamom and nutmeg powders, dry fruits, sugar ",
-        "and saffron. ",
-        "Mix well. Bake in a moderately hot oven till each grain is separate. Serve jaipuri mewa ",
-        "pulao hot as a sweet dish."
+        "Cover and cook on a low fire stirring occasionally but gently so that the rice grains do not break. ",
+        "As soon as the rice is cooked, add the cardamom and nutmeg powders, dry fruits, sugar and saffron. ",
+        "Mix well. Bake in a moderately hot oven till each grain is separate. Serve jaipuri mewa pulao hot as a sweet dish."
       ],
       "category_id": "rajasthani-recipe",
       "id": "fruit-pulao"
@@ -9594,8 +9158,7 @@ const dataset = {
         "1/2 tsp Ajwain "
       ],
       "preparation": [
-        "Mix the wheat flour and besan together. Add oil, salt, red chilly powder, dhaniya, jeera, ",
-        "kala jeera and ajwain. ",
+        "Mix the wheat flour and besan together. Add oil, salt, red chilly powder, dhaniya, jeera, kala jeera and ajwain. ",
         "Mix well. Make a stiff dough. Roll into small and thick rotis and roast.",
         "Brush missi roti slightly with melted ghee. Serve hot with Shahi Gatte."
       ],
@@ -9621,8 +9184,7 @@ const dataset = {
         "In the same ghee mix in rice and stir fry till rice starts separating.",
         "Dissolve saffron in warm water and keep aside.",
         "Mix in 11/2 cup of boiling water to the rice and mix in saffron water and let it cook.",
-        "When half done mix in sugar and continue to stir fry till all the water has been absorbed ",
-        "and the rice is cooked.",
+        "When half done mix in sugar and continue to stir fry till all the water has been absorbed and the rice is cooked.",
         "Finally mix in the cardamom powder and decorate it with fried dry fruits and sugar crystals.",
         "Serve hot."
       ],
@@ -9675,8 +9237,7 @@ const dataset = {
         "Mix in both the pastes.",
         "Mix in all ingredients except the ghee.",
         "Marinate the fish in this mixture for 30 minutes.",
-        "Skewer the fish pieces and stir fry on a barbecue or in an oven, basting in between with ",
-        "ghee, till golden brown.",
+        "Skewer the fish pieces and stir fry on a barbecue or in an oven, basting in between with ghee, till golden brown.",
         "Serve at once with green or garlic chutney and onion rings."
       ],
       "category_id": "rajasthani-recipe",
@@ -9708,8 +9269,7 @@ const dataset = {
         "Mix in salt and mix.",
         "Mix in milk and stir fry to get a creamy texture.",
         "When the corn is cooked, transfer to a round dish and cool.",
-        "Mix in grated paneer, cut onion, cut green chillies, cumin powder, amchur powder and ",
-        "cut coriander leaves.",
+        "Mix in grated paneer, cut onion, cut green chillies, cumin powder, amchur powder and cut coriander leaves.",
         "Adjust salt and mix well.",
         "Mix in besan for binding and mix in a little milk if the mixture is too thick.",
         "Make even sized balls with hand or tablespoon.",
@@ -9744,16 +9304,13 @@ const dataset = {
         "Keep 2 tblsp besan aside for kadhi.",
         "Mix remaining besan with baking powder, turmeric powder, red chilli powder and salt.",
         "Mix in water little at a time to make hard dough.",
-        "Knead well, rest it for 10 minutes and then divide into four equal portions, roll them ",
-        "in cylindrical shape and then boil in salted water until cooked.",
+        "Knead well, rest it for 10 minutes and then divide into four equal portions, roll them in cylindrical shape and then boil in salted water until cooked.",
         "Take off and cut into small pieces.",
         "Deep-fry these pieces in medium hot oil until lightly browned.",
         "Remove and leave aside.",
         "Mix remaining besan with curd thoroughly.",
-        "Heat up ghee, mix in coriander seeds, cumin seeds, green chillies, curry leaves and stir fry ",
-        "for a moment.",
-        "Mix in besan and curd mixture, red chilli powder, turmeric powder and stir fry on low ",
-        "heat, stirring continuously, for a few minutes.",
+        "Heat up ghee, mix in coriander seeds, cumin seeds, green chillies, curry leaves and stir fry for a moment.",
+        "Mix in besan and curd mixture, red chilli powder, turmeric powder and stir fry on low heat, stirring continuously, for a few minutes.",
         "Mix in water, adjust salt and stir fry until it returns to medium thick consistency.",
         "Mix in fried gatte, bring to a boil, top with cut green coriander leaves and serve hot."
       ],
@@ -9773,13 +9330,10 @@ const dataset = {
         "4-5 Currants"
       ],
       "preparation": [
-        "Soak moong dal for two hours and then grind it and keep aside. Heat ghee in a pan and ",
-        "put the moong dal in it.",
-        "Saute on low flame till it turns golden brown and leaves a distinct aroma. Remove from ",
-        "the flame and set aside.",
+        "Soak moong dal for two hours and then grind it and keep aside. Heat ghee in a pan and put the moong dal in it.",
+        "Saute on low flame till it turns golden brown and leaves a distinct aroma. Remove from the flame and set aside.",
         "Heat water in a pan, add sugar and boil the mixture till sugar melts.",
-        "Put the moong dal mixture in this sugar syrup and cook on a low flame till the dal and ",
-        "sugar blends well.",
+        "Put the moong dal mixture in this sugar syrup and cook on a low flame till the dal and sugar blends well.",
         "Remove moong dal ka halwa from the flame and decorate it with chopped dry fruits. Serve. "
       ],
       "category_id": "rajasthani-recipe",
@@ -9804,16 +9358,12 @@ const dataset = {
       ],
       "preparation": [
         "Soak the dal for 5-6 hours. Strain it and grind in a grinder. Strain the curd through a strainer. ",
-        "Add 1tsp salt, 1/2tsp. red chilly powder, 1/2 tsp. dhaniya, 2 tsp. mungdal paste and ",
-        "haldi. Mix well and keep aside.",
-        "Now take the dal and add 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya and ",
-        "soda. Mix well. ",
-        "Heat oil in a kadahi and fry pakories of small size to a golden brown color. Now heat oil in ",
-        "a kadahi and put the tadka of mustard seeds, hing and kari patta. ",
+        "Add 1tsp salt, 1/2tsp. red chilly powder, 1/2 tsp. dhaniya, 2 tsp. mungdal paste and haldi. Mix well and keep aside.",
+        "Now take the dal and add 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya and soda. Mix well. ",
+        "Heat oil in a kadahi and fry pakories of small size to a golden brown color. Now heat oil in a kadahi and put the tadka of mustard seeds, hing and kari patta. ",
         "Add the mixture of curd. Cook it for 10-15 minutes. Add the pakories and cook for3-",
         "4 minutes.",
-        "Finally put the tadka of red chilly powder on pakodi kadhi. Serve hot it with shahi gatte ",
-        "and missi roti."
+        "Finally put the tadka of red chilly powder on pakodi kadhi. Serve hot it with shahi gatte and missi roti."
       ],
       "category_id": "rajasthani-recipe",
       "id": "pakodi-ki-kadhi-recipe"
@@ -9871,13 +9421,11 @@ const dataset = {
         "Soak the sangar in haldi water for whole night. Put it in a pressure cooker and wait for ",
         "1 whistle.",
         "Turn off the gas. Strain the sangar through a strainer. Keep the strained water aside.",
-        "Heat mustard oil in a kadahi. Now give tadka by adding mustard (grounded), hing, jeera ",
-        "and sabut red chilly. ",
+        "Heat mustard oil in a kadahi. Now give tadka by adding mustard (grounded), hing, jeera and sabut red chilly. ",
         "When the tadka is ready add the masala paste. Add curd, sangar and soaked amchur. ",
         "( soak it for a 1/2 hour).",
         "Add to the kadahi. If required add the strained water. Cook it for 10-15 minutes.",
-        "You can enjoy this vegetable for 8-10 days if kept in a refrigerator. Serve sangri ki sabzi ",
-        "hot with dal ke parathe."
+        "You can enjoy this vegetable for 8-10 days if kept in a refrigerator. Serve sangri ki sabzi hot with dal ke parathe."
       ],
       "category_id": "rajasthani-recipe",
       "id": "sangri-ki-sabzi-recipe"
@@ -9896,17 +9444,13 @@ const dataset = {
         "1 pinch Haldi "
       ],
       "preparation": [
-        "Mix besan while adding 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya powder ",
-        "and ghee.",
+        "Mix besan while adding 1/2 tsp salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya powder and ghee.",
         "Make a stiff dough. Make 5-6 thin and long strips of the dough. ",
         "Put these strips in boiling water and cook for 5 minutes. Cut these gattas into small pieces.",
-        "Strain the curd through a strainer. Add 1/2 tsp. salt, 1/2 tsp red chilly powder, 1/2 ",
-        "tsp. dhaniya powder and haldi to the curd. Mix well.",
+        "Strain the curd through a strainer. Add 1/2 tsp. salt, 1/2 tsp red chilly powder, 1/2 tsp. dhaniya powder and haldi to the curd. Mix well.",
         "Add the gatta pieces. Heat oil in a kadahi. Put the tadka of jeera and add the curd mixture. ",
         "Cook it for 5-7 minutes while stirring continuously till it comes to a boil.",
-        "Simmer the flame and cook for another 5-7 minutes.Turn off the gas. Finally put the tadka ",
-        "of red chilly powder. Serve shahi gatta curry with missi roti and pakori ki kadhi.",
-        null
+        "Simmer the flame and cook for another 5-7 minutes.Turn off the gas. Finally put the tadka of red chilly powder. Serve shahi gatta curry with missi roti and pakori ki kadhi."
       ],
       "category_id": "rajasthani-recipe",
       "id": "rajasthani-gatta-curry-recipe"
@@ -9939,8 +9483,7 @@ const dataset = {
         "Drain, cool and cut into 1\" long pieces.",
         "Heat up oil to smoking point.",
         "Take off the heat up and cool slightly.",
-        "Heat up again, mix in asafoetida, mustard seeds and when the seeds crackle, mix in ",
-        "the gattes.",
+        "Heat up again, mix in asafoetida, mustard seeds and when the seeds crackle, mix in the gattes.",
         "SautÃ©.",
         "Mix in coriander powder, crushed red chillies, garam masala powder and amchur powder.",
         "Stir to mix well.",
@@ -9970,8 +9513,7 @@ const dataset = {
         "Roast the papads, one piece at a time.",
         "While they are still hot roll to make Â½\" diameter cylinders.",
         "Spoon in the stuffing carefully and serve immediately.",
-        "Alternatively apply little milk or water to the whole papad, put the mixture on one side ",
-        "and roll cylindrically, deep fry in hot oil and serve."
+        "Alternatively apply little milk or water to the whole papad, put the mixture on one side and roll cylindrically, deep fry in hot oil and serve."
       ],
       "category_id": "rajasthani-recipe",
       "id": "paneer-bhare-papad-recipe"
@@ -10033,12 +9575,10 @@ const dataset = {
       "preparation": [
         "Wash and wipe the ladyfingers.",
         "Snip off the two ends and slit on one side.",
-        "Mix everything bengal gram flour, 1 tsp fennel seeds and all other dry masalas except ",
-        "cumin and onion seeds.",
+        "Mix everything bengal gram flour, 1 tsp fennel seeds and all other dry masalas except cumin and onion seeds.",
         "Mix in a tblsp of oil and salt and mix well.",
         "Stuff this masala into the ladyfingers.",
-        "Heat up 3 tblsp of oil, mix in the remaining fennel seeds, cumin seeds, green chillies ",
-        "and onion seeds, fry for a minute.",
+        "Heat up 3 tblsp of oil, mix in the remaining fennel seeds, cumin seeds, green chillies and onion seeds, fry for a minute.",
         "Mix in ladyfingers and stir fry for 5 minutes, cover and stir fry stirring till they are cooked.",
         "Uncover and stir fry till the ladyfingers are crisp.",
         "Serve hot."
@@ -10064,8 +9604,7 @@ const dataset = {
       ],
       "preparation": [
         "Wash rice and dal together.",
-        "Heat up the ghee in a vessel and mix in cumin seeds and asafoetida, when the seeds ",
-        "crackle mix in the vegetables and dal and stir fry for 2-3 minutes.",
+        "Heat up the ghee in a vessel and mix in cumin seeds and asafoetida, when the seeds crackle mix in the vegetables and dal and stir fry for 2-3 minutes.",
         "Mix in rice and turmeric powder and continue to stir fry for 2 minutes.",
         "Mix in 4 cup of boiling water and salt.",
         "Cover and stir fry on low heat up till done.",
@@ -10089,14 +9628,11 @@ const dataset = {
       ],
       "preparation": [
         "Cook the mungdal to a paste like consistency .",
-        "In a big bowl add rice flour, mungdal paste, turmeric, salt, chili powder, carom seeds ",
-        "or cumin seeds.",
+        "In a big bowl add rice flour, mungdal paste, turmeric, salt, chili powder, carom seeds or cumin seeds.",
         "Mix lightly. Heat oil and add the sizzling hot oil to the rice flour mix. ",
         "Add water as needed to make a stiff dough. Knead thoroughly with hand not food processor.",
-        "Take a lemon size dough and place it in a chakli mould or icing bag with star nozzle. Heat ",
-        "oil for frying. ",
-        "Test the oil by dropping a small piece of dough and wait for 3 seconds if it does not rise to ",
-        "the top then oil needs to be heated. ",
+        "Take a lemon size dough and place it in a chakli mould or icing bag with star nozzle. Heat oil for frying. ",
+        "Test the oil by dropping a small piece of dough and wait for 3 seconds if it does not rise to the top then oil needs to be heated. ",
         "Gently make a spiral with the chakli mould or icing bag and deep fry to a golden brown.",
         "Cool moong dal chakli completely before storing in an airtight container."
       ],
@@ -10124,8 +9660,7 @@ const dataset = {
         "Sieve the wheat flour and knead to a soft dough by adding enough water. Keep aside.",
         "Soak moong dal for one hour. Wash and drain all the water. ",
         "Cook the moong dal 1 cup of water. ",
-        "Heat oil in a pan, add the cumin seeds, asafoetida. Fry till they pop up. Add the cooked ",
-        "dal, salt, turmeric powder, red chilli powder and mix well. ",
+        "Heat oil in a pan, add the cumin seeds, asafoetida. Fry till they pop up. Add the cooked dal, salt, turmeric powder, red chilli powder and mix well. ",
         "Cook until the dal mixture is dry. Let it cool. ",
         "Take some portion of dough , make a small puri. Put some moong dal stuffing in center. ",
         "Close from all sides and roll again into thick, round paratha. ",
@@ -10157,19 +9692,14 @@ const dataset = {
         "3-4 tbsp. Ghee. "
       ],
       "preparation": [
-        "Shift wheat flour. Add salt, turmeric powder, ajama, red chili powder. Mix well. Add oil ",
-        "and knead the flour to roti like consistency.",
+        "Shift wheat flour. Add salt, turmeric powder, ajama, red chili powder. Mix well. Add oil and knead the flour to roti like consistency.",
         "Wash tuver dal and pressure cook it for three whistles.",
-        "Cool and remove the dal. Heat oil and ghee in a pot, then put cloves and cinnamon and ",
-        "then add mustard leaves. ",
+        "Cool and remove the dal. Heat oil and ghee in a pot, then put cloves and cinnamon and then add mustard leaves. ",
         "When they crackle add curry leaves, green chilies and a pinch of asafetida. Pour tover dal.",
-        "Mix tamarind and brown sugar water, cashew nuts, groundnut, garam masala, red ",
-        "chili powder and mix well. ",
-        "Add tomato pulp, turmeric powder, salt and 2 cups of water. Boil the dal. roll out big rotis ",
-        "and cut them into pieces and add these pieces in boiling dal.",
+        "Mix tamarind and brown sugar water, cashew nuts, groundnut, garam masala, red chili powder and mix well. ",
+        "Add tomato pulp, turmeric powder, salt and 2 cups of water. Boil the dal. roll out big rotis and cut them into pieces and add these pieces in boiling dal.",
         "Boil for 10 minutes and remove. Serve the dal dhokli warm. Sprinkle cilantro leaves. ",
-        "Note: Prepare kachori of green peas or of any other vegetable or coconut and add in ",
-        "boiling curry."
+        "Note: Prepare kachori of green peas or of any other vegetable or coconut and add in boiling curry."
       ],
       "category_id": "gujarathi-recipes",
       "id": "guajrati-dal-dhokali-recipe"
@@ -10196,11 +9726,9 @@ const dataset = {
       "preparation": [
         "Beat the curd and add two cups of water. Add the besan, salt, turmeric powder and mix well.",
         "Make a paste of ginger, chillies, cinnamon and corainder leaves. ",
-        "Boil the curd mixture on slow heat and stir constinuosly. Add the ground paste, and ",
-        "boil again. ",
+        "Boil the curd mixture on slow heat and stir constinuosly. Add the ground paste, and boil again. ",
         "Heat oil in a pan, add all seasonings. Fry until they splutter. ",
-        "Pour this seasonings over guajarati kadhi. Garnish with corainder leaves and serve hot ",
-        "with rice. "
+        "Pour this seasonings over guajarati kadhi. Garnish with corainder leaves and serve hot with rice. "
       ],
       "category_id": "gujarathi-recipes",
       "id": "gujarati-kadhi-recipe"
@@ -10225,14 +9753,10 @@ const dataset = {
         "Mix the rice and dal, wash, drain and dry on a clean cloth for a few hours.",
         "The grain should be completely. Grind to a coarse flour in dry grinder or at the flour mill. ",
         "This flour should be like very fine soji in texture. ",
-        "Store in airtight container and use as required. Will keep good upto 2 months. To ",
-        "make khaman, take 1 cup flour in a bowl. ",
-        "Add buttermilk, and mix well. Keep- aside for 4-5 hours. Dissolve sodabicarb in the oil. Add ",
-        "to batter. ",
-        "Mix all ingredients except red chilli powder and coriander. Pour immediately in a 6\" ",
-        "diam. greased plate.",
-        "Steam over water either in a cooker or steamer. Pierce knife, and check, should come ",
-        "out clean if done.",
+        "Store in airtight container and use as required. Will keep good upto 2 months. To make khaman, take 1 cup flour in a bowl. ",
+        "Add buttermilk, and mix well. Keep- aside for 4-5 hours. Dissolve sodabicarb in the oil. Add to batter. ",
+        "Mix all ingredients except red chilli powder and coriander. Pour immediately in a 6\" diam. greased plate.",
+        "Steam over water either in a cooker or steamer. Pierce knife, and check, should come out clean if done.",
         "Sprinkle the chilli powder and coriander, steam again for 2-3 minutes.",
         "Cut dhaman dhokla into squares or diamonds and serve hot with coconut chutney. "
       ],
@@ -10260,10 +9784,8 @@ const dataset = {
       ],
       "preparation": [
         "Mix water, flour, salt and turmeric to form a batter. Heat oil in a heavy pan, add batter. ",
-        "Stir vigorously and evenly to avoid lump formation. Cook till the mixture does not taste ",
-        "raw, stirring continuously. When done (about 7-8 minutes), pour a ladleful in a large plate.",
-        "Spread as thin as possible with the back of a large flat spoon. Use circular ",
-        "outward movements as for dosas. ",
+        "Stir vigorously and evenly to avoid lump formation. Cook till the mixture does not taste raw, stirring continuously. When done (about 7-8 minutes), pour a ladleful in a large plate.",
+        "Spread as thin as possible with the back of a large flat spoon. Use circular outward movements as for dosas. ",
         "When cool, cut into 2\" wide strips. Carefully roll each strip, repeat for all plates.",
         "Place in a serving dish. For seasoning: Sprinkle coconut and coriander all over khandvi rolls.",
         "Heat oil in a small pan. Add cumin, asafoetida, curry leaves and chillies. ",
@@ -10292,12 +9814,9 @@ const dataset = {
       ],
       "preparation": [
         "Wash and soak the moong dal and rice together. Drain.",
-        "In a bowl, mix the dal and rice with the turmeric powder, peppercorns, 4 1/2 cups of ",
-        "water and salt.",
-        "Pressure cook for 3 to 4 whistles and set aside for 20 minutes till the steam has ",
-        "been released.",
-        "Remove from the pressure cooker, add the ghee and mix well.Serve khichu hot with ",
-        "kadhi and papad."
+        "In a bowl, mix the dal and rice with the turmeric powder, peppercorns, 4 1/2 cups of water and salt.",
+        "Pressure cook for 3 to 4 whistles and set aside for 20 minutes till the steam has been released.",
+        "Remove from the pressure cooker, add the ghee and mix well.Serve khichu hot with kadhi and papad."
       ],
       "category_id": "gujarathi-recipes",
       "id": "gujarati-khichu-recipe"
@@ -10343,8 +9862,7 @@ const dataset = {
         "Mix in a pinch of salt and milk and prepare dough.",
         "Smoothen and knead the dough well for 15 minutes.",
         "Make small balls and keep covered.",
-        "Prepare a smooth mixture of poppy seeds, desiccated coconut, ground dates, ",
-        "green cardamom powder and sugar.",
+        "Prepare a smooth mixture of poppy seeds, desiccated coconut, ground dates, green cardamom powder and sugar.",
         "Make small balls of even size.",
         "Roll out maida balls into small rounds.",
         "Put the date stuffing on one side, fold to look like semi circle and seal the edges.",
@@ -10380,8 +9898,7 @@ const dataset = {
         "Wash the lentils and bring them to boil in 200 ml water, then simmer.",
         "When nearly done, mix in turmeric, tamarind water, green chillies, jaggery, peanuts and salt.",
         "Simmer (boil slowly at low temperature) until dal is cooked.",
-        "Heat up the oil in a small pan, mix in the mustard seeds when they crackle, mix in ",
-        "cumin seeds, asafoetida, fenugreek seeds and curry leaves.",
+        "Heat up the oil in a small pan, mix in the mustard seeds when they crackle, mix in cumin seeds, asafoetida, fenugreek seeds and curry leaves.",
         "Take off the heat up after a minute and pour out the oil and spices into the dal.",
         "Serve hot decorated with coriander leaves."
       ],
@@ -10484,8 +10001,7 @@ const dataset = {
         "Take off and grate the mangoes.",
         "Combine the grated mangos with rest of the ingredients evenly.",
         "Spread the mixture in a shallow wide mouthed jar and cover with a thin cloth.",
-        "Keep the mixture in the sun for 5 days till the syrup attains a single thread ",
-        "consistency, stirring thrice daily.",
+        "Keep the mixture in the sun for 5 days till the syrup attains a single thread consistency, stirring thrice daily.",
         "This pickle lasts for a very long time."
       ],
       "category_id": "gujarathi-recipes",
@@ -10517,8 +10033,7 @@ const dataset = {
         "Heat up salt slightly in a dry pot on low heat.",
         "Take it off and in the same pan, heat up red chilli powder similarly.",
         "Mix in both these ingredients to the oil masala.",
-        "Mix in the gunda and the mango pieces cubes to the masala mixture and mix till all of ",
-        "them are well coated with the masala.",
+        "Mix in the gunda and the mango pieces cubes to the masala mixture and mix till all of them are well coated with the masala.",
         "Transfer into a dry ceramic or a glass jar.",
         "Set it aside for 4 â€“ 5 days without mixing.",
         "Heat up enough oil to completely cover the pickled gunda and mango cubes.",
@@ -10564,11 +10079,9 @@ const dataset = {
         "Pistachios and Almonds "
       ],
       "preparation": [
-        "Hang the curds in a muslin cloth in a cool place for approximately 3 hours until all the ",
-        "liquid (whey) has drained off.",
+        "Hang the curds in a muslin cloth in a cool place for approximately 3 hours until all the liquid (whey) has drained off.",
         "Rub the saffron into the warm milk until it dissolves.",
-        "Mix together the hung curds, sugar, saffron mixture and cardamom in a bowl and churn ",
-        "using a hand blender.",
+        "Mix together the hung curds, sugar, saffron mixture and cardamom in a bowl and churn using a hand blender.",
         "Place in the refrigerator.",
         "Serve gujarati shrikhand cold garnished with slivers of pistachios and almonds. "
       ],
@@ -10603,8 +10116,7 @@ const dataset = {
         "Heat oil in a pan, add the seasonings. Fry until they turn brown. ",
         "Add chopped ginger, garlic, chillies and fry for 4-5 minutes. ",
         "Add onions and tomatoes, salt, turmeric powder and cook until done. ",
-        "Mash the dals. Add the dals with 2 cups of water. Simmer the flame and let the dal boil ",
-        "for few minutes. ",
+        "Mash the dals. Add the dals with 2 cups of water. Simmer the flame and let the dal boil for few minutes. ",
         "Add the lemon juice, corainder leaves and stir well. ",
         "Serve hot with rice and papads. "
       ],
@@ -10630,8 +10142,7 @@ const dataset = {
         "Pressure cook tuvar dal with sufficient water and turmeric powder. ",
         "Mash the dal, after it has been cooked. ",
         "Chop the garlic cloves finely. ",
-        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they ",
-        "pop up. ",
+        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they pop up. ",
         "Add the dal with 2 cups of water and salt. ",
         "Cook until the toor daal boils, then add jaggery. Cook for 4-5 minutes more.",
         "When the tuvar dal is cooled add lemon juice and serve. "
@@ -10661,8 +10172,7 @@ const dataset = {
         "Heat oil in a pan, add the tomatoes, salt, turmeric powder and cook for 4-5 minutes. ",
         "Add the potatoes, eggplant, all the dry masalas, sugar, 3 cups of water and mix well. ",
         "Cover with a lid and simmer the heat. Cook until the vegetables are done. ",
-        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot ",
-        "with chapati or rice."
+        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot with chapati or rice."
       ],
       "category_id": "gujarathi-recipes",
       "id": "vangi-batata-bhaji-recipe"
@@ -10689,8 +10199,7 @@ const dataset = {
         "Wash and drain the rice. Keep aside. ",
         "Heat the ghee in a cooker, add the cloves, cinnamon, cumin seeds and fry for 2-3 minutes.",
         "Add the asafoetida, vegetables and salt and stir for few minutes ",
-        "Add the turmeric powder, chilli powder, garam masala and rice and stir again for 5 ",
-        "minutes till it is evenly mixed.",
+        "Add the turmeric powder, chilli powder, garam masala and rice and stir again for 5 minutes till it is evenly mixed.",
         "Add 3 cups of hot water, cover the lid. Cook using the weight.",
         "Serve vargharelo bhaat hot with kadhi and papad. "
       ],
@@ -10755,8 +10264,7 @@ const dataset = {
         "Heat up 2 tblsp of oil in a kadhai, mix in cumin seeds and stir fry till they crackle.",
         "Mix in cut garlic and stir fry for a while, but do not let it brown.",
         "Then mix in gram flour and stir fry for another five minutes on a slow heat.",
-        "Mix in coriander powder, garam masala powder, red chilli powder, turmeric powder and ",
-        "stir fry for one minute.",
+        "Mix in coriander powder, garam masala powder, red chilli powder, turmeric powder and stir fry for one minute.",
         "Take off the kadhai from heat up and mix in yogurt, a little water.",
         "Mix and stir fry again.",
         "Mix in half the cut coriander and the fried potatoes.",
@@ -10792,10 +10300,8 @@ const dataset = {
         "Mix in rice.",
         "Stir fry for few minutes.",
         "Mix in four cup of boiling water.",
-        "Lower the heat up to simmer (boil slowly at low temperature) and stir fry until all the ",
-        "water has been absorbed.",
-        "Serve hot, decorated with cut coriander and cut green garlic.",
-        null
+        "Lower the heat up to simmer (boil slowly at low temperature) and stir fry until all the water has been absorbed.",
+        "Serve hot, decorated with cut coriander and cut green garlic."
       ],
       "category_id": "gujarathi-recipes",
       "id": "leelva-nu-bhaat-recipe"
@@ -10895,8 +10401,7 @@ const dataset = {
         "Put the rest of the vegetables in layers one on top of the other.",
         "Sprinkle salt and turmeric powder.",
         "Stir fry for five minutes on high flame heat.",
-        "Pour out one cup of water, cover and simmer (boil slowly at low temperature) on a very ",
-        "low heat up for 10-15 minutes.",
+        "Pour out one cup of water, cover and simmer (boil slowly at low temperature) on a very low heat up for 10-15 minutes.",
         "Mix in fried muthiyas and again simmer (boil slowly at low temperature) for 15 minutes.",
         "Shake the vegetables occasionally but do not use a spoon to stir.",
         "Serve hot decorated with scraped coconut."
@@ -10927,8 +10432,7 @@ const dataset = {
         "1 tsp of oil and mix well. ",
         "Marinate alu pieces for 15 minutes. ",
         "Heat oil and deep fry the aloo. Keep aside. ",
-        "Heat 2 tsp of oil, add onions and saute till brown. Add salt, turmeric powder, red ",
-        "chilli powder, annardana powder, garam masala and mix well. ",
+        "Heat 2 tsp of oil, add onions and saute till brown. Add salt, turmeric powder, red chilli powder, annardana powder, garam masala and mix well. ",
         "Add the aloo (potato) and toss well. Simmer the flame and cook for another 5- 6 minutes. ",
         "Garnish with corainder leaves and serve punjabi aloo amritsari hot with paratha."
       ],
@@ -10952,10 +10456,8 @@ const dataset = {
       ],
       "preparation": [
         "Wash the rice and soak in water for half an hour. ",
-        "Heat ghee in a heavy saucepan, add cashewnuts. Fry until brown. Take them out and ",
-        "keep aside. ",
-        "Add onions , bayleafs, cloves, cinnamon sticks, cumin seeds, peppercorns to the same ",
-        "ghee and fry for a while. ",
+        "Heat ghee in a heavy saucepan, add cashewnuts. Fry until brown. Take them out and keep aside. ",
+        "Add onions , bayleafs, cloves, cinnamon sticks, cumin seeds, peppercorns to the same ghee and fry for a while. ",
         "Add the rice , salt, water and stir. Cover with a lid and simmer the flame.",
         "Cook until the rice is done. ",
         "Serve jeera rice hot with any spicy curry or raita. "
@@ -11013,26 +10515,17 @@ const dataset = {
         "2-3 tbsp chopped fresh green coriander "
       ],
       "preparation": [
-        "Put the ginger and garlic into the container of an electric blender with 2-3 tablespoons ",
-        "of water and blend to a paste.",
-        "Put the chops, tomatoes, onions, cayenne pepper, yogurt, salt and ginger-garlic paste into ",
-        "a large wok or heavy-bottomed saucepan. ",
-        "Stir and bring to the boil. Turn the heat to low, cover and simmer for 50 minutes or until ",
-        "the chops are almost cooked.",
-        "Add the cumin seeds and simmer for 10 to 15 minutes or until the meat is tender and ",
-        "the sauce thick. ",
-        "Add the garam masala and lemon juice and stir. Sprinkle fresh coriander over masala ",
-        "chops and serve. ",
+        "Put the ginger and garlic into the container of an electric blender with 2-3 tablespoons of water and blend to a paste.",
+        "Put the chops, tomatoes, onions, cayenne pepper, yogurt, salt and ginger-garlic paste into a large wok or heavy-bottomed saucepan. ",
+        "Stir and bring to the boil. Turn the heat to low, cover and simmer for 50 minutes or until the chops are almost cooked.",
+        "Add the cumin seeds and simmer for 10 to 15 minutes or until the meat is tender and the sauce thick. ",
+        "Add the garam masala and lemon juice and stir. Sprinkle fresh coriander over masala chops and serve. ",
         "TIPS",
-        "In the Punjab, tomatoes are grated to make a puree. Don't be tempted to use ready-",
-        "prepared tomato puree instead of fresh. ",
+        "In the Punjab, tomatoes are grated to make a puree. Don't be tempted to use ready-prepared tomato puree instead of fresh. ",
         "The spice combinations in garam masala vary in different parts of India.",
-        "In the Punjab this one which you can try making yourself is common: 5 tbsps ",
-        "coriander seeds, 3 tbsps cumin seeds, 2 1/2 tbsps black peppercorns, 2 1/2 black ",
-        "cardamom seeds, 2 in cinnamon stick, 4-5 cloves, 1/6 nutmeg. Put the coriander and ",
+        "In the Punjab this one which you can try making yourself is common: 5 tbsps coriander seeds, 3 tbsps cumin seeds, 2 1/2 tbsps black peppercorns, 2 1/2 black cardamom seeds, 2 in cinnamon stick, 4-5 cloves, 1/6 nutmeg. Put the coriander and ",
         "the cumin into a cast-iron frying-pan over a medium heat. ",
-        "Stir until lightly roasted. Allow to cool. Grind with the remaining ingredients in a clean ",
-        "coffee grinder and store in a tightly lidded jar. "
+        "Stir until lightly roasted. Allow to cool. Grind with the remaining ingredients in a clean coffee grinder and store in a tightly lidded jar. "
       ],
       "category_id": "punjabhi-food",
       "id": "punjabi-masala-chop-recipe"
@@ -11057,12 +10550,10 @@ const dataset = {
       "preparation": [
         "Sieve the wheat flour and salt. Add water and knead to stiff dough. Cover and keep aside.",
         "Peel and grate the radish. Squeeze and drain all the water. ",
-        "Heat the pan and fry the radish to light brown. Add salt, red chilli powder, green ",
-        "chillies, corainder leaves and mix well. Allow it to cool. ",
+        "Heat the pan and fry the radish to light brown. Add salt, red chilli powder, green chillies, corainder leaves and mix well. Allow it to cool. ",
         "Take some dough and roll into small puri, put 2tsp of stuffing and cover all the sides. ",
         "Roll again into a thick, round parantha. ",
-        "Heat a tava and fry the mooli ka paratha both sides to crispy and brown. Put some oil ",
-        "over the paratha. ",
+        "Heat a tava and fry the mooli ka paratha both sides to crispy and brown. Put some oil over the paratha. ",
         "Serve the mooli paratha hot with raita or curry."
       ],
       "category_id": "punjabhi-food",
@@ -11087,12 +10578,10 @@ const dataset = {
         "Wash, wipe and trim ladyfingers.",
         "Make a deep slit on one side of the ladyfinger to create a pocket.",
         "Take off and finely slice onion.",
-        "Mix red chilli powder, coriander powder, turmeric powder, pomegranate seed powder, ",
-        "garam masala powder and salt with four-tblsp oil to make a thick paste.",
+        "Mix red chilli powder, coriander powder, turmeric powder, pomegranate seed powder, garam masala powder and salt with four-tblsp oil to make a thick paste.",
         "Stuff the ladyfingers liberally with this masala paste.",
         "Heat up oil in a pot and stir fry cut onion for two to three minutes or until translucent.",
-        "Gently slide in the stuffed ladyfingers and stir fry on medium heat up for five minutes ",
-        "turning them occasionally.",
+        "Gently slide in the stuffed ladyfingers and stir fry on medium heat up for five minutes turning them occasionally.",
         "Sprinkle lemon juice and serve hot."
       ],
       "category_id": "punjabhi-food",
@@ -11130,8 +10619,7 @@ const dataset = {
         "Stack each layer of cut paneer one on top of the other, by repeating the process.",
         "Make a mixture of cream and crushed black pepper and pour out over the top layer.",
         "Put the last cheese slice on top, bake at moderate temperature for 10 minutes in the oven.",
-        "Cut into desired equal sizes.",
-        ""
+        "Cut into desired equal sizes."
       ],
       "category_id": "punjabhi-food",
       "id": "paneer-taash-kabab-recipe"
@@ -11160,10 +10648,8 @@ const dataset = {
       ],
       "preparation": [
         "Mix all pakora ingredients except oil and add about ½ cup of water. Mix well.",
-        "Heat oil in a Kadhai and deep fry vegetable and gram flour mixture after making into ",
-        "small balls. Fry till pakoras are golden brown.",
-        "Beat Curd/Yogurt and mix gram flour in it. Blend thoroughly so as to ensure that there are ",
-        "no lumps. Add turmeric powder, salt and 3 cups of water. ",
+        "Heat oil in a Kadhai and deep fry vegetable and gram flour mixture after making into small balls. Fry till pakoras are golden brown.",
+        "Beat Curd/Yogurt and mix gram flour in it. Blend thoroughly so as to ensure that there are no lumps. Add turmeric powder, salt and 3 cups of water. ",
         "Heat oil in a Kadhai. Add fenugreek seeds and dry red chili. Stir fry for half minute. Add ",
         "Gram flour and Yogurt mixture. Bring it to a boil and simmer on a slow fire for about ",
         "15 minutes. Stir occasionally.",
@@ -11194,17 +10680,11 @@ const dataset = {
         "Salt to taste "
       ],
       "preparation": [
-        "Wash and soak rajma overnight or for at least for 8 hours. (Kidney beans will get double ",
-        "in size after soaking).",
-        "Pressure cook the soaked rajma in about 3 cups of water in pressure cooker until rajma ",
-        "is soft and tender. Reserve the stock it can be used later to the gravy. ",
-        "Heat oil in a pan, fry cinnamon stick, cloves and bay leaf for a minute. Then add ",
-        "chopped onions. Saute it till the onions turns to golden brown.",
-        "Add ginger garlic paste. Fry till golden and cooked. Add chopped tomatoes, turmeric ",
-        "powder, cumin powder, garam masala powder and saute it till tomatoes become soft.",
-        "Add boiled rajma to it with salt, butter and the rajma stock. In case you feel the gravy is ",
-        "less, you can add some water. Cover it and let it simmer it for 20-30 minutes. When ",
-        "the rajma gets nicely blended with the curry sprinkle some chopped coriander and move to ",
+        "Wash and soak rajma overnight or for at least for 8 hours. (Kidney beans will get double in size after soaking).",
+        "Pressure cook the soaked rajma in about 3 cups of water in pressure cooker until rajma is soft and tender. Reserve the stock it can be used later to the gravy. ",
+        "Heat oil in a pan, fry cinnamon stick, cloves and bay leaf for a minute. Then add chopped onions. Saute it till the onions turns to golden brown.",
+        "Add ginger garlic paste. Fry till golden and cooked. Add chopped tomatoes, turmeric powder, cumin powder, garam masala powder and saute it till tomatoes become soft.",
+        "Add boiled rajma to it with salt, butter and the rajma stock. In case you feel the gravy is less, you can add some water. Cover it and let it simmer it for 20-30 minutes. When the rajma gets nicely blended with the curry sprinkle some chopped coriander and move to ",
         "a serving dish. ",
         "Garnish it with few coriander leaves and serve with hot rice."
       ],
@@ -11233,10 +10713,8 @@ const dataset = {
       "preparation": [
         "Clean and wash sarson, spinach and bathuwa. Chop the leaves finely.",
         "Chop ginger, garlic cloves and chillies. ",
-        "Pressure cook the spinach, sarson, bathuwa with garlic, ginger and chillies. When cool, ",
-        "grind it to smooth paste. ",
-        "Heat ghee in a vessel, add hing and onions. Fry until light brown. Add salt and ",
-        "turmeric powder. Mix well. ",
+        "Pressure cook the spinach, sarson, bathuwa with garlic, ginger and chillies. When cool, grind it to smooth paste. ",
+        "Heat ghee in a vessel, add hing and onions. Fry until light brown. Add salt and turmeric powder. Mix well. ",
         "Add the ground saag and simmer the flame. Cook for few minutes. ",
         "Add the maize flour, red chilli powder, sugar and stir well. ",
         "Serve hot with paratha or makki ki roti. "
@@ -11272,12 +10750,9 @@ const dataset = {
       "preparation": [
         "Soak rice for half an hour. ",
         "Heat 1 Tbsp of ghee is a pan, fry cashewnuts and raisins. Keep aside. ",
-        "Heat the remaining ghee in thick bottomed vessel and fry the ground paste for 10 ",
-        "minutes. Add the vegetables and mix well. ",
-        "Cook until the masala separates from oil and vegetables (subzi) gets tender. Add ",
-        "turmeric powder. ",
-        "Add rice, salt, four cups of water and stir well. Cover and cook until the rice is done on ",
-        "slow flame. Stir once a while . ",
+        "Heat the remaining ghee in thick bottomed vessel and fry the ground paste for 10 minutes. Add the vegetables and mix well. ",
+        "Cook until the masala separates from oil and vegetables (subzi) gets tender. Add turmeric powder. ",
+        "Add rice, salt, four cups of water and stir well. Cover and cook until the rice is done on slow flame. Stir once a while . ",
         "Just before serving take the rice in serving bowl, add the nuts and mix well.",
         "Serve vegetable (sabzi) pulao hot with raita"
       ],
@@ -11303,8 +10778,7 @@ const dataset = {
       "preparation": [
         "Clean, wash and soak chana dal for one hour.",
         "Pressure cook the dal with 3 cups of water. Keep aside. ",
-        "Heat ghee in a pan, add cloves, cinnamon stick, bayleafs, cumin seeds and fry until they ",
-        "pop up. ",
+        "Heat ghee in a pan, add cloves, cinnamon stick, bayleafs, cumin seeds and fry until they pop up. ",
         "Add onions and fry till brown. Add salt and turmeric powder. Mix well. ",
         "Add dal and let it boil for few minutes. ",
         "Garnish with corainder leaves. When the dal will be cool, add lemon juice and stir well.",
@@ -11333,23 +10807,18 @@ const dataset = {
         "salt to taste"
       ],
       "preparation": [
-        "Clean, wash and soak urad dal, chana dal and kidney beans in sufficient water for at least ",
-        "six hours.",
+        "Clean, wash and soak urad dal, chana dal and kidney beans in sufficient water for at least six hours.",
         "Take off and finely cut onion and garlic.",
         "Wash, take off stem and finely cut green chillies.",
         "Wash and finely cut tomatoes.",
         "Wash and cut coriander leaves.",
-        "Remove soaked dals, mix in six cup water and pressure-stir fry for half an hour or until ",
-        "the dals are completely cooked.",
+        "Remove soaked dals, mix in six cup water and pressure-stir fry for half an hour or until the dals are completely cooked.",
         "Meanwhile, heat up oil in a pan, mix in cut garlic, stir-fry briefly till golden brown.",
-        "Mix in cut onion, slit green chillies and stir fry for four to five minutes or until the onion ",
-        "is golden brown in colour.",
+        "Mix in cut onion, slit green chillies and stir fry for four to five minutes or until the onion is golden brown in colour.",
         "Mix in red chilli powder, cumin powder and stir-fry briefly.",
-        "Mix in cut tomatoes and stir fry on high flame heat up for three to four minutes, ",
-        "stirring continuously.",
+        "Mix in cut tomatoes and stir fry on high flame heat up for three to four minutes, stirring continuously.",
         "Stir in the cooked dals and grease and mix well.",
-        "Mix in salt, cut coriander leaves and stir fry dal for ten minutes on low heat, ",
-        "stirring occasionally.",
+        "Mix in salt, cut coriander leaves and stir fry dal for ten minutes on low heat, stirring occasionally.",
         "Crush kasoori methi between the palms, sprinkle on the dals and serve hot."
       ],
       "category_id": "punjabhi-food",
@@ -11386,8 +10855,7 @@ const dataset = {
         "Stuff each ball with the jaggery mixture.",
         "Roll out each ball into thin roundels.",
         "Dust with flour if necessary.",
-        "Heat up a tawa to a moderate temperature and stir fry the prepared gur-poli on ",
-        "moderate heat, till it is a light golden colour on both sides.",
+        "Heat up a tawa to a moderate temperature and stir fry the prepared gur-poli on moderate heat, till it is a light golden colour on both sides.",
         "Serve hot or cold, with a pinch of hot melted ghee."
       ],
       "category_id": "punjabhi-food",
@@ -11419,8 +10887,7 @@ const dataset = {
         "Divide the mixture into 25 equal portions.",
         "Shape them into a ball and then press it in between your palms to give it a tikki shape.",
         "Heat up oil in a kadhai.",
-        "Deep-fry the tikkis in hot oil for 3-4 minutes or until crisp.",
-        null
+        "Deep-fry the tikkis in hot oil for 3-4 minutes or until crisp."
       ],
       "category_id": "punjabhi-food",
       "id": "hariyali-tikki-recipe"
@@ -11490,15 +10957,13 @@ const dataset = {
         "Boil green peas.",
         "Heat up oil in a pan, mix in onion paste and stir fry till pink.",
         "Mix in ginger-garlic paste and sautÃ©.",
-        "Mix in tomato puree, turmeric powder, red chilli powder and roast till the oil leaves ",
-        "the masala.",
+        "Mix in tomato puree, turmeric powder, red chilli powder and roast till the oil leaves the masala.",
         "Mix in boiled peas and stir.",
         "Mix in salt, roasted khoya and stir.",
         "Mix in broken cashewnuts and raisins.",
         "Mix in coriander powder and stir to mix well.",
         "Take off the heat.",
-        "Sprinkle cut green chillies, roasted sesame seeds, crushed red chillies on the bread ",
-        "croutons and mix well.",
+        "Sprinkle cut green chillies, roasted sesame seeds, crushed red chillies on the bread croutons and mix well.",
         "To serve assemble the khoya-peas masala in a dish and cover with bread crouton mixture.",
         "Sprinkle with cut coriander."
       ],
@@ -11525,8 +10990,7 @@ const dataset = {
         "Divide into ten to twelve equal portions.",
         "Take off and finely cut the onion and garlic.",
         "Clean, wash and finely cut coriander leaves.",
-        "Crush cashew nuts and mix with cut onion, garlic, coriander leaves, red chilli powder, ",
-        "salt, and grated cottage cheese.",
+        "Crush cashew nuts and mix with cut onion, garlic, coriander leaves, red chilli powder, salt, and grated cottage cheese.",
         "Divide the mixture into ten to twelve equal portions.",
         "Stuff each portion of mashed potato with a portion of the cottage cheese mixture.",
         "Roll and shape into tikkis of approximately two-inch diameter and half inch thickness.",
@@ -11550,12 +11014,10 @@ const dataset = {
         "Mix cornmeal, whole-wheat up flour and salt.",
         "Mix in sufficient lukewarm water, a little at a time, to make medium soft dough.",
         "Divide the prepared dough into eight to ten equal portions.",
-        "Wet your hand with a little water and flatten each portion on a wet polythene sheet, into ",
-        "a disk of four to five inches diameter.",
+        "Wet your hand with a little water and flatten each portion on a wet polythene sheet, into a disk of four to five inches diameter.",
         "Heat up a tawa, apply a little oil and transfer makai roti carefully on to the tawa.",
         "Spoon a little oil on the sides of makai roti and stir fry on low heat up for one minute.",
-        "Turn the makai roti and stir fry the other side for one minute or till crunchy and light ",
-        "golden brown.",
+        "Turn the makai roti and stir fry the other side for one minute or till crunchy and light golden brown.",
         "Spray the cooked rotis with grease and serve hot with sarson ka saag."
       ],
       "category_id": "punjabhi-food",
@@ -11614,14 +11076,12 @@ const dataset = {
       ],
       "preparation": [
         "Grind fresh coriander leaves, mint leaves, green papaya, green chillies to a fine paste.",
-        "Mix in ginger garlic paste and all the dry ingredients, mix well and apply equally on ",
-        "the mutton pasanda.",
+        "Mix in ginger garlic paste and all the dry ingredients, mix well and apply equally on the mutton pasanda.",
         "Let it marinate for one hour.",
         "Cooking on stone slabs:(traditional way of cooking on kadapa stone.",
         "Take a flattish piece of rough granite or kadappa of about 11/2\" length x 1\" breadth x ",
         "2\" thickness.",
-        "Wash the stone and rest it on bricks on two sides to make a bridge, taking care that it ",
-        "is safely balanced.",
+        "Wash the stone and rest it on bricks on two sides to make a bridge, taking care that it is safely balanced.",
         "Heat up the granite well with live charcoals underneath.",
         "Sprinkle a little oil or ghee on the surface and put the marinated meat picattas.",
         "Turn them a few times basting them occasionally with oil.",
@@ -11653,14 +11113,10 @@ const dataset = {
       ],
       "preparation": [
         "Soak kabuli chana overnight.",
-        "Mix in a little water to the soaked chana, tie tea leaves in a piece of cloth and put it in ",
-        "water and then boil the chana until soft and dark in colour, strain and keep aside.",
+        "Mix in a little water to the soaked chana, tie tea leaves in a piece of cloth and put it in water and then boil the chana until soft and dark in colour, strain and keep aside.",
         "Heat up oil mix in bayleaf and cut onion, stir fry until golden brown in colour.",
-        "Mix in ginger, garlic paste and slit green chillies, stir for some time, then mix in cut ",
-        "tomatoes, red chilli powder, coriander powder, turmeric powder, chana masala and ",
-        "cumin powder, stir fry for some time.",
-        "Mix in boiled chana and approximately 1 cup of water and stir fry till chana gets coated ",
-        "with the thick masala.",
+        "Mix in ginger, garlic paste and slit green chillies, stir for some time, then mix in cut tomatoes, red chilli powder, coriander powder, turmeric powder, chana masala and cumin powder, stir fry for some time.",
+        "Mix in boiled chana and approximately 1 cup of water and stir fry till chana gets coated with the thick masala.",
         "Sprinkle garam masala and salt mix well and serve hot."
       ],
       "category_id": "punjabhi-food",
@@ -11683,12 +11139,10 @@ const dataset = {
         "cooking oil"
       ],
       "preparation": [
-        "Heat oil in a wok or kadai.Add cumin seeds and let it splutter.Then add onions and ",
-        "ginger garlic paste.Fry till golden brown.",
+        "Heat oil in a wok or kadai.Add cumin seeds and let it splutter.Then add onions and ginger garlic paste.Fry till golden brown.",
         "Add chopped tomatoes ,turmeric powder and rest of the powdered spices except salt.",
         "Mix well and cook till oil separates.",
-        "Add cubed potatoes and stir fry for few minutes and then add chopped cabbage and salt.",
-        "mix well.Cook it covered till the vegetables are done and water evaporates.",
+        "Add cubed potatoes and stir fry for few minutes and then add chopped cabbage and salt.mix well.Cook it covered till the vegetables are done and water evaporates.",
         "Serve hot with chapatis or parathas."
       ],
       "category_id": "cabbage-recipes",
@@ -11713,14 +11167,11 @@ const dataset = {
         "Now add red chilly powder and salt.Mix well.",
         "Cook it covered with a lid till the cabbage is cooked and water evaporates.",
         "Kepp the cooked vegetable aside to cool.",
-        "For the parathas knead the dough by adding salt and enough water so that it is soft ",
-        "and smooth.",
+        "For the parathas knead the dough by adding salt and enough water so that it is soft and smooth.",
         "Take a small portion of the dough and make a ball.",
         "Now roll this ball in a shape of a roti.Put the cabbage stuffing on it.",
-        "Now roll another roti and spread it on top of the first roti and seal the sides with some ",
-        "water on the edges so the stuffing does not come out.",
-        "Heat a tawa.Place the stuffed paratha gently on the tawa and roast it from both sides ",
-        "by greasing it with oil or ghee.",
+        "Now roll another roti and spread it on top of the first roti and seal the sides with some water on the edges so the stuffing does not come out.",
+        "Heat a tawa.Place the stuffed paratha gently on the tawa and roast it from both sides by greasing it with oil or ghee.",
         "Serve hot with curd,pickles."
       ],
       "category_id": "cabbage-recipes",
@@ -11773,8 +11224,7 @@ const dataset = {
         "Heat oil in a teflon-coated pan. ",
         "Saute onion for a little while. ",
         "Add apples and cook for a few minutes. ",
-        "Add sweet-n-low, cloves, peppercorns, cinnamon, vinegar, salt, lemon juice and water ",
-        "and bring to a boil. ",
+        "Add sweet-n-low, cloves, peppercorns, cinnamon, vinegar, salt, lemon juice and water and bring to a boil. ",
         "Add chopped cabbage, cover and cook on a low flame. ",
         "When it's done, just before serving, add flour, stirring continuosly to avoid lumps. ",
         "Serve immediately. "
@@ -11831,15 +11281,11 @@ const dataset = {
       ],
       "preparation": [
         "Sift the flour and add salt, egg and water and make a smooth batter. ",
-        "Heat little oil in a flat non-stick pan and add enough batter so that it covers the base of ",
-        "the pan. ",
+        "Heat little oil in a flat non-stick pan and add enough batter so that it covers the base of the pan. ",
         "Cook both sides of the pancake till golden. Repeat the same till whole batter is utilized. ",
-        "To make the filling heat 2-3 tbsp oil in a wok, add ginger ,garlic and mushrooms, stir fry ",
-        "for 10-15 seconds. ",
-        "Add leeks (if available) and stir fry for about 1 minute, then add carrots, cabbage and ",
-        "cook tossing the vegetables until they are crisp-tender.",
-        "Add the bean sprouts, salt, pepper and soya sauce, cook stirring for 2 minutes. Set aside ",
-        "the filling to cool. ",
+        "To make the filling heat 2-3 tbsp oil in a wok, add ginger ,garlic and mushrooms, stir fry for 10-15 seconds. ",
+        "Add leeks (if available) and stir fry for about 1 minute, then add carrots, cabbage and cook tossing the vegetables until they are crisp-tender.",
+        "Add the bean sprouts, salt, pepper and soya sauce, cook stirring for 2 minutes. Set aside the filling to cool. ",
         "To make the spring rolls place 2-3 tbsp. of the filling in the center of each pancake. ",
         "Fold in the sides and form a tight roll, sealing the edge with a little flour and water paste. ",
         "Deep fry in hot oil until golden. ",
@@ -11889,8 +11335,7 @@ const dataset = {
         "Then add sliced onions and fry till golden brown.",
         "Now add green chillies and cabbage.Mix well.",
         "Now add all the powdered spices and salt.Mix well.",
-        "Cover it and cook for 3-4 minutes.Add the peas and cook till all the water evaporates ",
-        "and cabbage is cooked.",
+        "Cover it and cook for 3-4 minutes.Add the peas and cook till all the water evaporates and cabbage is cooked.",
         "Serve hot with chapatis."
       ],
       "category_id": "cabbage-recipes",
@@ -11916,17 +11361,14 @@ const dataset = {
       ],
       "preparation": [
         "Mix grated cabbage and carrots and squeeze the water out from them. ",
-        "Now in a bowl take the squeezed cabbage and carrots and mix 1 tbsp. corn starch and ",
-        "add few chopped chilies and little salt to it. ",
+        "Now in a bowl take the squeezed cabbage and carrots and mix 1 tbsp. corn starch and add few chopped chilies and little salt to it. ",
         "Make small balls (like koftas) of the mixture . ",
         "Heat the oil in a kadhai / wok and deep fry the balls till golden brown, drain and keep aside. ",
         "Now in a separate pan heat 2 tbsp oil. ",
         "Sauté garlic, green chilies and spring onions. ",
         "Add water, salt, pepper powder, ajinomoto, sugar and soya sauce. Bring it to a boil. ",
-        "Mix 1 tbsp corn four with half of a cup of cold water and stir into it. Gently add the fried ",
-        "balls to the gravy. ",
-        "Cook the vegetable manchurian for 3-4 minutes and serve hot garnished with ",
-        "chopped coriander."
+        "Mix 1 tbsp corn four with half of a cup of cold water and stir into it. Gently add the fried balls to the gravy. ",
+        "Cook the vegetable manchurian for 3-4 minutes and serve hot garnished with chopped coriander."
       ],
       "category_id": "cabbage-recipes",
       "id": "vegetable-manchurian-recipe"
@@ -11950,14 +11392,11 @@ const dataset = {
         "4 cups Water "
       ],
       "preparation": [
-        "Mix 4 cups of water, chili sauce, soya sauce, vinegar, sugar, salt, pepper powder ",
-        "and ajinomoto and bring to boil. ",
+        "Mix 4 cups of water, chili sauce, soya sauce, vinegar, sugar, salt, pepper powder and ajinomoto and bring to boil. ",
         "Now add all the chopped vegetables except paneer . ",
-        "Cook for a minute on a medium heat. Dissolve corn starch in 1/2 cup water and add to ",
-        "the soup stirring constantly till it becomes thick. ",
+        "Cook for a minute on a medium heat. Dissolve corn starch in 1/2 cup water and add to the soup stirring constantly till it becomes thick. ",
         "Cook for a minute, add paneer slices. Serve hot . ",
-        "Note: Soup should be prepared just before consuming and should be served fresh, else it ",
-        "will lose the taste."
+        "Note: Soup should be prepared just before consuming and should be served fresh, else it will lose the taste."
       ],
       "category_id": "cabbage-recipes",
       "id": "hot-and-sour-soup-recipe"
@@ -12010,15 +11449,12 @@ const dataset = {
         "4 cups water"
       ],
       "preparation": [
-        "Mix 4 cups of water, Chili sauce, Soya sauce, vinegar, sugar, salt, pepper powder ",
-        "and ajinomoto and bring to boil. ",
+        "Mix 4 cups of water, Chili sauce, Soya sauce, vinegar, sugar, salt, pepper powder and ajinomoto and bring to boil. ",
         "Now add all the chopped vegetables except paneer . Cook for a minute on a medium heat. ",
-        "Dissolve corn starch in 1/2 cup water and add to the soup stirring  constantly till it ",
-        "becomes thick. ",
+        "Dissolve corn starch in 1/2 cup water and add to the soup stirring  constantly till it becomes thick. ",
         "Cook for a minute, add paneer slices. ",
         "Serve hot . ",
-        "Hot and sour soup should be prepared just before consuming and should be served fresh, ",
-        "else it will lose the taste."
+        "Hot and sour soup should be prepared just before consuming and should be served fresh, else it will lose the taste."
       ],
       "category_id": "cabbage-recipes",
       "id": "hot-and-sour-soup-recipe"
@@ -12048,8 +11484,7 @@ const dataset = {
       ],
       "preparation": [
         "In a bowl mix the oil, eggs and vanilla extract together. ",
-        "In a separate bowl sift the dry ingredients together and add this mixture to the oil and ",
-        "egg mixture and mix well. ",
+        "In a separate bowl sift the dry ingredients together and add this mixture to the oil and egg mixture and mix well. ",
         "Add in the apples and the nuts. ",
         "Pour this mixture in a baking pan and bake for 1.15 minutes at 350 degrees F. ",
         "For the glaze mix all the glaze ingredients together and boil the mixture for one minute. ",
@@ -12089,17 +11524,13 @@ const dataset = {
         "Prick the base and chill for 15-20 minutes. ",
         "Preheat the oven at 375 degrees F.",
         "For the Filling",
-        "In a pan heat 1/3 of the butter and add the chopped almonds and soughed them ",
-        "over medium flame till brown. ",
-        "Turn off the fire and let the mixture cool. In a separate pan take the remaining melted ",
-        "butter and add the grounded almonds and sugar and now add eggs one at a time ",
-        "beating nicely after each addition till the mixture is light and fluffy. In a separate bowl sift ",
+        "In a pan heat 1/3 of the butter and add the chopped almonds and soughed them over medium flame till brown. ",
+        "Turn off the fire and let the mixture cool. In a separate pan take the remaining melted butter and add the grounded almonds and sugar and now add eggs one at a time beating nicely after each addition till the mixture is light and fluffy. In a separate bowl sift ",
         "the corn starch with the baking powder and salt and then fold it into the almonds ",
         "mixture. Pour this mixture into the earlier prepared base and bake for 10-12 minutes or ",
         "until the batter begins to sat. Now quickly spread the chopped almonds over the top ",
         "and return the pan to the oven and continue breaking for 20 minutes or until the pastry ",
-        "is brown. ",
-        null
+        "is brown. "
       ],
       "category_id": "cake-recipes",
       "id": "almond-cake-recipe"
@@ -12125,8 +11556,7 @@ const dataset = {
         "Be careful not to overmix. ",
         "Add the chocolate chips. Preheat the oven to 350 degrees F to 175 degrees C. ",
         "Grease and flour a 9x13 inch pan. ",
-        "Pour the batter into the pan and bake it for 32-35 minutes or until the toothpick inserted ",
-        "into it comes out clean. ",
+        "Pour the batter into the pan and bake it for 32-35 minutes or until the toothpick inserted into it comes out clean. ",
         "When the cake gets baked take out the pan from the oven and let it cool for 10-15 minutes. ",
         "This cake will have some melted chocolate but no crumbs. "
       ],
@@ -12151,14 +11581,10 @@ const dataset = {
       ],
       "preparation": [
         "Preheat the oven to 150 degrees C. ",
-        "In a pan mix nicely the all purpose flour, mixed spices, baking soda, brown sugar, ",
-        "desiccated coconut and chopped walnuts. ",
-        "In a separate pan melt the butter and add the golden raisins, carrots and orange juice. Stir ",
-        "it nicely and pour it on top of the dry ingredients. ",
+        "In a pan mix nicely the all purpose flour, mixed spices, baking soda, brown sugar, desiccated coconut and chopped walnuts. ",
+        "In a separate pan melt the butter and add the golden raisins, carrots and orange juice. Stir it nicely and pour it on top of the dry ingredients. ",
         "Now add the beaten eggs to the mixture and mix it thoroughly. ",
-        "Prepare a loaf tin by oiling the base and the sides, pour this prepared mixture into the tin ",
-        "and bake the cake for 50-60 minutes or until a toothpick inserted into the centre of it ",
-        "comes out clean. "
+        "Prepare a loaf tin by oiling the base and the sides, pour this prepared mixture into the tin and bake the cake for 50-60 minutes or until a toothpick inserted into the centre of it comes out clean. "
       ],
       "category_id": "cake-recipes",
       "id": "carrot-cake-recipe"
@@ -12216,8 +11642,7 @@ const dataset = {
         "Pour the batter into the pan. ",
         "In a preheated oven bake the pan for 35 - 40 minutes ot till the toothpick comes out clean. ",
         "Take tthe cake out and cool it. ",
-        "To make the frosting, mix all the frosting ingredients and pour in a double boiler and with ",
-        "a beater, beat for 1 minute. ",
+        "To make the frosting, mix all the frosting ingredients and pour in a double boiler and with a beater, beat for 1 minute. ",
         "Then place this boiler on boiling water and again beat for 7 minutes.",
         "Remove from heat and beat for 2 minutes on high speed. ",
         "Frost the cool cake with this mixture. "
@@ -12271,12 +11696,9 @@ const dataset = {
       ],
       "preparation": [
         "In a bowl beat 1/2 cup butter and add sugar gradually till it gets fluffy. ",
-        "Add in the melted chocolate and an unbeaten egg yoghurts, 1 tsp vanilla extract and ",
-        "sour milk. ",
+        "Add in the melted chocolate and an unbeaten egg yoghurts, 1 tsp vanilla extract and sour milk. ",
         "Beat this mixture well. ",
-        "Add the sifted flour alternately with the hot coffee i.e. once you add the flour then you ",
-        "add the coffee then you again add the flour then coffee continue till the flour and coffee ",
-        "are finished. ",
+        "Add the sifted flour alternately with the hot coffee i.e. once you add the flour then you add the coffee then you again add the flour then coffee continue till the flour and coffee are finished. ",
         "Now add the beaten egg whites. ",
         "Preheat the oven at 350 degrees F and grease a 9x13 inch pan. ",
         "Pour the prepared mixture into the pan and bake for 35-40 minutes. ",
@@ -12303,13 +11725,10 @@ const dataset = {
         "Separate the whites from the yolks of the eggs.",
         "Beat the yolks and the sugar together until the mixture is creamy.",
         "Then add the warm water, and immediately after that the chocolate.",
-        "Whisk the whites stiffly, and add alternately with the sieved flour and baking powder, ",
-        "folding them in lightly.",
+        "Whisk the whites stiffly, and add alternately with the sieved flour and baking powder, folding them in lightly.",
         "Put the mixture in the tin and bake in hot oven for about 12 minutes.",
-        "Turn out on to a piece of greaseproof paper well sprinkled with icing sugar, trim the ",
-        "edges and roll it up.",
-        "Then put it on a rack to cool.",
-        null
+        "Turn out on to a piece of greaseproof paper well sprinkled with icing sugar, trim the edges and roll it up.",
+        "Then put it on a rack to cool."
       ],
       "category_id": "cake-recipes",
       "id": "chocolate-swiss-roll-recipe"
@@ -12413,18 +11832,12 @@ const dataset = {
       "preparation": [
         "Grease and line a 18cm cake tin. ",
         "In a bowl mix together golden raisins, peel, ground almonds, currants, raisins and cherries. ",
-        "In a separate bowl beat the butter till soft then add castor sugar and the lemon rind and ",
-        "beat till light and fluffy. ",
-        "In a separate bowl beat the eggs together and then gradually add to the creamed ",
-        "mixture, beating well after each addition. ",
-        "Mix the flour and the baking powder in a separate container and sift it well and add to ",
-        "the creamed mixture along with the cherry and all the dried fruits mix together earlier. ",
-        "Pour this mixture into the greased tin, try to create a hollow in the center and cover ",
-        "that center with the almonds. ",
-        "Bake this cake for 2 1/2 - 3 hours at 325 degrees F or till a skewer pricked into the center ",
-        "of the cake comes out clean. ",
-        "When done cool the cake in the tin for 15 minutes and then let it cool completely on a ",
-        "wire rack."
+        "In a separate bowl beat the butter till soft then add castor sugar and the lemon rind and beat till light and fluffy. ",
+        "In a separate bowl beat the eggs together and then gradually add to the creamed mixture, beating well after each addition. ",
+        "Mix the flour and the baking powder in a separate container and sift it well and add to the creamed mixture along with the cherry and all the dried fruits mix together earlier. ",
+        "Pour this mixture into the greased tin, try to create a hollow in the center and cover that center with the almonds. ",
+        "Bake this cake for 2 1/2 - 3 hours at 325 degrees F or till a skewer pricked into the center of the cake comes out clean. ",
+        "When done cool the cake in the tin for 15 minutes and then let it cool completely on a wire rack."
       ],
       "category_id": "cake-recipes",
       "id": "dundee-cake-recipe"
@@ -12443,8 +11856,7 @@ const dataset = {
       ],
       "preparation": [
         "Mix flour, baking powder and salt.",
-        "Mix in the margarine, add the sugar and vanilla and mix to a dropping consistency with ",
-        "the milk and water.",
+        "Mix in the margarine, add the sugar and vanilla and mix to a dropping consistency with the milk and water.",
         "Turn into a greased 7 inch tin and bake in a moderate oven for 3/4 to 1 hour."
       ],
       "category_id": "cake-recipes",
@@ -12477,8 +11889,7 @@ const dataset = {
         "Pre-heat oven to 400(F)",
         "Cream butter and sugar until light and fluffy.",
         "Add honey and eggs, beating well.",
-        "Sift flour and baking powder and add to butter mixture alternately with milk and ",
-        "almond extract.",
+        "Sift flour and baking powder and add to butter mixture alternately with milk and almond extract.",
         "Divide mixture between 3 I inc greased and lined cake pans.",
         "Bake for 18-20 minutes or until cooked when tested.",
         "Remove from pans to cake rack and allow to cool.",
@@ -12488,8 +11899,7 @@ const dataset = {
         "Gently heat until butter melts, then heat until nearly boiling.",
         "Remove from heat and sift in icing sugar, beating until icing thickens.",
         "Spread icing over top of came and allow to drizzle down the sides.",
-        "Cool and decorate with almonds and chocolate curls.",
-        null
+        "Cool and decorate with almonds and chocolate curls."
       ],
       "category_id": "cake-recipes",
       "id": "fudge-cake-recipe"
@@ -12532,10 +11942,8 @@ const dataset = {
         "Now mix flour and milk alternately in the mixture. ",
         "Mix well till the batter is smooth. Divide this batter into 2 parts. ",
         "In one portion add cocoa powder. ",
-        "Grease and line a 8 inch baking tin. First pour 1 layer in the tin then the second and ",
-        "continue this process alternatively. ",
-        "Bake this tin in a preheated oven at 180 - 200C for 15 minutes and then reduce ",
-        "the temperature and bake for another 10 minutes or until the cake gets golden on top. ",
+        "Grease and line a 8 inch baking tin. First pour 1 layer in the tin then the second and continue this process alternatively. ",
+        "Bake this tin in a preheated oven at 180 - 200C for 15 minutes and then reduce the temperature and bake for another 10 minutes or until the cake gets golden on top. ",
         "Cool the cake and invert it on a dish. "
       ],
       "category_id": "cake-recipes",
@@ -12614,17 +12022,13 @@ const dataset = {
         "Mix gently and cook for another minute and remove from flame.",
         "Cake:",
         "Beat the eggs till fluffy.",
-        "Add the sugar and the oil and continue to beat with a hand blender or in a mixer till the mixture ",
-        "is smooth and the sugar has melted completely.",
+        "Add the sugar and the oil and continue to beat with a hand blender or in a mixer till the mixture is smooth and the sugar has melted completely.",
         "More smooth the batter more soft the cake will be.",
-        "Mix the baking powder in the maida and mix the sugar, oil and egg mixture slowly into the ",
-        "maida, taking care that no lumps form.",
+        "Mix the baking powder in the maida and mix the sugar, oil and egg mixture slowly into the maida, taking care that no lumps form.",
         "Upside Down Cake:",
         "Grease a circular cake tin and lay out the pineapple pieces on the bottom of the tin.",
-        "Pour the prepared batter gently on the the pieces and bake it in a preheated oven at 180C or till ",
-        "cake is done.",
-        "To check if the cake is ready insert a tooth pick in the center of the cake if it comes out clean ",
-        "without any mixture coating, the cake is ready.",
+        "Pour the prepared batter gently on the the pieces and bake it in a preheated oven at 180C or till cake is done.",
+        "To check if the cake is ready insert a tooth pick in the center of the cake if it comes out clean without any mixture coating, the cake is ready.",
         "Allow the cake to cool in the oven for 15 miutes.",
         "When the cake gets coool , invert the cake on a serving dish with the pineapple sides on the top.",
         "Top it with the strawberry sauce."
@@ -12705,13 +12109,10 @@ const dataset = {
         "Whip the raspberry gelatin until fluffy. ",
         "Now spoon this mixture into the pan. ",
         "Chill the pan in the refrigerator until sat but not firm. ",
-        "Chill, whip and layer the remaining flavors in the pan, letting each layer chill until sat but ",
-        "not firm before adding the next layer. ",
-        "Chill this pan overnight and loosen around the edges and remove the sides of the pan ",
-        "and paper. ",
+        "Chill, whip and layer the remaining flavors in the pan, letting each layer chill until sat but not firm before adding the next layer. ",
+        "Chill this pan overnight and loosen around the edges and remove the sides of the pan and paper. ",
         "Now take the chipped cream and spread over the top and sides of the cake. ",
-        "The rainbow cake is ready.",
-        null
+        "The rainbow cake is ready."
       ],
       "category_id": "cake-recipes",
       "id": "rainbow-cake-recipe"
@@ -12740,8 +12141,7 @@ const dataset = {
         "If the batter is thick add in the milk so that the batter gets a little smooth. ",
         "Preheat the oven to 350 degrees F or 175 degrees C. ",
         "Grease and flaw a 9X9 inch pan. ",
-        "Pour the prepared batter into the 9X9 inch pan and bake for 30-40 minutes till a ",
-        "knife inserted into the centre of the cake comes out clean. ",
+        "Pour the prepared batter into the 9X9 inch pan and bake for 30-40 minutes till a knife inserted into the centre of the cake comes out clean. ",
         "To check if the cake is done or not see that the cake sprints back to the touch. "
       ],
       "category_id": "cake-recipes",
@@ -12800,8 +12200,7 @@ const dataset = {
         "Add in the finely chopped walnuts. ",
         "Pour this mixture in a pan which has been lightly greased and flour. ",
         "Bake this pan in cold oven on middle shelf and turn on the oven to 350 degrees F. ",
-        "Let the pan baked for 1 1/4 hour and then take out the pan from the oven and let the ",
-        "cake cool in the pan on wire rack."
+        "Let the pan baked for 1 1/4 hour and then take out the pan from the oven and let the cake cool in the pan on wire rack."
       ],
       "category_id": "cake-recipes",
       "id": "walnut-palm-cake-recipe"
@@ -12843,10 +12242,8 @@ const dataset = {
         "8 Almonds (Badam), blanched "
       ],
       "preparation": [
-        "Cook mangoes and apples in water with ginger and garlic till tender and the water ",
-        "is absorbed. ",
-        "Add vinegar, sugar, almonds, red chili powder, cardamoms and raisins and cook till a ",
-        "little thick. ",
+        "Cook mangoes and apples in water with ginger and garlic till tender and the water is absorbed. ",
+        "Add vinegar, sugar, almonds, red chili powder, cardamoms and raisins and cook till a little thick. ",
         "Cool, pour into jar, cork it tightly. "
       ],
       "category_id": "chutney-recipe",
@@ -12872,10 +12269,8 @@ const dataset = {
         "Put apricots in boiling water till soft.. ",
         "Peel and mash the apricots ",
         "Strain the pulp and wash the stones of apricots with one cup of water.",
-        "Cook apricot pulp, ginger, garlic and water of washed stones, almonds and raisins till all ",
-        "the water is absorbed. ",
-        "Add vinegar, sugar, salt, cardamoms and red chili pepper and cook till is thick and ",
-        "golden brown ",
+        "Cook apricot pulp, ginger, garlic and water of washed stones, almonds and raisins till all the water is absorbed. ",
+        "Add vinegar, sugar, salt, cardamoms and red chili pepper and cook till is thick and golden brown ",
         "Put it in jar. This can be kept for one year.. "
       ],
       "category_id": "chutney-recipe",
@@ -12899,8 +12294,7 @@ const dataset = {
       "preparation": [
         "Peel and chop bananas. ",
         "Cook with vinegar to a pulp and then stir in sugar until it dissolves. ",
-        "Remove from the fire, miÂ» raisins, almonds (slit into halves), salt, chili powder and ",
-        "ground spices. ",
+        "Remove from the fire, miÂ» raisins, almonds (slit into halves), salt, chili powder and ground spices. ",
         "Cool, stir and pour into clean jars and cork tightly. ",
         "Serve after 2 days. "
       ],
@@ -12976,8 +12370,7 @@ const dataset = {
       ],
       "preparation": [
         "Stone the dates and cut them in halves. ",
-        "Put dates, ginger, ground spices, salt, chilli powder and vinegar in a pan and cook till ",
-        "dates are tender. ",
+        "Put dates, ginger, ground spices, salt, chilli powder and vinegar in a pan and cook till dates are tender. ",
         "Now add sugar and cook until the mixture thickens. ",
         "Remove from the fire, add raisins, almonds slit into halves and stir well. ",
         "While the chutney is hot pour into clean jars and cork tightly. ",
@@ -13025,8 +12418,7 @@ const dataset = {
       "preparation": [
         "Peel the guavas, cut each into four pieces and remove the seeds. ",
         "Cut into thin slices and cook with ginger, garlic and water. ",
-        "Add sugar, crushed cardamoms, vinegar, chilli powder, raisins and almonds and cook on a ",
-        "hot fire till thick. ",
+        "Add sugar, crushed cardamoms, vinegar, chilli powder, raisins and almonds and cook on a hot fire till thick. ",
         "Cool and put in a jar and cork tightly. ",
         "Serve the next day. < "
       ],
@@ -13098,8 +12490,7 @@ const dataset = {
         "Peel and cut mangoes into very thin and long slices removing the stones. ",
         "Chop garlic very fine and cut ginger into thin and long slices. ",
         "Cook the mango slices, garlic and ginger in water on a low fire. ",
-        "When tender, add sugar, vinegar, Red chili pepper , cardamoms, salt and blanched ",
-        "almonds and stir until thick and becomes golden. ",
+        "When tender, add sugar, vinegar, Red chili pepper , cardamoms, salt and blanched almonds and stir until thick and becomes golden. ",
         "Remove from the fire, add raisins and mix well. ",
         "Cool and put in an airtight jar. ",
         "Store in a cool and dark place. "
@@ -13119,8 +12510,7 @@ const dataset = {
       ],
       "preparation": [
         "To make tamarind pulp soak little tamarind in water and keep aside for 2 hours. ",
-        "Then strain the mixture in a bowl with the help of a spoon. To make tamarind juice add ",
-        "little water to the pulp. ",
+        "Then strain the mixture in a bowl with the help of a spoon. To make tamarind juice add little water to the pulp. ",
         "These days ready made pulp is available in the market. Wash the mint leaves well. ",
         "Grind it to a smooth paste with green chillies, salt and tamarind juice.",
         "You can add water if the mixture is thick. "
@@ -13140,8 +12530,7 @@ const dataset = {
       ],
       "preparation": [
         "Peel the mangoes and remove their stones. ",
-        "Grind the mint leaves, chopped onion, green chillies and mango pulp together into a ",
-        "fine paste. ",
+        "Grind the mint leaves, chopped onion, green chillies and mango pulp together into a fine paste. ",
         "Mix with salt."
       ],
       "category_id": "chutney-recipe",
@@ -13230,8 +12619,7 @@ const dataset = {
         "2 cups of water. ",
         "Cook till the pineapple is done. Add more water if required while cooking the pineapple. ",
         "Mix the maida with some water to a paste and this to the chutney. ",
-        "Roast the other half of the masala mixture on a tawa and powder coarsely. Then add it to ",
-        "the chutney."
+        "Roast the other half of the masala mixture on a tawa and powder coarsely. Then add it to the chutney."
       ],
       "category_id": "chutney-recipe",
       "id": "pineapple-chutney-recipe"
@@ -13259,7 +12647,6 @@ const dataset = {
         "Add vinegar, sugar, salt, Red chili pepper , almonds and raisins. ",
         "Cook till a little thick and slightly golden brown. ",
         "Pour into bottles or airtight jars. ",
-        null,
         "_"
       ],
       "category_id": "chutney-recipe",
@@ -13282,8 +12669,7 @@ const dataset = {
         "Soak the amchoor overnight in 4 cups of water. ",
         "Boil in the same water in which it was soaked on low fire until tender. ",
         "Pass through a sieve, add a little water every now and then till it is of pouring consistency. ",
-        "Add ground spices, dry ginger, Red chili pepper , jaggery and white cuminseed powder ",
-        "and salt and mix well. ",
+        "Add ground spices, dry ginger, Red chili pepper , jaggery and white cuminseed powder and salt and mix well. ",
         "Serve with papri and sprinkle a little black salt. It is sufficient for 12 persons. "
       ],
       "category_id": "chutney-recipe",
@@ -13326,11 +12712,9 @@ const dataset = {
       ],
       "preparation": [
         "Scrape and grate the carrots, chop garlic and slice ginger into long strips. ",
-        "Put the grated carrots, water, garlic and ginger in a deep pan or degchi and cook on a ",
-        "slow fire until tender and water is absorbed. ",
+        "Put the grated carrots, water, garlic and ginger in a deep pan or degchi and cook on a slow fire until tender and water is absorbed. ",
         "Stir well. ",
-        "Add vinegar, sugar, salt, cleaned raisins, almonds and crushed cardamoms and cook till ",
-        "a little thick. ",
+        "Add vinegar, sugar, salt, cleaned raisins, almonds and crushed cardamoms and cook till a little thick. ",
         "Pour in a clean jar and cork tightly. Serve after 2 days. "
       ],
       "category_id": "chutney-recipe",
@@ -13354,8 +12738,7 @@ const dataset = {
       ],
       "preparation": [
         "Cook pineapple, garlic and dates with water on a low fire till tender and water is absorbed. ",
-        "Add sugar, Red chili pepper , salt, cardamoms, vinegar and cook on hot fire till it becomes ",
-        "a little thick. ",
+        "Add sugar, Red chili pepper , salt, cardamoms, vinegar and cook on hot fire till it becomes a little thick. ",
         "Mix raisins and caramel syrup and cook for a few minutes. ",
         "Pur into a jar. ",
         "This chutney can be kept for one year. ",
@@ -13385,8 +12768,7 @@ const dataset = {
       "preparation": [
         "Remove the shells of raspberries. ",
         "Wash and cook on a low fire with ginger, garlic and water till tender. ",
-        "Mash, add sugar, vinegar, crushed cardamoms, salt, Red chili pepper , mashed ",
-        "strawberries, almonds, dates and raisins and cook till a little thick. ",
+        "Mash, add sugar, vinegar, crushed cardamoms, salt, Red chili pepper , mashed strawberries, almonds, dates and raisins and cook till a little thick. ",
         "Cool a little, pour it into a jar. "
       ],
       "category_id": "chutney-recipe",
@@ -13413,8 +12795,7 @@ const dataset = {
         "Soak the whole amchoor in water overnight. ",
         "Cook it in the same water until tender. ",
         "Cool and pass through a sieve. ",
-        "Add to it salt, chilli powder, white cumin powder, dry ginger, fresh ginger slices and black ",
-        "salt dissolved in a little water and mix well. ",
+        "Add to it salt, chilli powder, white cumin powder, dry ginger, fresh ginger slices and black salt dissolved in a little water and mix well. ",
         "Add sliced bananas and raisins soaked in water and mix. ",
         "Serve at dinner or lunch. "
       ],
@@ -13456,10 +12837,8 @@ const dataset = {
       "preparation": [
         "Add 5 cups of water to tamarind and bring to er the flame and cook for 10 minutes. ",
         "Strain it and add the jaggery, chilli powder, cumin powder, salt, garam masala and mix well. ",
-        "Cook again on medium flame till jaggery dissolves completely and the chutney gets semi ",
-        "thick(not too thick) ",
-        "Take out the pulp from the tamarind mixture.This Chutney thickens more on cooling so ",
-        "check for consistency when using."
+        "Cook again on medium flame till jaggery dissolves completely and the chutney gets semi thick(not too thick) ",
+        "Take out the pulp from the tamarind mixture.This Chutney thickens more on cooling so check for consistency when using."
       ],
       "category_id": "chutney-recipe",
       "id": "tamarind-chutney-recipe"
@@ -13479,11 +12858,9 @@ const dataset = {
       ],
       "preparation": [
         "Drain the soaked chillies and chop them finely. ",
-        "Heat the oil, add the onions and garlic and sauté over a slow flame for 4 to 5 minutes till ",
-        "they are lightly brown. ",
+        "Heat the oil, add the onions and garlic and sauté over a slow flame for 4 to 5 minutes till they are lightly brown. ",
         "Add the chillies and salt and sauté again. ",
-        "Add the tomatoes and cook for 10 to 12 minutes over a slow flame till the tomatoes are ",
-        "soft and can be mashed lightly. ",
+        "Add the tomatoes and cook for 10 to 12 minutes over a slow flame till the tomatoes are soft and can be mashed lightly. ",
         "Cool completely and add the coriander and spring onion greens and mix well.",
         "Serve tomato chutney chilled or at room temperature. "
       ],
@@ -13559,11 +12936,9 @@ const dataset = {
         "In a bowl, beat the butter, sugar and cardomom powder fro 3 minutes. ",
         "Then with the beater going add the eggs one at a time. ",
         "When the mixture gets light take it out in a bowl and add the flour and salt with a light hand. ",
-        "When a soft dough gets prepared with the help of a spoon drop them on a nonstick ",
-        "cookie sheet. ",
+        "When a soft dough gets prepared with the help of a spoon drop them on a nonstick cookie sheet. ",
         "Place them 1/2\" apart. ",
-        "Bake these cookies in a preheated oven at 325 F for 10 - 11 minutes or till the cookies have ",
-        "a golden color. ",
+        "Bake these cookies in a preheated oven at 325 F for 10 - 11 minutes or till the cookies have a golden color. ",
         "Repeat the baking procedure for the remaining dough. "
       ],
       "category_id": "cookie-recipes",
@@ -13610,14 +12985,12 @@ const dataset = {
         "100 gms Cooking chocolate "
       ],
       "preparation": [
-        "Soften the butter or margarine in a bowl and mix in the icing sugar, lightly beaten egg ",
-        "and salt. ",
+        "Soften the butter or margarine in a bowl and mix in the icing sugar, lightly beaten egg and salt. ",
         "Sift in flour and cocoa and mix together to make a stiff dough. leave for 30 minutes. ",
         "Roll out pieces of dough to the shape of pretzels. ",
         "Place on a lightly greased tray and bake for 15-18 minutes in a moderate oven. ",
         "Melt cooking chocolate with water over a low heat. ",
-        "Drop each pretzel into the hot chocolate and quickly remove. dry each pretzel on ",
-        "greaseproof paper. "
+        "Drop each pretzel into the hot chocolate and quickly remove. dry each pretzel on greaseproof paper. "
       ],
       "category_id": "cookie-recipes",
       "id": "chocolate-pretzels-recipe"
@@ -13646,8 +13019,7 @@ const dataset = {
         "Make 1 1/4 size balls out of the dough. ",
         "Take a ungreased cookies sheet and place the balls on it 2 inches apart. ",
         "Press the cookies in the center with the thumb. ",
-        "Bake the cookiesat 325 degrees for 10 to 15 minutes or until light golden brown ",
-        "around edges. ",
+        "Bake the cookiesat 325 degrees for 10 to 15 minutes or until light golden brown around edges. ",
         "Let them cool. ",
         "When completely cool fill the cavity of each cookie with ½ teaspoon jam. "
       ],
@@ -13701,8 +13073,7 @@ const dataset = {
         "Add the flour and mix the oats. ",
         "Mix well and then add currants and chocolate chips. ",
         "Now drop one spoonful of the batter on inch apart on the greased baking tray. ",
-        "Bake for 12 - 14 minutes or till golden in color. ",
-        null
+        "Bake for 12 - 14 minutes or till golden in color. "
       ],
       "category_id": "cookie-recipes",
       "id": "raisin-choco-oat-cookie"
@@ -13724,8 +13095,7 @@ const dataset = {
       "preparation": [
         "Sieve flour with salt and baking powder in a bowl. ",
         "Add sugar, butter, 2 eggs, cake seeds, blend well. ",
-        "Add milk little by little and knead to a smooth dough. ",
-        "roll out on a floured board 1cm thick and cut out with fancy cookie cutters. ",
+        "Add milk little by little and knead to a smooth dough. roll out on a floured board 1cm thick and cut out with fancy cookie cutters. ",
         "Brush with remaining egg (well beaten) and sprinkle heavily with sesame seeds. ",
         "Place on a greased baking tray. ",
         "Bake in a moderate oven for 10 minutes. ",
@@ -13753,8 +13123,7 @@ const dataset = {
         "Add this mixture to the dry ingredients. ",
         "Make a dough and roll it into a ball. ",
         "Wrap it in a wax paper and let it chill for 1 hour. ",
-        "When you want to make the cookies take a samll ball of the dough and roll it into a cookie ",
-        "by pressing the ball between two wax papers. ",
+        "When you want to make the cookies take a samll ball of the dough and roll it into a cookie by pressing the ball between two wax papers. ",
         "Bake the cookies at 350° for 5-7 minutes or till the cookies are firm "
       ],
       "category_id": "cookie-recipes",
@@ -13808,8 +13177,7 @@ const dataset = {
       ],
       "preparation": [
         "Grind coconut with green chilies and cumin seeds in paste and keep it aside.",
-        "Heat coconut oil in a thick bottom vessel, add vegetables and cook it on a low flame ",
-        "without adding water.",
+        "Heat coconut oil in a thick bottom vessel, add vegetables and cook it on a low flame without adding water.",
         "When the vegetables are cooked, add turmeric powder, salt and mix well.",
         "Put bananas and mango pieces in cooked vegetables and cover the vessel.",
         "When steam comes out, add the coconut paste and stir well.",
@@ -13855,8 +13223,7 @@ const dataset = {
         "Mix condensed milk, coconut powder, sugar and vanilla essence. Pour it in a dish. ",
         "Spread cream on the top. ",
         "Garnish with cherry. ",
-        "Refrigerate it for setting and serve chilled. ",
-        null
+        "Refrigerate it for setting and serve chilled. "
       ],
       "category_id": "coconut-recipes",
       "id": "coconut-pudding-recipe"
@@ -13978,20 +13345,13 @@ const dataset = {
         "8-10 curry leaves (kari patta)"
       ],
       "preparation": [
-        "Peel and dice the potatoes into 1 inch cubes. String the beans and halve them, cut them ",
-        "into one inch pieces. Shell the peas. Wash cauliflower and separate the cauliflower ",
-        "florets. Peel and dice the carrots into 1 inch cubes. Peel and dice the pumpkin into 1 ",
+        "Peel and dice the potatoes into 1 inch cubes. String the beans and halve them, cut them into one inch pieces. Shell the peas. Wash cauliflower and separate the cauliflower florets. Peel and dice the carrots into 1 inch cubes. Peel and dice the pumpkin into 1 ",
         "inch cubes.",
-        "Add warm water to one cup of scraped coconut and extract thick and thin milk. Keep ",
-        "aside. Dissolve tamarind pulp in half cup of water.",
-        "Heat a little oil and sautÃ© 2 whole red chillies, cumin, coriander, garlic and the ",
-        "remaining half cup of scraped coconut till a nice aroma is given out. Grind into a fine paste.",
-        "Boil the vegetables in the thin coconut milk with turmeric powder, tamarind extract and ",
-        "salt till three-fourth done. Add the ground masala and cook for 10 minutes.",
-        "Heat a little oil separately and add the remaining red chillies broken into two, mustard ",
-        "seeds and urad dal. Add curry leaves and add this to the vegetables.",
-        "Continue cooking the vegetables till done. Then add the thick coconut milk and simmer ",
-        "for two to three minutes. Serve hot with boiled rice.",
+        "Add warm water to one cup of scraped coconut and extract thick and thin milk. Keep aside. Dissolve tamarind pulp in half cup of water.",
+        "Heat a little oil and sautÃ© 2 whole red chillies, cumin, coriander, garlic and the remaining half cup of scraped coconut till a nice aroma is given out. Grind into a fine paste.",
+        "Boil the vegetables in the thin coconut milk with turmeric powder, tamarind extract and salt till three-fourth done. Add the ground masala and cook for 10 minutes.",
+        "Heat a little oil separately and add the remaining red chillies broken into two, mustard seeds and urad dal. Add curry leaves and add this to the vegetables.",
+        "Continue cooking the vegetables till done. Then add the thick coconut milk and simmer for two to three minutes. Serve hot with boiled rice.",
         "Ok"
       ],
       "category_id": "coconut-recipes",
@@ -14047,16 +13407,13 @@ const dataset = {
         "Almond and Pista "
       ],
       "preparation": [
-        "Take a bowl and add 1 cup of coconut milk and and vanilla custard powder to it and stir continuosly ",
-        "so that no lumps are there",
+        "Take a bowl and add 1 cup of coconut milk and and vanilla custard powder to it and stir continuosly so that no lumps are there",
         "Take a pan and heat it, add the mixture to it. ",
         "Stir it till the mixture is thick and then add 1 tbsp of ghee to it and add the almonds and pista to it ",
         "Take a decorative plate add the content in to it and freeze it for 15 min. ",
-        "Now take another bowl and add 1 cup of coconut milk and strawbery custard powder and stir ",
-        "it continously ",
+        "Now take another bowl and add 1 cup of coconut milk and strawbery custard powder and stir it continously ",
         "Take a frying pan and heat it. ",
-        "Add the mixture into it and stir continously till the content is thick Add 1 tbsp of ghee and almond ",
-        "and pista to it ",
+        "Add the mixture into it and stir continously till the content is thick Add 1 tbsp of ghee and almond and pista to it ",
         "Take out the vanilla mixture kept in the freezer. ",
         "Add the strawbery mixture above the vanilla mixture and decorate it with almond and pista over it ",
         "Freeze the mixture and after half an hour cut it into square pieces "
@@ -14083,8 +13440,7 @@ const dataset = {
       "preparation": [
         "Sieve the flour. ",
         "Mix the six tablespoons of oil with the maida. ",
-        "Using fingers, mix well so that the mixture takes the form of breadcrumbs and binds to ",
-        "a certain extent. ",
+        "Using fingers, mix well so that the mixture takes the form of breadcrumbs and binds to a certain extent. ",
         "Now add some water and knead lightly. ",
         "Keep adding water as required and knead into a soft but tight dough. ",
         "Set aside and cover with a damp cloth. ",
@@ -14094,16 +13450,14 @@ const dataset = {
         "Fry for 2 minutes and remove from the heat. ",
         "Allow it to cool. ",
         "Divide the dough into small balls and roll each ball into a small round of 4 inch diameter. ",
-        "Fill half the round with the khoya mixture, fold it and seal the round, twisting the ",
-        "edges inwards. ",
+        "Fill half the round with the khoya mixture, fold it and seal the round, twisting the edges inwards. ",
         "Take care that the filling does not ooze out. ",
         "Prepare all the gujiyas and spread on a cloth. ",
         "Heat ghee in a kadhai and deep fry the gujiyas in batches on a medium flame.. ",
         "When golden brown in colour, drain and remove. ",
         "Store for use in an airtight glass jar. ",
         "Tip : Gujiya moulds can also be used (they are easily available in any indian store or market). ",
-        "For using moulds, place the rolled dough ball in a greased gujiya mould and fill a tblsp ",
-        "of filling mixture on one side. ",
+        "For using moulds, place the rolled dough ball in a greased gujiya mould and fill a tblsp of filling mixture on one side. ",
         "Moisten the edges of the round and fold one side of the mould over the other. ",
         "Remove the excess edges and reuse. "
       ],
@@ -14128,11 +13482,9 @@ const dataset = {
       ],
       "preparation": [
         "1. Peel the skin of lauki and chop it into small cubes.",
-        "2. Pressure Cook these lauki cubes for a while, it will not take more than 2-3 min, please ",
-        "dont overcook it. ",
+        "2. Pressure Cook these lauki cubes for a while, it will not take more than 2-3 min, please dont overcook it. ",
         "3. Add the jeera and green chillies to the cocunut, add a little water and grind it into a paste. ",
-        "4. Take the curd, and beat it beat, add the salt to it.Then add the ground paste of cocunut, jeera ",
-        "and chillies. ",
+        "4. Take the curd, and beat it beat, add the salt to it.Then add the ground paste of cocunut, jeera and chillies. ",
         "5. Add to it the cooked Lauki, chk if the salt is fine, and add a seasoning made of Mustard and ",
         "Jeera with the oil on top. ",
         "6.Garnish with coriander and serve it with hot rice/pulao. "
@@ -14161,14 +13513,11 @@ const dataset = {
         "salt to taste "
       ],
       "preparation": [
-        "To make Masala grind the til, dhania, jeera, mustard, khus khus, 1 tbsp grated coconut, ",
-        "chili powder, haldi garlic and 1 onion to a fine paste. ",
+        "To make Masala grind the til, dhania, jeera, mustard, khus khus, 1 tbsp grated coconut, chili powder, haldi garlic and 1 onion to a fine paste. ",
         "Extract 2 cups milk from the grated coconut. Extract the pulp from the tamarind soaked in ",
         "1 cup of water. ",
-        "Heat oil and add the 1 sliced onion and fry till crisp. Put in the masala paste and fry till the ",
-        "oil separates.",
-        "Now add the fish pieces and fry a little. Pour in the coconut milk and add salt to taste ",
-        "along with the curry leaves. ",
+        "Heat oil and add the 1 sliced onion and fry till crisp. Put in the masala paste and fry till the oil separates.",
+        "Now add the fish pieces and fry a little. Pour in the coconut milk and add salt to taste along with the curry leaves. ",
         "Gently simmer till nearly done. Lastly add the tamarind water and again simmer a little. ",
         "Serve machhi ka salan hot."
       ],
@@ -14200,15 +13549,13 @@ const dataset = {
       "preparation": [
         "Take off and wash lauki. Cut into 3/4 \" cubes.",
         "Dry roast coriander and cumin seeds.",
-        "Make a paste of roasted cumin seeds, coriander seeds, peeled ginger, garlic, whole ",
-        "red chillies, peppercorns, cloves, cinnamon, turmeric powder and scraped coconut. ",
+        "Make a paste of roasted cumin seeds, coriander seeds, peeled ginger, garlic, whole red chillies, peppercorns, cloves, cinnamon, turmeric powder and scraped coconut. ",
         "(reserve one tblsp of scraped coconut for garnish.). Keep the paste aside.",
         "Heat up oil in a pan.",
         "Mix in asafoetida and mustard seeds.",
         "Once they begin to crackle, mix in curry leaves and cut onions.",
         "Stir fry for two minutes and mix in lauki.",
-        "Stir fry for 5 minutes. mix in the masala and coconut paste, dissolved in 11/2 cup of ",
-        "water. Stir and bring it to a boil.",
+        "Stir fry for 5 minutes. mix in the masala and coconut paste, dissolved in 11/2 cup of water. Stir and bring it to a boil.",
         "Dissolve tamarind pulp in water if it is too thick.",
         "Mix in to the gravy. Add salt and mix well.",
         "Serve hot decorated with grated coconut."
@@ -14244,11 +13591,8 @@ const dataset = {
         "Discard the residue and set aside.",
         "Wash the brinjals, make 2 inch slits along the length ensuring that the end is intact.",
         "Roast the onions on a griddle till they soften and turn light golden brown.",
-        "Dry roast together on medium heat the coriander seeds, sesame seeds, peanuts, ",
-        "cumin seeds, poppy seeds, dessicated coconut and the fenugreek seeds till they ",
-        "darken slighly and start emitting an aroma.",
-        "Grind together the onions, roasted spices, ginger, garlic, salt, turmeric powder, red ",
-        "chilli powder and jaggery to a fine paste.",
+        "Dry roast together on medium heat the coriander seeds, sesame seeds, peanuts, cumin seeds, poppy seeds, dessicated coconut and the fenugreek seeds till they darken slighly and start emitting an aroma.",
+        "Grind together the onions, roasted spices, ginger, garlic, salt, turmeric powder, red chilli powder and jaggery to a fine paste.",
         "Mix in the tamaind water.",
         "Keep aside some of this mixture and stuff the brinjals with the remaining mixture.",
         "Heat oil, add the curry leaves and saute for a few minutes.",
@@ -14288,8 +13632,7 @@ const dataset = {
         "Grind the mixture to a paste using blender. ",
         "Add little water if needed. ",
         "Slit each eggplant lengthwise into four, keeping the stem end intact. ",
-        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews ",
-        "and turmeric powder. ",
+        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews and turmeric powder. ",
         "Stuff the eggplants with this mixture, reserving some. ",
         "Roll the potatoes in the remaining mixture. ",
         "Heat the remaining oil in a pan and add the vegetables. ",
@@ -14319,9 +13662,7 @@ const dataset = {
         "cooking oil"
       ],
       "preparation": [
-        "Cut all the vegetabels in big pieces and boil and strain them and keep aside. ",
-        "heat some oil in a pan and add mustard seeds curry leaves and greenchilly in to it after it heats ",
-        "up add the strained curd in it & then add salt & sugar to taste.",
+        "Cut all the vegetabels in big pieces and boil and strain them and keep aside. heat some oil in a pan and add mustard seeds curry leaves and greenchilly in to it after it heats up add the strained curd in it & then add salt & sugar to taste.",
         "Then add all the boiled vegetabels into it. ",
         "Garnish with finelychopped coriander leaves.",
         "This can also beeaten as a vegetale dish with chapatti & it is a low calorie healthy nutritious food."
@@ -14350,26 +13691,17 @@ const dataset = {
         "1 tblsp coriander leaves (finely chopped) "
       ],
       "preparation": [
-        "Wash and soak the arhar dal in 2 cups of water for 1/2 hour. Soaking the dal reduces ",
-        "the cooking time. ",
-        "Cooking with Pressure Cooker - Drain out the water and put dal with 3 cups of water, ",
-        "salt and turmeric in a pressure cooker. Close the lid and cook the dal. After the first ",
-        "whistle turn the heat down and cook on medium flame for 3 - 4 minutes. Turn off the ",
+        "Wash and soak the arhar dal in 2 cups of water for 1/2 hour. Soaking the dal reduces the cooking time. ",
+        "Cooking with Pressure Cooker - Drain out the water and put dal with 3 cups of water, salt and turmeric in a pressure cooker. Close the lid and cook the dal. After the first whistle turn the heat down and cook on medium flame for 3 - 4 minutes. Turn off the ",
         "flame. Once the pressure ends open the lid and check if the dal is cooked or not and if ",
         "it requires some more water. If the dal is thick in consistency then add some water for ",
         "the desired flow. ",
-        "Cooking without Pressure Cooker - Drain out the water and boil dal with 5 -6 cups ",
-        "of water, salt and turmeric in a pan. Once it starts to boil close the lid and turn the flame ",
-        "to medium and simmer till the dal gets little mushy. Adjust the water according to ",
+        "Cooking without Pressure Cooker - Drain out the water and boil dal with 5 -6 cups of water, salt and turmeric in a pan. Once it starts to boil close the lid and turn the flame to medium and simmer till the dal gets little mushy. Adjust the water according to ",
         "your desired consistency.",
         "Now move the dal to a serving bowl and begin tempering.",
-        "Take ghee or clarified butter in a pan, heat it; add cumin seed. When the cumin seeds ",
-        "begin to sputter add hing, dried red chilli, stir it and then add green chilli, ginger, garlic ",
-        "and fry till golden brown.",
+        "Take ghee or clarified butter in a pan, heat it; add cumin seed. When the cumin seeds begin to sputter add hing, dried red chilli, stir it and then add green chilli, ginger, garlic and fry till golden brown.",
         "After few seconds add onions to it when itâ€™s translucent add tomatoes to it. ",
-        "When the oil begins to separate add pinch of salt and red chili powder to it. Quickly stir with ",
-        "a spoon and pour it over the dal and close the lid. Ensure that the red chilly powder does ",
-        "not get burnt.",
+        "When the oil begins to separate add pinch of salt and red chili powder to it. Quickly stir with a spoon and pour it over the dal and close the lid. Ensure that the red chilly powder does not get burnt.",
         "Before serving garnish it with the coriander leaves and add lemon juice to it, stir it properly. ",
         "Serve hot with steamed rice or roti. ",
         "Note: You can also make the same dal without onion and garlic, if you prefer."
@@ -14397,13 +13729,10 @@ const dataset = {
       ],
       "preparation": [
         "Wash arhar dal and soak it in 3 cup of water for 30 minutes before cooking it.",
-        "Drain and put dal in a pan with 2 cups of water; add turmeric, raw mango ,sugar and salt ",
-        "to it. Boil for 30 minutes until lentils are mushy and mango is blended well with dal. ",
+        "Drain and put dal in a pan with 2 cups of water; add turmeric, raw mango ,sugar and salt to it. Boil for 30 minutes until lentils are mushy and mango is blended well with dal. ",
         "The consistency of the dal should be thick. ",
-        "Take a frying pan, heat ghee in it and add mustard seeds. When they sputter add the ",
-        "hing, curry leaves, dried red chilly and grated ginger.",
-        "Reduce the heat and when the ginger gets slightly fried pour the mixture over the ",
-        "cooked lentils and stir well. Cook for another 10 to 15 minutes while stirring occasionally.",
+        "Take a frying pan, heat ghee in it and add mustard seeds. When they sputter add the hing, curry leaves, dried red chilly and grated ginger.",
+        "Reduce the heat and when the ginger gets slightly fried pour the mixture over the cooked lentils and stir well. Cook for another 10 to 15 minutes while stirring occasionally.",
         "Mix garam masala and garnish it with coriander leaves. ",
         "Serve hot with plain rice. "
       ],
@@ -14427,13 +13756,10 @@ const dataset = {
       "preparation": [
         "Soak the chana daal in 4 cup water for 2-3 hours then wash and drain. ",
         "Boil 3 cups water, ginger, turmeric and the salt in a pan. ",
-        "Add the chana dal, cover the pan and cook over medium flame for 30 min or till the dal ",
-        "is tender and stiring occasionally. ",
+        "Add the chana dal, cover the pan and cook over medium flame for 30 min or till the dal is tender and stiring occasionally. ",
         "Stir the dal when cooked. ",
-        "For the tempering heat ghee in a pan and when hot add cumin seeds. When the seeds ",
-        "begin to sputter add garlic.",
-        "Stir well and fry till the garlic turns light brown. Add the red chilly powder and stiring it, ",
-        "pour it immediately over the cooked dal and cover the pot",
+        "For the tempering heat ghee in a pan and when hot add cumin seeds. When the seeds begin to sputter add garlic.",
+        "Stir well and fry till the garlic turns light brown. Add the red chilly powder and stiring it, pour it immediately over the cooked dal and cover the pot",
         "Chana dal is ready to be served with rice or bread. "
       ],
       "category_id": "dal-recipes",
@@ -14468,8 +13794,7 @@ const dataset = {
         "Now in kadhai heat oil, splutter cumin seeds and add garlic paste, fry till light brown. ",
         "Add onions and fry till golden brown. ",
         "Now add ginger, green chilies and tomatoes and fry till tomatoes soften. ",
-        "Now add dry masalas (turmeric powder, chili powder, dhania powder & salt) and fry again ",
-        "for a moment. ",
+        "Now add dry masalas (turmeric powder, chili powder, dhania powder & salt) and fry again for a moment. ",
         "Add daal and stir on medium flame. As soon as it starts boiling remove from the gas. ",
         "Sprinkle garam masala powder and garnish daal makhni with coriander and add butter. ",
         "Serve daal makhni hot. Goes well with laccha paratha, naan or rice."
@@ -14505,14 +13830,12 @@ const dataset = {
         "Grind ginger, garlic buds and onions. ",
         "Finely chop green chilies and tomatoes. ",
         "Soak tamarind in 1/2 cup water for 1/2 an hour and then strain. ",
-        "Boil all dals in a pressure cooker with turmeric and salt until it is cooked properly and ",
-        "then remove it from the flame. ",
+        "Boil all dals in a pressure cooker with turmeric and salt until it is cooked properly and then remove it from the flame. ",
         "Heat ghee in a pan and fry cottage cheese and then take them out. ",
         "In the same ghee crackle cumin seeds and fry onion paste until it turns pink. ",
         "Then add tomatoes and cook for few seconds. ",
         "Then add curd and stir continuously. ",
-        "Then add salt red chilly powder, black pepper powder, sugar and tamarind and fry for ",
-        "a minute. ",
+        "Then add salt red chilly powder, black pepper powder, sugar and tamarind and fry for a minute. ",
         "Then add some cream and cook for some more time. ",
         "Lastly ass all boiled dals and cottage cheese pieces and simmer for 5 minutes. ",
         "Then remove it from the flame and garnish with coriander and serve hot. "
@@ -14610,8 +13933,7 @@ const dataset = {
         "Grind the grated coconut with a little water to a smooth paste in a blender.keep aside. ",
         "Fry the sliced onions till golden brown. remove and keep aside. ",
         "Cook the gram in a pressure cooker with just sufficient water to cook the dal until soft. ",
-        "Remove the lid of the cooker and add the green chillies , turmeric powder tomatoes and ",
-        "salt. cook for 3 minutes. ",
+        "Remove the lid of the cooker and add the green chillies , turmeric powder tomatoes and salt. cook for 3 minutes. ",
         "When the tomatoes are cooked add the coconut paste. mix thoroughly. ",
         "Cook for a minute and remove from the flame. ",
         "Heat the oil in a pan. add the mustard seeds, when they crackle add the cumin seeds. ",
@@ -14641,16 +13963,11 @@ const dataset = {
       "preparation": [
         "Rinse massor dhal thoroughly, until water is clear. In pot bring 1 quart water to boil. ",
         "Add massor daal.",
-        "Cook half way, about 10 to 15 minutes, add 1/2 teaspoon garam masala, 1/2 ",
-        "teaspoon turmeric and salt. As massor dhal cooks, uncovered, water will evaporate ",
-        "and mixture will thicken.",
-        "Add more water to keep dal loose, like texture of thick cream. When dal is soft, turn off ",
-        "heat. Heat oil in wok. When oil is very hot, add onions and cook until tender and ",
-        "translucent but not browned. ",
+        "Cook half way, about 10 to 15 minutes, add 1/2 teaspoon garam masala, 1/2 teaspoon turmeric and salt. As massor dhal cooks, uncovered, water will evaporate and mixture will thicken.",
+        "Add more water to keep dal loose, like texture of thick cream. When dal is soft, turn off heat. Heat oil in wok. When oil is very hot, add onions and cook until tender and translucent but not browned. ",
         "Add garlic, ginger and chiles. Continue to fry until onions are deep-yellow. Add remaining ",
         "1 teaspoon each garam masala and turmeric.",
-        "Do not allow spices to burn. Keep stirring until mixture starts to stick. Add tomatoes ",
-        "and cilantro. Cook until tomato softens.",
+        "Do not allow spices to burn. Keep stirring until mixture starts to stick. Add tomatoes and cilantro. Cook until tomato softens.",
         "Pour in pot of masoor dal and simmer to blend flavors. Taste and add more salt if needed. "
       ],
       "category_id": "dal-recipes",
@@ -14679,22 +13996,14 @@ const dataset = {
         "2 Green Chilies, Minced "
       ],
       "preparation": [
-        "Pick clean and wash all the beans thoroughly in several changes of water. Put them in a ",
-        "deep pot with 1/2 teaspoon turmeric and 1 1/2 litres (1 1/2 quarts) of water. Bring the ",
-        "water to the boil and stir often to prevent the beans from sticking to the bottom of the pan ",
+        "Pick clean and wash all the beans thoroughly in several changes of water. Put them in a deep pot with 1/2 teaspoon turmeric and 1 1/2 litres (1 1/2 quarts) of water. Bring the water to the boil and stir often to prevent the beans from sticking to the bottom of the pan ",
         "or lumping together. Cook over medium heat, partially covered, for about 30 minutes. ",
-        "Stir in the salt to taste. Keep the lentils on a low simmer while you make the ",
-        "fried seasonings. ",
-        "Heat 4-6 tablespoons of the oil in a large frying pan over medium high heat. Add the ",
-        "onions and cook, stirring constantly, until they turn light brown (15-18 minutes). Add ",
-        "the garlic, ginger and chilies and continue cooking for 2 more minutes. Increase the heat ",
+        "Stir in the salt to taste. Keep the lentils on a low simmer while you make the fried seasonings. ",
+        "Heat 4-6 tablespoons of the oil in a large frying pan over medium high heat. Add the onions and cook, stirring constantly, until they turn light brown (15-18 minutes). Add the garlic, ginger and chilies and continue cooking for 2 more minutes. Increase the heat ",
         "to high, add the tomatoes, and fry, turning them carefully and shaking the pan, until ",
         "they look slightly browned and cooked (about 5 minutes). ",
-        "Pour the entire contents of the pan over the dal and gently stir to mix. Continue ",
-        "simmering while you make the spiced butter. ",
-        "Wipe the frying pan clean and place it on medium-high heat. Add the remaining 2 ",
-        "tablespoons of the oil. When it is hot, add the cumin, cayenne and paprika. Immediately ",
-        "pour the entire contents of the pan over the dal, scraping the mixture out with a ",
+        "Pour the entire contents of the pan over the dal and gently stir to mix. Continue simmering while you make the spiced butter. ",
+        "Wipe the frying pan clean and place it on medium-high heat. Add the remaining 2 tablespoons of the oil. When it is hot, add the cumin, cayenne and paprika. Immediately pour the entire contents of the pan over the dal, scraping the mixture out with a ",
         "rubber spatula. Stir a few times, just to streak the dal with the spiced butter.",
         "Serve garnished with coriander and more paprika. "
       ],
@@ -14716,9 +14025,7 @@ const dataset = {
       "preparation": [
         "Wash the dal 2 - 3 times in water. Then soak it for 1/2 hour in 3 cups of water. ",
         "Drain the water and pressure cook the dal in 3 cups of water, turmeric and salt for 6 -",
-        "7 whistles. Once the steam escapes check the consistency. If the dal is still uncooked ",
-        "then add some more water and pressure cook for 1 -2 whistles. If the dal is all dried and ",
-        "then add warm water according to the desired flow. ",
+        "7 whistles. Once the steam escapes check the consistency. If the dal is still uncooked then add some more water and pressure cook for 1 -2 whistles. If the dal is all dried and then add warm water according to the desired flow. ",
         "For the tadka ,heat ghee in a pan and add hing and cumin seeds. ",
         "Once the seeds begin to sputter add the chopped green chillies and fry for a minute. ",
         "Add the mashed green moong dal to it and let it boil. Keep till 2-3 boils. ",
@@ -14754,8 +14061,7 @@ const dataset = {
         "Heat ghee in a pan and crackle cumin seeds and asafoetida in it. ",
         "Then add red chilly powder and coriander powder and mix it with lentils. ",
         "Finely chop coriander and sprinkle on lentil. ",
-        "Add lemon juice and serve hot. ",
-        null
+        "Add lemon juice and serve hot. "
       ],
       "category_id": "dal-recipes",
       "id": "panchmel-dal-recipe"
@@ -14778,13 +14084,10 @@ const dataset = {
       "preparation": [
         "Wash and soak the gram for 30 minutes. ",
         "Boil some water in a pan. ",
-        "Add the spinach leaves and the sodium bi carbonate and cook the leaves for a minute over ",
-        "a high flame till the leaves are cooked. ",
+        "Add the spinach leaves and the sodium bi carbonate and cook the leaves for a minute over a high flame till the leaves are cooked. ",
         "Drain the leaves and when cool grind in a blender. remove and keep aside. ",
         "Cook the dal ,turmeric powder, chilly powder and the salt in a pressure cooker. ",
-        "When the dal is cooked remove from the flame and keep aside.( make sure the dal ",
-        "is dissolved in the water, if the water was not sufficient add some more water and cook ",
-        "the dal again in a pan . use a wooden spoon to mash the dal). ",
+        "When the dal is cooked remove from the flame and keep aside.( make sure the dal is dissolved in the water, if the water was not sufficient add some more water and cook the dal again in a pan . use a wooden spoon to mash the dal). ",
         "Transfer the dal to a pan and add the spinach paste. mix thoroughly. ",
         "Cook over a low flame for 2 minutes.remove from the flame and keep aside. ",
         "Melt the butter in a pan . Add the garlic and fry for till the garlic turns light brown in color. ",
@@ -14842,8 +14145,7 @@ const dataset = {
       "preparation": [
         "Clean, wash and soak chana dal for one hour.",
         "Pressure cook the dal with 3 cups of water. Keep aside. ",
-        "Heat ghee in a pan, add cloves, cinnamon stick, bayleafs, cumin seeds and fry until they ",
-        "pop up. ",
+        "Heat ghee in a pan, add cloves, cinnamon stick, bayleafs, cumin seeds and fry until they pop up. ",
         "Add onions and fry till brown. Add salt and turmeric powder. Mix well. ",
         "Add dal and let it boil for few minutes. ",
         "Garnish with corainder leaves. When the dal will be cool, add lemon juice and stir well.",
@@ -14871,8 +14173,7 @@ const dataset = {
         "Pressure cook tuvar dal with sufficient water and turmeric powder. ",
         "Mash the dal, after it has been cooked. ",
         "Chop the garlic cloves finely. ",
-        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they ",
-        "pop up. ",
+        "Heat the ghee in a pan, add cumin seeds, dry red chillies and garlic cloves. Fry till they pop up. ",
         "Add the dal with 2 cups of water and salt. ",
         "Cook until the toor daal boils, then add jaggery. Cook for 4-5 minutes more.",
         "When the tuvar dal is cooled add lemon juice and serve. "
@@ -14902,12 +14203,10 @@ const dataset = {
       ],
       "preparation": [
         "Clean and wash the daal properly. Soak it in water for 10-15 minutes. ",
-        "Boil it in 5 cups of water. Boil till it becomes soft. It should not become pasty. Remove ",
-        "the water and keep aside. ",
+        "Boil it in 5 cups of water. Boil till it becomes soft. It should not become pasty. Remove the water and keep aside. ",
         "Heat oil in a kadhai and add cloves, bayleaves and cumin seeds, allow to splutter. ",
         "Now add ginger, onion and green chili and stir-fry till golden brown. ",
-        "Add tomato (if using) and fry till it softens. Add all dry masalas (turmericpowder, ",
-        "chili powder, salt) and fry for a moment. ",
+        "Add tomato (if using) and fry till it softens. Add all dry masalas (turmericpowder, chili powder, salt) and fry for a moment. ",
         "Now add daal and lemon juice, mix very gently. ",
         "Sprinkle garam masala and garnish with coriander. ",
         "Serve hot."
@@ -14940,10 +14239,8 @@ const dataset = {
       ],
       "preparation": [
         "Rinse Bengal garm and add beet root pieces to it and cook in a cooker. ",
-        "When cooked add turmeric powder,salt,coriander powder,jaggery,dry dates,tamarind ",
-        "juice,curry leaves,groundnut,chilly paste and boil. ",
-        "Prepare the seasoning-Heat oil and add asafetida,cloves,butter,cumin seeds,mustard ",
-        "seeds,cinnamon. ",
+        "When cooked add turmeric powder,salt,coriander powder,jaggery,dry dates,tamarind juice,curry leaves,groundnut,chilly paste and boil. ",
+        "Prepare the seasoning-Heat oil and add asafetida,cloves,butter,cumin seeds,mustard seeds,cinnamon. ",
         "Add to the gram and cook for 5 minutes. ",
         "Garnish with coriander and serve. "
       ],
@@ -14965,10 +14262,8 @@ const dataset = {
       "preparation": [
         "Wash, peel and grate the aam (mangoes). There should be about 450gms / 1lb of flesh. ",
         "Add sugar and salt and mix well in a large bowl. ",
-        "Roast cumin seeds, cardamom seeds and poppy seeds, stir in chili powder and mix with ",
-        "the sweetened mango. ",
-        "Turn the mango pickle into a sterilized jar, cover with a clean cloth and leave out in the ",
-        "sun or in warm, light place for about a week. ",
+        "Roast cumin seeds, cardamom seeds and poppy seeds, stir in chili powder and mix with the sweetened mango. ",
+        "Turn the mango pickle into a sterilized jar, cover with a clean cloth and leave out in the sun or in warm, light place for about a week. ",
         "Shake the jar at least once a day. "
       ],
       "category_id": "pickle-recipe",
@@ -15018,8 +14313,7 @@ const dataset = {
         "Boil the arbi in salted water until nearly tender. ",
         "Drain and cool. ",
         "Peel and press a little. ",
-        "Fry the arbi in hot oil until brown. Remove from the fire, add vinegar, ground spices, ",
-        "aniseed, Red chili pepper , methi, salt, lemon juice. ",
+        "Fry the arbi in hot oil until brown. Remove from the fire, add vinegar, ground spices, aniseed, Red chili pepper , methi, salt, lemon juice. ",
         "Grated nutmeg, mace and cook till it leaves its oil. ",
         "Cool and put in an airtight jar. Serve after two days. ",
         "This pickle can be kept for 15 days in summer and two months in winter. "
@@ -15043,8 +14337,7 @@ const dataset = {
       "preparation": [
         "Clean and cut vegetables into big pieces and boil for 5 minutes. ",
         "Put in a basket to drain well and then dry with a clean cloth. ",
-        "Mix ground mustard seeds, turmeric, Red chili pepper , salt and oil together into the ",
-        "boiled vegetables. ",
+        "Mix ground mustard seeds, turmeric, Red chili pepper , salt and oil together into the boiled vegetables. ",
         "Put in a clean jar and keep it in the sun for 4 days, shaking the pickle once or twice daily. ",
         "Serve after 6 days. ",
         "This pickle can be kept for 15 days. "
@@ -15070,8 +14363,7 @@ const dataset = {
         "Dry with a clean cloth. ",
         "Mix all the ground ingredients together with a little salt and fill in the dates. ",
         "Keep the dates in clean jar. ",
-        "Mix a little salt with lemon juice and pour over the dates, taking care that dates must ",
-        "be covered with lemon juice. ",
+        "Mix a little salt with lemon juice and pour over the dates, taking care that dates must be covered with lemon juice. ",
         "Keep aside for 7 days. ",
         "Shake the jar every other day and serve after one week. "
       ],
@@ -15093,15 +14385,11 @@ const dataset = {
       ],
       "preparation": [
         "Boil the water in 2-litre saucepan. Add carrots and blanch for a minute. ",
-        "Drain the water and then spread carrots on a clean cloth and sundry (or spread them on ",
-        "a towel lined cookie tray and air dry in an oven (200-degree Fahrenheit) for an hour). ",
+        "Drain the water and then spread carrots on a clean cloth and sundry (or spread them on a towel lined cookie tray and air dry in an oven (200-degree Fahrenheit) for an hour). ",
         "In a bowl mix the mace, cloves, cardamom, salt and jaggery. ",
         "Add the carrots and toss to mix. Transfer to a sterilized glass jar. ",
-        "Pour the mustard oil into a small saucepan and place it over a moderate heat. As soon as ",
-        "oil begins to smoke remove it from the heat and cool it for 4 minutes, then pour it into the ",
-        "jar and cover it with a clean cloth. ",
-        "Set the jar in sunlight for 13-14 days, bringing it indoor evrynight. Shake the jar two or ",
-        "three times daily. "
+        "Pour the mustard oil into a small saucepan and place it over a moderate heat. As soon as oil begins to smoke remove it from the heat and cool it for 4 minutes, then pour it into the jar and cover it with a clean cloth. ",
+        "Set the jar in sunlight for 13-14 days, bringing it indoor evrynight. Shake the jar two or three times daily. "
       ],
       "category_id": "pickle-recipe",
       "id": "ka-achar"
@@ -15142,8 +14430,7 @@ const dataset = {
         "Stuff with salt and turmeric powder and put in an airtight jar for one month. ",
         "The lemons will leave some water. ",
         "Drain it and cut each lemon into four pieces. ",
-        "In the water mix asafoetida powder, red chili pepper and sugar and pour over the ",
-        "lemons in the jar. ",
+        "In the water mix asafoetida powder, red chili pepper and sugar and pour over the lemons in the jar. ",
         "Cork tightly. ",
         "This pickle can keep for two years. "
       ],
@@ -15250,8 +14537,7 @@ const dataset = {
       ],
       "preparation": [
         "Wash and dry the lemons with a cloth. ",
-        "In each lemon make four cuts and pack the salt inside and rub a little salt outside also ",
-        "till tender. ",
+        "In each lemon make four cuts and pack the salt inside and rub a little salt outside also till tender. ",
         "Heat the oil till smoky. ",
         "Remove from the fire, add asafoetida and when it swells up, crush it with a spoon. ",
         "Add chilli powder and stir till red colour appears. ",
@@ -15330,10 +14616,8 @@ const dataset = {
         "Wash and clean lemons. ",
         "Now boil the water and put 25 lemons in it for 2-3 minutes. ",
         "Take them out, dry them and cut into quarters. ",
-        "Using sterilized jars for the pickle, sprinkle the asafetida powder and half the salt over ",
-        "the base. ",
-        "Grind all the paste ingredients to make a smooth mixture and smear it all over the ",
-        "lemon quarters. Drop these spiced lemons into the jar. ",
+        "Using sterilized jars for the pickle, sprinkle the asafetida powder and half the salt over the base. ",
+        "Grind all the paste ingredients to make a smooth mixture and smear it all over the lemon quarters. Drop these spiced lemons into the jar. ",
         "Squeeze the juice from the remaining 10 lemons over them and sprinkle rest of salt.",
         "Cover the jar with a clean cloth and leave out in sun.",
         "The pickle should be ready within 2 weeks."
@@ -15360,8 +14644,7 @@ const dataset = {
         "Combine the salt, fennel seeds, cumin seeds and black pepper in a small bowl and mix well. ",
         "Arrange a layer of citrus, cut side up, in a jar. Sprinkle with the salt spice mixture. ",
         "Alternate the two ingredients until the jar is full. ",
-        "Combine the jaggery with the citrus juice in a small saucepan. Bring to boil over high ",
-        "heat, stirring constantly, then reduce the heat to low and simmer for 2-3 minutes. ",
+        "Combine the jaggery with the citrus juice in a small saucepan. Bring to boil over high heat, stirring constantly, then reduce the heat to low and simmer for 2-3 minutes. ",
         "Cool to Luke warm then pour over the citrus in the jar. ",
         "Cool to room temperature and cover with a cloth. ",
         "Set in the sun every day for 5 weeks; bring the jar inside every night. ",
@@ -15424,8 +14707,7 @@ const dataset = {
       ],
       "preparation": [
         "Heat oil to smoking point, then set aside to cool. ",
-        "Grind or blend the mustard seeds, chili powder, turmeric, vinegar, sugar, salt and dry ",
-        "mango powder together to make a paste. ",
+        "Grind or blend the mustard seeds, chili powder, turmeric, vinegar, sugar, salt and dry mango powder together to make a paste. ",
         "Add this paste to the oil, then all the other ingredients. ",
         "Stir to mix well and store in sterilized jars covered with a film of oil. ",
         "Keep for 3-4 weeks refrigerated. "
@@ -15483,8 +14765,7 @@ const dataset = {
       ],
       "preparation": [
         "Remove the stones and cut the mangoes into big pieces. ",
-        "Rub all the ground spices - salt, red chilli, 12 teaspoons mustard oil and turmeric - on ",
-        "mango pieces. ",
+        "Rub all the ground spices - salt, red chilli, 12 teaspoons mustard oil and turmeric - on mango pieces. ",
         "Put in a jar and keep for two days in the sun and shake it daily. ",
         "Then pour rest of the oil and leave for 15 days but not in the sun. ",
         "Shake it every other day. ",
@@ -15512,11 +14793,9 @@ const dataset = {
       "preparation": [
         "Cut the lemons into eight pieces each, rub salt and keep for one week in a jar. ",
         "Shake daily. ",
-        "Heat the oil in a pan, remove from the fire, cool a little, add crushed asafoetida and mustard ",
-        "seeds and cover the pan. ",
+        "Heat the oil in a pan, remove from the fire, cool a little, add crushed asafoetida and mustard seeds and cover the pan. ",
         "Cool a little, mix lemon pieces, lemon juice, fenugreek powder, chilli powder and sugar. ",
-        "Keep for one week before serving. ",
-        null
+        "Keep for one week before serving. "
       ],
       "category_id": "pickle-recipe",
       "id": "sliced-mango-pickle-recipe"
@@ -15544,8 +14823,7 @@ const dataset = {
         "Slit the lemons into four without separating them at the base. ",
         "Remove all the seeds. ",
         "Grind all the dry ingredients to a fine powder. ",
-        "Stuff the lemons with the ground spices and then put them in a pan and pour in the ",
-        "lemon juice. ",
+        "Stuff the lemons with the ground spices and then put them in a pan and pour in the lemon juice. ",
         "Cook on a low fire till the juice boils. ",
         "Cool and put the pickle in airtight jar. ",
         "Keep in the sun for 4 days shaking it once daily. ",
@@ -15629,8 +14907,7 @@ const dataset = {
         "Roast fenugreek seeds, aniseeds and onion seeds and grind coarsely. ",
         "Wash and dry the mangoes. ",
         "Slit them into 4 sections, keep them joined at the bottom and remove the stones. ",
-        "Mix ground spices, Red chili pepper , salt, turmeric, mustard powder and make a thick paste in a ",
-        "little oil. ",
+        "Mix ground spices, Red chili pepper , salt, turmeric, mustard powder and make a thick paste in a little oil. ",
         "Fill the masala paste into the mangoes. ",
         "Put the stuffed mangoes in a clean jar. ",
         "Pour enough oil to cover them. ",
@@ -15656,8 +14933,7 @@ const dataset = {
       "preparation": [
         "Peel the lemons, dice and remove their seeds. ",
         "Sprinkle salt over the pieces. ",
-        "Make a half-thread consistency syrup sugar with water, mix lemon pieces, Red chili ",
-        "pepper, cinnamon and cloves and cook till it boils. ",
+        "Make a half-thread consistency syrup sugar with water, mix lemon pieces, Red chili pepper, cinnamon and cloves and cook till it boils. ",
         "Put in a jar, keep it aside for one week before using. "
       ],
       "category_id": "pickle-recipe",
@@ -15699,13 +14975,11 @@ const dataset = {
         "1/2 litre Mustard Oil (Sarson Ka Tel) "
       ],
       "preparation": [
-        "Wash, peel and cut the vegetables (carrots into long slices, cauliflower into medium ",
-        "pieces, round medium slices of turnip). ",
+        "Wash, peel and cut the vegetables (carrots into long slices, cauliflower into medium pieces, round medium slices of turnip). ",
         "Blanch the vegetables in hot water for 10 to 15 minutes: then drain. ",
         "Grind ginger and garlic to a fine paste and fry in 1 cup of hot oil till golden brown. ",
         "Remove from the fire, add all the spices and mix well. ",
-        "Prepare the sugar syrup of (in half or less than that amount of water than the sugar) one ",
-        "to two-thread consistency. ",
+        "Prepare the sugar syrup of (in half or less than that amount of water than the sugar) one to two-thread consistency. ",
         "Mix glacial acetic acid and syrup into fried garlic and ginger mixed with spices. ",
         "Cook for 5 minutes. ",
         "Add all the vegetables, cook till it leaves its oil. ",
@@ -15737,8 +15011,7 @@ const dataset = {
         "Grind garlic and onion. ",
         "Heat the oil until smoky and fry garlic and onion paste until light brown. ",
         "Add ginger, Red chili pepper , and tinda pieces and fry. ",
-        "Stir in spices, mustard, salt, pepper, crushed jaggery and tamarind with vinegar and cook ",
-        "for a few minutes. ",
+        "Stir in spices, mustard, salt, pepper, crushed jaggery and tamarind with vinegar and cook for a few minutes. ",
         "Cool, put in jar and keep in the sun for 3 days and shake it every other day. ",
         "Serve after 5 days in summer and in winter after one week. "
       ],
@@ -15768,12 +15041,9 @@ const dataset = {
         "Soak tamarind and dry dates separately each in the cup of water overnight. ",
         "Mash and take out pulp from the tamarind. ",
         "Cut the dates in long slices and remove the stones. ",
-        "Heat the oil and fry ground onion, ginger and garlic and in it stir tamarind pulp and long ",
-        "slices of date, round pieces of turnip, 1/8 inch thick, and long pieces of carrots, ",
-        "ground spices, salt, cumin seeds and Red chili pepper and mix well. ",
+        "Heat the oil and fry ground onion, ginger and garlic and in it stir tamarind pulp and long slices of date, round pieces of turnip, 1/8 inch thick, and long pieces of carrots, ground spices, salt, cumin seeds and Red chili pepper and mix well. ",
         "Put in a clean jar, keep in the sun for 4 days, and shake it every other day. ",
-        "Make thick syrup of jaggery with a cup of water and mix into the pickle and again keep in ",
-        "the sun for 6 days shaking it once daily. ",
+        "Make thick syrup of jaggery with a cup of water and mix into the pickle and again keep in the sun for 6 days shaking it once daily. ",
         "Serve after 10 days. "
       ],
       "category_id": "pickle-recipe",
@@ -15892,8 +15162,7 @@ const dataset = {
       ],
       "preparation": [
         "Wash and cut guava into thin slices and cook with water until very soft. ",
-        "Put this mixture in a coarse cloth and allow the juice to drip through into a bowl ",
-        "underneath and leave it for 12 hours. ",
+        "Put this mixture in a coarse cloth and allow the juice to drip through into a bowl underneath and leave it for 12 hours. ",
         "Do not squeeze the bag. ",
         "Use the mixture in the bag for guava cheese. ",
         "Measure the juice and add 3 cups of sugar to each pint of juice. ",
@@ -15938,8 +15207,7 @@ const dataset = {
         "Put mango slices, water into deep pan, and cook until quite tender. ",
         "Remove from the fire. ",
         "Pass through a gravy strainer. ",
-        "To the mango pulp add sugar and lemon juice and cook on a hot fire, stirring constantly ",
-        "until the jelly sets when tested. ",
+        "To the mango pulp add sugar and lemon juice and cook on a hot fire, stirring constantly until the jelly sets when tested. ",
         "Cool a little, and then pour in sterilized jars. "
       ],
       "category_id": "jam-jelly-recipes",
@@ -15959,8 +15227,7 @@ const dataset = {
         "Wash them and soak in water for 24 hours. ",
         "Put apricots along with the water in a pan and cook until tender. ",
         "Cut pineapples into thin slices. ",
-        "Cook pineapple slices with its syrup and sugar and the cooked apricots and stir until ",
-        "sugar is dissolved. ",
+        "Cook pineapple slices with its syrup and sugar and the cooked apricots and stir until sugar is dissolved. ",
         "Cook on a hot fire till the syrup thickens. ",
         "Pour one teaspoon of the jam on a cold plate; if it sets, remove from the fire. ",
         "Pour hot into a clean jar and cork tightly. ",
@@ -16002,8 +15269,7 @@ const dataset = {
       "preparation": [
         "Chop the carrot into small pieces, and cook with water until quite tender. ",
         "Pass through a sieve, add sugar and lemon juice and put it on fire. ",
-        "Stir until sugar is dissolve and then cook it on a low fire until the jam thickens when tested ",
-        "on plate. ",
+        "Stir until sugar is dissolve and then cook it on a low fire until the jam thickens when tested on plate. ",
         "Cool, pour into clean jars, Serve after one day. "
       ],
       "category_id": "jam-jelly-recipes",
@@ -16020,8 +15286,7 @@ const dataset = {
       ],
       "preparation": [
         "Wash and stone the cherries and then cook in the water until tender. ",
-        "Pass through a sieve, add sugar and cook on a hot fire until the jam sets when tested on ",
-        "a plate. ",
+        "Pass through a sieve, add sugar and cook on a hot fire until the jam sets when tested on a plate. ",
         "Remove from the fire; add a few drops of cochineal color. ",
         "Cool and pour into a clean jar and cork it tightly. ",
         "Serve after one day. "
@@ -16040,8 +15305,7 @@ const dataset = {
       "preparation": [
         "Boil the karondas in water on a low fire. ",
         "When tender, remove from fire and pass it through a sieve. ",
-        "Add sugar to the pulp, cook on a hot fire, stirring constantly until thick color becomes ",
-        "slightly golden. ",
+        "Add sugar to the pulp, cook on a hot fire, stirring constantly until thick color becomes slightly golden. ",
         "Test the jam, when ready. ",
         "Cool it and fill in airtight jar. "
       ],
@@ -16060,8 +15324,7 @@ const dataset = {
       ],
       "preparation": [
         "Cook mango pulp and sugar until a little thick and sets on the plate when tested. ",
-        "Dissolve citric acid, pectin and potassium metabisulphite in 1/4 cup of hot water and mix it ",
-        "in the jam. ",
+        "Dissolve citric acid, pectin and potassium metabisulphite in 1/4 cup of hot water and mix it in the jam. ",
         "Pour the hot jam in sterilized jars, seal when cool and cork tightly. "
       ],
       "category_id": "jam-jelly-recipes",
@@ -16079,8 +15342,7 @@ const dataset = {
       "preparation": [
         "Peel the pears, cut into small pieces, and put in salted water. ",
         "Remove from the salt water and cook with 2 cups water until tender and water is evaporated. ",
-        "Mash the pears, add the sugar and citric acid, cook on a low fire until syrup is of one-",
-        "thread consistency. ",
+        "Mash the pears, add the sugar and citric acid, cook on a low fire until syrup is of one-thread consistency. ",
         "Pour while hot in sterilized jars. ",
         "Cover with wax paper, cork tightly. < "
       ],
@@ -16184,8 +15446,7 @@ const dataset = {
         "Finely chop dhania and hari mirch.",
         "Grate both the gobis.",
         "Heat oil in a pan and fry both gobis with azinomotto powder.",
-        "After frying for few minutes, add alu, paneer, hari mirch and 1/2 tsp namak and cook ",
-        "until the water dries up.",
+        "After frying for few minutes, add alu, paneer, hari mirch and 1/2 tsp namak and cook until the water dries up.",
         "Remove it from the flame and let it cool.",
         "Make small balls of the mixture and keep aside.",
         "Make a batter by mixing maida, 1/2 tsp salt, lal mirch and 1 cup water.",
@@ -16243,8 +15504,7 @@ const dataset = {
       ],
       "preparation": [
         "Cut the paner into cubes.",
-        "Mix together the cottage cheese, 1 tsp salt, egg, corn flour, garlic, ginger and water to just coat ",
-        "the paneer pieces with the mixture. ",
+        "Mix together the cottage cheese, 1 tsp salt, egg, corn flour, garlic, ginger and water to just coat the paneer pieces with the mixture. ",
         "Heat oil in a pan and fry the paneer pieces caoted with mixture till golden in color. ",
         "Heat 2 tbsp of the oil in a wok and stir fry the onions in it over high heat for half a minute.",
         "Add the green chillies, salt, soya sauce, vinegar, ajinomoto and the fried paneer cubes. ",
@@ -16310,15 +15570,11 @@ const dataset = {
       ],
       "preparation": [
         "Make a paste by grinding together half the onions, the garlic and coriander seeds. ",
-        "Heat the ghee in a frying pan and cut the paneer into 2.5-cm/1-inch cubes. Fry the paneer to a ",
-        "light brown and remove to drain on a plate. ",
-        "Add the remaining onion and the ginger to the ghee / oil in a pan and add the bay leaves and ",
-        "fry until the onion is golden brown.",
+        "Heat the ghee in a frying pan and cut the paneer into 2.5-cm/1-inch cubes. Fry the paneer to a light brown and remove to drain on a plate. ",
+        "Add the remaining onion and the ginger to the ghee / oil in a pan and add the bay leaves and fry until the onion is golden brown.",
         "Add the turmeric and the paste mixture and fry until the ghee starts to separate. ",
-        "Add the paneer and mutter (peas) along with the yogurt, chili, tomato and salt. Stir for 5-6 ",
-        "minutes over low heat. ",
-        "Pour in the water and simmer gently for 20 minutes. Serve the matar paneer sprinkled with ",
-        "garam masala and coriander. "
+        "Add the paneer and mutter (peas) along with the yogurt, chili, tomato and salt. Stir for 5-6 minutes over low heat. ",
+        "Pour in the water and simmer gently for 20 minutes. Serve the matar paneer sprinkled with garam masala and coriander. "
       ],
       "category_id": "paneer-recipes-cottage-cheese",
       "id": "mattar-paneer-recipe"
@@ -16345,8 +15601,7 @@ const dataset = {
         "Now add onions and fry till golden brown. ",
         "Add all spices except red chili powder. ",
         "Now add the spinach (palak) and little water if needed and cook for 4-5 minutes. ",
-        "Cut paneer into pieces (Paneer can be fried to golden brown in a seperate pan or can be used as ",
-        "it is). ",
+        "Cut paneer into pieces (Paneer can be fried to golden brown in a seperate pan or can be used as it is). ",
         "Add Paneer pieces to the gravy and cook until done. ",
         "Take out in a bowl.",
         "Just before serving, heat pure ghee in a small pan. ",
@@ -16373,11 +15628,9 @@ const dataset = {
       ],
       "preparation": [
         "Chop the onions, tomatoes and chillies finely. ",
-        "Heat oil in a deep bottomed pan, add the cumin seeds, chopped onions and the ginger garlic ",
-        "paste, fry till brown. ",
+        "Heat oil in a deep bottomed pan, add the cumin seeds, chopped onions and the ginger garlic paste, fry till brown. ",
         "Add the chillies and tomatoes and fry till they are soft and pulpy.",
-        "Add turmeric powder, garam masala powder, salt and little water so that all the masalas are ",
-        "well combined. ",
+        "Add turmeric powder, garam masala powder, salt and little water so that all the masalas are well combined. ",
         "Add grated paneer and fry for 5 minutes till the paneer blends into the masala. ",
         "Garnish with chopped coriander and serve hot. "
       ],
@@ -16400,8 +15653,7 @@ const dataset = {
       "preparation": [
         "Chop onions, chillies and tomatoes. ",
         "Mix the grated paneer with chopped vegetables, salt, red chilli powder and keep aside. ",
-        "Take two bread slices and butter them, put some paneer mixture on one slice and cover ",
-        "it with other bread slice. ",
+        "Take two bread slices and butter them, put some paneer mixture on one slice and cover it with other bread slice. ",
         "Put this in sandwich toaster until the bread turns crispy and brown. ",
         "Serve with ketchup. "
       ],
@@ -16427,8 +15679,7 @@ const dataset = {
         "Salt to taste "
       ],
       "preparation": [
-        "Grind together onion, green chillies, ginger and fry this masala for 4 to 5 minutes in a ",
-        "non-stick pan. ",
+        "Grind together onion, green chillies, ginger and fry this masala for 4 to 5 minutes in a non-stick pan. ",
         "Add tomato puree, garam masala, cumin powder, peas and sprinkle 1 tbsp. water. ",
         "Now transfer this to a micro dish and micro high for 3 minutes. ",
         "Add salt, grated paneer 5 tbsp. water and cashew nuts and mix gently. ",
@@ -16454,16 +15705,13 @@ const dataset = {
       "preparation": [
         "Make dough out of whole wheat flour (atta), as you would do for any paratha/roti. ",
         "In a bowl mix all the stuffing ingredients. ",
-        "Make two medium size chapati, add the filling to the one chapati and cover it with the ",
-        "second one. Now roll it slightly. ",
+        "Make two medium size chapati, add the filling to the one chapati and cover it with the second one. Now roll it slightly. ",
         "Cook on a pre-heated Tawa (flat griddle plate). ",
         "Turn it and pour half tablespoon oil or butter. ",
-        "Spread it on the paratha and shallow fry over low heat. Turn it and again pour oil or butter ",
-        "on the other side. ",
+        "Spread it on the paratha and shallow fry over low heat. Turn it and again pour oil or butter on the other side. ",
         "Cook on a low heat till golden brown. ",
         "Serve paneer paratha hot with yogurt (curd) and your favorite chutney or with pickle. ",
-        "Note: Do not add salt to the filling before, as it will leave water. Add salt only at the time ",
-        "of preparation."
+        "Note: Do not add salt to the filling before, as it will leave water. Add salt only at the time of preparation."
       ],
       "category_id": "paneer-recipes-cottage-cheese",
       "id": "paneer-parantha-recipe"
@@ -16483,8 +15731,7 @@ const dataset = {
         "As per taste Salt (Namak) "
       ],
       "preparation": [
-        "Melt the butter in a pan, add slit green chillies, tomato puree, kasuri methi, salt, red ",
-        "chilli powder and simmer for 4-5 minutes. ",
+        "Melt the butter in a pan, add slit green chillies, tomato puree, kasuri methi, salt, red chilli powder and simmer for 4-5 minutes. ",
         "Add the cream and garam masala powder and cook further for 2-3 minutes. ",
         "Add the paneer pieces and cook for a minute. ",
         "Serve hot garnished with coriander. "
@@ -16651,8 +15898,7 @@ const dataset = {
         "Salt as per taste "
       ],
       "preparation": [
-        "Melt the butter in a pan, add slit green chillies, tomato puree, kasuri methi, salt, red chilli ",
-        "powder and simmer for 4-5 minutes. ",
+        "Melt the butter in a pan, add slit green chillies, tomato puree, kasuri methi, salt, red chilli powder and simmer for 4-5 minutes. ",
         "Add the cream and garam masala powder and cook further for 2-3 minutes. ",
         "Add the paneer pieces and cook for a minute. Serve hot garnished with coriander. "
       ],
@@ -16686,8 +15932,7 @@ const dataset = {
         "Then add tomato paste. ",
         "Continue cooking it on medium flame till ghee/oil begins to separate. ",
         "Put off the flame. ",
-        "Add cottage cheese, cream , curd, salt, red chili powder, turmeric, garam masala, dried ",
-        "pudina leaves and mix well. ",
+        "Add cottage cheese, cream , curd, salt, red chili powder, turmeric, garam masala, dried pudina leaves and mix well. ",
         "Keep it aside for an hour. ",
         "Put the pan on the flame and then add milk to the mixture. ",
         "Simmer for 5 minutes and then finally put off the gas. ",
@@ -16719,21 +15964,15 @@ const dataset = {
         "1 tsp coriander leaves (finely chopped) "
       ],
       "preparation": [
-        "Soak the melon seeds or cashew nuts which ever you are taking for atleast 2 hrs and then ",
-        "grind them to a smooth paste.",
-        "Heat 2 tbsp of ghee in a kadai, add onion, ginger, green chili and brown cardamoms. Cook till ",
-        "onion turns translucent. Add tomatoes, cover it and cook for 7-8 minute. ",
+        "Soak the melon seeds or cashew nuts which ever you are taking for atleast 2 hrs and then grind them to a smooth paste.",
+        "Heat 2 tbsp of ghee in a kadai, add onion, ginger, green chili and brown cardamoms. Cook till onion turns translucent. Add tomatoes, cover it and cook for 7-8 minute. ",
         "Add curd and cashew nut or melon seeds paste. Cook for 3-4 minute and remove from fire. ",
-        "Cool down the above ingredients and put them in a grinder along with 1/2 cup of water. Strain ",
-        "the puree. ",
-        "Take a frying pan, add 1 tbsp of ghee and add the above pureed paste and cook for 10 minutes ",
-        "on low flame till oil separates. ",
-        "Add salt, red chili powder, cumin powder, garam masala and tomato sauce. Add enough water ",
-        "so that there can be thick gravy. ",
+        "Cool down the above ingredients and put them in a grinder along with 1/2 cup of water. Strain the puree. ",
+        "Take a frying pan, add 1 tbsp of ghee and add the above pureed paste and cook for 10 minutes on low flame till oil separates. ",
+        "Add salt, red chili powder, cumin powder, garam masala and tomato sauce. Add enough water so that there can be thick gravy. ",
         "Keep on low flame and cook for 5-7 minute. Remove from fire. ",
         "At the time of serving heat the gravy and add paneer pieces. ",
-        "Add milk and mix well and cook for 2-3 minutes. Note: To make the dish more creamier you ",
-        "can replace milk with 1/4 cup cream.",
+        "Add milk and mix well and cook for 2-3 minutes. Note: To make the dish more creamier you can replace milk with 1/4 cup cream.",
         "Serve hot garnished with coriander leaves. "
       ],
       "category_id": "paneer-recipes-cottage-cheese",
@@ -16790,8 +16029,7 @@ const dataset = {
         "Mix in salt and mix.",
         "Mix in milk and stir fry to get a creamy texture.",
         "When the corn is cooked, transfer to a round dish and cool.",
-        "Mix in grated paneer, cut onion, cut green chillies, cumin powder, amchur powder and ",
-        "cut coriander leaves.",
+        "Mix in grated paneer, cut onion, cut green chillies, cumin powder, amchur powder and cut coriander leaves.",
         "Adjust salt and mix well.",
         "Mix in besan for binding and mix in a little milk if the mixture is too thick.",
         "Make even sized balls with hand or tablespoon.",
@@ -16823,8 +16061,7 @@ const dataset = {
         "Roast the papads, one piece at a time.",
         "While they are still hot roll to make Â½\" diameter cylinders.",
         "Spoon in the stuffing carefully and serve immediately.",
-        "Alternatively apply little milk or water to the whole papad, put the mixture on one side ",
-        "and roll cylindrically, deep fry in hot oil and serve."
+        "Alternatively apply little milk or water to the whole papad, put the mixture on one side and roll cylindrically, deep fry in hot oil and serve."
       ],
       "category_id": "paneer-recipes-cottage-cheese",
       "id": "paneer-bhare-papad-recipe"
@@ -16844,11 +16081,9 @@ const dataset = {
         "Salt to taste "
       ],
       "preparation": [
-        "In a small frying pan, add oil and garlic and as soon as the oil is hot, add the tomato ",
-        "puree, salt, sugar, red chilli powder, dhania and garam masala. ",
+        "In a small frying pan, add oil and garlic and as soon as the oil is hot, add the tomato puree, salt, sugar, red chilli powder, dhania and garam masala. ",
         "Mix well. Add capsicum and sautee for one minute. ",
-        "Now add the cottage cheese mix well and mocrowave high uncovered for 3 minutes and ",
-        "serve hot."
+        "Now add the cottage cheese mix well and mocrowave high uncovered for 3 minutes and serve hot."
       ],
       "category_id": "paneer-recipes-cottage-cheese",
       "id": "microwave-paneer-recipe"
@@ -16907,8 +16142,7 @@ const dataset = {
         "Salt to taste "
       ],
       "preparation": [
-        "Grind together onion, green chillies, ginger and fry this masala for 4 to 5 minutes in a ",
-        "non-stick pan. ",
+        "Grind together onion, green chillies, ginger and fry this masala for 4 to 5 minutes in a non-stick pan. ",
         "Add tomato puree, garam masala, cumin powder, peas and sprinkle 1 tbsp. water. ",
         "Now transfer this to a micro dish and micro high for 3 minutes. ",
         "Add salt, grated paneer 5 tbsp. water and cashew nuts and mix gently. ",
@@ -16924,16 +16158,13 @@ const dataset = {
       "preparation": [
         "Make dough out of whole wheat flour (atta), as you would do for any paratha/roti. ",
         "In a bowl mix all the stuffing ingredients. ",
-        "Make two medium size chapati, add the filling to the one chapati and cover it with the ",
-        "second one. Now roll it slightly. ",
+        "Make two medium size chapati, add the filling to the one chapati and cover it with the second one. Now roll it slightly. ",
         "Cook on a pre-heated Tawa (flat griddle plate). ",
         "Turn it and pour half tablespoon oil or butter. ",
-        "Spread it on the paratha and shallow fry over low heat. Turn it and again pour oil or butter ",
-        "on the other side. ",
+        "Spread it on the paratha and shallow fry over low heat. Turn it and again pour oil or butter on the other side. ",
         "Cook on a low heat till golden brown. ",
         "Serve paneer paratha hot with yogurt (curd) and your favorite chutney or with pickle. ",
-        "Note: Do not add salt to the filling before, as it will leave water. Add salt only at the time ",
-        "of preparation."
+        "Note: Do not add salt to the filling before, as it will leave water. Add salt only at the time of preparation."
       ],
       "category_id": "paneer-recipes-cottage-cheese",
       "id": "paneer-parantha-recipe"
@@ -16966,16 +16197,14 @@ const dataset = {
         "Chop coriander leaves (dhania patta) very finely. ",
         "Chop fresh red chillies very finely. ",
         "Roast the groundnuts and grind them to a fine paste. ",
-        "To make coconut milk, grate fresh coconut and mince in a grinder with 1 cup of water. Sieve ",
-        "the mixture and coconut milk is ready.",
+        "To make coconut milk, grate fresh coconut and mince in a grinder with 1 cup of water. Sieve the mixture and coconut milk is ready.",
         "Heat clarified butter (ghee) in a pan. ",
         "Add cumin seed (jeera), onion (pyaj) and pink it, stirring continously. ",
         "Add the ginger garlic paste and stir it for 1 minute ",
         "Now add tomato and fresh red chilly. ",
         "Cook for sometime and then add tomato (tamatar). ",
         "Continue cooking it on medium flame till ghee/oil begins to separate. ",
-        "Add coriander seeds powder (dhania powder), red chili powder (lal mirchi), salt, sugar ",
-        "groundnut (moong fali) powder, coconut milk. ",
+        "Add coriander seeds powder (dhania powder), red chili powder (lal mirchi), salt, sugar groundnut (moong fali) powder, coconut milk. ",
         "Add the paneer pieces and let the gravy cook till it thickens. ",
         "Take off the fire and serve hot garnish it with well chopped coriander leaves. "
       ],
@@ -17015,8 +16244,7 @@ const dataset = {
         "Heat clarified butter in a pan. ",
         "Add onion, tomato, garlic, ginger paste and brown it, stirring continously. ",
         "Add poppy seeds and fry for 2 minutes and then turn off the gas. ",
-        "To this mixture add makhana, cottage cheese, cream , salt, red chili pepper, turmeric, dried ",
-        "pudina leaves. ",
+        "To this mixture add makhana, cottage cheese, cream , salt, red chili pepper, turmeric, dried pudina leaves. ",
         "Keep this mixture aside for half an hour. ",
         "After half an hour put the pan on the flame and add milk. ",
         "When it comes to a boil add 3 cups of water. ",
@@ -17041,8 +16269,7 @@ const dataset = {
         "A pinch of Black Salt (Kala Namak) "
       ],
       "preparation": [
-        "Melt some butter in a pan, sautÃ© the paneer slices with mango powder, red chilli ",
-        "powder and black salt for a few minutes. ",
+        "Melt some butter in a pan, sautÃ© the paneer slices with mango powder, red chilli powder and black salt for a few minutes. ",
         "Stuff the sauteed paneer in between the bread slices and toast. "
       ],
       "category_id": "paneer-recipes-cottage-cheese",
@@ -17073,11 +16300,9 @@ const dataset = {
         "Heat up the ghee in a vessel, mix in the cumin seeds and let it splutter.",
         "Mix in the cumin paste mixed with a little water, ginger juice and turmeric powder.",
         "Stir fry for 2 minutes.",
-        "Mix in the potatoes, green chillies, garam masala powder, sugar and salt and cover and ",
-        "stir fry till the potatoes are tender.",
+        "Mix in the potatoes, green chillies, garam masala powder, sugar and salt and cover and stir fry till the potatoes are tender.",
         "Take off the paneer from the water and mix in to the potatoes.",
-        "Mix in milk and the remaining water and allow it to simmer (boil slowly at low ",
-        "temperature) for another 2 to 3 minutes.",
+        "Mix in milk and the remaining water and allow it to simmer (boil slowly at low temperature) for another 2 to 3 minutes.",
         "Serve hot."
       ],
       "category_id": "paneer-recipes-cottage-cheese",
@@ -17102,8 +16327,7 @@ const dataset = {
         "Now, mix in the mashed paneer.",
         "This will thicken the batter.",
         "Lastly, mix in the powdered cardamom.",
-        "The batter, finally, must be of medium thick consistency so that it can easily be dropped ",
-        "from a spoon.",
+        "The batter, finally, must be of medium thick consistency so that it can easily be dropped from a spoon.",
         "Make syrup of one string consistency with the sugar and 11/2 cup of water.",
         "Heat up ghee in a kadhai.",
         "Drop spoonfuls of batter and fry till golden.",
@@ -17263,14 +16487,12 @@ const dataset = {
         "Wash and pick the currants and raisins and dry thoroughly. ",
         "Sift the flour, salt and spices into a large mixing bowl. ",
         "Stir in the margarine, bread crumbs and sugar. ",
-        "Chop and mix together the currants, raisins, cherries, almonds, mixed peel and orange ",
-        "and lemon rinds. ",
+        "Chop and mix together the currants, raisins, cherries, almonds, mixed peel and orange and lemon rinds. ",
         "Stir these into the prepared dry ingredients. ",
         "Beat the orange juice with the eggs and vanilla essence and pour into the bowl. ",
         "Add the treacle and brandy and mix until thoroughly blended. ",
         "Turn the mix over into a greased pudding basin. ",
-        "Cover the basin securely with double thickness of grease paper and tie securely. ",
-        "place in a pressure cooker and cook till done. ",
+        "Cover the basin securely with double thickness of grease paper and tie securely. place in a pressure cooker and cook till done. ",
         "When ready, remove cover and replace with fresh grease proof paper. ",
         "Store in a cool, dry, dark place. ",
         "To serve, steam the pudding again. ",
@@ -17304,8 +16526,7 @@ const dataset = {
         "Mix custard in a little milk. ",
         "Boil the remaining milk and then add sugar and dissolved custard. ",
         "Stir continuously until it thickens. Remove it from the flame. ",
-        "Put one cake slice in a dish and then spread some of the custard and cocktail fruits and ",
-        "some fresh fruits over it. ",
+        "Put one cake slice in a dish and then spread some of the custard and cocktail fruits and some fresh fruits over it. ",
         "Then put jelly and place another cake slice over it. ",
         "Garnish with remaining custard and fruits. ",
         "Spread cream on the top. ",
@@ -17419,10 +16640,8 @@ const dataset = {
         "If the mixture is too stiff, add a little more milk.",
         "Put mixture into a greased basin, cover with a double piece of greased paper and steam for ",
         "2 1/2 hours.",
-        "To make the marmalade sauce:",
-        "peel a lemon very thinly and cut the peel into short strips.",
-        "Boil these in water until soft, then add 2 tblspfuls of sugar and 2 tspfuls of cornflour ",
-        "made into a paste with a little water. Stir well and simmer for about 3 minutes.",
+        "To make the marmalade sauce:peel a lemon very thinly and cut the peel into short strips.",
+        "Boil these in water until soft, then add 2 tblspfuls of sugar and 2 tspfuls of cornflour made into a paste with a little water. Stir well and simmer for about 3 minutes.",
         "Remove from fire and add 2 tspfuls of lemon juice.",
         "Dish up the pudding and serve with the sauce."
       ],
@@ -17444,10 +16663,8 @@ const dataset = {
         "Strain off water, and put the cereal in a greased pie dish with the sugar, butter, salt and milk.",
         "Let it soak for about 1 hour.",
         "Then stir it well and cook slowly in a cool oven for 2 hours, stirring well after Â½ hours.",
-        "The above recipe makes a pudding of medium thickness; more or less cereal should be ",
-        "used to vary the consistency according to taste.",
-        "An egg can be added if desired, in which case the cereal should be boiled in the milk first ",
-        "and the egg added when cool.",
+        "The above recipe makes a pudding of medium thickness; more or less cereal should be used to vary the consistency according to taste.",
+        "An egg can be added if desired, in which case the cereal should be boiled in the milk first and the egg added when cool.",
         "Then bake in the oven for 20 minutes."
       ],
       "category_id": "pudding-recipes",
@@ -17495,16 +16712,14 @@ const dataset = {
       "preparation": [
         "Mix the custard powder in a little milk. ",
         "Boil the rest of the milk. ",
-        "When it comes to a boil , while continously stiring add the dissolved custard powder to ",
-        "the milk. ",
+        "When it comes to a boil , while continously stiring add the dissolved custard powder to the milk. ",
         "While stiring add the sugar. ",
         "When the mixture thickens put off the flame. ",
         "Beat the cream till frothy. ",
         "Cut the fruits in small pieces. ",
         "Cut small pieces of the cake. ",
         "Prepare both the jellies as instructed on the packet. ",
-        "Now in bowl mix the pieces of the cake, mix fruits, custard, cut tin fruits, half jelly and ",
-        "half cream. ",
+        "Now in bowl mix the pieces of the cake, mix fruits, custard, cut tin fruits, half jelly and half cream. ",
         "Let this mixture set in the refrigrator. ",
         "When fully set take it out and decorate with the rest of the jelly and cream. "
       ],
@@ -17539,8 +16754,7 @@ const dataset = {
         "pinch of salt"
       ],
       "preparation": [
-        "Sieve the flour and salt into a basin.",
-        "make a well in the center and break the eggs into it; add a little of the milk and mix it in well.",
+        "Sieve the flour and salt into a basin.make a well in the center and break the eggs into it; add a little of the milk and mix it in well.",
         "When half the milk is in, beat well for 10 minutes, then add the rest of the milk, still beating.",
         "The batter should stand for atleast 1 hour before it is used.",
         "Add about a tblspful of cold water at the last minute for a really light pudding.",
@@ -17563,8 +16777,7 @@ const dataset = {
       "preparation": [
         "Boil the milk and leave it to cool a little.",
         "Beat the eggs and sugar together and add the milk and salt, then the coffee.",
-        "Strain the mixture into a pie dish, stand in a tin with boiling water half way up the dish ",
-        "and cook in a moderate oven until quite firm.",
+        "Strain the mixture into a pie dish, stand in a tin with boiling water half way up the dish and cook in a moderate oven until quite firm.",
         "Leave to cool and when cold sprinkle with castor sugar."
       ],
       "category_id": "pudding-recipes",
@@ -17582,8 +16795,7 @@ const dataset = {
       ],
       "preparation": [
         "Separate the egg-whites from the yolks.",
-        "Dissolve the gelatine in a little warm milk, add the sugar, the rest of the milk and the ",
-        "beaten yolks and stir over a gentle heat until it thickens like a custard.",
+        "Dissolve the gelatine in a little warm milk, add the sugar, the rest of the milk and the beaten yolks and stir over a gentle heat until it thickens like a custard.",
         "Then take the saucepan off the fire, leave to cool, fold in the stiffly beaten whites.",
         "Add the vanilla essence and pour into a wetted mould.",
         "Turn out when set."
@@ -17609,12 +16821,10 @@ const dataset = {
         "Boil remainder of milk, add to the cornflour paste and cook for 10 minutes, stirring constantly.",
         "Add the butter and a pinch of salt.",
         "Sprinkle a little sugar over the oranges.",
-        "Mix the rest of the sugar with the yolks of the eggs, and add to the milk and ",
-        "cornflour mixture.",
+        "Mix the rest of the sugar with the yolks of the eggs, and add to the milk and cornflour mixture.",
         "Stir for a minute or two longer over the fire without boiling.",
         "Pour over the oranges and bake for 10 minutes.",
-        "Beat the egg whites stiffly, fold in a little castor sugar, pie on top and return to cool oven ",
-        "for abut 10 minutes, to set and tinge a very pale brown."
+        "Beat the egg whites stiffly, fold in a little castor sugar, pie on top and return to cool oven for abut 10 minutes, to set and tinge a very pale brown."
       ],
       "category_id": "pudding-recipes",
       "id": "orange-pudding-recipe"
@@ -17749,8 +16959,7 @@ const dataset = {
         "Mix custard in a little milk. ",
         "Boil the remaining milk and then add sugar and dissolved custard. ",
         "Stir continuously until it thickens. Remove it from the flame. ",
-        "Put one cake slice in a dish and then spread some of the custard and cocktail fruits and ",
-        "some fresh fruits over it. ",
+        "Put one cake slice in a dish and then spread some of the custard and cocktail fruits and some fresh fruits over it. ",
         "Then put jelly and place another cake slice over it. ",
         "Garnish with remaining custard and fruits. ",
         "Spread cream on the top. ",
@@ -17792,8 +17001,7 @@ const dataset = {
       "preparation": [
         "Chop the figs very finely and mix with the breadcrumbs, sugar, suet and nutmeg.",
         "Add the beaten eggs and the milk.",
-        "Put the mixture into a greased basin, cover with a double piece of greased paper and ",
-        "steam for 3 hours.",
+        "Put the mixture into a greased basin, cover with a double piece of greased paper and steam for 3 hours.",
         "Serve with wine foam sauce."
       ],
       "category_id": "pudding-recipes",
@@ -17813,8 +17021,7 @@ const dataset = {
         "little milk"
       ],
       "preparation": [
-        "Mix the dry ingredients in a pan, add the golden syrup, and lastly enough milk to make ",
-        "a fairly firm mixture.",
+        "Mix the dry ingredients in a pan, add the golden syrup, and lastly enough milk to make a fairly firm mixture.",
         "Put into a greased pan, cover with a double piece of greased paper and steam for 2- 2 ",
         "1/2 hours."
       ],
@@ -17839,8 +17046,7 @@ const dataset = {
       "preparation": [
         "Boil the macaroni in the water with salt added 5-7 minutes.",
         "Drain and return to pan.",
-        "Add the milk, bring to the boil, stirring all the time. Remove from heat, stir in beaten egg ",
-        "and the syrup.",
+        "Add the milk, bring to the boil, stirring all the time. Remove from heat, stir in beaten egg and the syrup.",
         "Add the cleaned fruit and the butter, mix well.",
         "Pour into a buttered pie-dish, grate nutmeg over.",
         "Bake in moderate oven for 30 minutes."
@@ -17863,13 +17069,10 @@ const dataset = {
         "2tsp Demerara sugar"
       ],
       "preparation": [
-        "Well butter a 2-pinch pudding basin ; line bottom and sides with stoned and halved ",
-        "apricots placing skin sides next to basin.",
+        "Well butter a 2-pinch pudding basin ; line bottom and sides with stoned and halved apricots placing skin sides next to basin.",
         "Mix flour and breadcrumbs, adding pinch salt, then add suet and sugar and mix thoroughly.",
-        "Stir in the beaten eggs with a little milk, and stir well until eggs are evenly blended. Add ",
-        "a little more milk to make a stiffly dropping consistency.",
-        "Sprinkle Demerara sugar over the apricots in the basin, add butter in pieces, then put in ",
-        "the pudding mixture, smoothing the top.",
+        "Stir in the beaten eggs with a little milk, and stir well until eggs are evenly blended. Add a little more milk to make a stiffly dropping consistency.",
+        "Sprinkle Demerara sugar over the apricots in the basin, add butter in pieces, then put in the pudding mixture, smoothing the top.",
         "Cover with buttered paper, tied on tightly, but loosely fitting to allow pudding to rise. ",
         "Simmer gently for 2 hours.",
         "Turn out carefully, to disturb apricots as little as possible and serve with Apricot Sauce."
@@ -17940,8 +17143,7 @@ const dataset = {
         "Refrigerate the remaining jelly also for sometime. ",
         "Beat cream. ",
         "Mix lemon juice, sugar, 1 cup cream, jelly and few pieces of jelly and mix properly. ",
-        "Take out the tin from the freezer and add the above mixture to it. Again refrigerate it ",
-        "for sometime for setting. ",
+        "Take out the tin from the freezer and add the above mixture to it. Again refrigerate it for sometime for setting. ",
         "When it sets, garnish with the remaining cream and peach pieces. ",
         "Serve it chilled. "
       ],
@@ -18050,8 +17252,7 @@ const dataset = {
       ],
       "preparation": [
         "Add water to gram flour and mix well to spreading consistency. ",
-        "Add salt & beat till becomes light. Heat oil & pass the paste through draining spoon. Fry ",
-        "till golden & crisp. ",
+        "Add salt & beat till becomes light. Heat oil & pass the paste through draining spoon. Fry till golden & crisp. ",
         "Stir the curd with hand mixer(mathani). ",
         "Add boondi and mix gently. If it becomes thick add little milk and mix it. ",
         "Now add salt, cumin powder and chili powder, mix well. ",
@@ -18078,8 +17279,7 @@ const dataset = {
         "Black pepper powder to taste"
       ],
       "preparation": [
-        "Whisk the curd with hand mixer (Mathni) properly and mix salt, sugar, and curd is thick ",
-        "add little milk or water. ",
+        "Whisk the curd with hand mixer (Mathni) properly and mix salt, sugar, and curd is thick add little milk or water. ",
         "Cup all fruits in small cubes and add to the curd. ",
         "Garnish mixed fruit raita with chopped coriander and pomegranate. "
       ],
@@ -18147,10 +17347,8 @@ const dataset = {
       ],
       "preparation": [
         "Boil rice and keep aside.",
-        "In a large pan fry the mustard seeds, curry leaves, add the eggplant (brinjal) and ",
-        "green chillies. Stir on low flame, cover and cook for 10 minutes.",
-        "Add salt and turmeric powder cook for another 5 minutes. Remove from fire and add ",
-        "lemon juice stir well and mix with the rice. Stir gently allowing each grain to coat."
+        "In a large pan fry the mustard seeds, curry leaves, add the eggplant (brinjal) and green chillies. Stir on low flame, cover and cook for 10 minutes.",
+        "Add salt and turmeric powder cook for another 5 minutes. Remove from fire and add lemon juice stir well and mix with the rice. Stir gently allowing each grain to coat."
       ],
       "category_id": "rice-recipes",
       "id": "brinjal-rice-recipe"
@@ -18178,8 +17376,7 @@ const dataset = {
         "4 nos red chillies"
       ],
       "preparation": [
-        "Heat the pan, pour the 1 tsp oil. Add red chillies, coriander seeds, cumin seeds and fry till ",
-        "it turns brown.",
+        "Heat the pan, pour the 1 tsp oil. Add red chillies, coriander seeds, cumin seeds and fry till it turns brown.",
         "Add grated coconuts and remove from the heat. Grind it after it cools down.",
         "Grind seperately, the fried groundnuts coarsely.",
         "Cook the rice and let it cool.",
@@ -18188,8 +17385,7 @@ const dataset = {
         "Fry them.",
         "Add curry leaves and chopped onions. Once the onion is cooked, add the grated carrots. ",
         "Fry till the carrots are cooked.",
-        "Add rice and fry in a low flame. Add salt and the ground masala powder. Mix it well with ",
-        "the rice.",
+        "Add rice and fry in a low flame. Add salt and the ground masala powder. Mix it well with the rice.",
         "Finally add groundnut powder and remove from the flame. Serve hot."
       ],
       "category_id": "rice-recipes",
@@ -18246,8 +17442,7 @@ const dataset = {
         "Sauté them for a minute. ",
         "Take the pan off the gas. Add in the rice. ",
         "Mix the salt and desiccated coconut. ",
-        "Just before serving, mix all the ingredients with yogurt (curd) and milk. Curd rice is ready ",
-        "to be served."
+        "Just before serving, mix all the ingredients with yogurt (curd) and milk. Curd rice is ready to be served."
       ],
       "category_id": "rice-recipes",
       "id": "curd-rice-recipe"
@@ -18268,12 +17463,10 @@ const dataset = {
         "Heat the ghee in a large saucepan and add the finely sliced onion.",
         "Fry till golden brown, remove from the pan and keep aside.",
         "To the hot fat, add the washed and drained rice and the spices.",
-        "Keep stirring and fry for 4-5 minutes till the rice appears glazed. Add salt and boiling water ",
-        "an inch above the rice.",
+        "Keep stirring and fry for 4-5 minutes till the rice appears glazed. Add salt and boiling water an inch above the rice.",
         "Boil and simmer till the water is almost absorbed and then put into a very slow oven at ",
         "250 degree and leave for 20-25 minutes till the rice is cooked.",
-        "Serve garnished with fried onions. Hard-boiled eggs cut in slices may also be used as ",
-        "a garnish."
+        "Serve garnished with fried onions. Hard-boiled eggs cut in slices may also be used as a garnish."
       ],
       "category_id": "rice-recipes",
       "id": "indian-fried-rice-recipe"
@@ -18313,11 +17506,8 @@ const dataset = {
         "mustard for seasoning"
       ],
       "preparation": [
-        "Heat the pressure pan and then pour oil and season it with mustard seeds and add ",
-        "onions and fry till it becomes transparent in colour.",
-        "Then add elaichi ,chilly powder,salt and rice with two glass of water and keep it for boiling ",
-        "for fifteen minutes.",
-        "once the rice boils serve it hot with aaloo fry. I am sure you will enjoy this instant onion rice."
+        "Heat the pressure pan and then pour oil and season it with mustard seeds and add onions and fry till it becomes transparent in colour.",
+        "Then add elaichi ,chilly powder,salt and rice with two glass of water and keep it for boiling for fifteen minutes.once the rice boils serve it hot with aaloo fry. I am sure you will enjoy this instant onion rice."
       ],
       "category_id": "rice-recipes",
       "id": "instant-onion-rice-recipe"
@@ -18342,8 +17532,7 @@ const dataset = {
         "When Cumin seeds are done add the rice and salt, mix well. ",
         "Add water. ",
         "When it starts boiling low down the flame of the gas and cover it partially. ",
-        "Keep an eye, rice will be done when holes appear on the surface and water is ",
-        "completely absorbed. ",
+        "Keep an eye, rice will be done when holes appear on the surface and water is completely absorbed. ",
         "Serve the jeera pulao hot with any gravies or raita. "
       ],
       "category_id": "rice-recipes",
@@ -18451,8 +17640,7 @@ const dataset = {
       "preparation": [
         "Wash methi properly and drain the water and keep aside. ",
         "Heat oil in the pan and add garlic paste and fry till light brown. ",
-        "Now add tomatoes, peas. Methi, green chilies, salt, chili powder and turmeric powder. Stir-",
-        "fry for 8-10 minutes. ",
+        "Now add tomatoes, peas. Methi, green chilies, salt, chili powder and turmeric powder. Stir-fry for 8-10 minutes. ",
         "Add rice and fry well for another 5 minutes. ",
         "Add enough water and pressure cook on low flame for 5 minutes. ",
         "Garnish with fried paneer. ",
@@ -18508,14 +17696,12 @@ const dataset = {
       "preparation": [
         "First wash and cut the palak into small pieces and keep aside.",
         "Then cook the basmathi rice and set aside.",
-        "Now take a wok, pour some oil and when the oil is hot, add all the seasoning ingredients ",
-        "and fry till done.",
+        "Now take a wok, pour some oil and when the oil is hot, add all the seasoning ingredients and fry till done.",
         "Now add the onions, tomatoes and cut palak and nicely mix and close with a lid.",
         "Let the whole thing cook very well.",
         "When it is done, add garam masala powder if you want and saute for a minute.",
         "Take it wok from fire and add the rice and mix it well.",
-        "Take a wok, pour some oil and put the mashed potatoes and roast it slightly and when ",
-        "done add the curry leaves and put into palak rice and mix well.",
+        "Take a wok, pour some oil and put the mashed potatoes and roast it slightly and when done add the curry leaves and put into palak rice and mix well.",
         "Serve with raita."
       ],
       "category_id": "rice-recipes",
@@ -18547,8 +17733,7 @@ const dataset = {
         "Wash and cook dhal with a pinch of turmeric powder. Set aside.",
         "Don't discard the cooked dhal water.",
         "Fry the onions, cloves, cinnamon and cardamom.",
-        "When onions are golden add slit green chillies, mint, curry leaves and a part of the ",
-        "corriander leaves.",
+        "When onions are golden add slit green chillies, mint, curry leaves and a part of the corriander leaves.",
         "Keep the remaining corriander leaves for garnishing.",
         "Add salt, ginger and garlic paste. Fry for 2 minutes.",
         "Add the washed, drained rice and chopped tomatoes. Fry for few minutes.",
@@ -18580,12 +17765,10 @@ const dataset = {
         "a few chopped corriander leaves"
       ],
       "preparation": [
-        "Wash rice and dhal, drain away all the water, to the rice/dhal mixture add the ",
-        "turmeric powder, corriander powder, chilly powder, sambar powder and salt.",
+        "Wash rice and dhal, drain away all the water, to the rice/dhal mixture add the turmeric powder, corriander powder, chilly powder, sambar powder and salt.",
         "Add 4 cups of water to tamrind paste mix and pour into the dhal/rice mixture.",
         "Cook in pressure cooker for 10 to 12 minutes.",
-        "Add ghee in the pan and fry the shallots (sambar onions), as it's getting brown add ",
-        "the mustard seeds, cashewnuts, curry leaves.",
+        "Add ghee in the pan and fry the shallots (sambar onions), as it's getting brown add the mustard seeds, cashewnuts, curry leaves.",
         "Add this seasoning to the Sambar Bath.",
         "Sprinkle with chopped Corriander Leaves.",
         "Serve hot."
@@ -18615,8 +17798,7 @@ const dataset = {
         "Pressure Cook the rice and spread on a plate. keep aside.",
         "Heat the non-stick skillet add fenugreek and asafoetida dry fry (without oil) for a minute.",
         "Grind this into a fine powder. Set aside.",
-        "To the tamarind juice add salt, turmeric powder, jaggery, ground powder of fenugreek ",
-        "and asafoetida.",
+        "To the tamarind juice add salt, turmeric powder, jaggery, ground powder of fenugreek and asafoetida.",
         "Fry mustard, red chillies, channa dhal, peanuts and curry leaves in sesame oil.",
         "Pour into the tamarind juice mixture.",
         "Boil tamarind juice till it reaches thick gravy form and until oil comes out with good flavour.",
@@ -18671,21 +17853,14 @@ const dataset = {
         "3 tbsp Dry Fruits (cashew nuts, raisin) "
       ],
       "preparation": [
-        "Wash the basmati rice well before cooking.Then take rice with 3-3/4 cup water and a ",
-        "little salt added to it and 2 tbsp of dry fruits.Cook it in pressure cooker or in a pan ",
-        "or microwave.",
-        "Cut all the vegetables into small thin pieces and fry each one of it separately in oil. Fry ",
-        "the green peas also.",
-        "Take 1 tblsp oil in a pan and add mustard seeds, green chilli, cinnamon and caraway ",
-        "seeds powder, cloves, black pepper powder and stir for about half minute. Then add ",
-        "onions and saute them for a minute ot till they get pink in color.",
+        "Wash the basmati rice well before cooking.Then take rice with 3-3/4 cup water and a little salt added to it and 2 tbsp of dry fruits.Cook it in pressure cooker or in a pan or microwave.",
+        "Cut all the vegetables into small thin pieces and fry each one of it separately in oil. Fry the green peas also.",
+        "Take 1 tblsp oil in a pan and add mustard seeds, green chilli, cinnamon and caraway seeds powder, cloves, black pepper powder and stir for about half minute. Then add onions and saute them for a minute ot till they get pink in color.",
         "Add salt and red chilli powder and stir. ",
         "Add fine chopped tomatoes and fry till they are properly cooked. ",
-        "Take the yogurt and make it fine by putting in a blender for just 2 rotations. Add this ",
-        "fine yogurt and stir well.Heat it for about 10 seconds. ",
+        "Take the yogurt and make it fine by putting in a blender for just 2 rotations. Add this fine yogurt and stir well.Heat it for about 10 seconds. ",
         "Add all the fried vegetables. ",
-        "Add the cooked rice and mix well with very light hands so that the rice grain doesn't ",
-        "break. Cook for about 3 minutes. ",
+        "Add the cooked rice and mix well with very light hands so that the rice grain doesn't break. Cook for about 3 minutes. ",
         "Take this vegetable biryani out in a rice serving dish. ",
         "Garnish with dry fruits and green coriander leaves. ",
         "Serve the vegetable (veg ) biryani hot with raita and pickle."
@@ -18737,8 +17912,7 @@ const dataset = {
       "preparation": [
         "Cut potato, sweet potato, cucumber and tomato into thick pieces.",
         "Scoop them from inside.",
-        "In a bowl put sprouts, pomegranate, green chilli and inner part of porato, sweet ",
-        "potato, cucumber and tomato.",
+        "In a bowl put sprouts, pomegranate, green chilli and inner part of porato, sweet potato, cucumber and tomato.",
         "Add salt, chaat masala and lime juice.",
         "Mix well",
         "Put the mixture in hollows of vegetables.",
@@ -18990,8 +18164,7 @@ const dataset = {
         "2 teaspoons chopped green Coriander Leaves (Dhania Patta) "
       ],
       "preparation": [
-        "Put the milk to boil with chopped onion, green Coriander leaves, bay leaf, peppercorns ",
-        "and cloves. ",
+        "Put the milk to boil with chopped onion, green Coriander leaves, bay leaf, peppercorns and cloves. ",
         "Cool the milk and strain. ",
         "Melt the butter, stir in the flour on fire, fry a little without browning it. ",
         "Add the milk, whisk over the fire until it boils and let it simmer for a few minutes. ",
@@ -19024,8 +18197,7 @@ const dataset = {
         "Put the milk to boil with chopped onion, coriander, clove, bay leaf and peppercorns. ",
         "Melt the butter, stir in the flour and cook a little without browning, then add hot milk. ",
         "Whisk over the fire until it boils and let it simmer for 6 minutes. ",
-        "Strain or pass through a sieve, return to the pan, season lightly with a pinch of nutmeg, ",
-        "red chilli and salt. ",
+        "Strain or pass through a sieve, return to the pan, season lightly with a pinch of nutmeg, red chilli and salt. ",
         "When cold, add lemon juice. ",
         "Serve with fried dishes. "
       ],
@@ -19092,8 +18264,7 @@ const dataset = {
         "Melt the butter and stir in the flour. ",
         "Mix well and cook very gently without browning. ",
         "Add water and stir till it thickens. ",
-        "Mix mustard in vinegar, add salt, Red chili pepper and sugar, and add to the flour ",
-        "stirring well. ",
+        "Mix mustard in vinegar, add salt, Red chili pepper and sugar, and add to the flour stirring well. ",
         "Store the sauce in a jar."
       ],
       "category_id": "sauce-recipe",
@@ -19139,13 +18310,11 @@ const dataset = {
       "preparation": [
         "Deseed the red chillies and grind. ",
         "Cook tomato pieces till tender and pass through a sieve. ",
-        "Cook tomato pulp, ground red chillies, chilli powder, salt, sugar, cloves, vinegar and ",
-        "mustard seeds till thick. ",
+        "Cook tomato pulp, ground red chillies, chilli powder, salt, sugar, cloves, vinegar and mustard seeds till thick. ",
         "Remove from the fire, take out muslin bag and cloves. ",
         "Mix glacial acetic acid. Pour in a bottle and cork tightly. ",
         "Keep it for one week before using. ",
-        "Note: If the colour of the sauce does not look good, mix with it 1/2 teaspoon tomato ",
-        "red colour. "
+        "Note: If the colour of the sauce does not look good, mix with it 1/2 teaspoon tomato red colour. "
       ],
       "category_id": "sauce-recipe",
       "id": "red-chilli-sauce-recipe"
@@ -19168,8 +18337,7 @@ const dataset = {
         "2 tsps sodium benzoate "
       ],
       "preparation": [
-        "Chop the tomatoes, garlic and ginger and put in a degchi and cook on a low fire till ",
-        "tender and thick. ",
+        "Chop the tomatoes, garlic and ginger and put in a degchi and cook on a low fire till tender and thick. ",
         "Pass through a sieve. ",
         "Add vinegar, sugar and chilli powder and cook until thick. ",
         "Add acetic acid and sodium benzoate mixed in 1/4 cup boiling water. ",
@@ -19199,18 +18367,15 @@ const dataset = {
         "1 cup green peas or 250 gms paneer"
       ],
       "preparation": [
-        "Remove the shell of boiled eggs & keep aside. If using Paneer  cut into cubes and fry ",
-        "till golden & set aside for later use. ",
+        "Remove the shell of boiled eggs & keep aside. If using Paneer  cut into cubes and fry till golden & set aside for later use. ",
         "Make a paste of onion, garlic, ginger and green chilies in a  mixer or chopper. ",
         "Heat oil in a kadhi or wok  and add onion-garlic paste and fry till golden brown. ",
-        "Add all the spices (salt, turmeric, coriander & chili powder) except garam masala and fry for ",
-        "a minute and add tomato puree. Fry  till it starts leaving oil. ",
+        "Add all the spices (salt, turmeric, coriander & chili powder) except garam masala and fry for a minute and add tomato puree. Fry  till it starts leaving oil. ",
         "Add a cup of water and cook till it dry's. ",
         "Now add the fried paneer cubes or green peas (which ever using) and boiled eggs. ",
         "Add 1 cup of water and bring to boil and reduce the flame. ",
         "Simmer for 10 minutes. ",
-        "Garnish with garam masala and coriander leaves and serve daal shorba hot with paratha, ",
-        "roti or rice. "
+        "Garnish with garam masala and coriander leaves and serve daal shorba hot with paratha, roti or rice. "
       ],
       "category_id": "soup-recipes",
       "id": "daal-shorba-recipe"
@@ -19235,18 +18400,15 @@ const dataset = {
         "1 cup green peas or 250 gms paneer"
       ],
       "preparation": [
-        "Remove the shell of boiled eggs & keep aside. If using Paneer  cut into cubes and fry ",
-        "till golden & set aside for later use. ",
+        "Remove the shell of boiled eggs & keep aside. If using Paneer  cut into cubes and fry till golden & set aside for later use. ",
         "Make a paste of onion, garlic, ginger and green chilies in a  mixer or chopper. ",
         "Heat oil in a kadhi or wok  and add onion-garlic paste and fry till golden brown. ",
-        "Add all the spices (salt, turmeric, coriander & chili powder) except garam masala and fry for ",
-        "a minute and add tomato puree. Fry  till it starts leaving oil. ",
+        "Add all the spices (salt, turmeric, coriander & chili powder) except garam masala and fry for a minute and add tomato puree. Fry  till it starts leaving oil. ",
         "Add a cup of water and cook till it dry's. ",
         "Now add the fried paneer cubes or green peas (which ever using) and boiled eggs. ",
         "Add 1 cup of water and bring to boil and reduce the flame. ",
         "Simmer for 10 minutes. ",
-        "Garnish pea soup with garam masala and coriander leaves and serve hot with paratha, roti ",
-        "or rice. "
+        "Garnish pea soup with garam masala and coriander leaves and serve hot with paratha, roti or rice. "
       ],
       "category_id": "soup-recipes",
       "id": "pea-soup-recipe"
@@ -19272,15 +18434,12 @@ const dataset = {
         "4 cups water"
       ],
       "preparation": [
-        "Mix 4 cups of water, Chili sauce, Soya sauce, vinegar, sugar, salt, pepper powder ",
-        "and ajinomoto and bring to boil. ",
+        "Mix 4 cups of water, Chili sauce, Soya sauce, vinegar, sugar, salt, pepper powder and ajinomoto and bring to boil. ",
         "Now add all the chopped vegetables except paneer . Cook for a minute on a medium heat. ",
-        "Dissolve corn starch in 1/2 cup water and add to the soup stirring  constantly till it ",
-        "becomes thick. ",
+        "Dissolve corn starch in 1/2 cup water and add to the soup stirring  constantly till it becomes thick. ",
         "Cook for a minute, add paneer slices. ",
         "Serve hot . ",
-        "Hot and sour soup should be prepared just before consuming and should be served fresh, ",
-        "else it will lose the taste."
+        "Hot and sour soup should be prepared just before consuming and should be served fresh, else it will lose the taste."
       ],
       "category_id": "soup-recipes",
       "id": "hot-and-sour-soup-recipe"
@@ -19303,8 +18462,7 @@ const dataset = {
         "cheese granted"
       ],
       "preparation": [
-        "Melt butter, fry ginger and garlic paste, add tomato puree, carrots, French beans, peas ",
-        "and water. Pressure cook for 5-6 minutes.",
+        "Melt butter, fry ginger and garlic paste, add tomato puree, carrots, French beans, peas and water. Pressure cook for 5-6 minutes.",
         "Add coriander leaves. ",
         "Boil for 2-3 minutes.",
         "Garnish with cheese.",
@@ -19330,12 +18488,10 @@ const dataset = {
         "Add the chicken or vegetable stock, raise the heat and bring to a boil.",
         "Remove the mushroom mixture from the heat.",
         "Beat 1/2 cup of hot broth with the egg yolks until the mixture becomes frothy.",
-        "Gradually pour this mixture into the mushroom mixture, stirring constantly to prevent ",
-        "the mixture from curdling.",
+        "Gradually pour this mixture into the mushroom mixture, stirring constantly to prevent the mixture from curdling.",
         "Return the pan to the heat and add the milk, salt and pepper.",
         "Reheat uncovered, stirring constantly, but do not let the soup boil.",
-        "Serve the mushroom soup hot.",
-        null
+        "Serve the mushroom soup hot."
       ],
       "category_id": "soup-recipes",
       "id": "mushroom-soup"
@@ -19386,8 +18542,7 @@ const dataset = {
         "Garam Masala. Add 5 cups of water and bay leaf. Bring to a boil.",
         "Simmer for twenty minutes on a slow flame until tomatoes are mashed completely.",
         "Strain the mixture with a soup strainer.",
-        "Heat oil in a pan. Add cumin seeds, let them crackle. Add strained tomato liquid and ",
-        "season with salt.",
+        "Heat oil in a pan. Add cumin seeds, let them crackle. Add strained tomato liquid and season with salt.",
         "Bring it to a boil, add sugar if it is very sour.",
         "Serve tamatar ka shorba hot, garnished with chopped green coriander leaves."
       ],
@@ -19513,11 +18668,9 @@ const dataset = {
       ],
       "preparation": [
         "Boil and mash the potatoes.",
-        "Spice up with salt,1 tsp red chilli, 1tsp jeera powder,1tsp garam masla,1 tsp chaat ",
-        "masala powder, 2 tblsp green corriander leaves, green chilles and mix well.",
+        "Spice up with salt,1 tsp red chilli, 1tsp jeera powder,1tsp garam masla,1 tsp chaat masala powder, 2 tblsp green corriander leaves, green chilles and mix well.",
         "Take the bread slices and cut them in a round shape, with a help of a mould.",
-        "Apply little water on the round bread slices, just enough water to let the potato mixture ",
-        "to stick to the bread slices.",
+        "Apply little water on the round bread slices, just enough water to let the potato mixture to stick to the bread slices.",
         "Take approximately 2 tblsp potato mixture and spread on the round slices evenly.",
         "Make it smooth.",
         "Heat up up the oil for frying and fry the rounds till golden brown.",
@@ -19619,12 +18772,10 @@ const dataset = {
         "Heat up milk, add the sugar and saffron and a few drops of essence.",
         "Pour over the bread slices.",
         "Allow the bread to soak up the milk, then assemble the bread pieces on a decorative plate.",
-        "Heat up two teaspoon of ghee and lightly fry the crushed mawa, cardamom powder and ",
-        "two teaspoons of sugar.",
+        "Heat up two teaspoon of ghee and lightly fry the crushed mawa, cardamom powder and two teaspoons of sugar.",
         "Spread the mawa layer over the soaked bread pieces.",
         "Mix in essence to the cream.",
-        "Cover the mawa with a cream layer and decorate with silver foil, cut cashewnut, chironji ",
-        "and rose petals.",
+        "Cover the mawa with a cream layer and decorate with silver foil, cut cashewnut, chironji and rose petals.",
         "Serve warm or cold as you like."
       ],
       "category_id": "diwali-recipes",
@@ -19641,9 +18792,7 @@ const dataset = {
         "salt (namak) to taste 1/2 cup cashewnut (kaju) paste "
       ],
       "preparation": [
-        "Clean, wash and cut mushrooms in quarters. Cut onions finely. Heat up oil in a kadhai. mix ",
-        "in green cardamom, cinnamon stick and cut onions and stir fry until light golden brown. Mix ",
-        "in ginger paste, garlic paste and stir fry for half a minute. Mix in tomato puree, red ",
+        "Clean, wash and cut mushrooms in quarters. Cut onions finely. Heat up oil in a kadhai. mix in green cardamom, cinnamon stick and cut onions and stir fry until light golden brown. Mix in ginger paste, garlic paste and stir fry for half a minute. Mix in tomato puree, red ",
         "chilli powder, coriander powder, turmeric powder, garam masala powder and salt and stir ",
         "fry till oil leaves the masala. Mix in cashew nut paste dissolved in one cup of water, stir ",
         "well. Add a cup of water, bring it to a boil and then mix in green peas and mushrooms. ",
@@ -19683,8 +18832,7 @@ const dataset = {
         "Wash and cut all the vegetables into equal size pieces.",
         "Cut the onion.",
         "Wash and puree the tomatoes.",
-        "Heat up two tablespoon of oil and fry the paste ingredients till light brown, cool and grind to ",
-        "a paste with little water.",
+        "Heat up two tablespoon of oil and fry the paste ingredients till light brown, cool and grind to a paste with little water.",
         "Wash and cut the coriander leaves.",
         "Boil the potatoes, cauliflower and carrots till half done in salted water.",
         "Remove and keep aside.",
@@ -19693,8 +18841,7 @@ const dataset = {
         "Fry till the oil separates.",
         "Mix in the vegetables and continue stirring.",
         "Pour out the tomato puree and bring to boil.",
-        "Mix in two cup water and simmer (boil slowly at low temperature) till the vegetables ",
-        "are cooked and the gravy is thick.",
+        "Mix in two cup water and simmer (boil slowly at low temperature) till the vegetables are cooked and the gravy is thick.",
         "Sprinkle the garam masala, stir well.",
         "Serve nilgiri kurma hot."
       ],
@@ -19721,11 +18868,9 @@ const dataset = {
         "Wash and cut the tomato.",
         "Wash the rice and then soak in water for about twenty minutes.",
         "Heat up oil, mix in the cumin seeds and the fenugreek leaves and fry for about five minutes.",
-        "Mix in the finely cut tomato, red chili powder, coriander powder, turmeric powder and fry ",
-        "till the tomato is soft and the oil separates.",
+        "Mix in the finely cut tomato, red chili powder, coriander powder, turmeric powder and fry till the tomato is soft and the oil separates.",
         "Finally, mix in rice, salt and four cup of water.",
-        "Stir fry on a high flame heat up till the first boil and then let it simmer (boil slowly at ",
-        "low temperature) till the rice is done.",
+        "Stir fry on a high flame heat up till the first boil and then let it simmer (boil slowly at low temperature) till the rice is done.",
         "Serve hot"
       ],
       "category_id": "diwali-recipes",
@@ -19751,13 +18896,11 @@ const dataset = {
         "Blanch the rest and refresh in cold water.",
         "Wash and de-seed the green chillies. Cut roughly.",
         "Puree the blanched palak leaves and green chillies together.",
-        "Sieve the atta with salt and make a soft dough with palak puree, cut palak and water ",
-        "if needed.",
+        "Sieve the atta with salt and make a soft dough with palak puree, cut palak and water if needed.",
         "Cover with a moist cloth and keep aside for 30 minutes.",
         "Divide into 8 equal portions.",
         "Roll out each, spread some ghee and fold into half.",
-        "Fold again into quarter and keep aside for 5 minutes. roll out into triangles with each side ",
-        "of 6\" approximately.",
+        "Fold again into quarter and keep aside for 5 minutes. roll out into triangles with each side of 6\" approximately.",
         "Heat up a tawa and put the paratha over it. turn it and spread some ghee round it. turn ",
         "Again and spread some ghee on the other side too.",
         "Fry till both sides are evenly cooked.",
@@ -19819,15 +18962,13 @@ const dataset = {
       "preparation": [
         "Take off and wash lauki. Cut into 3/4 \" cubes.",
         "Dry roast coriander and cumin seeds.",
-        "Make a paste of roasted cumin seeds, coriander seeds, peeled ginger, garlic, whole ",
-        "red chillies, peppercorns, cloves, cinnamon, turmeric powder and scraped coconut. ",
+        "Make a paste of roasted cumin seeds, coriander seeds, peeled ginger, garlic, whole red chillies, peppercorns, cloves, cinnamon, turmeric powder and scraped coconut. ",
         "(reserve one tblsp of scraped coconut for garnish.). Keep the paste aside.",
         "Heat up oil in a pan.",
         "Mix in asafoetida and mustard seeds.",
         "Once they begin to crackle, mix in curry leaves and cut onions.",
         "Stir fry for two minutes and mix in lauki.",
-        "Stir fry for 5 minutes. mix in the masala and coconut paste, dissolved in 11/2 cup of ",
-        "water. Stir and bring it to a boil.",
+        "Stir fry for 5 minutes. mix in the masala and coconut paste, dissolved in 11/2 cup of water. Stir and bring it to a boil.",
         "Dissolve tamarind pulp in water if it is too thick.",
         "Mix in to the gravy. Add salt and mix well.",
         "Serve hot decorated with grated coconut."
@@ -19850,12 +18991,9 @@ const dataset = {
       ],
       "preparation": [
         "Melt sugar in water and heat up to make a thin syrup.",
-        "Knead the paneer with flour and shape into oval shaped fingers, mix in them to the ",
-        "sugar syrup and boil for eight minutes.",
-        "Take off from heat up and mix in lemon color to the syrup. Cool for a while and take off ",
-        "the chum-chums from the syrup.",
-        "Mix in saffron and cardamom powder to sugarless, creamy, condensed milk. spread this ",
-        "on each piece and serve cold."
+        "Knead the paneer with flour and shape into oval shaped fingers, mix in them to the sugar syrup and boil for eight minutes.",
+        "Take off from heat up and mix in lemon color to the syrup. Cool for a while and take off the chum-chums from the syrup.",
+        "Mix in saffron and cardamom powder to sugarless, creamy, condensed milk. spread this on each piece and serve cold."
       ],
       "category_id": "diwali-recipes",
       "id": "chum-chum-recipe"
@@ -19877,8 +19015,7 @@ const dataset = {
         "Sieve gram flour with baking powder so that it mixes well.",
         "Mix in 2 tblsp of melted ghee and enough water to make a batter of thick consistency.",
         "Heat up ghee in a kadhai and with a perforated (holes) spoon drop boondis in ghee.",
-        "Rub the batter on the spoon with holes so that small drops of batter drop in ",
-        "oil, simultaneously tap the spoon on the rim of kadhai also.",
+        "Rub the batter on the spoon with holes so that small drops of batter drop in oil, simultaneously tap the spoon on the rim of kadhai also.",
         "Fry boondis till golden brown, remove and keep aside.",
         "Meanwhile make three string (3 tar ki chashni) consistency sugar syrup mix in colour.",
         "Put the fried boondis in this syrup, mix in the raisins and cut pistachios.",
@@ -19903,8 +19040,7 @@ const dataset = {
         "Wash and dry the currants.",
         "Heat up a little ghee and lightly fry them.",
         "Keep aside.",
-        "Heat up ghee in a deep pot and fry the semolina (suji) on low heat up till it turns light ",
-        "brown in colour.",
+        "Heat up ghee in a deep pot and fry the semolina (suji) on low heat up till it turns light brown in colour.",
         "Then mix in sugar and milk and stir fry till the mixture becomes sticky.",
         "Mix in the cashew nuts and raisins to the mixture.",
         "Take off the pot from heat up and form the dough into small balls.",
@@ -19942,17 +19078,14 @@ const dataset = {
         "Wash and quarter two tomatoes and make slices of the remaining.",
         "Peel and make juliennes of the ginger.",
         "Wash and slit the green chillies.",
-        "Mix in water and 1/2 tsp of soda bi-carbonate to the chana and stir fry in a pressure ",
-        "cooker till done.",
+        "Mix in water and 1/2 tsp of soda bi-carbonate to the chana and stir fry in a pressure cooker till done.",
         "Take care the chanas do not get mashed.",
         "Heat up the ghee in a vessel and fry the potatoes until soft. drain.",
         "In the same ghee, mix in the onions and stir fry till pink.",
         "Mix in the dhania-jeera powder and red chilli powder and fry again.",
         "Mix in the boiled chanas and salt.",
-        "After five minutes, mix in the garam masala powder, amchur powder and black ",
-        "pepper powder and stir fry for two minutes.",
-        "Mix in the potatoes and tomatoes and stir fry for another two minutes.",
-        "decorate with cut coriander leaves, slit green chillies, slices of tomatoes and ginger juliennes."
+        "After five minutes, mix in the garam masala powder, amchur powder and black pepper powder and stir fry for two minutes.",
+        "Mix in the potatoes and tomatoes and stir fry for another two minutes.decorate with cut coriander leaves, slit green chillies, slices of tomatoes and ginger juliennes."
       ],
       "category_id": "diwali-recipes",
       "id": "chole-recipe"
@@ -20002,12 +19135,10 @@ const dataset = {
         "Clean, wash and finely cut the coriander leaves.",
         "Boil the potatoes. Peel and grate to mash thoroughly.",
         "Heat up a little oil in a pan, mix in onion and stir fry until soft.",
-        "Mix in sauted onion, cut coriander leaves, cut green chillies, salt and bread crumbs to ",
-        "the mashed potatoes and mix well.",
+        "Mix in sauted onion, cut coriander leaves, cut green chillies, salt and bread crumbs to the mashed potatoes and mix well.",
         "Divide into eight equal portions.",
         "Stuff each portion with cut raisins, make balls and flatten them.",
-        "Heat up a griddle and shallow fry the tikkis with a little oil until light golden brown on ",
-        "both sides.",
+        "Heat up a griddle and shallow fry the tikkis with a little oil until light golden brown on both sides.",
         "Serve hot with tarmarind and green chutney"
       ],
       "category_id": "diwali-recipes",
@@ -20030,14 +19161,10 @@ const dataset = {
       "preparation": [
         "Blanch the spinach leaves in boiling water.",
         "Remove the spinach leaves from the water and make it into a paste.",
-        "Mix the palak paste with wheat flour and add crushed cumin seeds, plain curd, ghee, ",
-        "ginger- green chilli paste and salt.",
-        "Make a soft smooth dough by mixing all the ingredients and some water as per ",
-        "requirement. Make sure that the dough is firm and tight & not too watery. Otherwise it will ",
-        "be difficult to roll out puris.",
+        "Mix the palak paste with wheat flour and add crushed cumin seeds, plain curd, ghee, ginger- green chilli paste and salt.",
+        "Make a soft smooth dough by mixing all the ingredients and some water as per requirement. Make sure that the dough is firm and tight & not too watery. Otherwise it will be difficult to roll out puris.",
         "Keep the dough covered for about 10 minutes with a wet muslin cloth.",
-        "Knead the dough again for a minute and then divide the dough into equal sized lemon ",
-        "balls and roll them each in a flat round disc of 5 inch diameter.",
+        "Knead the dough again for a minute and then divide the dough into equal sized lemon balls and roll them each in a flat round disc of 5 inch diameter.",
         "Heat the oil in a wok or kadai and fry each of the puris on both sides till golden and crisp.",
         "Serve hot palak puri with curd, chilli pickle or potato sabji."
       ],
@@ -20135,8 +19262,7 @@ const dataset = {
         "Finely chop hari mirch. ",
         "Mix atta and maida along with salt and 1 tbsp oil. ",
         "Knead into dough and leave it covered for 1/2 an hour. ",
-        "Heat 1 tbsp ghee in a pan and fry hing, lal mirch, dhania, 1/2 tsp namak, hari mirch, ",
-        "matar and sabudana for 1-2 minutes until water dries up. ",
+        "Heat 1 tbsp ghee in a pan and fry hing, lal mirch, dhania, 1/2 tsp namak, hari mirch, matar and sabudana for 1-2 minutes until water dries up. ",
         "Remove it from the flame and let it cool. ",
         "Make small balls of the dough and roll each into small chapatti. ",
         "Stuff these with the above mixture and again roll into thin and small puri. ",
@@ -20196,8 +19322,7 @@ const dataset = {
         "When slightly coloured, mix in potato and rice.",
         "Stir-fry till they look a bit fried.",
         "Mix in salt, chilli powder and water, and bring to a boil.",
-        "Lower the flame and simmer, covered, for about 15 minutes or till cooked through and ",
-        "the water is absorbed.",
+        "Lower the flame and simmer, covered, for about 15 minutes or till cooked through and the water is absorbed.",
         "Decorate with corinder leaves and serve hot."
       ],
       "category_id": "navratri-recipes",
@@ -20262,8 +19387,7 @@ const dataset = {
       "preparation": [
         "Peel banana and cut fine slices of it like that of chips. ",
         "Dip them in cold water for at least 30 minutes. ",
-        "Heat oil in a pan and deep fry all the banana slices until they turn golden brown. Keep ",
-        "them aside. ",
+        "Heat oil in a pan and deep fry all the banana slices until they turn golden brown. Keep them aside. ",
         "Now mix chilly and meethi chutney with the chips well and place them in a serving dish. ",
         "Garnish with coriander and sev. ",
         "Sprinkle some chat masala on the top and serve. "
@@ -20329,16 +19453,14 @@ const dataset = {
         "1/2 cup water"
       ],
       "preparation": [
-        "Grind the roasted khuskhsu along with the green chillies and a few tblsp of water to a ",
-        "very fine paste.",
+        "Grind the roasted khuskhsu along with the green chillies and a few tblsp of water to a very fine paste.",
         "Keep aside.",
         "Heat up half of the oil in a pot for 2 minute till very hot.",
         "Shallow fry the potatoes in batches on medium heat up till they are lightly browned.",
         "Heat up the remaining oil in the same pan.",
         "Mix in the whole dry red chillies and turmeric powder.",
         "Fry briefly.",
-        "Now mix in the khuskhus paste and fry again on low heat up for 5 minutes till the oil has ",
-        "left the sides of the pan.",
+        "Now mix in the khuskhus paste and fry again on low heat up for 5 minutes till the oil has left the sides of the pan.",
         "Mix in the fried potatoes and mix well.",
         "Mix in water and salt.",
         "Stir, cover and keep on low heat up for 15 minutes till the potatoes are soft.",
@@ -20485,8 +19607,7 @@ const dataset = {
       ],
       "preparation": [
         "Make lemon-sized balls out of the mashed potatoes.",
-        "If the potato mash is soft, mix in bread slices dipped in water (squeeze out all water) to ",
-        "the mash and knead well.",
+        "If the potato mash is soft, mix in bread slices dipped in water (squeeze out all water) to the mash and knead well.",
         "Prepare stuffing by mixing coconut, dry nuts, chillies, coriander leaves, salt and sugar to taste.",
         "Flatten each potato ball, put in a small quantity of this stuffing and fold around.",
         "Roll each ball in breadcrumbs.",
@@ -20523,8 +19644,7 @@ const dataset = {
       ],
       "preparation": [
         "Grind coconut with green chilies and cumin seeds in paste and keep it aside.",
-        "Heat coconut oil in a thick bottom vessel, add vegetables and cook it on a low flame ",
-        "without adding water.",
+        "Heat coconut oil in a thick bottom vessel, add vegetables and cook it on a low flame without adding water.",
         "When the vegetables are cooked, add turmeric powder, salt and mix well.",
         "Put bananas and mango pieces in cooked vegetables and cover the vessel.",
         "When steam comes out, add the coconut paste and stir well.",
@@ -20552,8 +19672,7 @@ const dataset = {
         "Deep fry ladyfinger in oil till crisp.",
         "Pound grated coconut; green chilies and mustard into a thick paste and keep it aside.",
         "Take oil in pan and over high flame season mustard, red chilli andÂ curry leaves.",
-        "Lower the flame, add curd and the ground ingredients and let it simmer for few ",
-        "minutes stirring continuously..",
+        "Lower the flame, add curd and the ground ingredients and let it simmer for few minutes stirring continuously..",
         "Add fried lady finger and salt to it and remove from flame after it boils.",
         "Note: You can use Pavakkai (Bitter Gourd) instead of Ladies Finger as a variation)"
       ],
@@ -20611,18 +19730,13 @@ const dataset = {
       "preparation": [
         "Wash and cut the vegetables into 2\" square pieces. They should be thick",
         "Grind the coconut and cumin to a smooth paste without adding water. Keep it aside.",
-        "Fry the methi seeds to a golden brown in a drop of oil and grind to a fine powder and ",
-        "keep this aside also..",
-        "In 1/2cup of water dissolve the pepper powder and strain it through a clean cloth. Cook ",
-        "the vegetables in this water with turmeric powder and salt.. When the water dries, add ",
+        "Fry the methi seeds to a golden brown in a drop of oil and grind to a fine powder and keep this aside also..",
+        "In 1/2cup of water dissolve the pepper powder and strain it through a clean cloth. Cook the vegetables in this water with turmeric powder and salt.. When the water dries, add ",
         "1tsp ghee",
-        "Add the beaten sour curds to the cooked vegetables and boil, stirring occasionally, until ",
-        "the gravy is thickened.",
-        "Add the grinded coconut mixture and fenugreek powder into it and bring the gravy to ",
-        "boil stirring continuously.",
+        "Add the beaten sour curds to the cooked vegetables and boil, stirring occasionally, until the gravy is thickened.",
+        "Add the grinded coconut mixture and fenugreek powder into it and bring the gravy to boil stirring continuously.",
         "Remove the gravy from flame.",
-        "Heat oil in a pan. When it smokes add the mustard seeds. When the mustard splutters, ",
-        "add the red chillies broken into halves and curry leaves and season the gravy with it.",
+        "Heat oil in a pan. When it smokes add the mustard seeds. When the mustard splutters, add the red chillies broken into halves and curry leaves and season the gravy with it.",
         "Enjoy it with rice."
       ],
       "category_id": "onam-recipes",
@@ -20643,8 +19757,7 @@ const dataset = {
         "Boil the fried dal in water till it is cooked.",
         "Make a thick solution by heating jaggery with some water .",
         "Take milk from the coconut thrice. Keep the thick milk taken 1st, aside.",
-        "Add the third milk and the second milk with the jaggery solution to the boiled dal .",
-        "and simmer on a low flame till thick.",
+        "Add the third milk and the second milk with the jaggery solution to the boiled dal .and simmer on a low flame till thick.",
         "Finally add the first milk and simmer it for a while.",
         "Season it with fried nut, raisins.",
         "Stir well and remove from fire immediately"
@@ -20677,8 +19790,7 @@ const dataset = {
         "Soak beans overnight.",
         "Cook pumpkin with beans after adding enough water and salt",
         "Put the grounded paste to the pumpkin, boil for sometime and keep aside.",
-        "Heat oil in a pan, season mustard, curry leaves and dry chillies and add the thick ",
-        "coconut milk. Pour it to the cooked pumpkin curry and stir well",
+        "Heat oil in a pan, season mustard, curry leaves and dry chillies and add the thick coconut milk. Pour it to the cooked pumpkin curry and stir well",
         "Yummy erussery is ready to be served."
       ],
       "category_id": "onam-recipes",
@@ -20701,8 +19813,7 @@ const dataset = {
         "Salt to taste"
       ],
       "preparation": [
-        "Cook mango/pineapple with 3 green chillies, turmeric powder, chilli powder, cumin ",
-        "powder water and salt",
+        "Cook mango/pineapple with 3 green chillies, turmeric powder, chilli powder, cumin powder water and salt",
         "Beat yogurt and add it to the mixture ,stirring it regularly.",
         "Remove the mixture from heat.",
         "Season with mustard seeds, curry leaves, fenugreek and whole red chilly, green chillies.",
@@ -20734,10 +19845,8 @@ const dataset = {
         "Pressure cook the bengal gram dal with salt and water to a thick gravy",
         "Clean and cut the vegetables into small pieces. Boil the vegetables by steaming.",
         "Heat oil and season mustard, white gram dal, dried red chillies and curry leaves.",
-        "Add the ground coconut mixture. Saute for sometime, till the water dries. Add the ",
-        "cooked vegetables, salt and bengal gram dal to it and simmer it on low heat",
-        "Heat 1tbsp ghee and fry the 1/4cup grated coconut in it till golden brown. Season ",
-        "the koottucurry with it and mix well."
+        "Add the ground coconut mixture. Saute for sometime, till the water dries. Add the cooked vegetables, salt and bengal gram dal to it and simmer it on low heat",
+        "Heat 1tbsp ghee and fry the 1/4cup grated coconut in it till golden brown. Season the koottucurry with it and mix well."
       ],
       "category_id": "onam-recipes",
       "id": "koottu-curry-recipe"
@@ -20812,8 +19921,7 @@ const dataset = {
         "In thuvar dal water cook the vegetables..",
         "After the veggies are cooked, add tamarind paste.",
         "Now add the cooked thuvar dal and simmer for a few more minutes",
-        "Heat some oil in a pan, splutter mustard, then add methi, red chillies, green chillies, ",
-        "curry leaves, hing, turmeric, and sambhar powder and keep frying for a few minutes.",
+        "Heat some oil in a pan, splutter mustard, then add methi, red chillies, green chillies, curry leaves, hing, turmeric, and sambhar powder and keep frying for a few minutes.",
         "Season the sambhar with the above prepared tadka.",
         "Sprinkle coriander on top."
       ],
@@ -20844,14 +19952,11 @@ const dataset = {
       ],
       "preparation": [
         "Put whole tomatoes in boiling water, simmer for 3 minutes, keep it aside to cool.",
-        "Heat 1/4 tsp. oil in a small pan, add pepper corns and 1 tsp. cumin seeds and roast ",
-        "till aromatic, pound it in a mortar till powdered. Keep aside.",
+        "Heat 1/4 tsp. oil in a small pan, add pepper corns and 1 tsp. cumin seeds and roast till aromatic, pound it in a mortar till powdered. Keep aside.",
         "Peel away the broken skin of boiled tomatoes and mash them into a pulp",
-        "To the thick tomato pulp, add roasted whole chillies, all leaves, all masalas, salt, ",
-        "tamarind, jaggery and blend it with the blender.",
+        "To the thick tomato pulp, add roasted whole chillies, all leaves, all masalas, salt, tamarind, jaggery and blend it with the blender.",
         "In a deep pan, add the stock.",
-        "Heat ghee in a small pan, add mustard and remaining cumin seeds, asafoetida and allow ",
-        "to splutter.",
+        "Heat ghee in a small pan, add mustard and remaining cumin seeds, asafoetida and allow to splutter.",
         "Add garlic to it and stir.",
         "Season the rasam with the prepared tadka.",
         "Bring to a boil and simmer for 2-3 minutes. Keep aside covered for 10 minutes before serving.",
@@ -20879,11 +19984,8 @@ const dataset = {
       ],
       "preparation": [
         "Blend coconut, curd and green chillies in a blender.",
-        "Add 1 cup water, red chilly powder, turmeric and salt to the mixture,bring to a boil ",
-        "and remove from the heat.",
-        "Heat the oil separately. Add mustard seeds, cumin seeds, fenugreek seeds to the oil and ",
-        "let them splutter, then add the chopped onion, the red chillies,the garlic, the ginger and ",
-        "the curry leaves and season the curry with it."
+        "Add 1 cup water, red chilly powder, turmeric and salt to the mixture,bring to a boil and remove from the heat.",
+        "Heat the oil separately. Add mustard seeds, cumin seeds, fenugreek seeds to the oil and let them splutter, then add the chopped onion, the red chillies,the garlic, the ginger and the curry leaves and season the curry with it."
       ],
       "category_id": "onam-recipes",
       "id": "moru-curry-recipe"
@@ -20922,10 +20024,8 @@ const dataset = {
         "10 gms Cumin Powder"
       ],
       "preparation": [
-        "Grate the coconut. Add 1/2 glass warm water to the grated coconut. Extract the first ",
-        "coconut milk by filtering the mixture of coconut and water.",
-        "Extract the second milk by adding 1 1/2 glass warm water. Repeat the process to extract ",
-        "the third milk.",
+        "Grate the coconut. Add 1/2 glass warm water to the grated coconut. Extract the first coconut milk by filtering the mixture of coconut and water.",
+        "Extract the second milk by adding 1 1/2 glass warm water. Repeat the process to extract the third milk.",
         "Saute broken wheat lightly in one teaspoon ghee.",
         "Cook the brown wheat in 1 1/2 liters of water.",
         "Add the third milk and the second milk to the wheat and bring to a boil.",
@@ -20954,14 +20054,12 @@ const dataset = {
       "preparation": [
         "Sieve the flour in a mixing bowl and add heated Ghee, milk, curd and baking powder",
         "Rub the mixture with your hands by gradually adding warm water, and mix into a stiff dough",
-        "Break off a small portion of the dough into a ball, then flatten it, and make a deep ",
-        "hole through the center",
+        "Break off a small portion of the dough into a ball, then flatten it, and make a deep hole through the center",
         "Prepare sugar syrup by adding sugar and 1 cup of water",
         "Add cardamom powder",
         "The syrup should be quite sticky",
         "Heat oil in a frying pan and fry the baadushas quite slowly until they are golden brown",
-        "When they are fully done, put them in the warm syrup for a few minutes, shaking the ",
-        "pan frequently to let them become well-coated with syrup",
+        "When they are fully done, put them in the warm syrup for a few minutes, shaking the pan frequently to let them become well-coated with syrup",
         "Take them out singly from the pan and place on a shallow dish",
         "Sever cold or hot as per your taste."
       ],
@@ -20992,8 +20090,7 @@ const dataset = {
         "Add chocolate colour, kesar and powdered cashew.",
         "When it gets the consistency of a soft ball, take it off the flame.",
         "Add chopped pieces of almonds and pistachios. Cool it.",
-        "Make a sugar syrup of less than one-string consitency with 20 gms sugar and one-eight ",
-        "cup of water.",
+        "Make a sugar syrup of less than one-string consitency with 20 gms sugar and one-eight cup of water.",
         "Add pista colour ot it and take it off the gas.",
         "Then add powdered pistachios.",
         "Mix it well and allow it to cool.",
@@ -21004,8 +20101,7 @@ const dataset = {
         "Then pace one part of the anjir mixture on it.",
         "After this, place one part of the pistachio mixture and slightly press it.",
         "Cover with another part of the almond dough.",
-        "Bake these pieces in an oven on 150 degrees Celsius for 10-15 minutes till the burger ",
-        "turns light brown in colour.",
+        "Bake these pieces in an oven on 150 degrees Celsius for 10-15 minutes till the burger turns light brown in colour.",
         "Cool it.",
         "Garnish with kesar."
       ],
@@ -21054,8 +20150,7 @@ const dataset = {
       ],
       "preparation": [
         "Remove bread crusts. Knead bread with a little curd and salt.",
-        "Make small balls, putting some raisins in the centre. Fry till crisp in hot oil. Drain and ",
-        "keep aside.",
+        "Make small balls, putting some raisins in the centre. Fry till crisp in hot oil. Drain and keep aside.",
         "Beat rest of curd and add salt and sugar. Drop in the wadas.",
         "Sprinkle with chilli powder and cummin seed powder, and pour tamarind pulp over.",
         "Garnish with coriander leaves."
@@ -21081,12 +20176,9 @@ const dataset = {
       "preparation": [
         "Put 2 tablespoons of ghee in pan on medium heat.",
         "Add raisins and cashew nuts and roast lightly.",
-        "Set aside for garnish. Boil chana dal and 2 cups milk until dal is over cooked (soft) so that ",
-        "it can be mashed.",
-        "After this mixture is mashed, add evaporated milk, remaining milk, saffron, cardamon ",
-        "powder and sugar to taste.",
-        "Add the cut banana pieces and boil all of this together to the desired consistency, ",
-        "stirring constantly to prevent milk from cooking over sides of pan.",
+        "Set aside for garnish. Boil chana dal and 2 cups milk until dal is over cooked (soft) so that it can be mashed.",
+        "After this mixture is mashed, add evaporated milk, remaining milk, saffron, cardamon powder and sugar to taste.",
+        "Add the cut banana pieces and boil all of this together to the desired consistency, stirring constantly to prevent milk from cooking over sides of pan.",
         "Garnish with coconut flakes, roasted cashew nuts and raisins. Serve hot or cold.",
         "Serves: 4-6 "
       ],
@@ -21124,8 +20216,7 @@ const dataset = {
         "Seal the edges by pressing them lightly and make any design at the edges.",
         "Fry these pieces in hot ghee till crisp and light brown in colour.",
         "Set them aside to cool.",
-        "Make a sugar syrup of one-string consistency with one-fourth cup of water ",
-        "simultaneously adding the kesar and kesari colour."
+        "Make a sugar syrup of one-string consistency with one-fourth cup of water simultaneously adding the kesar and kesari colour."
       ],
       "category_id": "rakhi-recipes",
       "id": "chandrakala-recipe"
@@ -21144,23 +20235,15 @@ const dataset = {
         "Kesar, elaichi, raspberry red colour, siver varq-for garnishing."
       ],
       "preparation": [
-        "Make a syrup of less than one-string consistency with 70 gms sugar and one-third cup ",
-        "of water.",
-        "Add pista colour to it and take it off the gas. Add pistachio power, mix it well and allow it ",
-        "to cool. Divide it into",
+        "Make a syrup of less than one-string consistency with 70 gms sugar and one-third cup of water.",
+        "Add pista colour to it and take it off the gas. Add pistachio power, mix it well and allow it to cool. Divide it into",
         "10 portions.",
         "Make a syrup of one string consistency with 130 gms sugar and half a cup of water. ",
-        "Add cashew powder and almond",
-        "powder and mix well. Take it off the gas and divide it into two parts- one-fourth and ",
-        "three-fourth.",
-        "Add sliced almonds, pistachios and raspberry red colour to the three-fourth portion. Mix ",
-        "it well and divide it",
-        "further into 10 portions.",
+        "Add cashew powder and almondpowder and mix well. Take it off the gas and divide it into two parts- one-fourth and three-fourth.",
+        "Add sliced almonds, pistachios and raspberry red colour to the three-fourth portion. Mix it well and divide itfurther into 10 portions.",
         "Divide the one-fourth part into 10 portions and roll it on a greased butter paper.",
-        "Stuff the raspberry portion properly into the plain cashew and almond dough in the shape of ",
-        "a ball.",
-        "Then cover this ball well with the pistachio dough to give the shape of a water ",
-        "melon. Decorate with silver varq.",
+        "Stuff the raspberry portion properly into the plain cashew and almond dough in the shape of a ball.",
+        "Then cover this ball well with the pistachio dough to give the shape of a water melon. Decorate with silver varq.",
         "Cut into slices and serve."
       ],
       "category_id": "rakhi-recipes",
@@ -21215,12 +20298,9 @@ const dataset = {
       "preparation": [
         "Put 2 tablespoons of ghee in pan on medium heat.",
         "Add raisins and cashew nuts and roast lightly.",
-        "Set aside for garnish. Boil chana dal and 2 cups milk until dal is over cooked (soft) so that ",
-        "it can be mashed.",
-        "After this mixture is mashed, add evaporated milk, remaining milk, saffron, cardamon ",
-        "powder and sugar to taste.",
-        "Add the cut banana pieces and boil all of this together to the desired consistency, ",
-        "stirring constantly to prevent milk from cooking over sides of pan.",
+        "Set aside for garnish. Boil chana dal and 2 cups milk until dal is over cooked (soft) so that it can be mashed.",
+        "After this mixture is mashed, add evaporated milk, remaining milk, saffron, cardamon powder and sugar to taste.",
+        "Add the cut banana pieces and boil all of this together to the desired consistency, stirring constantly to prevent milk from cooking over sides of pan.",
         "Garnish with coconut flakes, roasted cashew nuts and raisins. Serve hot or cold.",
         "Serves: 4-6 "
       ],
@@ -21258,8 +20338,7 @@ const dataset = {
         "Seal the edges by pressing them lightly and make any design at the edges.",
         "Fry these pieces in hot ghee till crisp and light brown in colour.",
         "Set them aside to cool.",
-        "Make a sugar syrup of one-string consistency with one-fourth cup of water ",
-        "simultaneously adding the kesar and kesari colour."
+        "Make a sugar syrup of one-string consistency with one-fourth cup of water simultaneously adding the kesar and kesari colour."
       ],
       "category_id": "rakhi-recipes",
       "id": "chandrakala-recipe"
@@ -21285,8 +20364,7 @@ const dataset = {
         "Add salt, red chilli powder and garam masala.",
         "Mix well.",
         "Make small balls and deep-fry till they are golden in colour. Keep these balls on a plate.",
-        "Garnish with radish (mooli) lachha, mint chutney, tamarind chutney, chaat masala ",
-        "and coriander leaves."
+        "Garnish with radish (mooli) lachha, mint chutney, tamarind chutney, chaat masala and coriander leaves."
       ],
       "category_id": "rakhi-recipes",
       "id": "dal-ke-laddu-recipe"
@@ -21376,26 +20454,15 @@ const dataset = {
       "preparation": [
         "To Make Kulcha :",
         "Mix the yeast in luke warm water, milk, sugar and leave it for 5-10 minutes.",
-        "Seive the maida. Add the prepared yeast, curd, baking powder, ghee and salt and knead ",
-        "it well. The dough should be kept in a container closed with aluminum foil for at least 2 hrs.",
-        "to rise ( only when it rises that the Kulcha will be soft.)",
-        "By the time it rises cook the potatoes. Mash it well by adding paneer to it. Add ginger ",
-        "garlic paste, chilli powder and salt. Make it into small balls. Set aside.",
-        "Knead the dough again after 2 hrs and make it into small balls. Roll the dough into a ",
-        "circle and keep the paneer ball and fold that to make balls. Roll out each piece carefully ",
-        "on the well floured surface.",
-        "Heat non-stick frying pan over a high heat when the pan is heated, place one of the ",
-        "dough rounds on the pan and after about 30 seconds, press it with a cloth so that it is ",
-        "baked. Grease ghee on both sides.",
-        "When the kulcha is well browned on both sides, remove from the pan. Repeat this ",
-        "process until all the kulchas are cooked.",
+        "Seive the maida. Add the prepared yeast, curd, baking powder, ghee and salt and knead it well. The dough should be kept in a container closed with aluminum foil for at least 2 hrs.to rise ( only when it rises that the Kulcha will be soft.)",
+        "By the time it rises cook the potatoes. Mash it well by adding paneer to it. Add ginger garlic paste, chilli powder and salt. Make it into small balls. Set aside.",
+        "Knead the dough again after 2 hrs and make it into small balls. Roll the dough into a circle and keep the paneer ball and fold that to make balls. Roll out each piece carefully on the well floured surface.",
+        "Heat non-stick frying pan over a high heat when the pan is heated, place one of the dough rounds on the pan and after about 30 seconds, press it with a cloth so that it is baked. Grease ghee on both sides.",
+        "When the kulcha is well browned on both sides, remove from the pan. Repeat this process until all the kulchas are cooked.",
         "To Make Kaddu Kofta :",
-        "Add basen (gram flour), salt and chilli powder to the finely chopped ashgourd. Make it ",
-        "into balls. Deep fry it in oil and keep it aside open so that it is crispy.",
-        "Grind tomatoes, onions, cloves, cinnamon. Add the ginger garlic paste, salt, chilli powder ",
-        "and garam masala powder to it. Cook till the raw smell of tomatoes goes off.",
-        "Arrange the koftas in the serving dish and the pour the cooked gravy over it. Garnish ",
-        "with chopped coriander leaves.",
+        "Add basen (gram flour), salt and chilli powder to the finely chopped ashgourd. Make it into balls. Deep fry it in oil and keep it aside open so that it is crispy.",
+        "Grind tomatoes, onions, cloves, cinnamon. Add the ginger garlic paste, salt, chilli powder and garam masala powder to it. Cook till the raw smell of tomatoes goes off.",
+        "Arrange the koftas in the serving dish and the pour the cooked gravy over it. Garnish with chopped coriander leaves.",
         "Serve kulchas with hot ashgourd koftas.",
         "Serves: 2"
       ],
@@ -21425,13 +20492,11 @@ const dataset = {
         "2 tablespoons coriander leaves for garnish"
       ],
       "preparation": [
-        "In a wok or heavy skillet, heat the butter, and add the onions. Stir-fry slowly until ",
-        "onions begin to turn brown, but are not scorched.",
+        "In a wok or heavy skillet, heat the butter, and add the onions. Stir-fry slowly until onions begin to turn brown, but are not scorched.",
         "Add the ginger, the chilies, bay leaf and vegetables and stir-fry 2 minutes.",
         "Add the rice and stir constantly until the rice begins to glisten, about 2 minutes.",
         "Stir in the dry masala. Add the stock and bring to full boil. Cover and simmer for 15 minutes.",
-        "Remove pot from heat and let stand 10 minutes, being sure not to lift the cover. Then ",
-        "gently fluff rice with a fork, lifting from the bottom.",
+        "Remove pot from heat and let stand 10 minutes, being sure not to lift the cover. Then gently fluff rice with a fork, lifting from the bottom.",
         "Garnish with coriander leaves and serve",
         "Serves 4-6"
       ],
@@ -21460,9 +20525,7 @@ const dataset = {
         "Leave it for an hour and knead again briefly and shape them into small balls",
         "Heat plenty of oil in a kadai until very hot",
         "Place the balls on a flat surface and roll them",
-        "Fry poori immediately",
-        "start flickering hot oil over the top of it with a spatula so that it will swell up like a ball, ",
-        "this should take only a few seconds",
+        "Fry poori immediatelystart flickering hot oil over the top of it with a spatula so that it will swell up like a ball, this should take only a few seconds",
         "Flip the poori over and cook the other side until golden brown",
         "Serve hot."
       ],
@@ -21487,8 +20550,7 @@ const dataset = {
         "Slice the onion fine. Heat ghee in a handi and fry the sliced onion till golden brown.",
         "Then add the ginger-garlic and chilli pastes.",
         "Fry till a nice aroma arises. Now add the green peas and the drained rice.",
-        "Add 4 cups of water and salt to taste. When the pulao is nearly ready toss in the fresh ",
-        "mint leaves and allow to simmer for a couple of minutes.",
+        "Add 4 cups of water and salt to taste. When the pulao is nearly ready toss in the fresh mint leaves and allow to simmer for a couple of minutes.",
         "Serve hot with a cucumber raitha."
       ],
       "category_id": "rakhi-recipes",
@@ -21513,12 +20575,10 @@ const dataset = {
       ],
       "preparation": [
         "Warm oil, add cloves and cinnamon. When oil simmers, add onions.",
-        "When onions turn brown, add garlic paste, red chili powder, cumin, and turmeric ",
-        "powder mixed in a little water with salt to taste.",
+        "When onions turn brown, add garlic paste, red chili powder, cumin, and turmeric powder mixed in a little water with salt to taste.",
         "When the masala is thoroughly fried, and oil comes up, add tomatoes and green chili peppers.",
         "Stir thoroughly, then add diced mushrooms. Cook on low heat for 5-7 minutes.",
-        "Garnish with dried crushed fenugreek leaves for a delicious flavor. Serve with chapattis ",
-        "or puri.",
+        "Garnish with dried crushed fenugreek leaves for a delicious flavor. Serve with chapattis or puri.",
         "Serves: 6"
       ],
       "category_id": "rakhi-recipes",
@@ -21549,16 +20609,13 @@ const dataset = {
         "Keep frying till a nice aroma arises.",
         "Now mix the mushrooms and the paneer cubes along with the garam masala powder.",
         "Add cashewnut paste and about a cup of water and salt to taste.",
-        "Simmer on a slow fire till cooked. The gravy should be slightly thick. To prepare the rice ",
-        "heat the remaining ghee in a handi and fry the remaining sliced onions till golden brown.",
+        "Simmer on a slow fire till cooked. The gravy should be slightly thick. To prepare the rice heat the remaining ghee in a handi and fry the remaining sliced onions till golden brown.",
         "Now add the drained rice. Fry for sometime. Then pour 4 cups of water and add salt to taste.",
         "Cook till the pulao is ready. Take another big handi.",
-        "Layer one third of the rice in it. Sprinkle a little of the chopped green coriander and mint ",
-        "over it.",
+        "Layer one third of the rice in it. Sprinkle a little of the chopped green coriander and mint over it.",
         "Then spread one third of the paneer and mushroom mixture over.",
         "Layer the second portion of rice followed by a sprinkling of the coriander and mint.",
-        "Spread the second layer of the paneer and mushroom masala. Repeat ending with a ",
-        "paneer and mushroom masala.",
+        "Spread the second layer of the paneer and mushroom masala. Repeat ending with a paneer and mushroom masala.",
         "Close a tight fitting lid and put the handi in a preheated oven for about 5 minutes. Serve hot."
       ],
       "category_id": "rakhi-recipes",
@@ -21613,8 +20670,7 @@ const dataset = {
       "preparation": [
         "Heat ghee, add cumin seeds and onions and fry till all are golden.",
         "Add tomatoes and cook till done.",
-        "Finally add all the masalas, green chillies, bari, salt and a little water and cook until the ",
-        "baris are soft.",
+        "Finally add all the masalas, green chillies, bari, salt and a little water and cook until the baris are soft.",
         "Add rice, stir gently, remove from the fire and serve with raita or curd."
       ],
       "category_id": "rakhi-recipes",
@@ -21640,9 +20696,7 @@ const dataset = {
         "Some coriander leaves"
       ],
       "preparation": [
-        "Heat butter, cook tomatoes, add khoya and sprinkle a little amount of water to make ",
-        "a smooth paste, fry for 2- 3",
-        "minutes.",
+        "Heat butter, cook tomatoes, add khoya and sprinkle a little amount of water to make a smooth paste, fry for 2- 3minutes.",
         "Add all of the remaining ingredients, mix well and cook covered for 4-5 minutes.",
         "Garnish with coriander leaves."
       ],
@@ -21667,15 +20721,11 @@ const dataset = {
         "6 whole cloves"
       ],
       "preparation": [
-        "Wash the dal and boil in the salted water until it is all very soft and most of the ",
-        "water absorbed.",
+        "Wash the dal and boil in the salted water until it is all very soft and most of the water absorbed.",
         "Stir often.",
-        "Heat the ghee or butter in a saucepan, and add the spices to it. Stir them around for a ",
-        "few minutes, then remove from the heat.",
-        "Pour the dal into the butter and spices, being careful to protect yourself from the ",
-        "spattering which is likely to occur.",
-        "Return to the heat, stirring often, and let it simmer until it has the consistency of a fairly ",
-        "thick sauce.",
+        "Heat the ghee or butter in a saucepan, and add the spices to it. Stir them around for a few minutes, then remove from the heat.",
+        "Pour the dal into the butter and spices, being careful to protect yourself from the spattering which is likely to occur.",
+        "Return to the heat, stirring often, and let it simmer until it has the consistency of a fairly thick sauce.",
         "Serve very hot.",
         "Serves: 6"
       ],
@@ -21705,13 +20755,11 @@ const dataset = {
         "Cut dough with lightly floured heart-shaped cookie cutter. ",
         "Place cutouts of 1 inch apart on ungreased cookie sheets. ",
         "Bake it in a preheated oven to 375Â°f till edges are lightly browned, it will take about 8-",
-        "10 minutes. ",
-        "take it out of the oven onto wire racks. ",
+        "10 minutes. take it out of the oven onto wire racks. ",
         "Let it cool completely. ",
         "Over low heat melt chocolate chips and shortening in saucepan. ",
         "Dip half of each heart into melted chocolate. ",
-        "Place it in a refrigerator on cookie sheets or trays lined with waxed paper until chocolate ",
-        "is set. ",
+        "Place it in a refrigerator on cookie sheets or trays lined with waxed paper until chocolate is set. ",
         "Cover and store in refrigerator. "
       ],
       "category_id": "valentines-day-recipes",
@@ -21739,9 +20787,7 @@ const dataset = {
         "Combine flour, baking powder and salt. ",
         "Beat flour mixture into peanut butter mixture until blended well. ",
         "Shape dough into disc and wrap it in a plastic wrap. ",
-        "Let is freeze in refrigerate for about 1 to 2 hours. ",
-        "lubricate cookie sheets. ",
-        "fold peanut butter dough on floured waxed paper to 1/8-inch thickness. ",
+        "Let is freeze in refrigerate for about 1 to 2 hours. lubricate cookie sheets. fold peanut butter dough on floured waxed paper to 1/8-inch thickness. ",
         "Cut dough using heart-shaped cookie cutter. ",
         "Place cutouts on prepared cookie sheets. ",
         "Repeat with chocolate dough. ",
@@ -21824,8 +20870,7 @@ const dataset = {
         "Pour 1/4 cup ice cream onto 8 hearts. ",
         "Make top with remaining hearts. ",
         "Press lightly to spread ice cream to edges. ",
-        "Pull out excess ice cream from edges. ",
-        "decorate sandwiches on plate. ",
+        "Pull out excess ice cream from edges. decorate sandwiches on plate. ",
         "Sprinkle with chocolate sauce and serve. "
       ],
       "category_id": "valentines-day-recipes",
@@ -21854,8 +20899,7 @@ const dataset = {
         "In a large bowl mix butter and sugar till it becomes light and fluffy. ",
         "Mix egg and vanilla. ",
         "In medium bowl mix flour, baking soda, salt and cocoa powder. ",
-        "In small bowl mix sour cream and buttermilk; add to creamed mixture alternately with ",
-        "dry ingredients, beginning and ending with flour mixture. ",
+        "In small bowl mix sour cream and buttermilk; add to creamed mixture alternately with dry ingredients, beginning and ending with flour mixture. ",
         "Pour the prepared batter evenly in the prepared pans. ",
         "Drizzle batter in each pan with 1/2 cup chocolate mini baking bits. ",
         "Now bake it in a preheated oven at 350Â°f for about 35 minutes. ",
@@ -21865,8 +20909,7 @@ const dataset = {
         "Place one semi-circle cake along one side of square cake. ",
         "Bridge the gap between them with little frosting. ",
         "Place remaining semi-circle cake along adjacent side of square cake, to make heart shape. ",
-        "Bridge the gap between them with little frosting. ",
-        "frost entire cake with remaining frosting. ",
+        "Bridge the gap between them with little frosting. frost entire cake with remaining frosting. ",
         "Decorate with remaining chocolate mini baking bits. ",
         "Store it in tight cover container. "
       ],
@@ -22081,8 +21124,7 @@ const dataset = {
       ],
       "preparation": [
         "Place in a line 25-30 muffin pan cups with pink paper baking cups. ",
-        "Beat cake mix, water, egg whites, oil, peppermint extract and food coloring with mixer at ",
-        "low speed for 30 seconds. ",
+        "Beat cake mix, water, egg whites, oil, peppermint extract and food coloring with mixer at low speed for 30 seconds. ",
         "For next 2 minutes beat at medium speed. ",
         "Pour batter into prepared muffin cups (filling 3/4 full). ",
         "Bake this in a preheated oven at 350Â°f for 20 to 22 minutes. ",
@@ -22142,17 +21184,14 @@ const dataset = {
         "Press mixture onto bottom of pan. ",
         "Bake it for 8-9 minutes in a preheated oven to 350Â°F. ",
         "Let it cool. ",
-        "For preparing filling, beat cream cheese, 1/2 tsp vanilla and 1/2 cup sugar in bowl with ",
-        "mixer until blended well. ",
+        "For preparing filling, beat cream cheese, 1/2 tsp vanilla and 1/2 cup sugar in bowl with mixer until blended well. ",
         "Beat in eggs. ",
         "Pour into cooled crust and bake till center is almost set; it will take around 40 minutes. ",
-        "For preparing topping, mix sour cream, remaining 1 tsp sugar and remaining 1/2 tsp ",
-        "vanilla in a bowl. ",
+        "For preparing topping, mix sour cream, remaining 1 tsp sugar and remaining 1/2 tsp vanilla in a bowl. ",
         "Spread it evenly over top of cheesecake. ",
         "Sprinkle teaspoons of sauce from cherry pie filling onto sour cream topping. ",
         "Pull tip of knife through cherry sauce to make hearts. ",
-        "Cover and let it freeze for 3 hours. ",
-        "serve remaining cherry pie filling over slices of cheesecake. "
+        "Cover and let it freeze for 3 hours. serve remaining cherry pie filling over slices of cheesecake. "
       ],
       "category_id": "valentines-day-recipes",
       "id": "sweetheart-cheesecake-recipe"
@@ -22169,20 +21208,17 @@ const dataset = {
         "2 cup sweetened Coconut Flakes (tinted) "
       ],
       "preparation": [
-        "Pour 3/4 cup butter in a baking pan and place it in a preheated oven at 350Â°f till butter ",
-        "is melted. ",
+        "Pour 3/4 cup butter in a baking pan and place it in a preheated oven at 350Â°f till butter is melted. ",
         "Take it out of the oven. ",
         "Stir in crushed pretzels and press evenly into bottom of pan. ",
         "Drizzle chocolates over pretzel layer. ",
         "Put sweetened and condensed milk, cocoa and remaining 1/4 cup butter in microwave bowl. ",
-        "Until mixture is melted and smooth when stirred microwave it at high; it will take around 1 ",
-        "to 1-1/2 minutes. ",
+        "Until mixture is melted and smooth when stirred microwave it at high; it will take around 1 to 1-1/2 minutes. ",
         "Carefully pour over pretzel layer in pan. ",
         "Top with coconut; firmly press down onto chocolate layer. ",
         "Bake it in oven at 350Â°f till it is lightly browned around edges it will take about 25-",
         "30 minutes. ",
-        "Let it cool completely in the pan. ",
-        "reduce into heart shaped pieces or cut into bars. "
+        "Let it cool completely in the pan. reduce into heart shaped pieces or cut into bars. "
       ],
       "category_id": "valentines-day-recipes",
       "id": "sweetheart-layer-bars-recipe"
@@ -22221,16 +21257,14 @@ const dataset = {
         "Pour icings into pastry bags decorated with decorating tips and set aside. ",
         "Cut down graham crackers crosswise to make half. ",
         "Pour one scoop ice cream in the center of each of six graham cracker halves. ",
-        "Make sides of each box by standing 1 graham cracker half along each of sides of each ",
-        "graham cracker half topped with ice cream. ",
+        "Make sides of each box by standing 1 graham cracker half along each of sides of each graham cracker half topped with ice cream. ",
         "Line icing along seams to secure. ",
         "Tops boxes with 6 graham cracker halves. ",
         "Line icing along remaining seams. ",
         "Put the boxes in freezer. ",
         "Let it freeze for about half-hour. ",
         "Decorate boxes according to liking with candies and icing. ",
-        "To secure candies use icing. ",
-        "freeze and serve. "
+        "To secure candies use icing. freeze and serve. "
       ],
       "category_id": "valentines-day-recipes",
       "id": "valentine-surprise-recipe"
@@ -22271,8 +21305,7 @@ const dataset = {
         "Grease a cookie sheet.. ",
         "Slightly beat egg in a bowl.. ",
         "Pour in milk, applesauce, butter and almond extract.. ",
-        "Pour in all the remaining ingredients except preserves and powdered sugar just ",
-        "until moistened.. ",
+        "Pour in all the remaining ingredients except preserves and powdered sugar just until moistened.. ",
         "Drop dough by 1/4 cupfuls onto cookie sheet.. ",
         "Shape into heart shapes using fingers dusted with flour.. ",
         "Make small holes in center of each heart using a spoon.. ",
@@ -22313,14 +21346,12 @@ const dataset = {
         "Combine eggs and vanilla and mix all of them well. ",
         "Stir in 1-2/3 cup small chocolate chips; pour into crust.. ",
         "Bake mixture in a preheated oven at 280 c for 10 minutes. ",
-        "After 10 minutes of baking reduce temperature to 180 c and bake for more 30 minutes ",
-        "till set. ",
+        "After 10 minutes of baking reduce temperature to 180 c and bake for more 30 minutes till set. ",
         "Remove from oven to wire rack. ",
         "Let it cool completely. ",
         "Cover it and refrigerate to chill thoroughly. ",
         "Place remaining 1/3 cup chips and whipping cream in a microwave bowl. ",
-        "Microwave at high level till chips are melted and mixture is smooth when stirred, it will ",
-        "take about 20-30 seconds. ",
+        "Microwave at high level till chips are melted and mixture is smooth when stirred, it will take about 20-30 seconds. ",
         "Let it cool slightly. ",
         "Spread over top of cheesepie. ",
         "Refrigerate it for 15 minutes so that topping is fully set. ",

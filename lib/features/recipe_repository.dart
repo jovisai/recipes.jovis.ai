@@ -1,4 +1,9 @@
+import 'dart:convert';
+
 import 'dataset.dart';
+import 'package:http/http.dart' as http;
+
+Map<String, List<SearchEngineResult>> cachedSearchResults = {};
 
 class RecipeCategory {
   final String id;
@@ -17,6 +22,18 @@ class Recipe {
 
   Recipe(
       this.id, this.title, this.categoryId, this.ingredients, this.preparation);
+}
+
+const searchEngineAPI =
+    "https://www.googleapis.com/customsearch/v1?key=AIzaSyARV_EjWYlVg8_GUooSPhuZN_8BF6Hhkf8&q={0}%20vegetarian&cx=b42f308d6884c4cc1&hl=en";
+
+class SearchEngineResult {
+  final String title;
+  final String link;
+  final String snippet;
+  final String imageUrl;
+
+  SearchEngineResult(this.title, this.link, this.snippet, this.imageUrl);
 }
 
 class RecipeRepository {
@@ -75,5 +92,27 @@ class RecipeRepository {
       }
     }
     return returnData;
+  }
+
+  Future<List<SearchEngineResult>> getSearchEngineResults(String query) async {
+    if (cachedSearchResults.containsKey(query)) {
+      return Future.value(cachedSearchResults[query]);
+    }
+    List<SearchEngineResult> results = [];
+    final response =
+        await http.get(Uri.parse(searchEngineAPI.replaceFirst("{0}", query)));
+    if (response.statusCode == 200) {
+      Map decoded = jsonDecode(response.body);
+      List resultsList = decoded["items"];
+      for (var element in resultsList) {
+        try {
+          String imageUrl = element["pagemap"]["cse_image"][0]["src"];
+          results.add(SearchEngineResult(element["title"], element["link"],
+              element["formattedUrl"], imageUrl));
+        } catch (e) {}
+      }
+      cachedSearchResults[query] = results;
+    }
+    return results;
   }
 }

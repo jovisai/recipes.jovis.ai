@@ -9,6 +9,7 @@ String slugify(String string) {
 class Constants {
   static String favorites = "Favorites";
   static String hearted = "hearted_channels";
+  static String GSearchAPI = "AIzaSyARV_EjWYlVg8_GUooSPhuZN_8BF6Hhkf8";
 }
 
 class AppDefault {
@@ -18,6 +19,7 @@ class AppDefault {
   static const double mFontSize = 23.04;
   static const double ssFontSize = 19.20;
   static const double sFontSize = 16.00;
+  static const double xsFontSize = 12.00;
   static const double sizeDown = 2;
   static const String fontFamily = 'Quicksand';
 }
