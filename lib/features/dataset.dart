@@ -20,6 +20,7 @@ const dataset = {
       "name": "East indian recipes",
       "count": 23
     },
+    {"id": "rotis-and-parathas", "name": "Rotis and Parathas", "count": 50},
     {"id": "andhra-recipe", "name": "Andhra recipe", "count": 19},
     {"id": "bengali-recipes", "name": "Bengali recipes", "count": 27},
     {"id": "goan-recipes", "name": "Goan recipes", "count": 28},
@@ -33,11 +34,9 @@ const dataset = {
     {"id": "gujarathi-recipes", "name": "Gujarathi recipes", "count": 27},
     {"id": "punjabhi-food", "name": "Punjabi recipes", "count": 22},
     {"id": "cabbage-recipes", "name": "Cabbage recipes", "count": 12},
-    {"id": "cake-recipes", "name": "Cake recipes", "count": 25},
     {"id": "chutney-recipe", "name": "Chutney recipes", "count": 30},
     {"id": "cookie-recipes", "name": "Cookie recipes", "count": 9},
     {"id": "coconut-recipes", "name": "Coconut recipes", "count": 17},
-    {"id": "corn-recipes", "name": "Corn recipes", "count": 1},
     {"id": "dal-recipes", "name": "Dal recipes", "count": 18},
     {"id": "pickle-recipe", "name": "Pickle recipes", "count": 33},
     {"id": "jam-jelly-recipes", "name": "Jam & jelly recipes", "count": 16},
@@ -1029,34 +1028,6 @@ const dataset = {
       "id": "stuffed-aloo-recipe"
     },
     {
-      "title": "Chilli paneer recipe",
-      "category": "North indian vegetarian dishes",
-      "ingredients": [
-        "350 gms Paneer  ",
-        "2 tsp Salt  ",
-        "1 Egg  ",
-        "1/2 cup Corn Flour  ",
-        "1 tsp Ginger-Garlic Paste  ",
-        "2 cups Coarsely Chopped Onions ",
-        "2 tbsp Sliced Green Chillies ",
-        "1 tbsp Soya Sauce  ",
-        "2 tbsp Vinegar  ",
-        "1/4 tsp Ajinomoto  ",
-        "Oil for frying  ",
-        "Little Water "
-      ],
-      "preparation": [
-        "Cut the paner into cubes.",
-        "Mix together the cottage cheese, 1 tsp salt, egg, corn flour, garlic, ginger and water to just coat the paneer pieces with the mixture. ",
-        "Heat oil in a pan and fry the paneer pieces caoted with mixture till golden in color. ",
-        "Heat 2 tbsp of the oil in a wok and stir fry the onions in it over high heat for half a minute.",
-        "Add the green chillies, salt, soya sauce, vinegar, ajinomoto and the fried paneer cubes. ",
-        "Mix well, and garnish the chilli paneer with finely cut spring onions and coriander. "
-      ],
-      "category_id": "north-indian-vegetarian-dishes",
-      "id": "chilli-paneer-recipe"
-    },
-    {
       "title": "Kadhai paneer recipe",
       "category": "North indian vegetarian dishes",
       "ingredients": [
@@ -1419,33 +1390,6 @@ const dataset = {
       "id": "stuffed-tomato-recipe"
     },
     {
-      "title": "Vegetable curry recipe",
-      "category": "North indian vegetarian dishes",
-      "ingredients": [
-        "1/2 medium-sized (100g/4oz) aubergine (eggplant) cut into 2cm x 1cm/¾in x 1/2 in sticks ",
-        "2 small carrots (100g/4oz), peeled and cut into 2cm x 1cm/¾in x 1/2 in sticks ",
-        "100g/4oz/1 cup peas ",
-        "100g/4oz/1 cup French beans, cut into 2.5cm/1in pieces ",
-        "1 medium-sized potato (100g/4oz), peeled and cut into 2cm x 1cm/¾in x 1/2 in sticks ",
-        "50g/2oz/ 1/2 cup freshly grated coconut ",
-        "4 fresh hot green chillies ",
-        "2 tbsp white poppy seeds ",
-        "1 1/4 tsp salt ",
-        "3 medium-sized tomatoes, roughly chopped ",
-        "1 tbsp natural plain yogurt ",
-        "1 tsp garam masala ",
-        "2 tbsp chopped, fresh green coriander "
-      ],
-      "preparation": [
-        "Place the aubergine (eggplant), carrots, peas, French beans and potato in a medium-sized saucepan. Add 250ml/8fl oz/1 cup water. Bring to the boil. Cover, turn the heat to medium and cook for 4 minutes or until the vegeatbles are just tender.",
-        "Meanwhile put the coconut, chillies, poppy seeds and salt in the container of an electric blender. Add 150ml/5fl oz water and grind to a fine paste. Set aside.",
-        "When the vegetables are cooked, add the spice paste and another 150ml/5fl oz water. ",
-        "Stir and simmer gently for 5 minutes. Now add the tomatoes, the yogurt and the garam masala. Stir gently to mix well. Bring to the boil and simmer gently for 2-3 minutes. Turn into a serving dish and garnish the vegetable curry with the fresh coriander. "
-      ],
-      "category_id": "north-indian-vegetarian-dishes",
-      "id": "vegetable-curry-recipe"
-    },
-    {
       "title": "Makhani arbi masala recipe",
       "category": "North indian vegetarian dishes",
       "ingredients": [
@@ -1803,36 +1747,6 @@ const dataset = {
       ],
       "category_id": "north-indian-vegetarian-dishes",
       "id": "aloo-took-recipe"
-    },
-    {
-      "title": "Aloo baigan recipe",
-      "category": "North indian vegetarian dishes",
-      "ingredients": [
-        "1/2\" piece of ginger root  ",
-        "2 Minced green chilies  ",
-        "1/4 cup Shredded unsweetened coconut  ",
-        "1/2 tsp Garam masala  ",
-        "4 tbsp Ghee  ",
-        "1 tsp Black mustard seeds  ",
-        "1/2 tbsp Whole cumin seeds  ",
-        "1/8 tsp Asafetida  ",
-        "6 md Potatoes, boiled & cubed  ",
-        "1 tsp Turmeric  ",
-        "1 tbsp Coriander  ",
-        "1 sm Eggplant in 1\" cubes  ",
-        "1 tsp Salt  ",
-        "3 tbsp Fresh coriander, chopped  ",
-        "1 tbsp Lemon juice "
-      ],
-      "preparation": [
-        "Combine ginger, green chilies & coconut in blender with 1/3 cup of water till smooth. ",
-        "Add garam masala & pulse for a few seconds. Set aside. ",
-        "Heat ghee. Whe hot, add mustard & cumin seeds & fry for a few seconds. Stir in the asafetida & almost immediately put in the potatoes. Stir fry for 5 minutes Then pour in the mixture from the blender. Add the turmeric, coriander, eggplant, salt & half the ",
-        "fresh coriander. Mix very gently so as not to break the vegetables.",
-        "Reduce heat & fry very gently until the liquid has evaporated. In the aloo baigan mix lemon juice & remaining coriander greens & serve."
-      ],
-      "category_id": "north-indian-vegetarian-dishes",
-      "id": "aloo-baigan-recipe"
     },
     {
       "title": "Aloo palak recipe",
@@ -2695,37 +2609,6 @@ const dataset = {
       "id": "jackfruit-puzhukku-recipe"
     },
     {
-      "title": "Sambar recipe",
-      "category": "South indian vegetarian recipes",
-      "ingredients": [
-        "2 cup Sambhar (Tuvar) Dal ",
-        "1/4 kg Vegetables( Drumstick,Green Pepper,Eggplant,Okra) ",
-        "1/4 tsp Fenugreek seeds ",
-        "3 Red chillies ",
-        "3 Green chillies ",
-        "1 tsp Sambhar powder ",
-        "Curry leaves ",
-        "a pinch Hing ",
-        "1 tsp Salt ",
-        "2 tsp Mustard ",
-        "1/4 tsp Tamarind paste ",
-        "4 tbsp Cooking oil"
-      ],
-      "preparation": [
-        "Wash and dice all the vegetables.",
-        "Boil water and cook the dal with turmeric and salt.",
-        "Separate the cooked dal and water, and keep them aside.",
-        "In thuvar dal water cook the vegetables..",
-        "After the veggies are cooked, add tamarind paste.",
-        "Now add the cooked thuvar dal and simmer for a few more minutes",
-        "Heat some oil in a pan, splutter mustard, then add methi, red chillies, green chillies, curry leaves, hing, turmeric, and sambhar powder and keep frying for a few minutes.",
-        "Season the sambhar with the above prepared tadka.",
-        "Sprinkle coriander on top."
-      ],
-      "category_id": "south-indian-vegetarian-recipes",
-      "id": "sambar-recipe"
-    },
-    {
       "title": "Tomato rasam recipe",
       "category": "South indian vegetarian recipes",
       "ingredients": [
@@ -2912,43 +2795,6 @@ const dataset = {
       ],
       "category_id": "south-indian-vegetarian-recipes",
       "id": "verusenaga-podi-recipe"
-    },
-    {
-      "title": "Vankaya pachadi recipe",
-      "category": "South indian vegetarian recipes",
-      "ingredients": [
-        "For the Chutney 3 tsp oil ",
-        "2 pieces Eggplants, chopped ",
-        "2 pieces ripe Tomatoes, chopped ",
-        "5 green chilies, chopped ",
-        "1/2 tsp fenugreek seeds (methi dana) ",
-        "1 tsp mustard seeds (rai dana) ",
-        "1 tsp cumin seeds (jeera) ",
-        "3tsp dry coriander seeds (sabut dhania) ",
-        "8-9 dry whole red chilies ",
-        "Small ball of tamarind ",
-        "Salt to taste. ",
-        "For the Tadka ",
-        "2 tsp oil ",
-        "1/2 tsp mustard seeds ",
-        "4 cloves of garlic, chopped ",
-        "A small bunch of curry leaves"
-      ],
-      "preparation": [
-        "First of all, soak the ball of tamarind in a cup of water.",
-        "Now heat oil in a pan and let splutter for half a minute the fenugreek seeds, mustard seeds, cumin seeds, dry coriander seeds and whole red chilies.",
-        "Take this off the heat, let it cool and grind into a paste.",
-        "Now in the same remaining oil, fry the chopped eggplants, tomatoes and green chilies.",
-        "Take aside and grind this also in a paste.",
-        "You should now slowly mix both the pastes uniformly",
-        "Now take the tamarind ball and mix with water evenly.",
-        "Once done, sieve this entire tamarind paste to take of any seeds and get a smooth tamarind water.",
-        "Now mix this tamarind water and salt in the previously made mixture of tomatoes, eggplants and spices.",
-        "Once this is done, you should again heat oil in a small pan and put the mustard seeds, garlic and curry leaves in it and let it splutter.",
-        "Add this tadka to the chutney and serve with rice or the main food."
-      ],
-      "category_id": "south-indian-vegetarian-recipes",
-      "id": "vankaya-pachadi-recipe"
     },
     {
       "title": "Vadiyalu recipe",
@@ -4428,33 +4274,6 @@ const dataset = {
       "id": "toor-daal-recipe"
     },
     {
-      "title": "Vangi batata bhaji recipe",
-      "category": "West indian vegetarian recipes",
-      "ingredients": [
-        "2 Eggplants, long & thin ",
-        "2 Potato  ",
-        "3 Tomatoes  ",
-        "Salt To Taste  ",
-        "1 tsp Red chilli powder  ",
-        "1 tsp Corainder powder  ",
-        "1/2 tsp Garam masala  ",
-        "1 Pinch Turmeric powder  ",
-        "3 tbsp Oil  ",
-        "3 cups Water  ",
-        "1/2 tsp Sagar  ",
-        "2 tsp Corainder leaves "
-      ],
-      "preparation": [
-        "Peel the potatoes and cut into big cubes, slice the eggplant. Chop the tomatoes finely.",
-        "Heat oil in a pan, add the tomatoes, salt, turmeric powder and cook for 4-5 minutes. ",
-        "Add the potatoes, eggplant, all the dry masalas, sugar, 3 cups of water and mix well. ",
-        "Cover with a lid and simmer the heat. Cook until the vegetables are done. ",
-        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot with chapati or rice."
-      ],
-      "category_id": "west-indian-vegetarian-recipes",
-      "id": "vangi-batata-bhaji-recipe"
-    },
-    {
       "title": "Vagharelo bhaat recipe",
       "category": "West indian vegetarian recipes",
       "ingredients": [
@@ -4805,36 +4624,6 @@ const dataset = {
       "id": "pav-usal-recipe"
     },
     {
-      "title": "Poha roll recipe",
-      "category": "West indian vegetarian recipes",
-      "ingredients": [
-        "1 egg  ",
-        "30 gms poha (rice flakes) ",
-        "100 gms potato ",
-        "2 green chillies ",
-        "20 gms roasted peanuts ",
-        "1/4 tsp amchur (dry mango powder) ",
-        "1/4 tsp garam masala powder ",
-        "1/4 tsp red chilli powder ",
-        "2 tblsp breadcrumbs ",
-        "Salt to taste ",
-        "Oil for frying ",
-        "Few coriander sprigs"
-      ],
-      "preparation": [
-        "Boil, peel and mash the potatoes. ",
-        "Wash the poha in a strainer. Coarsely grind the roasted peanut. ",
-        "Wash & chop the green chillies and corainder sprigs. ",
-        "Add poha, peanuts, chillies, corainder leaves and spices to the mashed potatoes. ",
-        "Mix well and roll into desirable shapes. ",
-        "Dip in beaten egg and coat with breadcrumbs. ",
-        "Deep fry in oil till rolls golden brown. ",
-        "Serve hot with tamraind chutney."
-      ],
-      "category_id": "west-indian-vegetarian-recipes",
-      "id": "poha-roll-recipe"
-    },
-    {
       "title": "Aamti recipe",
       "category": "West indian vegetarian recipes",
       "ingredients": [
@@ -4863,45 +4652,6 @@ const dataset = {
       ],
       "category_id": "west-indian-vegetarian-recipes",
       "id": "aamti-recipe"
-    },
-    {
-      "title": "Bharwan baingan recipe",
-      "category": "West indian vegetarian recipes",
-      "ingredients": [
-        "8 small Egg plant, Brinjal (Biangan)  ",
-        "8 peeled baby Potato (Aloo)  ",
-        "2 large sliced Onion (Pyaj)  ",
-        "2/3rd cup grated Coconut (Nariyal)  ",
-        "4 tblsp unsalted chopped Cashews  ",
-        "8 Cloves (Lavang)  ",
-        "8 Black Pepper corns (Kalimirchi)  ",
-        "1/2 tsp Sugar (Cheeni)  ",
-        "To taste Salt (Namak)  ",
-        "1 tsp Cayenne Powder  ",
-        "1 tsp Turmeric Powder (Haldi)  ",
-        "1 tsp Tamarind Paste (Imli Pate)  ",
-        "8 tblsp Oil  ",
-        "2 tblsp Coriander seeds (Dhania)  ",
-        "3 tblsp chopped finely Coriander Leaves (Dhania Powder) "
-      ],
-      "preparation": [
-        "Heat 2 tbsp oil in a pan and add cloves, coriander seeds and peppercorns. ",
-        "Saute for a minute.. ",
-        "Now add sliced onions and fry until brown. ",
-        "Add coconut and stir fry until browned, remove and allow to cool. ",
-        "Grind the mixture to a paste using blender. ",
-        "Add little water if needed. ",
-        "Slit each eggplant lengthwise into four, keeping the stem end intact. ",
-        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews and turmeric powder. ",
-        "Stuff the eggplants with this mixture, reserving some. ",
-        "Roll the potatoes in the remaining mixture. ",
-        "Heat the remaining oil in a pan and add the vegetables. ",
-        "Cook over low heat without burning, add little water if necessary, until done. ",
-        "Keep an eye. ",
-        "Serve hot with roti. "
-      ],
-      "category_id": "west-indian-vegetarian-recipes",
-      "id": "bharwan-baingan-recipe"
     },
     {
       "title": "Bombay chiwda recipe",
@@ -5044,36 +4794,6 @@ const dataset = {
       ],
       "category_id": "west-indian-vegetarian-recipes",
       "id": "sukhi-kolmi-recipe"
-    },
-    {
-      "title": "Vangi ani val recipe",
-      "category": "West indian vegetarian recipes",
-      "ingredients": [
-        "11/4 cup sprouted and skinned Val Beans  ",
-        "1 small cubed Eggplant / Brinjal  ",
-        "1 chopped finely Onion (Pyaj)  ",
-        "2 cut into 1inch pieces Drumstick leaves (Muranka bhaji)  ",
-        "4 tblsp grated Coconut (Nariyal)  ",
-        "1 tsp Mustard seeds (Rai/Sarson)  ",
-        "1 tsp Turmeric Powder (Haldi)  ",
-        "1 tsp Cayenne Powder  ",
-        "1 tsp Goda Masala  ",
-        "A pinch of Asafoetida (Hing)  ",
-        "To taste Salt (Namak)  ",
-        "3 tblsp Oil "
-      ],
-      "preparation": [
-        "Boil the drumsticks until they can be easily opened. ",
-        "Drain and set aside. ",
-        "Heat the oil and saute the mustard seeds with the asafoetida. ",
-        "When the seeds start to pop add the onions and fry till golden. ",
-        "Add the val , eggplant, all spices and salt, mix well and add little water and cook until the beans are soft but not mushy. ",
-        "Cook over high heat to dry the water. ",
-        "Remove from heat and add coconut and drumsticks. ",
-        "Stir gently and serve hot. "
-      ],
-      "category_id": "west-indian-vegetarian-recipes",
-      "id": "vangi-ani-val-recipe"
     },
     {
       "title": "Bhel puri recipe",
@@ -5694,38 +5414,6 @@ const dataset = {
       "id": "gurer-payesh-recipe"
     },
     {
-      "title": "Khasta porota recipe",
-      "category": "East indian vegetarian recipes",
-      "ingredients": [
-        "4 tblsp ghee ",
-        "2 cup refined flour (maida) ",
-        "1 egg  ",
-        "1 tsp salt ",
-        "1 tblsp sugar ",
-        "water as required"
-      ],
-      "preparation": [
-        "Melt the ghee.",
-        "Mix everything flour, sugar, salt.",
-        "Mix in 2 tblsp of ghee and the egg and mix well.",
-        "Mix in enough water and knead into a soft dough.",
-        "Divide the dough 3 portions.",
-        "Roll out each portion into a chappati.",
-        "Cover with a damp cloth and keep aside.",
-        "Spread a little ghee on a flat surface.",
-        "Keep one chappati on it.",
-        "Apply some ghee to the chappati and gently pull the edges of the chappati so that it gradually spreads into a thin one.",
-        "Fold into half and again into half to resemble a triangle.",
-        "Keep it covered with a damp cloth.",
-        "Preheat up the oven to 190Âºc.",
-        "Gently pat each triangle to a fairly thin chappati.",
-        "Keep them at least 10 cm apart on the baking tray.",
-        "Bake in the oven at 190Âºc for about 30 minutes."
-      ],
-      "category_id": "east-indian-vegetarian-recipes",
-      "id": "khasta-porota-recipe"
-    },
-    {
       "title": "Khichuri recipe",
       "category": "East indian vegetarian recipes",
       "ingredients": [
@@ -5798,43 +5486,6 @@ const dataset = {
       ],
       "category_id": "east-indian-vegetarian-recipes",
       "id": "koraishutir-kochuri-recipe"
-    },
-    {
-      "title": "Kozhi thengai kozhambu recipe",
-      "category": "East indian vegetarian recipes",
-      "ingredients": [
-        "1/2 tsp turmeric powder ",
-        "1 chicken ",
-        "8 tblsp groundnut oil ",
-        "salt to taste ",
-        "2 star anise  ",
-        "10 -12 curry leaves ",
-        "2 bay leaf ",
-        "Masala Paste ",
-        "1 cup Coconut grated ",
-        "25 Sambar Onions ",
-        "1\" Ginger ",
-        "12 cloves Garlic ",
-        "10 Green Chillies ",
-        "2 Red Chillies Whole ",
-        "2 tblsp Coriander Seeds"
-      ],
-      "preparation": [
-        "Clean and cut the chicken with the bones into medium size pieces (approximately 20-",
-        "24 pieces).",
-        "Rub in the turmeric powder and little salt.",
-        "Take off sambar onion, wash and cut the green chillies.",
-        "Heat up 2 tblsp of oil and fry the masala ingredients till light brown.",
-        "Cool and grind to a smooth paste with little water.",
-        "Heat up the remaining oil in a vessel, mix in the star anise and bay leaves and fry.",
-        "Wash and mix in the curry leaves and the marinated chicken.",
-        "Stir fry on high flame heat up to seal the surface of the meat.",
-        "Mix in the masala paste and mix thoroughly.",
-        "Pour out 11/2 cup of water and simmer (boil slowly at low temperature) till the chicken is almost cooked.",
-        "Sprinkle salt to taste, stir well and simmer (boil slowly at low temperature) till it thickens to the required consistency."
-      ],
-      "category_id": "east-indian-vegetarian-recipes",
-      "id": "kozhi-thengai-kozhambu-recipe"
     },
     {
       "title": "Kucho amer achar recipe",
@@ -6320,43 +5971,6 @@ const dataset = {
       "id": "vadiyalu-recipe"
     },
     {
-      "title": "Vankaya pachadi recipe",
-      "category": "Andhra recipe",
-      "ingredients": [
-        "For the Chutney 3 tsp oil ",
-        "2 pieces Eggplants, chopped ",
-        "2 pieces ripe Tomatoes, chopped ",
-        "5 green chilies, chopped ",
-        "1/2 tsp fenugreek seeds (methi dana) ",
-        "1 tsp mustard seeds (rai dana) ",
-        "1 tsp cumin seeds (jeera) ",
-        "3tsp dry coriander seeds (sabut dhania) ",
-        "8-9 dry whole red chilies ",
-        "Small ball of tamarind ",
-        "Salt to taste. ",
-        "For the Tadka ",
-        "2 tsp oil ",
-        "1/2 tsp mustard seeds ",
-        "4 cloves of garlic, chopped ",
-        "A small bunch of curry leaves"
-      ],
-      "preparation": [
-        "First of all, soak the ball of tamarind in a cup of water.",
-        "Now heat oil in a pan and let splutter for half a minute the fenugreek seeds, mustard seeds, cumin seeds, dry coriander seeds and whole red chilies.",
-        "Take this off the heat, let it cool and grind into a paste.",
-        "Now in the same remaining oil, fry the chopped eggplants, tomatoes and green chilies.",
-        "Take aside and grind this also in a paste.",
-        "You should now slowly mix both the pastes uniformly",
-        "Now take the tamarind ball and mix with water evenly.",
-        "Once done, sieve this entire tamarind paste to take of any seeds and get a smooth tamarind water.",
-        "Now mix this tamarind water and salt in the previously made mixture of tomatoes, eggplants and spices.",
-        "Once this is done, you should again heat oil in a small pan and put the mustard seeds, garlic and curry leaves in it and let it splutter.",
-        "Add this tadka to the chutney and serve with rice or the main food."
-      ],
-      "category_id": "andhra-recipe",
-      "id": "vankaya-pachadi-recipe"
-    },
-    {
       "title": "Verusenaga podi recipe",
       "category": "Andhra recipe",
       "ingredients": [
@@ -6635,72 +6249,6 @@ const dataset = {
       "id": "chanar-dalna-recipe"
     },
     {
-      "title": "Chingri macher kofta recipe",
-      "category": "Bengali recipes",
-      "ingredients": [
-        "for kofta ",
-        "2 big size onions (finely chopped) ",
-        "salt to taste  ",
-        "500 gms prawns (small) ",
-        "2 tblsp breadcrumbs ",
-        "2 tsp mustard oil ",
-        "4 green chillies (finely chopped) ",
-        "2 tblsp ghee ",
-        "2 bay leaves  ",
-        "1/2 cup coconut ",
-        "1 tblsp coriander leaves chopped ",
-        "1 egg ",
-        "Grind To A Paste  ",
-        "1 large Onion ",
-        "2 \" Turmeric ",
-        "1 \" Ginger"
-      ],
-      "preparation": [
-        "Shell, de-vein and wash the prawns.",
-        "Then boil them.",
-        "When cooked, grind to make a smooth paste.",
-        "Mix in the salt, onions, green chillies and cut coriander leaves.",
-        "When the mixture is well blended, form into 12 balls, dip in beaten egg and roll in bredcrumbs.",
-        "Fry in hot mustard oil.",
-        "Keep aside.",
-        "Extract milk from the coconut.",
-        "Grind the big size onion, garam masala, turmeric, ginger to a fine paste for the gravy.",
-        "Heat up oil in a saucepan.",
-        "When it smokes, fry the bay leaves and ground masala for 4 to 5 minutes, stirring all the time and adding a little water to keep the spices from scorching.",
-        "Gradually stir in the coconut milk extract and a little salt.",
-        "Mix in the koftas and allow the curry to simmer (boil slowly at low temperature) for about ",
-        "10 minutes, till the gravy becomes rich and thick.",
-        "Pour out pure ghee on top just before serving."
-      ],
-      "category_id": "bengali-recipes",
-      "id": "chingri-macher-kofta-recipe"
-    },
-    {
-      "title": "Chingri pakora recipe",
-      "category": "Bengali recipes",
-      "ingredients": [
-        "oil for frying  ",
-        "2 green chillies chopped ",
-        "500 gms shrimps (shelled) ",
-        "few sprigs coriander leaves chopped ",
-        "1 tsp ginger paste ",
-        "2 tsp soy sauce ",
-        "1 egg ",
-        "1/2 cup refined flour ",
-        "2 onions chopped"
-      ],
-      "preparation": [
-        "Cream the egg, flour and little oil.",
-        "Mix in the shelled shrimps, soy sauce, ginger paste, cut coriander leaves and cut onions.",
-        "Mix well.",
-        "Shape into balls or flat cutlets.",
-        "Heat up oil in a kadhai and deep fry the cutlets till golden brown.",
-        "Serve as a snack or as a side dish with lunch."
-      ],
-      "category_id": "bengali-recipes",
-      "id": "chingri-pakora-recipe"
-    },
-    {
       "title": "Cholar dal recipe",
       "category": "Bengali recipes",
       "ingredients": [
@@ -6786,39 +6334,6 @@ const dataset = {
       ],
       "category_id": "bengali-recipes",
       "id": "gurer-payesh-recipe"
-    },
-    {
-      "title": "Khasta porota recipe",
-      "category": "Bengali recipes",
-      "ingredients": [
-        "4 tblsp ghee ",
-        "2 cup refined flour (maida) ",
-        "1 egg  ",
-        "1 tsp salt ",
-        "1 tblsp sugar ",
-        "water as required"
-      ],
-      "preparation": [
-        "Melt the ghee.",
-        "Mix everything flour, sugar, salt.",
-        "Mix in 2 tblsp of ghee and the egg and mix well.",
-        "Mix in enough water and knead into a soft dough.",
-        "Divide the dough 3 portions.",
-        "Roll out each portion into a chappati.",
-        "Cover with a damp cloth and keep aside.",
-        "Spread a little ghee on a flat surface.",
-        "Keep one chappati on it.",
-        "Apply some ghee to the chappati and gently pull the edges of the chappati so that it gradually spreads into a thin one.",
-        "Fold into half and again into half to resemble a triangle.",
-        "Keep it covered with a damp cloth.",
-        "Preheat up the oven to 190Âºc.",
-        "Gently pat each triangle to a fairly thin chappati.",
-        "Keep them at least 10 cm apart on the baking tray.",
-        "Bake in the oven at 190Âºc for about 30 minutes.",
-        "Serve hot with mutton curry."
-      ],
-      "category_id": "bengali-recipes",
-      "id": "khasta-porota-recipe"
     },
     {
       "title": "Khichuri recipe",
@@ -7728,33 +7243,6 @@ const dataset = {
       "id": "toor-daal-recipe"
     },
     {
-      "title": "Vangi batata bhaji recipe",
-      "category": "Goan recipes",
-      "ingredients": [
-        "2 Eggplants, long & thin ",
-        "2 Potato  ",
-        "3 Tomatoes  ",
-        "Salt To Taste  ",
-        "1 tsp Red chilli powder  ",
-        "1 tsp Corainder powder  ",
-        "1/2 tsp Garam masala  ",
-        "1 Pinch Turmeric powder  ",
-        "3 tbsp Oil  ",
-        "3 cups Water  ",
-        "1/2 tsp Sagar  ",
-        "2 tsp Corainder leaves "
-      ],
-      "preparation": [
-        "Peel the potatoes and cut into big cubes, slice the eggplant. Chop the tomatoes finely.",
-        "Heat oil in a pan, add the tomatoes, salt, turmeric powder and cook for 4-5 minutes. ",
-        "Add the potatoes, eggplant, all the dry masalas, sugar, 3 cups of water and mix well. ",
-        "Cover with a lid and simmer the heat. Cook until the vegetables are done. ",
-        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot with chapati or rice."
-      ],
-      "category_id": "goan-recipes",
-      "id": "vangi-batata-bhaji-recipe"
-    },
-    {
       "title": "Vagharelo bhaat recipe",
       "category": "Goan recipes",
       "ingredients": [
@@ -8243,31 +7731,6 @@ const dataset = {
       "id": "vegetable-nilgiri-korma-recipe"
     },
     {
-      "title": "Amrit phal recipe",
-      "category": "Hyderabadi recipes",
-      "ingredients": [
-        "500 grams Sugar ",
-        "400 grams Khoya ",
-        "125 grams Semolina ",
-        "2 pinches Saffron ",
-        "8 nos. Almonds ",
-        "1 no. Egg white ",
-        "As per requirement Ghee ",
-        "5 drops Rose essence ",
-        "1 cup Water"
-      ],
-      "preparation": [
-        "Heat the sugar with 1 cup water to make a thin syrup, add essence and keep warm.",
-        "Mix together the semolina, khoya and crushed saffron.",
-        "Add the egg white gradually and knead into a smooth dough.",
-        "Shape the dough in a star with a hole in the center.",
-        "Deep fry the Amrit Phal till pink. Immerse them in the sugar syrup.",
-        "Serve garnished with sliced almonds."
-      ],
-      "category_id": "hyderabadi-recipes",
-      "id": "amrit-phal-recipe"
-    },
-    {
       "title": "Baghare baigan recipe",
       "category": "Hyderabadi recipes",
       "ingredients": [
@@ -8337,45 +7800,6 @@ const dataset = {
       ],
       "category_id": "maharashtrian-recipes",
       "id": "aamti-recipe"
-    },
-    {
-      "title": "Bharwan baingan recipe",
-      "category": "Maharashtrian recipes",
-      "ingredients": [
-        "8 small Egg plant, Brinjal (Biangan)  ",
-        "8 peeled baby Potato (Aloo)  ",
-        "2 large sliced Onion (Pyaj)  ",
-        "2/3rd cup grated Coconut (Nariyal)  ",
-        "4 tblsp unsalted chopped Cashews  ",
-        "8 Cloves (Lavang)  ",
-        "8 Black Pepper corns (Kalimirchi)  ",
-        "1/2 tsp Sugar (Cheeni)  ",
-        "To taste Salt (Namak)  ",
-        "1 tsp Cayenne Powder  ",
-        "1 tsp Turmeric Powder (Haldi)  ",
-        "1 tsp Tamarind Paste (Imli Pate)  ",
-        "8 tblsp Oil  ",
-        "2 tblsp Coriander seeds (Dhania)  ",
-        "3 tblsp chopped finely Coriander Leaves (Dhania Powder) "
-      ],
-      "preparation": [
-        "Heat 2 tbsp oil in a pan and add cloves, coriander seeds and peppercorns. ",
-        "Saute for a minute.. ",
-        "Now add sliced onions and fry until brown. ",
-        "Add coconut and stir fry until browned, remove and allow to cool. ",
-        "Grind the mixture to a paste using blender. ",
-        "Add little water if needed. ",
-        "Slit each eggplant lengthwise into four, keeping the stem end intact. ",
-        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews and turmeric powder. ",
-        "Stuff the eggplants with this mixture, reserving some. ",
-        "Roll the potatoes in the remaining mixture. ",
-        "Heat the remaining oil in a pan and add the vegetables. ",
-        "Cook over low heat without burning, add little water if necessary, until done. ",
-        "Keep an eye. ",
-        "Serve hot with roti. "
-      ],
-      "category_id": "maharashtrian-recipes",
-      "id": "bharwan-baingan-recipe"
     },
     {
       "title": "Bombay chiwda recipe",
@@ -8458,46 +7882,6 @@ const dataset = {
       ],
       "category_id": "maharashtrian-recipes",
       "id": "kobhi-zunka-recipe"
-    },
-    {
-      "title": "Kohlapuri rassa recipe",
-      "category": "Maharashtrian recipes",
-      "ingredients": [
-        "For Marinade:  ",
-        "2/3rd cup Curd (Dahi) / plain Yogurt  ",
-        "2 tsp minced Ginger (Adrak)  ",
-        "2 tsp minced Garlic (Lasun)  ",
-        "1 tsp Cayenne Powder  ",
-        "1 tsp Garam Masala Powder  ",
-        "1 tsp Turmeric Powder (Haldi)  ",
-        "To taste Salt (Namak)  ",
-        "For Curry :  ",
-        "11/4th lb trimmed and cubed Lean Lamb  ",
-        "2 Onion finely chopped (Pyaj)  ",
-        "1 chopped Tomato (Tamatar)  ",
-        "3 cup grated fresh Coconut (Nariyal)  ",
-        "1-inch piece of Cinnamon (Tuj/Dalchini)  ",
-        "6 Cloves (Lavang)  ",
-        "8-10 crushed Black Pepper corns (Kalimirchi)  ",
-        "1 tsp Aniseed (Saunf)  ",
-        "2/3 cup Oil "
-      ],
-      "preparation": [
-        "Mix all marinade ingredients and add lamb pieces. ",
-        "Stir well and set aside for 30 minutes. ",
-        "Heat 2 tblsp oil in a heavy pan and add cinnamon, cloves, peppercorns and aniseed. ",
-        "Saute for a minute and add onions and fry till golden and add coconut. ",
-        "Saute until brown. ",
-        "Add chopped tomatoes and stir and take off from the heat. ",
-        "Allow to cool. ",
-        "Grind the mixture in a processor. ",
-        "Heat the remaining oil and add marinaded lamb pieces and marinade mixture and add little water, cover and cook until done. ",
-        "Now add the grinded mixture and simmer for 5-6 minutes. ",
-        "Remove from the heat. ",
-        "Serve hot with boiled rice. "
-      ],
-      "category_id": "maharashtrian-recipes",
-      "id": "kohlapuri-rassa-recipe"
     },
     {
       "title": "Pavta batata recipe",
@@ -8742,36 +8126,6 @@ const dataset = {
       "id": "valche-virdi-recipe"
     },
     {
-      "title": "Vangi ani val recipe",
-      "category": "Maharashtrian recipes",
-      "ingredients": [
-        "11/4 cup sprouted and skinned Val Beans  ",
-        "1 small cubed Eggplant / Brinjal  ",
-        "1 chopped finely Onion (Pyaj)  ",
-        "2 cut into 1inch pieces Drumstick leaves (Muranka bhaji)  ",
-        "4 tblsp grated Coconut (Nariyal)  ",
-        "1 tsp Mustard seeds (Rai/Sarson)  ",
-        "1 tsp Turmeric Powder (Haldi)  ",
-        "1 tsp Cayenne Powder  ",
-        "1 tsp Goda Masala  ",
-        "A pinch of Asafoetida (Hing)  ",
-        "To taste Salt (Namak)  ",
-        "3 tblsp Oil "
-      ],
-      "preparation": [
-        "Boil the drumsticks until they can be easily opened. ",
-        "Drain and set aside. ",
-        "Heat the oil and saute the mustard seeds with the asafoetida. ",
-        "When the seeds start to pop add the onions and fry till golden. ",
-        "Add the val , eggplant, all spices and salt, mix well and add little water and cook until the beans are soft but not mushy. ",
-        "Cook over high heat to dry the water. ",
-        "Remove from heat and add coconut and drumsticks. ",
-        "Stir gently and serve hot. "
-      ],
-      "category_id": "maharashtrian-recipes",
-      "id": "vangi-ani-val-recipe"
-    },
-    {
       "title": "Aloo ka bharta recipe",
       "category": "Rajasthani recipe",
       "ingredients": [
@@ -8954,37 +8308,6 @@ const dataset = {
       ],
       "category_id": "rajasthani-recipe",
       "id": "aloo-mangodi-recipe"
-    },
-    {
-      "title": "Bhuna kukda recipe",
-      "category": "Rajasthani recipe",
-      "ingredients": [
-        "4 - 5 cloves ",
-        "1 tsp cumin seeds ",
-        "12 garlic cloves ",
-        "20 red chillies whole ",
-        "4 green cardamoms ",
-        "2 inch cinnamon ",
-        "1 kg chicken ",
-        "2 tblsp mustard oil ",
-        "1/2 cup coriander leaves chopped ",
-        "1 tsp turmeric powder ",
-        "1/2 cup yogurt"
-      ],
-      "preparation": [
-        "Clean and wash the chicken, cut into big size pieces.",
-        "Take off garlic.",
-        "Soak red chillies in lukewarm water for 1/2 an hour.",
-        "Grind everything garlic, red chillies, cloves, green cardamoms, cinnamon and turmeric powder to a fine paste.",
-        "Apply the prepared masala and salt to the chicken and keep it to marinate for 2 hours.",
-        "Heat up oil in a kadhai, mix in cumin seeds, when they crackle mix in the marinated chicken and stir fry on high flame heat.",
-        "When all the moisture has evaporated, mix in beaten yogurt, mix in a little water and continue cooking on high flame heat.",
-        "Stir fry till all moisture has evaporated and chicken has cooked.",
-        "Adjust salt and stir fry till the masala coats the chicken.",
-        "Serve hot, sprinkled with coriander leaves."
-      ],
-      "category_id": "rajasthani-recipe",
-      "id": "bhuna-kukda-recipe"
     },
     {
       "title": "Chane jaiselmer ke recipe",
@@ -10151,33 +9474,6 @@ const dataset = {
       "id": "toor-daal-recipe"
     },
     {
-      "title": "Vangi batata bhaji recipe",
-      "category": "Gujarathi recipes",
-      "ingredients": [
-        "2 Eggplants, long & thin ",
-        "2 Potato  ",
-        "3 Tomatoes  ",
-        "Salt To Taste  ",
-        "1 tsp Red chilli powder  ",
-        "1 tsp Corainder powder  ",
-        "1/2 tsp Garam masala  ",
-        "1 Pinch Turmeric powder  ",
-        "3 tbsp Oil  ",
-        "3 cups Water  ",
-        "1/2 tsp Sagar  ",
-        "2 tsp Corainder leaves "
-      ],
-      "preparation": [
-        "Peel the potatoes and cut into big cubes, slice the eggplant. Chop the tomatoes finely.",
-        "Heat oil in a pan, add the tomatoes, salt, turmeric powder and cook for 4-5 minutes. ",
-        "Add the potatoes, eggplant, all the dry masalas, sugar, 3 cups of water and mix well. ",
-        "Cover with a lid and simmer the heat. Cook until the vegetables are done. ",
-        "Garnish vangi batata bhaji (eggplant potato curry) with corainder leaves and serve hot with chapati or rice."
-      ],
-      "category_id": "gujarathi-recipes",
-      "id": "vangi-batata-bhaji-recipe"
-    },
-    {
       "title": "Vagharelo bhaat recipe",
       "category": "Gujarathi recipes",
       "ingredients": [
@@ -10411,7 +9707,7 @@ const dataset = {
     },
     {
       "title": "Punjabi aloo amritsari recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "250gms Aloo (potato)  ",
         "2 Onions, sliced  ",
@@ -10436,12 +9732,12 @@ const dataset = {
         "Add the aloo (potato) and toss well. Simmer the flame and cook for another 5- 6 minutes. ",
         "Garnish with corainder leaves and serve punjabi aloo amritsari hot with paratha."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "punjabi-aloo-amritsari-recipe"
     },
     {
       "title": "Jeera rice recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1 cup Basmati rice  ",
         "2 tsp Jeera (cumin seeds)  ",
@@ -10462,12 +9758,12 @@ const dataset = {
         "Cook until the rice is done. ",
         "Serve jeera rice hot with any spicy curry or raita. "
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "jeera-rice-recipe"
     },
     {
       "title": "Dal maharani recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1/4 cup Rajma  ",
         "1/4 cup Whole Urad dal  ",
@@ -10495,44 +9791,12 @@ const dataset = {
         "Add the mashed dals and boil for few minutes. ",
         "Add cream, corainder leaves and mix well. Serve the dal maharani hot with roti."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "dal-maharani-recipe"
     },
     {
-      "title": "Punjabi masala chop recipe",
-      "category": "Punjabhi food",
-      "ingredients": [
-        "3 in piece of fresh ginger peeled and coarsely chopped ",
-        "3 tbsp peeled and coarsely chopped garlic ",
-        "6-8 lamb chops from the ribs, remove all extra fat  ",
-        "8 fl oz grated or finely chopped tomatoes  ",
-        "2 medium sized onions very finely chopped  ",
-        "1 tbsp cayenne  ",
-        "12 fl oz Greek yogurt beaten  ",
-        "1 1/2 tsp salt 1 tsp ground roasted cumin seeds  ",
-        "1-2 tsp Punjabi garam masala  ",
-        "3 tbsp lemon juice  ",
-        "2-3 tbsp chopped fresh green coriander "
-      ],
-      "preparation": [
-        "Put the ginger and garlic into the container of an electric blender with 2-3 tablespoons of water and blend to a paste.",
-        "Put the chops, tomatoes, onions, cayenne pepper, yogurt, salt and ginger-garlic paste into a large wok or heavy-bottomed saucepan. ",
-        "Stir and bring to the boil. Turn the heat to low, cover and simmer for 50 minutes or until the chops are almost cooked.",
-        "Add the cumin seeds and simmer for 10 to 15 minutes or until the meat is tender and the sauce thick. ",
-        "Add the garam masala and lemon juice and stir. Sprinkle fresh coriander over masala chops and serve. ",
-        "TIPS",
-        "In the Punjab, tomatoes are grated to make a puree. Don't be tempted to use ready-prepared tomato puree instead of fresh. ",
-        "The spice combinations in garam masala vary in different parts of India.",
-        "In the Punjab this one which you can try making yourself is common: 5 tbsps coriander seeds, 3 tbsps cumin seeds, 2 1/2 tbsps black peppercorns, 2 1/2 black cardamom seeds, 2 in cinnamon stick, 4-5 cloves, 1/6 nutmeg. Put the coriander and ",
-        "the cumin into a cast-iron frying-pan over a medium heat. ",
-        "Stir until lightly roasted. Allow to cool. Grind with the remaining ingredients in a clean coffee grinder and store in a tightly lidded jar. "
-      ],
-      "category_id": "punjabhi-food",
-      "id": "punjabi-masala-chop-recipe"
-    },
-    {
       "title": "Mooli paratha recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "For stuffing: ",
         "3 Mooli (Radish) ",
@@ -10556,12 +9820,12 @@ const dataset = {
         "Heat a tava and fry the mooli ka paratha both sides to crispy and brown. Put some oil over the paratha. ",
         "Serve the mooli paratha hot with raita or curry."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "mooli-paratha-recipe"
     },
     {
       "title": "Bhindi anardana recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "2 medium sized onions ",
         "1/2 cup oil ",
@@ -10584,12 +9848,12 @@ const dataset = {
         "Gently slide in the stuffed ladyfingers and stir fry on medium heat up for five minutes turning them occasionally.",
         "Sprinkle lemon juice and serve hot."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "bhindi-anardana-recipe"
     },
     {
       "title": "Paneer taash kabab recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1 tblsp Fresh Cream ",
         "8 Cheese sliced ",
@@ -10621,12 +9885,12 @@ const dataset = {
         "Put the last cheese slice on top, bake at moderate temperature for 10 minutes in the oven.",
         "Cut into desired equal sizes."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "paneer-taash-kabab-recipe"
     },
     {
       "title": "Punjabi kadhi recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1 cup Gram flour  ",
         "1/4 cup Chopped onion  ",
@@ -10657,12 +9921,12 @@ const dataset = {
         "5 minutes.",
         "Serve punjabi kadhi hot with steamed rice."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "punjabi-kadhi-recipe"
     },
     {
       "title": "Rajma (red kidney beans) recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1 cup or 200 gms Rajma  ",
         "2 cloves ",
@@ -10688,12 +9952,12 @@ const dataset = {
         "a serving dish. ",
         "Garnish it with few coriander leaves and serve with hot rice."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "rajma-red-kidney-beans-recipe"
     },
     {
       "title": "Sarson ka saag",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "500gms Mustard leaves  ",
         "200gms Spinach  ",
@@ -10719,12 +9983,12 @@ const dataset = {
         "Add the maize flour, red chilli powder, sugar and stir well. ",
         "Serve hot with paratha or makki ki roti. "
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "sarson-ka-saag"
     },
     {
       "title": "Vegetable (sabzi) pulao recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "2 cups - Basmati Rice ",
         "1 - Onions ",
@@ -10756,12 +10020,12 @@ const dataset = {
         "Just before serving take the rice in serving bowl, add the nuts and mix well.",
         "Serve vegetable (sabzi) pulao hot with raita"
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "vegetable-sabzi-pulao-recipe"
     },
     {
       "title": "Punjabi sukhi chana daal recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1 cup - Chana dal ",
         "1 Onions, chopped  ",
@@ -10784,12 +10048,12 @@ const dataset = {
         "Garnish with corainder leaves. When the dal will be cool, add lemon juice and stir well.",
         "Serve sukhi chana daal hot with rice or paratha. "
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "punjabi-sukhi-chana-daal-recipe"
     },
     {
       "title": "Dhabey di dal recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "2 - 3 green chillies ",
         "1/4 cup coriander leaves ",
@@ -10821,12 +10085,12 @@ const dataset = {
         "Mix in salt, cut coriander leaves and stir fry dal for ten minutes on low heat, stirring occasionally.",
         "Crush kasoori methi between the palms, sprinkle on the dals and serve hot."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "dhabey-di-dal-recipe"
     },
     {
       "title": "Gur poli recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "30 ml pure ghee ",
         "3 cup jaggery grated ",
@@ -10858,12 +10122,12 @@ const dataset = {
         "Heat up a tawa to a moderate temperature and stir fry the prepared gur-poli on moderate heat, till it is a light golden colour on both sides.",
         "Serve hot or cold, with a pinch of hot melted ghee."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "gur-poli-recipe"
     },
     {
       "title": "Hariyali tikki recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "3 - 4 medium potatoes ",
         "1 tblsp green chillies chopped. ",
@@ -10889,12 +10153,12 @@ const dataset = {
         "Heat up oil in a kadhai.",
         "Deep-fry the tikkis in hot oil for 3-4 minutes or until crisp."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "hariyali-tikki-recipe"
     },
     {
       "title": "Karela masaledar recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "2 tsp coriander powder ",
         "1 tsp red chilli powder ",
@@ -10926,12 +10190,12 @@ const dataset = {
         "Mix in salt if needed.",
         "Serve hot with chappatis."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "karela-masaledar-recipe"
     },
     {
       "title": "Khoya matar recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1 cup green peas ",
         "500 gms milk solids (khoya)500 gm ",
@@ -10967,12 +10231,12 @@ const dataset = {
         "To serve assemble the khoya-peas masala in a dish and cover with bread crouton mixture.",
         "Sprinkle with cut coriander."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "khoya-matar-recipe"
     },
     {
       "title": "Lehsuni tikki recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1/2 tblsp red chilli powder ",
         "1/4 cup coriander leaves ",
@@ -10998,12 +10262,12 @@ const dataset = {
         "Take off and remove on to a clean and absorbent kitchen towel or paper.",
         "Serve hot with tomato ketchup or mint chutney."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "lehsuni-tikki-recipe"
     },
     {
       "title": "Makai ki roti recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "6 tblsp butter ",
         "1 1/2 cup corn meal (makai ka atta) ",
@@ -11020,79 +10284,12 @@ const dataset = {
         "Turn the makai roti and stir fry the other side for one minute or till crunchy and light golden brown.",
         "Spray the cooked rotis with grease and serve hot with sarson ka saag."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "makai-ki-roti-recipe"
     },
     {
-      "title": "Palak gosht recipe",
-      "category": "Punjabhi food",
-      "ingredients": [
-        "1 tblsp garlic paste ",
-        "5 green chillies chopped ",
-        "2 bay leaves ",
-        "500 gms spinach ",
-        "salt to taste  ",
-        "1 tblsp garam masala whole ",
-        "4 tblsp oil ",
-        "1 tsp red chilli powder ",
-        "1 tblsp ginger paste ",
-        "500 gms mutton ",
-        "1 tsp cumin seeds ",
-        "1 cup onions sliced"
-      ],
-      "preparation": [
-        "Clean, wash and cut lamb into even sized pieces.",
-        "Boil spinach in salted boiling water for one minute.",
-        "Remove well and grind it along with green chillies to a rough paste.",
-        "Heat up oil in a thick bottomed pan.",
-        "Mix in bay leaves, whole garam masala and cumin seeds.",
-        "When cumin seeds begin to change colour, mix in cut onions.",
-        "Stir fry till onions are translucent.",
-        "Mix in ginger-garlic paste, red chilli powder and then mix in lamb pieces.",
-        "Stir fry on high flame heat up stirring constantly.",
-        "Mix in three cup of water and stir fry covered until lamb is almost done.",
-        "Mix in salt and spinach and stir fry till lamb is fully mixed with spinach and tender."
-      ],
-      "category_id": "punjabhi-food",
-      "id": "palak-gosht-recipe"
-    },
-    {
-      "title": "Patther kabab recipe",
-      "category": "Punjabhi food",
-      "ingredients": [
-        "16 mutton pasandas ",
-        "For Marinade  ",
-        "1 tsp green cardamom powder ",
-        "4 tblsp mustard oil ",
-        "1 1/2 tblsp mint leaves ",
-        "salt to taste  ",
-        "1 tblsp raw papaya ",
-        "5 green chillies ",
-        "1 1/2 tblsp coriander leaves ",
-        "2 tblsp ginger garlic paste ",
-        "1 tsp lichen stone flower powder (dagad phool) ",
-        "1 tsp garam masala powder ",
-        "1 tsp peppercorns (crushed)"
-      ],
-      "preparation": [
-        "Grind fresh coriander leaves, mint leaves, green papaya, green chillies to a fine paste.",
-        "Mix in ginger garlic paste and all the dry ingredients, mix well and apply equally on the mutton pasanda.",
-        "Let it marinate for one hour.",
-        "Cooking on stone slabs:(traditional way of cooking on kadapa stone.",
-        "Take a flattish piece of rough granite or kadappa of about 11/2\" length x 1\" breadth x ",
-        "2\" thickness.",
-        "Wash the stone and rest it on bricks on two sides to make a bridge, taking care that it is safely balanced.",
-        "Heat up the granite well with live charcoals underneath.",
-        "Sprinkle a little oil or ghee on the surface and put the marinated meat picattas.",
-        "Turn them a few times basting them occasionally with oil.",
-        "Take off when cooked through."
-      ],
-      "category_id": "punjabhi-food",
-      "id": "patther-kabab-recipe"
-    },
-    {
       "title": "Peshawari chana recipe",
-      "category": "Punjabhi food",
+      "category": "Punjabi food",
       "ingredients": [
         "1 tsp garam masala powder ",
         "1/2 cup onion chopped ",
@@ -11119,7 +10316,7 @@ const dataset = {
         "Mix in boiled chana and approximately 1 cup of water and stir fry till chana gets coated with the thick masala.",
         "Sprinkle garam masala and salt mix well and serve hot."
       ],
-      "category_id": "punjabhi-food",
+      "category_id": "punjabi-food",
       "id": "peshawari-chana-recipe"
     },
     {
@@ -11256,43 +10453,6 @@ const dataset = {
       ],
       "category_id": "cabbage-recipes",
       "id": "cabbage-raita-recipe"
-    },
-    {
-      "title": "Spring roll recipe",
-      "category": "Cabbage recipes",
-      "ingredients": [
-        "Cover : ",
-        "250 gms. All purpose flour (Maida)  ",
-        "1 Egg  ",
-        "Little Salt  ",
-        "Water to make batter  ",
-        "Filling : ",
-        "2- 3 Carrots Grated)  ",
-        "1 cup leeks shredded and well washed (white section only)(optional)  ",
-        "1/2 tsp Ginger Minced)  ",
-        "1/2 tsp Garlic Minced)  ",
-        "100 gms Cabbage Shredded)  ",
-        "50gms Mushrooms Chopped)  ",
-        "75 gms Sprouted Beans  ",
-        "3 Green Chilies Chopped)  ",
-        "Salt to taste  ",
-        "2 tbsp Soya Sauce  ",
-        "1/2 tbsp White Pepper Powder "
-      ],
-      "preparation": [
-        "Sift the flour and add salt, egg and water and make a smooth batter. ",
-        "Heat little oil in a flat non-stick pan and add enough batter so that it covers the base of the pan. ",
-        "Cook both sides of the pancake till golden. Repeat the same till whole batter is utilized. ",
-        "To make the filling heat 2-3 tbsp oil in a wok, add ginger ,garlic and mushrooms, stir fry for 10-15 seconds. ",
-        "Add leeks (if available) and stir fry for about 1 minute, then add carrots, cabbage and cook tossing the vegetables until they are crisp-tender.",
-        "Add the bean sprouts, salt, pepper and soya sauce, cook stirring for 2 minutes. Set aside the filling to cool. ",
-        "To make the spring rolls place 2-3 tbsp. of the filling in the center of each pancake. ",
-        "Fold in the sides and form a tight roll, sealing the edge with a little flour and water paste. ",
-        "Deep fry in hot oil until golden. ",
-        "Serve the vegetarian spring roll hot. "
-      ],
-      "category_id": "cabbage-recipes",
-      "id": "spring-roll-recipe"
     },
     {
       "title": "Indian cabbage salad recipe",
@@ -11460,496 +10620,6 @@ const dataset = {
       "id": "hot-and-sour-soup-recipe"
     },
     {
-      "title": "Apple cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1 cup oil ",
-        "2 cup sugar ",
-        "3 cup flour ",
-        "1 tsp salt ",
-        "1 tsp nutmeg ",
-        "1 tsp cinnamon powder ",
-        "1 tsp baking powder ",
-        "3 eggs ",
-        "1 tsp vanilla extract ",
-        "1 cup chopped nuts ",
-        "1 tsp cloves ",
-        "1 cup baking soda ",
-        "4 cups chopped apples ",
-        "Glaze  ",
-        "2 tblsp milk  ",
-        "1/2 tsp vanilla essence ",
-        "1/2 stick butter ",
-        "1/2 cup brown sugar"
-      ],
-      "preparation": [
-        "In a bowl mix the oil, eggs and vanilla extract together. ",
-        "In a separate bowl sift the dry ingredients together and add this mixture to the oil and egg mixture and mix well. ",
-        "Add in the apples and the nuts. ",
-        "Pour this mixture in a baking pan and bake for 1.15 minutes at 350 degrees F. ",
-        "For the glaze mix all the glaze ingredients together and boil the mixture for one minute. ",
-        "When the cake is baked remove it from the oven and white it is worm pour the glaze on it. ",
-        "Apple cake is ready."
-      ],
-      "category_id": "cake-recipes",
-      "id": "apple-cake-recipe"
-    },
-    {
-      "title": "Almond cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "Pastry ",
-        "1 1/2 cup flour ",
-        "1/4 palm butter ",
-        "4 egg yoghurts ",
-        "1/2 cup sugar ",
-        "1/2 tsp salt ",
-        "1 tsp vanilla extract ",
-        "Filling ",
-        "2/3 cup sugar ",
-        "1/4 cup corn starch ",
-        "1/2 tsp baking powder ",
-        "1/4 palm butter ",
-        "3 eggs ",
-        "3/4 cup ground almonds ",
-        "1 cup chopped almonds ",
-        "1 pinch salt"
-      ],
-      "preparation": [
-        "For the Pasty",
-        "In a food processor or in a bowl mix together all the pastry ingredients to form a soft dough. ",
-        "Place this mixture in the refrigerator for 30 minutes. ",
-        "Then take it out and roll it of a size 11 or 12 inches of a pie. ",
-        "Line a 11 or 12 inch pie or tart pan. ",
-        "Prick the base and chill for 15-20 minutes. ",
-        "Preheat the oven at 375 degrees F.",
-        "For the Filling",
-        "In a pan heat 1/3 of the butter and add the chopped almonds and soughed them over medium flame till brown. ",
-        "Turn off the fire and let the mixture cool. In a separate pan take the remaining melted butter and add the grounded almonds and sugar and now add eggs one at a time beating nicely after each addition till the mixture is light and fluffy. In a separate bowl sift ",
-        "the corn starch with the baking powder and salt and then fold it into the almonds ",
-        "mixture. Pour this mixture into the earlier prepared base and bake for 10-12 minutes or ",
-        "until the batter begins to sat. Now quickly spread the chopped almonds over the top ",
-        "and return the pan to the oven and continue breaking for 20 minutes or until the pastry ",
-        "is brown. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "almond-cake-recipe"
-    },
-    {
-      "title": "Banana chocolate cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1 egg ",
-        "1 1/2 tsp baking powder ",
-        "1 cup meshed banana ",
-        "1 1/2 cup all purpose flour ",
-        "3/4 cup semi sweet chocolate chips ",
-        "1/2 cup unsalted butter which is melted  ",
-        "1/4 tsp salt ",
-        "2/3 cup white sugar ",
-        "1/4 cup milk"
-      ],
-      "preparation": [
-        "In a large mixing bowl stir together all purpose flour, sugar, salt and baking powder. ",
-        "Take another bowl and mix together melted butter milk egg and meshed bananas. ",
-        "Now add the banana mixture into the flour mixture until thoroughly blended. ",
-        "Be careful not to overmix. ",
-        "Add the chocolate chips. Preheat the oven to 350 degrees F to 175 degrees C. ",
-        "Grease and flour a 9x13 inch pan. ",
-        "Pour the batter into the pan and bake it for 32-35 minutes or until the toothpick inserted into it comes out clean. ",
-        "When the cake gets baked take out the pan from the oven and let it cool for 10-15 minutes. ",
-        "This cake will have some melted chocolate but no crumbs. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "banana-chocolate-cake-recipe"
-    },
-    {
-      "title": "Carrot cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1/2 cup butter  ",
-        "1 cup desiccated coconut ",
-        "2/3 cup broken and chopped walnuts ",
-        "1 cup golden raisins ",
-        "2 1/2 cup grated carrots ",
-        "3 tsp mixed spices (cinnamon, nutmeg, ginger)  ",
-        "1 cup brown sugar ",
-        "1 1/4 cup all purpose flour ",
-        "1 tsp baking soda ",
-        "2 beaten eggs ",
-        "2 tsp of orange juice"
-      ],
-      "preparation": [
-        "Preheat the oven to 150 degrees C. ",
-        "In a pan mix nicely the all purpose flour, mixed spices, baking soda, brown sugar, desiccated coconut and chopped walnuts. ",
-        "In a separate pan melt the butter and add the golden raisins, carrots and orange juice. Stir it nicely and pour it on top of the dry ingredients. ",
-        "Now add the beaten eggs to the mixture and mix it thoroughly. ",
-        "Prepare a loaf tin by oiling the base and the sides, pour this prepared mixture into the tin and bake the cake for 50-60 minutes or until a toothpick inserted into the centre of it comes out clean. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "carrot-cake-recipe"
-    },
-    {
-      "title": "Chocolate angel cake",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1/4 cup Cocoa Powder  ",
-        "1/4 cup Hot Water ",
-        "1 1/2 cup Granulated Sugar ",
-        "3/4 cup Fine Wheat Flour (Maida)  ",
-        "1/4 tsp Salt  ",
-        "12 Eggs White ",
-        "1 tsp Cream of Tartar"
-      ],
-      "preparation": [
-        "In a bowl mix cocoa powder and hot water and keep aside. ",
-        "Preheat the oven at 350F",
-        "In a separate bowl sift together flour, 3/4 cup sugar, salt and keep aside. ",
-        "Beat the eggs till foamy and then add cream of tartar. ",
-        "Beat till the mixture forms peak. ",
-        "In the egg mixture add the remaining sugar. ",
-        "Now then gently add half the sifted flour. ",
-        "When completely mixed add the remaining half of flour. ",
-        "Now pour some of this mixture in the cocoa powder mixture and stir well. ",
-        "When done pour this egg cocoa mixture back to the remaining egg flour mixture. ",
-        "Mix lightly. ",
-        "In an ungreased dish pour this mixture. ",
-        "Bake this dish for 50 minutes or till the tooth pick comes out clean.",
-        "When baked completely let it cool. ",
-        "Then with the help of a knife invert it on a plate. ",
-        "Serve it with fresh berries and vanilla ice cream. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "chocolate-angel-cake"
-    },
-    {
-      "title": "Chocolate cherry cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "6 Eggs White ",
-        "1 Chocolate Cake Mix ",
-        "21 oz Cherry Pie Mix ",
-        "For Frosting: ",
-        "2 Eggs White ",
-        "1 1/2 cup Sugar  ",
-        "1/4 tsp Cream of Tartar ",
-        "1/3 cup Water ",
-        "1 tsp Vanilla Essence "
-      ],
-      "preparation": [
-        "In a bowl mix egg whites, chocolate cake mix, cherry pie filling. ",
-        "Grease 9\" X 13\" pan and make a layer of flour on it. ",
-        "Pour the batter into the pan. ",
-        "In a preheated oven bake the pan for 35 - 40 minutes ot till the toothpick comes out clean. ",
-        "Take tthe cake out and cool it. ",
-        "To make the frosting, mix all the frosting ingredients and pour in a double boiler and with a beater, beat for 1 minute. ",
-        "Then place this boiler on boiling water and again beat for 7 minutes.",
-        "Remove from heat and beat for 2 minutes on high speed. ",
-        "Frost the cool cake with this mixture. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "chocolate-cherry-cake-recipe"
-    },
-    {
-      "title": "Chocolate coconut cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1 1/2 oz. desicated coconut ",
-        "1/2 cup milk ",
-        "4 oz. margarine ",
-        "6 oz. sugar ",
-        "2 eggs ",
-        "4 oz. plain flour ",
-        "1 level tsp cocoa ",
-        "pinch of salt ",
-        "1 tspful baking powder"
-      ],
-      "preparation": [
-        "Soak the coconut in the milk for 1/2 hour.",
-        "Cream fat and sugar, add the lightly beaten eggs and then the coconut and milk.",
-        "Stir in the well-sieved dry ingredients, mix well and turn into a greased lined tin 10 inch by ",
-        "8 inch.",
-        "Bake in a moderate oven for 30-40 minutes.",
-        "When cold, decorate the top as desired, or cut into fingers."
-      ],
-      "category_id": "cake-recipes",
-      "id": "chocolate-coconut-cake-recipe"
-    },
-    {
-      "title": "Chocolate mocha cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1/2 cup butter ",
-        "1/2 cup saw milk ",
-        "2 cup sifted all purpose flour ",
-        "1/2 cup strong hot coffee ",
-        "4 cup sugar ",
-        "1/4 cup coco ",
-        "1/2 tsp vanilla  ",
-        "2 cup brown sugar ",
-        "2 arms unsweetened chocolate ",
-        "2 egg yoghurts ",
-        "1 tsp vanilla extract ",
-        "1/2 tsp salt ",
-        "2 egg whites ",
-        "1 cup butter"
-      ],
-      "preparation": [
-        "In a bowl beat 1/2 cup butter and add sugar gradually till it gets fluffy. ",
-        "Add in the melted chocolate and an unbeaten egg yoghurts, 1 tsp vanilla extract and sour milk. ",
-        "Beat this mixture well. ",
-        "Add the sifted flour alternately with the hot coffee i.e. once you add the flour then you add the coffee then you again add the flour then coffee continue till the flour and coffee are finished. ",
-        "Now add the beaten egg whites. ",
-        "Preheat the oven at 350 degrees F and grease a 9x13 inch pan. ",
-        "Pour the prepared mixture into the pan and bake for 35-40 minutes. ",
-        "In a separate bowl beat half cup butter with powdered sugar, salt and coco. ",
-        "To this mixture add 1/3 cup strong coffee and 1/2 tsp vanilla. ",
-        "Mix it nicely and spread on the prepared cake and sprinkle some silvered almonds."
-      ],
-      "category_id": "cake-recipes",
-      "id": "chocolate-mocha-cake-recipe"
-    },
-    {
-      "title": "Chocolate swiss roll recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "2 eggs ",
-        "1 1/2 oz. flour ",
-        "2 oz. castor sugar ",
-        "1 tspful baking powder ",
-        "1 tblspful warm water ",
-        "1oz. grated sweetened chocolate"
-      ],
-      "preparation": [
-        "Grease a swiss roll tin, line with greaseproof paper and then grease the paper well.",
-        "Separate the whites from the yolks of the eggs.",
-        "Beat the yolks and the sugar together until the mixture is creamy.",
-        "Then add the warm water, and immediately after that the chocolate.",
-        "Whisk the whites stiffly, and add alternately with the sieved flour and baking powder, folding them in lightly.",
-        "Put the mixture in the tin and bake in hot oven for about 12 minutes.",
-        "Turn out on to a piece of greaseproof paper well sprinkled with icing sugar, trim the edges and roll it up.",
-        "Then put it on a rack to cool."
-      ],
-      "category_id": "cake-recipes",
-      "id": "chocolate-swiss-roll-recipe"
-    },
-    {
-      "title": "Coconut cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "6 oz. flour ",
-        "3 oz. butter ",
-        "4 oz. castor sugar ",
-        "a little milk ",
-        "2 small eggs ",
-        "3 oz. desiccated coconut ",
-        "1 small tspful baking powder"
-      ],
-      "preparation": [
-        "Cream the butter and sugar, and add the beaten eggs gradually.",
-        "Then add the flour, baking powder and the coconut and, lastly, a little milk.",
-        "Put the mixture into a prepared cake tin and bake in a moderate oven for about 1 1/4 hours."
-      ],
-      "category_id": "cake-recipes",
-      "id": "coconut-cake-recipe"
-    },
-    {
-      "title": "Coconut cupcakes recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "6 cups Fine Wheat Flour (Maida)  ",
-        "2 tsp Baking Powder  ",
-        "1 tsp Sodium Bicarbonate (Khaane Wala Soda)  ",
-        "1 tsp Salt  ",
-        "4 cups Sugar ",
-        "1 1/2 cup unsalted Butter ",
-        "6 big sized Eggs  ",
-        "3 tsp Almond Essence  ",
-        "3 tsp Vanilla Essence  ",
-        "2 cups Butter Milk (Mattha / Chhaach)  ",
-        "5 1/2 cups Coconut (Khopra/Narial)  ",
-        "For Icing ",
-        "900 gms Cream Cheese (Hung Curd) ",
-        "1 1/2 cup unsalted Butter ",
-        "2 tsp Vanilla Essence  ",
-        "1 tsp Almond Essence 1Kg 400 gms Icing Sugar, sifted "
-      ],
-      "preparation": [
-        "First preheat the oven at 160 degrees. ",
-        "Grease a tin and place pape cases on it. ",
-        "Mix flour, baking powder, soda and salt. ",
-        "Beat and cream suagar and butter. ",
-        "Add eggs one at a time. ",
-        "Now mix the essences. ",
-        "Next add the flour alternatively with the buttermilk. ",
-        "Mix half of the grated coconut. ",
-        "Fill the paper cases with the mixture. ",
-        "Bake them for 25 - 30 minutes or till they are golden in color. ",
-        "For icing beat the cream cheese, butter, sugar and the essence till smooth and creamy. ",
-        "Place a layer of this icing on the bakes cupcakes and sprinkle some coconut on them. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "coconut-cupcakes-recipe"
-    },
-    {
-      "title": "Cornflour cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "4 oz. cornflour ",
-        "1 oz. flour ",
-        "2 oz. castor sugar ",
-        "2 oz. butter ",
-        "1 tspful baking powder ",
-        "1 egg ",
-        "Little milk"
-      ],
-      "preparation": [
-        "Cream the butter and sugar, and add the egg beaten with a little milk.",
-        "Then add the sieved cornflour, flour and baking powder.",
-        "Put into a prepared cake tin and bake in a moderate oven for about 1 hour."
-      ],
-      "category_id": "cake-recipes",
-      "id": "cornflour-cake-recipe"
-    },
-    {
-      "title": "Dundee cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "75 gms chopped glace cherries ",
-        "110 gms currants  ",
-        "50 gms chopped mixed peel ",
-        "110 gms golden raisins ",
-        "50 gms ground almonds ",
-        "225 grms butter ",
-        "225 gms castor sugar ",
-        "3 eggs ",
-        "3 tblsp blanched almonds ",
-        "Grated rind of one lemon ",
-        "1 tsp cherry ",
-        "350 gms plain flour ",
-        "110 gms raisins"
-      ],
-      "preparation": [
-        "Grease and line a 18cm cake tin. ",
-        "In a bowl mix together golden raisins, peel, ground almonds, currants, raisins and cherries. ",
-        "In a separate bowl beat the butter till soft then add castor sugar and the lemon rind and beat till light and fluffy. ",
-        "In a separate bowl beat the eggs together and then gradually add to the creamed mixture, beating well after each addition. ",
-        "Mix the flour and the baking powder in a separate container and sift it well and add to the creamed mixture along with the cherry and all the dried fruits mix together earlier. ",
-        "Pour this mixture into the greased tin, try to create a hollow in the center and cover that center with the almonds. ",
-        "Bake this cake for 2 1/2 - 3 hours at 325 degrees F or till a skewer pricked into the center of the cake comes out clean. ",
-        "When done cool the cake in the tin for 15 minutes and then let it cool completely on a wire rack."
-      ],
-      "category_id": "cake-recipes",
-      "id": "dundee-cake-recipe"
-    },
-    {
-      "title": "Eggless cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "8 oz. plain flour ",
-        "3 oz. margarine ",
-        "pinch of salt ",
-        "4 tspful baking powder ",
-        "3 oz. sugar ",
-        "1 tsp vanilla essence ",
-        "about 1/2 cup milk and water"
-      ],
-      "preparation": [
-        "Mix flour, baking powder and salt.",
-        "Mix in the margarine, add the sugar and vanilla and mix to a dropping consistency with the milk and water.",
-        "Turn into a greased 7 inch tin and bake in a moderate oven for 3/4 to 1 hour."
-      ],
-      "category_id": "cake-recipes",
-      "id": "eggless-cake-recipe"
-    },
-    {
-      "title": "Fudge cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "3/4 cup butter ",
-        "3/4 cup sugar ",
-        "1 tbsp honey ",
-        "3 eggs ",
-        "2 cups self-rising flour ",
-        "4 tsp baking powder ",
-        "2/3 cup milk ",
-        "1/2 tsp almond extract ",
-        "CREAM FILLING ",
-        "1/4 lb butter ",
-        "1 1/2 cups icing sugar ",
-        "juice of 1/2 lemon ",
-        "FUDGE ICING ",
-        "1/4 lb butter ",
-        "1 tbsp honey ",
-        "3tbsp milk ",
-        "2cups icing sugar ",
-        "flaked almonds and chocolate curls, to garnish"
-      ],
-      "preparation": [
-        "Pre-heat oven to 400(F)",
-        "Cream butter and sugar until light and fluffy.",
-        "Add honey and eggs, beating well.",
-        "Sift flour and baking powder and add to butter mixture alternately with milk and almond extract.",
-        "Divide mixture between 3 I inc greased and lined cake pans.",
-        "Bake for 18-20 minutes or until cooked when tested.",
-        "Remove from pans to cake rack and allow to cool.",
-        "To make cream filling, beat utter and icing sugar together with lemon juice.",
-        "Sandwich cake layers together with cream mixture.",
-        "To make fudge icing, combine butter, honey and milk in saucepan.",
-        "Gently heat until butter melts, then heat until nearly boiling.",
-        "Remove from heat and sift in icing sugar, beating until icing thickens.",
-        "Spread icing over top of came and allow to drizzle down the sides.",
-        "Cool and decorate with almonds and chocolate curls."
-      ],
-      "category_id": "cake-recipes",
-      "id": "fudge-cake-recipe"
-    },
-    {
-      "title": "Honey cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "8 oz. flour ",
-        "4 oz. honey ",
-        "2 eggs ",
-        "3 oz. butter ",
-        "3 oz. sugar ",
-        "1 tspful baking powder"
-      ],
-      "preparation": [
-        "Cream the butter and sugar, and add the beaten eggs gradually.",
-        "Beat in the honey and, lastly add the sieved flour and baking powder.",
-        "Put in a prepared shallow cake tin and bake in a moderate oven for about 45 minutes."
-      ],
-      "category_id": "cake-recipes",
-      "id": "honey-cake-recipe"
-    },
-    {
-      "title": "Marble cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "120 gms melted Butter ",
-        "160 gms Sugar ",
-        "3 Eggs ",
-        "200 gms Flour (Maida) ",
-        "1/2 cup milk ",
-        "60 gms Cocoa Powder ",
-        "1 tsp vanilla Essence"
-      ],
-      "preparation": [
-        "Mix the flour and the baking powder. ",
-        "Cream together the butter, essence and sugar. ",
-        "Add the eggs one at a time and beat till the mixture is smooth and sugar gets blended well. ",
-        "Now mix flour and milk alternately in the mixture. ",
-        "Mix well till the batter is smooth. Divide this batter into 2 parts. ",
-        "In one portion add cocoa powder. ",
-        "Grease and line a 8 inch baking tin. First pour 1 layer in the tin then the second and continue this process alternatively. ",
-        "Bake this tin in a preheated oven at 180 - 200C for 15 minutes and then reduce the temperature and bake for another 10 minutes or until the cake gets golden on top. ",
-        "Cool the cake and invert it on a dish. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "marble-cake-recipe"
-    },
-    {
       "title": "Peach cake recipe",
       "category": "Cake recipes",
       "ingredients": [
@@ -11996,47 +10666,6 @@ const dataset = {
       "id": "peach-cake-recipe"
     },
     {
-      "title": "Pineapple upside down cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "For Cake: ",
-        "1 tin Pineapple ",
-        "200gms Maida (Flour) ",
-        "180 gms Sugar ",
-        "120 ml refined oil ",
-        "3 eggs ",
-        "1 1/2 tsp Baking Soda ",
-        "For Sauce ",
-        "15 - 20 Fresh Strawberries ",
-        "4 tblsp Sugar ",
-        "1/4 tsp Cinnamon Powder ",
-        "1 tblsp Strawberry Jam"
-      ],
-      "preparation": [
-        "Sauce:",
-        "Chop the strawberries into tiny pieces.",
-        "Heat 1 cup of water and add the chopped strawberries.",
-        "Cook till the sugar gets dissolved and strawberries are soft.",
-        "Add the cinnamon and stir.",
-        "Cook on a low flame for a minute and then add the jam.",
-        "Mix gently and cook for another minute and remove from flame.",
-        "Cake:",
-        "Beat the eggs till fluffy.",
-        "Add the sugar and the oil and continue to beat with a hand blender or in a mixer till the mixture is smooth and the sugar has melted completely.",
-        "More smooth the batter more soft the cake will be.",
-        "Mix the baking powder in the maida and mix the sugar, oil and egg mixture slowly into the maida, taking care that no lumps form.",
-        "Upside Down Cake:",
-        "Grease a circular cake tin and lay out the pineapple pieces on the bottom of the tin.",
-        "Pour the prepared batter gently on the the pieces and bake it in a preheated oven at 180C or till cake is done.",
-        "To check if the cake is ready insert a tooth pick in the center of the cake if it comes out clean without any mixture coating, the cake is ready.",
-        "Allow the cake to cool in the oven for 15 miutes.",
-        "When the cake gets coool , invert the cake on a serving dish with the pineapple sides on the top.",
-        "Top it with the strawberry sauce."
-      ],
-      "category_id": "cake-recipes",
-      "id": "pineapple-upside-down-cake-recipe"
-    },
-    {
       "title": "Pound cake recipe",
       "category": "Cake recipes",
       "ingredients": [
@@ -12059,33 +10688,6 @@ const dataset = {
       ],
       "category_id": "cake-recipes",
       "id": "pound-cake-recipe"
-    },
-    {
-      "title": "Pumpkin cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "2 cup Pumpkin (Kadhu)  ",
-        "3 cup Sugar  ",
-        "1 cup Oil  ",
-        "3 Eggs  ",
-        "3 cup Fine Wheat Flour (Maida)  ",
-        "1/2 tsp Salt  ",
-        "1/2 tsp Baking Powder  ",
-        "1 tsp Baking Soda  ",
-        "1 tsp Cloves Powder (Lavang)  ",
-        "1 tsp Cinnamon Powder (Tuj/Dalchini)  ",
-        "1 tsp Nutmeg Powder (Jaiphal) "
-      ],
-      "preparation": [
-        "In a blender, add pumpkin, sugar, oil and eggs. ",
-        "In a bowl sift flour, salt and baking powder and baking soda. ",
-        "Now mix the blended pumpkin and egg mixture to the dry ingredients and mix well. ",
-        "Pour the mixture in a wax paper lined 8\" pan. ",
-        "Bake the pan in a preheated oven at 350F for 1 hour and fifiteen minute. ",
-        "When done take it out with the help of a knife and dust with powdered sugar. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "pumpkin-cake-recipe"
     },
     {
       "title": "Rainbow cake recipe",
@@ -12116,94 +10718,6 @@ const dataset = {
       ],
       "category_id": "cake-recipes",
       "id": "rainbow-cake-recipe"
-    },
-    {
-      "title": "Strawberry cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1 cup white sugar ",
-        "2 eggs ",
-        "1 3/4 tsp baking powder ",
-        "1 cup icing sugar ",
-        "1/2 cup milk ",
-        "1/2 cup frozen strawberries ",
-        "1 vanilla pudding cup ",
-        "1 1/2 cup all purpose flour ",
-        "1/2 cup butter ",
-        "2 tsp vanilla extract"
-      ],
-      "preparation": [
-        "Start by thawing the frozen strawberries in one cup of powder sugar. ",
-        "In a separate bowl beat together sugar and butter until creamy. ",
-        "Add in the eggs one at a time and then finely pour in the vanilla pudding. ",
-        "Add the thawed strawberries. ",
-        "Stir in the flour and baking powder to the mixture and mix well. ",
-        "If the batter is thick add in the milk so that the batter gets a little smooth. ",
-        "Preheat the oven to 350 degrees F or 175 degrees C. ",
-        "Grease and flaw a 9X9 inch pan. ",
-        "Pour the prepared batter into the 9X9 inch pan and bake for 30-40 minutes till a knife inserted into the centre of the cake comes out clean. ",
-        "To check if the cake is done or not see that the cake sprints back to the touch. "
-      ],
-      "category_id": "cake-recipes",
-      "id": "strawberry-cake-recipe"
-    },
-    {
-      "title": "Sugarless cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1 tsp cinnamon ",
-        "2 cup water ",
-        "1/2 cup shortening ",
-        "1 1/2 tsp vanilla extract  ",
-        "1/2 tsp salt ",
-        "1 tsp baking soda ",
-        "1 1/2 tsp artificial sweetener ",
-        "1 cup rolled oats ",
-        "1 beaten egg ",
-        "1 cup raisins ",
-        "1 cup flour"
-      ],
-      "preparation": [
-        "In a sauce pan add together raisins, water and cinnamon. ",
-        "Heat the sauce pan on low heat for fifteen minutes. ",
-        "Take off from fire and let it cool. ",
-        "To this mixture add the beaten egg, oats, artificial sweeter, shortening and vanilla extract. ",
-        "In a separate bowl sift together flour, baking soda, cinnamon powder and salt. ",
-        "Add this dry ingredients to the earlier prepare batter and mix well. ",
-        "Pour this mixture in a baking pan and bake for 30-35 minutes at 350 degrees F. ",
-        "When the cake is ready let it cool for 10 â€“ 15 minutes and then serve immediately."
-      ],
-      "category_id": "cake-recipes",
-      "id": "sugarless-cake-recipe"
-    },
-    {
-      "title": "Walnut palm cake recipe",
-      "category": "Cake recipes",
-      "ingredients": [
-        "1 cup butter ",
-        "2 tsp vanilla ",
-        "3 cup sugar ",
-        "3 cup flour ",
-        "1 cup finely chopped walnuts ",
-        "1/4 tsp salt ",
-        "5 eggs ",
-        "1 cup milk ",
-        "1/4 tsp baking powder ",
-        "1/2 cup shortening"
-      ],
-      "preparation": [
-        "In a bowl beat the butter and the shortening very thoroughly till the mixture is creamy. ",
-        "Then add sugar 1/2 cup at a time and beat till very light. ",
-        "Now add eggs one at a time beating thoroughly after each addition. ",
-        "Now add 2 cups flour alternately with milk and vanilla. ",
-        "Finely add 1 cup flour containing salt and baking powder. ",
-        "Add in the finely chopped walnuts. ",
-        "Pour this mixture in a pan which has been lightly greased and flour. ",
-        "Bake this pan in cold oven on middle shelf and turn on the oven to 350 degrees F. ",
-        "Let the pan baked for 1 1/4 hour and then take out the pan from the oven and let the cake cool in the pan on wire rack."
-      ],
-      "category_id": "cake-recipes",
-      "id": "walnut-palm-cake-recipe"
     },
     {
       "title": "Amla ki chutney recipe",
@@ -12896,137 +11410,6 @@ const dataset = {
       "id": "tomato-garlic-chutney-recipe"
     },
     {
-      "title": "Butter cookies recipe",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "6 cups All purpose flour (maida) ",
-        "3 teaspoons baking powder  ",
-        "1 teaspoon salt  ",
-        "2 cup white sugar  ",
-        "2 cup butter or margarine  ",
-        "2 egg  ",
-        "6 tablespoons cream  ",
-        "2 teaspoon vanilla extract "
-      ],
-      "preparation": [
-        "Sift flour, baking powder, salt and sugar together. Mix well. ",
-        "Add the butter. ",
-        "Add egg, cream and vanilla extract thoroughly. ",
-        "Wrap this dough into a foil and refrigerate for atleast 24 hrs. ",
-        "Reheat the oven for 400 degrees. ",
-        "Now roll the dough into a crust which is 1/4 to 1/8 thick. ",
-        "Now with the help of a cookie cutter, cut the cookies. ",
-        "Lastly place them on a greased tray and bake them at 400 degrees for 5 - 8 minutes. "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "butter-cookies-recipe"
-    },
-    {
-      "title": "Cardamom cookies recipe",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "1 cup unsalted Butter  ",
-        "2 cups Sugar  ",
-        "2 tsp Cardamom Powder (Elaichi) ",
-        "4 Eggs  ",
-        "2 cups Fine Wheat Flour (Maida)  ",
-        "1 tsp Salt "
-      ],
-      "preparation": [
-        "In a bowl, beat the butter, sugar and cardomom powder fro 3 minutes. ",
-        "Then with the beater going add the eggs one at a time. ",
-        "When the mixture gets light take it out in a bowl and add the flour and salt with a light hand. ",
-        "When a soft dough gets prepared with the help of a spoon drop them on a nonstick cookie sheet. ",
-        "Place them 1/2\" apart. ",
-        "Bake these cookies in a preheated oven at 325 F for 10 - 11 minutes or till the cookies have a golden color. ",
-        "Repeat the baking procedure for the remaining dough. "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "cardamom-cookies-recipe"
-    },
-    {
-      "title": "Chocolate chip cookies recipe",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "1 1/4 cup Fine Wheat Flour (Maida)  ",
-        "1/2 tsp Baking Soda  ",
-        "1/2 tsp Salt  ",
-        "1/2 cup Butter ",
-        "1/2 cup Brown Sugar ",
-        "1/4 cup Sugar  ",
-        "1 small sized Egg  ",
-        "1 tsp Vanilla Essence  ",
-        "1 cup Chocolate Chips ",
-        "1/2 cup chopped and roasted Walnuts "
-      ],
-      "preparation": [
-        "Mix the flour, baking soda and salt evenly in a bowl.",
-        "With the mixer running, beat butter, sugar and brown sugar together until creamy. ",
-        "Add the egg and vanilla essence. ",
-        "Now add flour. ",
-        "When flour is fully blended mix the chips and walnuts. ",
-        "Preheat the oven to 190 degrees. ",
-        "On a tray place a large ungreased cookie sheet. ",
-        "Now drop a spoonful of the batter on the sheet 2 inches apart. ",
-        "Bake for 10 -1 2 minutes. "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "chocolate-chip-cookies-recipe"
-    },
-    {
-      "title": "Chocolate pretzels recipe",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "150 gms Margarine/ Butter  ",
-        "100 gms Icing sugar  ",
-        "1 Egg  ",
-        "225 gms Plain flour  ",
-        "25 gms Cocoa  ",
-        "100 gms Cooking chocolate "
-      ],
-      "preparation": [
-        "Soften the butter or margarine in a bowl and mix in the icing sugar, lightly beaten egg and salt. ",
-        "Sift in flour and cocoa and mix together to make a stiff dough. leave for 30 minutes. ",
-        "Roll out pieces of dough to the shape of pretzels. ",
-        "Place on a lightly greased tray and bake for 15-18 minutes in a moderate oven. ",
-        "Melt cooking chocolate with water over a low heat. ",
-        "Drop each pretzel into the hot chocolate and quickly remove. dry each pretzel on greaseproof paper. "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "chocolate-pretzels-recipe"
-    },
-    {
-      "title": "Hazelnut cookie recipe",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "2/3 cup Sugar  ",
-        "1 cup softened Butter ",
-        "2 tsp Vanilla Essence  ",
-        "1 tsp grated Lemon Peel ",
-        "1 Egg Yolk  ",
-        "2 1/4 cup Fine Wheat Flour (Maida)  ",
-        "1 1/2 cup grounded Hazelnuts ",
-        "1/2 cup Jam "
-      ],
-      "preparation": [
-        "Preheat the oven at 325 degrees. ",
-        "In a bowl mix sugar and butter. ",
-        "Beat the mixture till soft and fluffy. ",
-        "Add vanilla essence, lemon peel and egg yolk. ",
-        "Mix well. ",
-        "Add the flour and the hazelnuts. ",
-        "Make a soft dough. ",
-        "Make 1 1/4 size balls out of the dough. ",
-        "Take a ungreased cookies sheet and place the balls on it 2 inches apart. ",
-        "Press the cookies in the center with the thumb. ",
-        "Bake the cookiesat 325 degrees for 10 to 15 minutes or until light golden brown around edges. ",
-        "Let them cool. ",
-        "When completely cool fill the cavity of each cookie with ½ teaspoon jam. "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "hazelnut-cookie-recipe"
-    },
-    {
       "title": "Oat cookie delight recipe",
       "category": "Cookie recipes",
       "ingredients": [
@@ -13047,87 +11430,6 @@ const dataset = {
       ],
       "category_id": "cookie-recipes",
       "id": "oat-cookie-delight-recipe"
-    },
-    {
-      "title": "Raisin choco oat cookie",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "3/4 cup Fine Wheat Flour (Maida)  ",
-        "1 tsp Baking Soda  ",
-        "1/4 tsp Salt  ",
-        "3/2 cup Sugar  ",
-        "3/2 cup Brown Sugar ",
-        "3/2 cup Butter ",
-        "1 tsp Vanilla Essence  ",
-        "1 big sized Eggs  ",
-        "1 1/2 cups uncooked oats ",
-        "1/2 cup Currants (Kishmish)  ",
-        "1 cup Dark Chocolate Chips "
-      ],
-      "preparation": [
-        "Before you begin preheat the oven to 175 degrees. ",
-        "Grease a baking tray. ",
-        "Mix flour, baking soda, and, salt. ",
-        "Cream sugar and butter. ",
-        "Add vanilla essence, and, eggs one by one while mixing . ",
-        "Add the flour and mix the oats. ",
-        "Mix well and then add currants and chocolate chips. ",
-        "Now drop one spoonful of the batter on inch apart on the greased baking tray. ",
-        "Bake for 12 - 14 minutes or till golden in color. "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "raisin-choco-oat-cookie"
-    },
-    {
-      "title": "Sesame seed cookies recipe",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "1/2 cup Sesame Seeds  ",
-        "4 cups Maida  ",
-        "1 cup Sugar  ",
-        "1 cup Butter  ",
-        "3 Eggs ",
-        "1 tblsp Cake Seeds (Caraway Seeds)  ",
-        "1/2 cupMilk to mix  ",
-        "Salt a pinch  ",
-        "1/4 tsp Baking Soda "
-      ],
-      "preparation": [
-        "Sieve flour with salt and baking powder in a bowl. ",
-        "Add sugar, butter, 2 eggs, cake seeds, blend well. ",
-        "Add milk little by little and knead to a smooth dough. roll out on a floured board 1cm thick and cut out with fancy cookie cutters. ",
-        "Brush with remaining egg (well beaten) and sprinkle heavily with sesame seeds. ",
-        "Place on a greased baking tray. ",
-        "Bake in a moderate oven for 10 minutes. ",
-        "Cool and keep aside. good to be served with tea. "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "sesame-seed-cookies-recipe"
-    },
-    {
-      "title": "Sugar cookies recipe",
-      "category": "Cookie recipes",
-      "ingredients": [
-        "3 cup Fine Wheat Flour (Maida)  ",
-        "1 cup Sugar  ",
-        "1 1/2 tsp Baking Powder  ",
-        "1/2 tsp Salt  ",
-        "1 cup softened Butter ",
-        "1 Egg  ",
-        "2 tblsp Milk  ",
-        "1 1/2 tsp Vanilla Essence "
-      ],
-      "preparation": [
-        "In a bowl, mix flour , sugar, baking powder, salt and butter. ",
-        "In a separate bowl beat the eggs lightly with milk and vanilla essence. ",
-        "Add this mixture to the dry ingredients. ",
-        "Make a dough and roll it into a ball. ",
-        "Wrap it in a wax paper and let it chill for 1 hour. ",
-        "When you want to make the cookies take a samll ball of the dough and roll it into a cookie by pressing the ball between two wax papers. ",
-        "Bake the cookies at 350° for 5-7 minutes or till the cookies are firm "
-      ],
-      "category_id": "cookie-recipes",
-      "id": "sugar-cookies-recipe"
     },
     {
       "title": "Coconut rice recipe",
@@ -13229,31 +11531,6 @@ const dataset = {
       "id": "coconut-pudding-recipe"
     },
     {
-      "title": "Chocolate coconut cake recipe",
-      "category": "Coconut recipes",
-      "ingredients": [
-        "1 1/2 oz. desicated coconut ",
-        "1/2 cup milk ",
-        "4 oz. margarine ",
-        "6 oz. sugar ",
-        "2 eggs ",
-        "4 oz. plain flour ",
-        "1 level tsp cocoa ",
-        "pinch of salt ",
-        "1 tspful baking powder"
-      ],
-      "preparation": [
-        "Soak the coconut in the milk for 1/2 hour.",
-        "Cream fat and sugar, add the lightly beaten eggs and then the coconut and milk.",
-        "Stir in the well-sieved dry ingredients, mix well and turn into a greased lined tin 10 inch by ",
-        "8 inch.",
-        "Bake in a moderate oven for 30-40 minutes.",
-        "When cold, decorate the top as desired, or cut into fingers."
-      ],
-      "category_id": "coconut-recipes",
-      "id": "chocolate-coconut-cake-recipe"
-    },
-    {
       "title": "Coconut barfi recipe (nariyal ki burfi)",
       "category": "Coconut recipes",
       "ingredients": [
@@ -13279,26 +11556,6 @@ const dataset = {
       ],
       "category_id": "coconut-recipes",
       "id": "coconut-barfi-recipe-nariyal-ki-burfi"
-    },
-    {
-      "title": "Coconut cake recipe",
-      "category": "Coconut recipes",
-      "ingredients": [
-        "6 oz. flour ",
-        "3 oz. butter ",
-        "4 oz. castor sugar ",
-        "a little milk ",
-        "2 small eggs ",
-        "3 oz. desiccated coconut ",
-        "1 small tspful baking powder"
-      ],
-      "preparation": [
-        "Cream the butter and sugar, and add the beaten eggs gradually.",
-        "Then add the flour, baking powder and the coconut and, lastly, a little milk.",
-        "Put the mixture into a prepared cake tin and bake in a moderate oven for about 1 1/4 hours."
-      ],
-      "category_id": "coconut-recipes",
-      "id": "coconut-cake-recipe"
     },
     {
       "title": "Coconut chikki recipe",
@@ -13356,44 +11613,6 @@ const dataset = {
       ],
       "category_id": "coconut-recipes",
       "id": "mixed-vegetables-in-coconut-milk-recipe"
-    },
-    {
-      "title": "Coconut cupcakes recipe",
-      "category": "Coconut recipes",
-      "ingredients": [
-        "6 cups Fine Wheat Flour (Maida)  ",
-        "2 tsp Baking Powder  ",
-        "1 tsp Sodium Bicarbonate (Khaane Wala Soda)  ",
-        "1 tsp Salt  ",
-        "4 cups Sugar ",
-        "1 1/2 cup unsalted Butter ",
-        "6 big sized Eggs  ",
-        "3 tsp Almond Essence  ",
-        "3 tsp Vanilla Essence  ",
-        "2 cups Butter Milk (Mattha / Chhaach)  ",
-        "5 1/2 cups Coconut (Khopra/Narial)  ",
-        "For Icing ",
-        "900 gms Cream Cheese (Hung Curd) ",
-        "1 1/2 cup unsalted Butter ",
-        "2 tsp Vanilla Essence  ",
-        "1 tsp Almond Essence 1Kg 400 gms Icing Sugar, sifted "
-      ],
-      "preparation": [
-        "First preheat the oven at 160 degrees. ",
-        "Grease a tin and place pape cases on it. ",
-        "Mix flour, baking powder, soda and salt. ",
-        "Beat and cream suagar and butter. ",
-        "Add eggs one at a time. ",
-        "Now mix the essences. ",
-        "Next add the flour alternatively with the buttermilk. ",
-        "Mix half of the grated coconut. ",
-        "Fill the paper cases with the mixture. ",
-        "Bake them for 25 - 30 minutes or till they are golden in color. ",
-        "For icing beat the cream cheese, butter, sugar and the essence till smooth and creamy. ",
-        "Place a layer of this icing on the bakes cupcakes and sprinkle some coconut on them. "
-      ],
-      "category_id": "coconut-recipes",
-      "id": "coconut-cupcakes-recipe"
     },
     {
       "title": "Coconut custard halwa recipe",
@@ -13603,45 +11822,6 @@ const dataset = {
       ],
       "category_id": "coconut-recipes",
       "id": "baghare-baigan-recipe"
-    },
-    {
-      "title": "Bharwan baingan recipe",
-      "category": "Coconut recipes",
-      "ingredients": [
-        "8 small Egg plant, Brinjal (Biangan)  ",
-        "8 peeled baby Potato (Aloo)  ",
-        "2 large sliced Onion (Pyaj)  ",
-        "2/3rd cup grated Coconut (Nariyal)  ",
-        "4 tblsp unsalted chopped Cashews  ",
-        "8 Cloves (Lavang)  ",
-        "8 Black Pepper corns (Kalimirchi)  ",
-        "1/2 tsp Sugar (Cheeni)  ",
-        "To taste Salt (Namak)  ",
-        "1 tsp Cayenne Powder  ",
-        "1 tsp Turmeric Powder (Haldi)  ",
-        "1 tsp Tamarind Paste (Imli Pate)  ",
-        "8 tblsp Oil  ",
-        "2 tblsp Coriander seeds (Dhania)  ",
-        "3 tblsp chopped finely Coriander Leaves (Dhania Powder) "
-      ],
-      "preparation": [
-        "Heat 2 tbsp oil in a pan and add cloves, coriander seeds and peppercorns. ",
-        "Saute for a minute.. ",
-        "Now add sliced onions and fry until brown. ",
-        "Add coconut and stir fry until browned, remove and allow to cool. ",
-        "Grind the mixture to a paste using blender. ",
-        "Add little water if needed. ",
-        "Slit each eggplant lengthwise into four, keeping the stem end intact. ",
-        "Now in the grinded mixture mix cayenne powder, salt, sugar, tamarind paste, cashews and turmeric powder. ",
-        "Stuff the eggplants with this mixture, reserving some. ",
-        "Roll the potatoes in the remaining mixture. ",
-        "Heat the remaining oil in a pan and add the vegetables. ",
-        "Cook over low heat without burning, add little water if necessary, until done. ",
-        "Keep an eye. ",
-        "Serve hot with roti. "
-      ],
-      "category_id": "coconut-recipes",
-      "id": "bharwan-baingan-recipe"
     },
     {
       "title": "Veggie corn raita recipe",
@@ -14371,7 +12551,7 @@ const dataset = {
       "id": "dry-dates-pickle-recipe"
     },
     {
-      "title": "Ka achar)",
+      "title": "Carrot Ka achar",
       "category": "Pickle recipe",
       "ingredients": [
         "3 cups water ",
@@ -14392,7 +12572,7 @@ const dataset = {
         "Set the jar in sunlight for 13-14 days, bringing it indoor evrynight. Shake the jar two or three times daily. "
       ],
       "category_id": "pickle-recipe",
-      "id": "ka-achar"
+      "id": "carrot-ka-achar"
     },
     {
       "title": "Galgal pickle recipe",
@@ -14626,7 +12806,7 @@ const dataset = {
       "id": "nimbu-ka-achar-lemon-pickle-recipe"
     },
     {
-      "title": "Lemon pickle) recipe",
+      "title": "Lemon pickle recipe",
       "category": "Pickle recipe",
       "ingredients": [
         "340gms smooth-skinned Lemons ",
@@ -15484,34 +13664,6 @@ const dataset = {
       ],
       "category_id": "kebab-recipes",
       "id": "dahi-ke-kebab-recipe"
-    },
-    {
-      "title": "Chilli paneer recipe",
-      "category": "Paneer recipes (cottage cheese)",
-      "ingredients": [
-        "350 gms Paneer How to make paneer ",
-        "2 tsp Salt  ",
-        "1 Egg  ",
-        "1/2 cup Corn Flour  ",
-        "1 tsp Ginger-Garlic Paste  ",
-        "2 cups Coarsely Chopped Onions ",
-        "2 tbsp Sliced Green Chillies ",
-        "1 tbsp Soya Sauce  ",
-        "2 tbsp Vinegar  ",
-        "1/4 tsp Ajinomoto  ",
-        "Oil for frying  ",
-        "Little Water "
-      ],
-      "preparation": [
-        "Cut the paner into cubes.",
-        "Mix together the cottage cheese, 1 tsp salt, egg, corn flour, garlic, ginger and water to just coat the paneer pieces with the mixture. ",
-        "Heat oil in a pan and fry the paneer pieces caoted with mixture till golden in color. ",
-        "Heat 2 tbsp of the oil in a wok and stir fry the onions in it over high heat for half a minute.",
-        "Add the green chillies, salt, soya sauce, vinegar, ajinomoto and the fried paneer cubes. ",
-        "Mix well, and garnish the chilli paneer with finely cut spring onions and coriander. "
-      ],
-      "category_id": "paneer-recipes-cottage-cheese",
-      "id": "chilli-paneer-recipe"
     },
     {
       "title": "Kadhai paneer recipe",
@@ -16404,105 +14556,6 @@ const dataset = {
       "id": "paneer-tikka-masala-recipe"
     },
     {
-      "title": "Banana bread pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "1 loaf French bread ",
-        "2 tblsp Vanilla Extract  ",
-        "4 Bananas, mashed  ",
-        "4 cups Milk  ",
-        "3 Eggs  ",
-        "1 cup Sugar  ",
-        "1 cup Raisins  ",
-        "1 tsp freshly ground Nutmeg  ",
-        "1 tsp Cinnamon  ",
-        "Splash of rum (optional) "
-      ],
-      "preparation": [
-        "Cut the lof in small cubes. ",
-        "Put the cubed loaf in a bowl. ",
-        "Now pour the milk on it and keep it aside for a hour. ",
-        "Preheat oven to 325 degrees. ",
-        "Grease 9 x 13 inch baking dish. ",
-        "In a separate bowl mix the eggs, sugar and vanilla essence. ",
-        "Pour this mixture onto the bread mixture and then spread the mashed bananas and raisins. ",
-        "Add rum, cinnamom and nutmeg powder. ",
-        "Pour this mixture on the baking dish. ",
-        "Bake in the oven for 1 hour and then let it cool. "
-      ],
-      "category_id": "pudding-recipes",
-      "id": "banana-bread-pudding-recipe"
-    },
-    {
-      "title": "Chocolate bread pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "300 ml Milk ",
-        "4-5 tblsp Sugar ",
-        "4 Slices Brown Bread ",
-        "3 Eggs ",
-        "2 tblsp Drinking Chocolate or cocoa powder ",
-        "1/2 tsp Vanilla Essence ",
-        "250 ml Thick Sweetened Cream"
-      ],
-      "preparation": [
-        "Cut the bread into pieces. Beat the eggs and add the essence. ",
-        "Warm the milk and mix in the sugar. Gently mix in the cooca powder. ",
-        "Put off the flame and add the beaten eggs and the breadcrumbs. Mix well. ",
-        "Grease pudding mould and pour the mixture into the mould. ",
-        "Cover lossely with foil and steam in a rice cooker or pressure cooker without whistle for 30 ",
-        "- 40 minutes or until the pudding is spongy. ",
-        "Allow the pudding to shrink before unmoulding. ",
-        "Then put it in the fridge for 1 hour before serving with fresh, thick and sweetened cream."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "chocolate-bread-pudding-recipe"
-    },
-    {
-      "title": "Dark christmas pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "300 gms Currants  ",
-        "300 gms Raisins  ",
-        "120 gms Plain Flour ( Maida)  ",
-        "1 tsp Salt  ",
-        "1 tsp ground Ginger  ",
-        "1 tsp grated Nutmeg  ",
-        "1 tsp grounded Cinnamon and Cloves ",
-        "240 gms Margarine shredded ",
-        "120 gms Fresh breadcrumbs  ",
-        "120 gms Sugar (preferably jaggery)  ",
-        "60 gms Glace Cherries  ",
-        "60 gms Almonds blanched  ",
-        "30 gms Mixed Peel chopped  ",
-        "Few pieces rind of Oranges finely grated  ",
-        "Few pieces rind of Lemon finely grated  ",
-        "Juice of 1 Orange ",
-        "2 Eggs  ",
-        "1 tsp Vanilla essence  ",
-        "6 Level tbsp Black treacle  ",
-        "1 tbsp Brandy "
-      ],
-      "preparation": [
-        "Wash and pick the currants and raisins and dry thoroughly. ",
-        "Sift the flour, salt and spices into a large mixing bowl. ",
-        "Stir in the margarine, bread crumbs and sugar. ",
-        "Chop and mix together the currants, raisins, cherries, almonds, mixed peel and orange and lemon rinds. ",
-        "Stir these into the prepared dry ingredients. ",
-        "Beat the orange juice with the eggs and vanilla essence and pour into the bowl. ",
-        "Add the treacle and brandy and mix until thoroughly blended. ",
-        "Turn the mix over into a greased pudding basin. ",
-        "Cover the basin securely with double thickness of grease paper and tie securely. place in a pressure cooker and cook till done. ",
-        "When ready, remove cover and replace with fresh grease proof paper. ",
-        "Store in a cool, dry, dark place. ",
-        "To serve, steam the pudding again. ",
-        "Turn out into a hot dish. ",
-        "Pour a little warmed brandy round the dish and light before bringing to table. "
-      ],
-      "category_id": "pudding-recipes",
-      "id": "dark-christmas-pudding-recipe"
-    },
-    {
       "title": "Fruit custard pudding recipe",
       "category": "Pudding recipes",
       "ingredients": [
@@ -16598,79 +14651,6 @@ const dataset = {
       "id": "shahi-pudding-recipe"
     },
     {
-      "title": "Lemon pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "4 oz breadcrumbs ",
-        "1 oz flour ",
-        "1/2 tspful baking powder ",
-        "2 oz shredded suet ",
-        "2 oz moist sugar (cheeni) ",
-        "grated rind of 1 lemon ",
-        "1 egg ",
-        "3/4 cup milk"
-      ],
-      "preparation": [
-        "Mix all the dry ingredients together with the lemon rind.",
-        "Add the beaten egg and milk, and stir the mixture well.",
-        "Put into a greased mould, cover with a double piece of greased paper and steam for 2 hours.",
-        "Serve with lemon sauce, using the juice of the lemon."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "lemon-pudding-recipe"
-    },
-    {
-      "title": "Marmalade pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "2 oz breadcrumbs ",
-        "2 oz flour ",
-        "2 oz shredded suet ",
-        "grated rind of 1 lemon (nimbu) ",
-        "2 tblsp marmalade ",
-        "2 oz. castor sugar ",
-        "1 egg ",
-        "1/4 tspful baking powder ",
-        "1/2 cup milk ",
-        "marmalade sauce"
-      ],
-      "preparation": [
-        "Mix all the dry ingredients together, sieving the flour and baking powder.",
-        "Add the marmalade, egg and milk.",
-        "If the mixture is too stiff, add a little more milk.",
-        "Put mixture into a greased basin, cover with a double piece of greased paper and steam for ",
-        "2 1/2 hours.",
-        "To make the marmalade sauce:peel a lemon very thinly and cut the peel into short strips.",
-        "Boil these in water until soft, then add 2 tblspfuls of sugar and 2 tspfuls of cornflour made into a paste with a little water. Stir well and simmer for about 3 minutes.",
-        "Remove from fire and add 2 tspfuls of lemon juice.",
-        "Dish up the pudding and serve with the sauce."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "marmalade-pudding-recipe"
-    },
-    {
-      "title": "Milk pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "2 oz rice sago ",
-        "1 tblspful sugar ",
-        "1/2 oz butter ",
-        "1 pint milk ",
-        "pinch of salt"
-      ],
-      "preparation": [
-        "Just cover the cereal with water and let it stand for 5 minutes.",
-        "Strain off water, and put the cereal in a greased pie dish with the sugar, butter, salt and milk.",
-        "Let it soak for about 1 hour.",
-        "Then stir it well and cook slowly in a cool oven for 2 hours, stirring well after Â½ hours.",
-        "The above recipe makes a pudding of medium thickness; more or less cereal should be used to vary the consistency according to taste.",
-        "An egg can be added if desired, in which case the cereal should be boiled in the milk first and the egg added when cool.",
-        "Then bake in the oven for 20 minutes."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "milk-pudding-recipe"
-    },
-    {
       "title": "Coconut pudding recipe",
       "category": "Pudding recipes",
       "ingredients": [
@@ -16743,91 +14723,6 @@ const dataset = {
       ],
       "category_id": "pudding-recipes",
       "id": "toffee-pudding-recipe"
-    },
-    {
-      "title": "Yorkshire pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "8 oz flour ",
-        "2 eggs ",
-        "1 pint milk ",
-        "pinch of salt"
-      ],
-      "preparation": [
-        "Sieve the flour and salt into a basin.make a well in the center and break the eggs into it; add a little of the milk and mix it in well.",
-        "When half the milk is in, beat well for 10 minutes, then add the rest of the milk, still beating.",
-        "The batter should stand for atleast 1 hour before it is used.",
-        "Add about a tblspful of cold water at the last minute for a really light pudding.",
-        "Get a little fat really hot before pouring in the batter, then bake in a moderate oven for ",
-        "30 minutes, raising the heat just enough to brown it at the end."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "yorkshire-pudding-recipe"
-    },
-    {
-      "title": "Coffee pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "5 ozl strong coffee ",
-        "5 oz sugar ",
-        "4 eggs ",
-        "1 pint milk ",
-        "small pinch of salt"
-      ],
-      "preparation": [
-        "Boil the milk and leave it to cool a little.",
-        "Beat the eggs and sugar together and add the milk and salt, then the coffee.",
-        "Strain the mixture into a pie dish, stand in a tin with boiling water half way up the dish and cook in a moderate oven until quite firm.",
-        "Leave to cool and when cold sprinkle with castor sugar."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "coffee-pudding-recipe"
-    },
-    {
-      "title": "Honeycomb pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "1 quart milk ",
-        "3 eggs ",
-        "1/2 oz powdered gelatine ",
-        "2 oz loaf sugar (cheeni) ",
-        "1 tsp vanilla essence"
-      ],
-      "preparation": [
-        "Separate the egg-whites from the yolks.",
-        "Dissolve the gelatine in a little warm milk, add the sugar, the rest of the milk and the beaten yolks and stir over a gentle heat until it thickens like a custard.",
-        "Then take the saucepan off the fire, leave to cool, fold in the stiffly beaten whites.",
-        "Add the vanilla essence and pour into a wetted mould.",
-        "Turn out when set."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "honeycomb-pudding-recipe"
-    },
-    {
-      "title": "Orange pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "3 oranges ",
-        "1 1/4 pints milk ",
-        "1 1/2 oz cornflour ",
-        "1 oz butter ",
-        "3 oz sugar ",
-        "2 eggs ",
-        "pinch of salt"
-      ],
-      "preparation": [
-        "Peel the oranges, cut in pieces and place in a buttered dish.",
-        "Mix cornflour with a little of the milk.",
-        "Boil remainder of milk, add to the cornflour paste and cook for 10 minutes, stirring constantly.",
-        "Add the butter and a pinch of salt.",
-        "Sprinkle a little sugar over the oranges.",
-        "Mix the rest of the sugar with the yolks of the eggs, and add to the milk and cornflour mixture.",
-        "Stir for a minute or two longer over the fire without boiling.",
-        "Pour over the oranges and bake for 10 minutes.",
-        "Beat the egg whites stiffly, fold in a little castor sugar, pie on top and return to cool oven for abut 10 minutes, to set and tinge a very pale brown."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "orange-pudding-recipe"
     },
     {
       "title": "Russian pudding recipe",
@@ -16970,44 +14865,6 @@ const dataset = {
       "id": "fruit-custard-pudding-recipe"
     },
     {
-      "title": "Cottage pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "4 oz cooked potatoes (aloo) ",
-        "1 pint of milk (doodh) ",
-        "2 eggs ",
-        "2 oz sugar (cheeni)"
-      ],
-      "preparation": [
-        "Mash the potatoes, add the sugar, eggs and lastly the milk.",
-        "Mix well together.",
-        "Grease a pie dish, pour in the mixture and bake in a moderate oven for 3 /4 hour"
-      ],
-      "category_id": "pudding-recipes",
-      "id": "cottage-pudding-recipe"
-    },
-    {
-      "title": "Fig pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "8 oz breadcrumbs ",
-        "8 oz figs (anjeer) ",
-        "6 oz shredded suet ",
-        "2 eggs ",
-        "scrape of nutmeg (jaiphal) ",
-        "1/2 pint milk (doodh) ",
-        "6 oz sugar (cheeni)"
-      ],
-      "preparation": [
-        "Chop the figs very finely and mix with the breadcrumbs, sugar, suet and nutmeg.",
-        "Add the beaten eggs and the milk.",
-        "Put the mixture into a greased basin, cover with a double piece of greased paper and steam for 3 hours.",
-        "Serve with wine foam sauce."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "fig-pudding-recipe"
-    },
-    {
       "title": "Ginger pudding recipe",
       "category": "Pudding recipes",
       "ingredients": [
@@ -17027,101 +14884,6 @@ const dataset = {
       ],
       "category_id": "pudding-recipes",
       "id": "ginger-pudding-recipe"
-    },
-    {
-      "title": "Macaroni fruit pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "6 oz short cut macaroni ",
-        "1 pint water ",
-        "1 tsp salt (namak) ",
-        "1 pint milk ",
-        "1 egg ",
-        "2 tblsp golden syrup ",
-        "2 oz currants (kishmish) ",
-        "2 oz sultanas ",
-        "1 oz butter ",
-        "grated nutmeg (jaiphal)"
-      ],
-      "preparation": [
-        "Boil the macaroni in the water with salt added 5-7 minutes.",
-        "Drain and return to pan.",
-        "Add the milk, bring to the boil, stirring all the time. Remove from heat, stir in beaten egg and the syrup.",
-        "Add the cleaned fruit and the butter, mix well.",
-        "Pour into a buttered pie-dish, grate nutmeg over.",
-        "Bake in moderate oven for 30 minutes."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "macaroni-fruit-pudding-recipe"
-    },
-    {
-      "title": "Fresh apricot pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "1 oz butter ",
-        "8 oz fresh apricots ",
-        "4 oz self-raising flour ",
-        "4 oz fine white breadcrumbs ",
-        "4 oz shredded suet ",
-        "2 tblsp granulated sugar ",
-        "2 eggs ",
-        "little milk to mix ",
-        "2tsp Demerara sugar"
-      ],
-      "preparation": [
-        "Well butter a 2-pinch pudding basin ; line bottom and sides with stoned and halved apricots placing skin sides next to basin.",
-        "Mix flour and breadcrumbs, adding pinch salt, then add suet and sugar and mix thoroughly.",
-        "Stir in the beaten eggs with a little milk, and stir well until eggs are evenly blended. Add a little more milk to make a stiffly dropping consistency.",
-        "Sprinkle Demerara sugar over the apricots in the basin, add butter in pieces, then put in the pudding mixture, smoothing the top.",
-        "Cover with buttered paper, tied on tightly, but loosely fitting to allow pudding to rise. ",
-        "Simmer gently for 2 hours.",
-        "Turn out carefully, to disturb apricots as little as possible and serve with Apricot Sauce."
-      ],
-      "category_id": "pudding-recipes",
-      "id": "fresh-apricot-pudding-recipe"
-    },
-    {
-      "title": "Christmas pudding recipe",
-      "category": "Pudding recipes",
-      "ingredients": [
-        "1/2 pound Raisins (Kishmish)  ",
-        "1/2 pound chopped Dates (Khajoor)  ",
-        "2 tblsp blanched, slivered almonds  ",
-        "2 cups chopped Suet  ",
-        "1 1/4 cups Fine Wheat Flour (Maida)  ",
-        "1 tsp Salt  ",
-        "1/4 tsp ground Cloves (Lavang)  ",
-        "1/2 tsp Allspice  ",
-        "1/2 tsp Cinnamon (Tuj/Dalchini)  ",
-        "1/2 tsp grated Nutmeg Powder(Jaiphal)  ",
-        "1/2 cup Brown Sugar  ",
-        "1 peeled and grated Apple  ",
-        "6 eggs  ",
-        "1 Orange Juice ",
-        "1 Lemon Juice ",
-        "1/2 cup Buttermilk ",
-        "3 cups fresh White Bread Crumbs  ",
-        "1/2 cup Brandy  ",
-        "1 pound Sultanas  ",
-        "1 pound Currants"
-      ],
-      "preparation": [
-        "Grease 1 pudding tin. ",
-        "In a large bowl add dried fruits, almonds and suet .. ",
-        "Dredge with 1/4 cup of flour.. ",
-        "Lightly sift the remaining flour and spices.. ",
-        "Add it to mixture with sugar and grated apple and mix well. ",
-        "Beat eggs until light and frothy. ",
-        "Add citrus juices, buttermilk and mix it to the pudding mixture. ",
-        "Alos mix in bread crumbs. ",
-        "Now fill the moulds 3/4 th with this mixture and boil for 6 hours. ",
-        "Keep refilling the water while puddings are boiling. ",
-        "When fully boiled let them cool off. ",
-        "Cover them and store them in refrigerator. ",
-        "Before serving steam again for 1 hour and serev with sauce. "
-      ],
-      "category_id": "pudding-recipes",
-      "id": "christmas-pudding-recipe"
     },
     {
       "title": "Lemon peach pudding recipe",
@@ -17332,28 +15094,6 @@ const dataset = {
       "id": "onion-raita-recipecurd-preparation"
     },
     {
-      "title": "Brinjal rice recipe",
-      "category": "Rice recipes",
-      "ingredients": [
-        "3 cups plain rice ",
-        "1 1/2 tsp mustard seeds ",
-        "a few curry leaves ",
-        "3 tsp. vegetable oil ",
-        "3 cups eggplant (brinjals) ",
-        "3 tsp. finely sliced green chillies ",
-        "Salt to taste ",
-        "1 tsp turmeric powder ",
-        "3 tsp lemon juice"
-      ],
-      "preparation": [
-        "Boil rice and keep aside.",
-        "In a large pan fry the mustard seeds, curry leaves, add the eggplant (brinjal) and green chillies. Stir on low flame, cover and cook for 10 minutes.",
-        "Add salt and turmeric powder cook for another 5 minutes. Remove from fire and add lemon juice stir well and mix with the rice. Stir gently allowing each grain to coat."
-      ],
-      "category_id": "rice-recipes",
-      "id": "brinjal-rice-recipe"
-    },
-    {
       "title": "Carrot rice recipe",
       "category": "Rice recipes",
       "ingredients": [
@@ -17446,30 +15186,6 @@ const dataset = {
       ],
       "category_id": "rice-recipes",
       "id": "curd-rice-recipe"
-    },
-    {
-      "title": "Indian fried rice recipe",
-      "category": "Rice recipes",
-      "ingredients": [
-        "400 gm Rice ",
-        "100 gm Ghee or butter ",
-        "65 gms onion ",
-        "2 gms cinnamon ",
-        "2 gms Bay leaf ",
-        "1 gm peppercorns ",
-        "6 gms Salt"
-      ],
-      "preparation": [
-        "Heat the ghee in a large saucepan and add the finely sliced onion.",
-        "Fry till golden brown, remove from the pan and keep aside.",
-        "To the hot fat, add the washed and drained rice and the spices.",
-        "Keep stirring and fry for 4-5 minutes till the rice appears glazed. Add salt and boiling water an inch above the rice.",
-        "Boil and simmer till the water is almost absorbed and then put into a very slow oven at ",
-        "250 degree and leave for 20-25 minutes till the rice is cooked.",
-        "Serve garnished with fried onions. Hard-boiled eggs cut in slices may also be used as a garnish."
-      ],
-      "category_id": "rice-recipes",
-      "id": "indian-fried-rice-recipe"
     },
     {
       "title": "Garlic rice recipe",
@@ -18271,29 +15987,6 @@ const dataset = {
       "id": "mustard-sauce-recipe"
     },
     {
-      "title": "Radish cream sauce recipe",
-      "category": "Sauce recipe",
-      "ingredients": [
-        "10 teaspoons salted butter  ",
-        "2 yolks of eggs  ",
-        "1/2 teaspoon Salt (Namak)  ",
-        "pinch of Red chili pepper (Lal Mirchi)  ",
-        "1 tablespoon Lemon (Nimbu) juice  ",
-        "1 to 2 tablespoons cream  ",
-        "2 to 3 tablespoons grated red radish "
-      ],
-      "preparation": [
-        "Beat the butter until creamy. ",
-        "Beat in egg yolks one at a time. ",
-        "Add lemon juice, salt and Red chili pepper . ",
-        "Cook over a pan of hot water until slightly thick. ",
-        "Cool and mix whipped cream and grated radish. ",
-        "Serve with fried dishes. "
-      ],
-      "category_id": "sauce-recipe",
-      "id": "radish-cream-sauce-recipe"
-    },
-    {
       "title": "Red chilli sauce recipe",
       "category": "Sauce recipe",
       "ingredients": [
@@ -18346,72 +16039,6 @@ const dataset = {
       ],
       "category_id": "sauce-recipe",
       "id": "tomato-ketchup-recipe"
-    },
-    {
-      "title": "Daal shorba recipe",
-      "category": "Soup recipes",
-      "ingredients": [
-        "4 Eggs (hard boiled) ",
-        "1 onion ",
-        "1/2 tomato (pureed) ",
-        "3-4 flakes of garlic ",
-        "1/2-inch piece of ginger ",
-        "1-2 green chilies ",
-        "2tbsp chopped coriander leaves ",
-        "Salt to taste ",
-        "Red chili powder to taste ",
-        "3/4th tsp turmeric powder ",
-        "1/2 tsp coriander powder ",
-        "3/4tsp garam masala ",
-        "2-3 tbsp vegetable oil / ghee ",
-        "1 cup green peas or 250 gms paneer"
-      ],
-      "preparation": [
-        "Remove the shell of boiled eggs & keep aside. If using Paneer  cut into cubes and fry till golden & set aside for later use. ",
-        "Make a paste of onion, garlic, ginger and green chilies in a  mixer or chopper. ",
-        "Heat oil in a kadhi or wok  and add onion-garlic paste and fry till golden brown. ",
-        "Add all the spices (salt, turmeric, coriander & chili powder) except garam masala and fry for a minute and add tomato puree. Fry  till it starts leaving oil. ",
-        "Add a cup of water and cook till it dry's. ",
-        "Now add the fried paneer cubes or green peas (which ever using) and boiled eggs. ",
-        "Add 1 cup of water and bring to boil and reduce the flame. ",
-        "Simmer for 10 minutes. ",
-        "Garnish with garam masala and coriander leaves and serve daal shorba hot with paratha, roti or rice. "
-      ],
-      "category_id": "soup-recipes",
-      "id": "daal-shorba-recipe"
-    },
-    {
-      "title": "Pea soup recipe",
-      "category": "Soup recipes",
-      "ingredients": [
-        "4 Eggs (hard boiled) ",
-        "1 onion ",
-        "1/2 tomato (pureed) ",
-        "3-4 flakes of garlic ",
-        "1/2-inch piece of ginger ",
-        "1-2 green chilies ",
-        "2tbsp chopped coriander leaves ",
-        "Salt to taste ",
-        "Red chili powder to taste ",
-        "3/4th tsp turmeric powder ",
-        "1/2 tsp coriander powder ",
-        "3/4tsp garam masala ",
-        "2-3 tbsp vegetable oil / ghee ",
-        "1 cup green peas or 250 gms paneer"
-      ],
-      "preparation": [
-        "Remove the shell of boiled eggs & keep aside. If using Paneer  cut into cubes and fry till golden & set aside for later use. ",
-        "Make a paste of onion, garlic, ginger and green chilies in a  mixer or chopper. ",
-        "Heat oil in a kadhi or wok  and add onion-garlic paste and fry till golden brown. ",
-        "Add all the spices (salt, turmeric, coriander & chili powder) except garam masala and fry for a minute and add tomato puree. Fry  till it starts leaving oil. ",
-        "Add a cup of water and cook till it dry's. ",
-        "Now add the fried paneer cubes or green peas (which ever using) and boiled eggs. ",
-        "Add 1 cup of water and bring to boil and reduce the flame. ",
-        "Simmer for 10 minutes. ",
-        "Garnish pea soup with garam masala and coriander leaves and serve hot with paratha, roti or rice. "
-      ],
-      "category_id": "soup-recipes",
-      "id": "pea-soup-recipe"
     },
     {
       "title": "Hot and sour soup recipe",
@@ -18470,31 +16097,6 @@ const dataset = {
       ],
       "category_id": "soup-recipes",
       "id": "mix-vegetable-soup-recipe"
-    },
-    {
-      "title": "Mushroom soup",
-      "category": "Soup recipes",
-      "ingredients": [
-        "2 cups Mushrooms ",
-        "2 cups Chicken or veg stock  ",
-        "3 nos. Egg yolks  ",
-        "1 cup Milk ",
-        "1/8 tsp Black pepper ",
-        "4 tbsps Butter or margarine ",
-        "1/4 tsp Salt"
-      ],
-      "preparation": [
-        "Melt the butter in a pan, add the mushrooms and cook them for 5 minutes stirring constantly. ",
-        "Add the chicken or vegetable stock, raise the heat and bring to a boil.",
-        "Remove the mushroom mixture from the heat.",
-        "Beat 1/2 cup of hot broth with the egg yolks until the mixture becomes frothy.",
-        "Gradually pour this mixture into the mushroom mixture, stirring constantly to prevent the mixture from curdling.",
-        "Return the pan to the heat and add the milk, salt and pepper.",
-        "Reheat uncovered, stirring constantly, but do not let the soup boil.",
-        "Serve the mushroom soup hot."
-      ],
-      "category_id": "soup-recipes",
-      "id": "mushroom-soup"
     },
     {
       "title": "Spinach soup recipe",
@@ -18558,7 +16160,7 @@ const dataset = {
         "1 Onion chopped  ",
         "1 Clove of garlic crushed  ",
         "1 Small red pepper chopped (optional)  ",
-        "4 Cups of chicken or vegetable stock  ",
+        "4 Cups of vegetable stock  ",
         "2 oz of tomato paste  ",
         "1/4 cup of Basil"
       ],
@@ -19898,37 +17500,6 @@ const dataset = {
       "id": "semiya-payasam-recipe"
     },
     {
-      "title": "Sambar recipe",
-      "category": "Onam recipes",
-      "ingredients": [
-        "2 cup Sambhar (Tuvar) Dal ",
-        "1/4 kg Vegetables( Drumstick,Green Pepper,Eggplant,Okra) ",
-        "1/4 tsp Fenugreek seeds ",
-        "3 Red chillies ",
-        "3 Green chillies ",
-        "1 tsp Sambhar powder ",
-        "Curry leaves ",
-        "a pinch Hing ",
-        "1 tsp Salt ",
-        "2 tsp Mustard ",
-        "1/4 tsp Tamarind paste ",
-        "4 tbsp Cooking oil"
-      ],
-      "preparation": [
-        "Wash and dice all the vegetables.",
-        "Boil water and cook the dal with turmeric and salt.",
-        "Separate the cooked dal and water, and keep them aside.",
-        "In thuvar dal water cook the vegetables..",
-        "After the veggies are cooked, add tamarind paste.",
-        "Now add the cooked thuvar dal and simmer for a few more minutes",
-        "Heat some oil in a pan, splutter mustard, then add methi, red chillies, green chillies, curry leaves, hing, turmeric, and sambhar powder and keep frying for a few minutes.",
-        "Season the sambhar with the above prepared tadka.",
-        "Sprinkle coriander on top."
-      ],
-      "category_id": "onam-recipes",
-      "id": "sambar-recipe"
-    },
-    {
       "title": "Tomato rasam recipe",
       "category": "Onam recipes",
       "ingredients": [
@@ -20488,7 +18059,7 @@ const dataset = {
         "1 teaspoon garam masala (optional)* ",
         "1/2 teaspoon red chili powder* ",
         "1/2 teaspoon turmeric* ",
-        "3 cups chicken stock ",
+        "3 cups vegetable stock ",
         "2 tablespoons coriander leaves for garnish"
       ],
       "preparation": [
@@ -20733,99 +18304,6 @@ const dataset = {
       "id": "spicy-dal-recipe"
     },
     {
-      "title": "Black and white hearts recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "1 cup Butter (softened)  ",
-        "3 cup all-purpose Flour  ",
-        "3/4 cup Sugar  ",
-        "1 cup semisweet Chocolate Chips ",
-        "3 oz Cream Cheese (softened)  ",
-        "1 Egg  ",
-        "1-1/2 tsp Vanilla  ",
-        "2 tblsp Shortening "
-      ],
-      "preparation": [
-        "Mix butter, cream cheese, egg, sugar and vanilla in bowl.. ",
-        "Mix with mixer at medium speed till it is light and fluffy. ",
-        "Mix flour and beat till blended well. ",
-        "Divide dough in half.Cover each half with waxed paper. ",
-        "Let it freeze for 2 hours till it is firm. ",
-        "Roll dough to 1/8 inch thickness on lightly floured surface. ",
-        "Cut dough with lightly floured heart-shaped cookie cutter. ",
-        "Place cutouts of 1 inch apart on ungreased cookie sheets. ",
-        "Bake it in a preheated oven to 375Â°f till edges are lightly browned, it will take about 8-",
-        "10 minutes. take it out of the oven onto wire racks. ",
-        "Let it cool completely. ",
-        "Over low heat melt chocolate chips and shortening in saucepan. ",
-        "Dip half of each heart into melted chocolate. ",
-        "Place it in a refrigerator on cookie sheets or trays lined with waxed paper until chocolate is set. ",
-        "Cover and store in refrigerator. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "black-and-white-hearts-recipe"
-    },
-    {
-      "title": "Chocolate peanut butter hearts recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "Chocolate Cookie Dough  ",
-        "2 cup all-purpose Flour  ",
-        "1/2 cup creamy Peanut Butter  ",
-        "1 cup Sugar  ",
-        "1/2 cup Shortening  ",
-        "1 tsp Vanilla  ",
-        "1 tsp Baking Powder  ",
-        "1 Egg  ",
-        "3 tblsp Milk  ",
-        "1/4 tsp Salt "
-      ],
-      "preparation": [
-        "As directed make and chill chocolate cookie dough. ",
-        "Beat peanut butter, sugar and shortening until fluffy. ",
-        "Mix well egg, milk and vanilla. ",
-        "Combine flour, baking powder and salt. ",
-        "Beat flour mixture into peanut butter mixture until blended well. ",
-        "Shape dough into disc and wrap it in a plastic wrap. ",
-        "Let is freeze in refrigerate for about 1 to 2 hours. lubricate cookie sheets. fold peanut butter dough on floured waxed paper to 1/8-inch thickness. ",
-        "Cut dough using heart-shaped cookie cutter. ",
-        "Place cutouts on prepared cookie sheets. ",
-        "Repeat with chocolate dough. ",
-        "Remove small section from centers of hearts using a small cookie cutter. ",
-        "Set small peanut butter hearts into large chocolate hearts. ",
-        "Set small chocolate hearts into large peanut butter hearts. ",
-        "Press together slightly. ",
-        "Bake it in a preheated oven at 350°f till the edges are lightly browned, it will take about 10 to ",
-        "14 minutes. ",
-        "Let it cool completely on the wire racks. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "chocolate-peanut-butter-hearts-recipe"
-    },
-    {
-      "title": "Chocolate cookie dough recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "2-1/4 cup all-purpose Flour  ",
-        "1 cup (2 sticks) Butter (softened)  ",
-        "1 cup Sugar  ",
-        "1 Egg  ",
-        "1 tsp Vanilla ",
-        "2 oz semisweet Chocolate (melted)  ",
-        "1 tsp Baking Powder  ",
-        "1/4 tsp Salt "
-      ],
-      "preparation": [
-        "Mix butter and sugar in a bowl in a mixer at high speed till it is fluffy. ",
-        "Mix in egg and vanilla. ",
-        "Combine melted chocolate and mix well. ",
-        "Combine flour, baking powder, salt and mix well. ",
-        "Cover it and refrigerate if for about 2 hours or till it is firm. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "chocolate-cookie-dough-recipe"
-    },
-    {
       "title": "Cupid cakes recipe",
       "category": "Valentines day recipes",
       "ingredients": [
@@ -20875,46 +18353,6 @@ const dataset = {
       ],
       "category_id": "valentines-day-recipes",
       "id": "ice-cream-sandwich-hearts-recipe"
-    },
-    {
-      "title": "Nothing but love cake recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "1-1/3 cup all-purpose Flour  ",
-        "2/3 cup Cocoa Powder (unsweetened)  ",
-        "1/2 cup (1 stick) Butter (softened)  ",
-        "1-2/3 cup Granulated Sugar  ",
-        "1-1/2 cup Chocolate Mini Baking Bits (divided)  ",
-        "1 container (16 oz) White Frosting  ",
-        "1 Egg (large)  ",
-        "3/4 tsp Vanilla Extract  ",
-        "1 tsp Baking Soda  ",
-        "1/8 tsp Salt  ",
-        "2/3 cup Sour Cream  ",
-        "1/4 cup Buttermilk "
-      ],
-      "preparation": [
-        "Lubricate bottoms of a (8-inch) round cake pan and a (8Ã—8Ã—2-inch) baking pan. ",
-        "With the help of waxed paper line the pan; slightly lubricate it and flour pans and set aside. ",
-        "In a large bowl mix butter and sugar till it becomes light and fluffy. ",
-        "Mix egg and vanilla. ",
-        "In medium bowl mix flour, baking soda, salt and cocoa powder. ",
-        "In small bowl mix sour cream and buttermilk; add to creamed mixture alternately with dry ingredients, beginning and ending with flour mixture. ",
-        "Pour the prepared batter evenly in the prepared pans. ",
-        "Drizzle batter in each pan with 1/2 cup chocolate mini baking bits. ",
-        "Now bake it in a preheated oven at 350Â°f for about 35 minutes. ",
-        "Let it cool on wire racks completely. ",
-        "Reduce round cake into two half to make semi-circles. ",
-        "Keep square cake layer on serving plate. ",
-        "Place one semi-circle cake along one side of square cake. ",
-        "Bridge the gap between them with little frosting. ",
-        "Place remaining semi-circle cake along adjacent side of square cake, to make heart shape. ",
-        "Bridge the gap between them with little frosting. frost entire cake with remaining frosting. ",
-        "Decorate with remaining chocolate mini baking bits. ",
-        "Store it in tight cover container. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "nothing-but-love-cake-recipe"
     },
     {
       "title": "Red cider recipe",
@@ -21110,34 +18548,6 @@ const dataset = {
       "id": "hearts-recipe"
     },
     {
-      "title": "Peppermint cupcakes recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "1 package (18-1/4 oz) White Cake Mix  ",
-        "1 container (16 oz) prepared Vanilla Frosting ",
-        "2 tblsp Vegetable Oil or Butter (melted)  ",
-        "1/2 tsp Peppermint Extract  ",
-        "1-1/3 cup Water  ",
-        "3 Egg Whites  ",
-        "3-4 drops Red Liquid Food Coloring or 1/4 tsp Gel Food Coloring ",
-        "1/2 cup crushed Peppermint Candies (about 16 candies) "
-      ],
-      "preparation": [
-        "Place in a line 25-30 muffin pan cups with pink paper baking cups. ",
-        "Beat cake mix, water, egg whites, oil, peppermint extract and food coloring with mixer at low speed for 30 seconds. ",
-        "For next 2 minutes beat at medium speed. ",
-        "Pour batter into prepared muffin cups (filling 3/4 full). ",
-        "Bake this in a preheated oven at 350Â°f for 20 to 22 minutes. ",
-        "Let is cool in pans on wire racks for about 10 minutes. ",
-        "Remove cupcakes to racks from pans. ",
-        "Let it cool completely on wire racks. ",
-        "Evenly spread frosting over cooled cupcakes. ",
-        "Drizzle with crushed candies. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "peppermint-cupcakes-recipe"
-    },
-    {
       "title": "Sweetest heart cake recipe",
       "category": "Valentines day recipes",
       "ingredients": [
@@ -21165,36 +18575,6 @@ const dataset = {
       ],
       "category_id": "valentines-day-recipes",
       "id": "sweetest-heart-cake-recipe"
-    },
-    {
-      "title": "Sweetheart cheesecake recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "1-1/4 cup Chocolate Cookie Crumbs  ",
-        "2 packages (8 ounces each) Cream Cheese (softened)  ",
-        "1 cup Sour Cream  ",
-        "1/2 cup plus 1 tblsp sugar (divided)  ",
-        "1/4 cup Butter (melted)  ",
-        "21 oz can Cherry Pie Filling  ",
-        "1 tsp Vanilla (divided)  ",
-        "2 Eggs "
-      ],
-      "preparation": [
-        "For preparing crust, mix cookie crumbs and butter until well mixed or blended. ",
-        "Press mixture onto bottom of pan. ",
-        "Bake it for 8-9 minutes in a preheated oven to 350Â°F. ",
-        "Let it cool. ",
-        "For preparing filling, beat cream cheese, 1/2 tsp vanilla and 1/2 cup sugar in bowl with mixer until blended well. ",
-        "Beat in eggs. ",
-        "Pour into cooled crust and bake till center is almost set; it will take around 40 minutes. ",
-        "For preparing topping, mix sour cream, remaining 1 tsp sugar and remaining 1/2 tsp vanilla in a bowl. ",
-        "Spread it evenly over top of cheesecake. ",
-        "Sprinkle teaspoons of sauce from cherry pie filling onto sour cream topping. ",
-        "Pull tip of knife through cherry sauce to make hearts. ",
-        "Cover and let it freeze for 3 hours. serve remaining cherry pie filling over slices of cheesecake. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "sweetheart-cheesecake-recipe"
     },
     {
       "title": "Sweetheart layer bars recipe",
@@ -21285,40 +18665,6 @@ const dataset = {
       "id": "valentines-day-cake-recipe"
     },
     {
-      "title": "I-love-you scones recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "1 Egg  ",
-        "1/3 cup Milk  ",
-        "3 tsp Baking Powder  ",
-        "1/2 tsp Salt (Namak)  ",
-        "1/2 cup sliced Almond (Badam)  ",
-        "1/3 cup garnulated Sugar (Cheeni)  ",
-        "1/4 cup Applesauce  ",
-        "2 tblsp melted Butter or Margarine  ",
-        "1 tsp Almond Extract  ",
-        "2 cup all-purpose Flour (Atta)  ",
-        "4 1/2 tsp Strawberry or Raspberry Preserves  ",
-        "Powdered Sugar (Cheeni) "
-      ],
-      "preparation": [
-        "Grease a cookie sheet.. ",
-        "Slightly beat egg in a bowl.. ",
-        "Pour in milk, applesauce, butter and almond extract.. ",
-        "Pour in all the remaining ingredients except preserves and powdered sugar just until moistened.. ",
-        "Drop dough by 1/4 cupfuls onto cookie sheet.. ",
-        "Shape into heart shapes using fingers dusted with flour.. ",
-        "Make small holes in center of each heart using a spoon.. ",
-        "Place 1/2 tsp of the preserves in each hole.. ",
-        "Bake them in a preheated oven at 400 f till golden brown, it will take about 12-15 minutes.. ",
-        "Take out from the oven.. ",
-        "Drizzle hearts with powdered sugar while warm.. ",
-        "Serve warm.. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "i-love-you-scones-recipe"
-    },
-    {
       "title": "Heartshaped sandwiches recipe",
       "category": "Valentines day recipes",
       "ingredients": ["Bread  ", "Jam (strawberry or raspberry) "],
@@ -21328,76 +18674,6 @@ const dataset = {
       ],
       "category_id": "valentines-day-recipes",
       "id": "heartshaped-sandwiches-recipe"
-    },
-    {
-      "title": "Chocolate valentine cheesecake recipe ",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "3 packages Cream Cheese (softened)  ",
-        "3/4 cup Sugar (Cheeni)  ",
-        "3 Eggs  ",
-        "1 tsp Vanilla Extract  ",
-        "2 cup semi-sweet Chocolate (divided)  ",
-        "1 extra serving-size packaged Cracker Crumb Crust  ",
-        "2 tblsp Whipping Cream "
-      ],
-      "preparation": [
-        "Beat cream cheese and sugar in a bowl. ",
-        "Combine eggs and vanilla and mix all of them well. ",
-        "Stir in 1-2/3 cup small chocolate chips; pour into crust.. ",
-        "Bake mixture in a preheated oven at 280 c for 10 minutes. ",
-        "After 10 minutes of baking reduce temperature to 180 c and bake for more 30 minutes till set. ",
-        "Remove from oven to wire rack. ",
-        "Let it cool completely. ",
-        "Cover it and refrigerate to chill thoroughly. ",
-        "Place remaining 1/3 cup chips and whipping cream in a microwave bowl. ",
-        "Microwave at high level till chips are melted and mixture is smooth when stirred, it will take about 20-30 seconds. ",
-        "Let it cool slightly. ",
-        "Spread over top of cheesepie. ",
-        "Refrigerate it for 15 minutes so that topping is fully set. ",
-        "Cover and refrigerate leftover cheesepie. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "chocolate-valentine-cheesecake-recipe"
-    },
-    {
-      "title": "Valentine's cupcakes recipe",
-      "category": "Valentines day recipes",
-      "ingredients": [
-        "3 cup Flour (Atta)  ",
-        "1/2 cup 2 tblsp Vegetable oil (Vanaspati)  ",
-        "2 tsp Baking Soda  ",
-        "1/2 tsp Salt (Namak)  ",
-        "2 cup Sugar (Cheeni)  ",
-        "1/2 cup Cocoa  ",
-        "2 cup Water (Pani)  ",
-        "2 tsp Vanilla  ",
-        "Frosting:  ",
-        "230 grams Cream Cheese (softened)  ",
-        "1 Egg  ",
-        "1/3 cup Sugar (Cheeni)  ",
-        "Valetine Decorations:  ",
-        "Lips Puffy Picks  ",
-        "Valentine Glitter Ring  ",
-        "Small Candy Hearts (if desired) "
-      ],
-      "preparation": [
-        "Line cupcake baking pans with paper cupcake liners.. ",
-        "Combine flour, sugar, cocoa, baking soda and salt in a bowl and set it aside.. ",
-        "In another bowl mix water, vegetable oil and vanilla.. ",
-        "Now combine both the bowlâ€™s mixture together and stir to mix well.. ",
-        "Pour cupcake batter in the cupcake liners half full.. ",
-        "Wearing oven mitts, place cupcake pans in oven.. ",
-        "Bake in a preheated oven at 350f for about 25 minutes.. ",
-        "After baking is completed, wear oven mitts to remove pan from oven.. ",
-        "Let cool completely.. ",
-        "Combine cream cheese, egg and sugar in a bowl with help of a mixer.. ",
-        "Using a pastry bag with a star tip pipe frosting onto muffins.. ",
-        "Decorate with muffin picks or rings.. ",
-        "If desired decorate sides with candy hearts.. "
-      ],
-      "category_id": "valentines-day-recipes",
-      "id": "valentines-cupcakes-recipe"
     },
     {
       "title": "Valentine milkshake recipe",
@@ -21457,6 +18733,1403 @@ const dataset = {
       ],
       "category_id": "valentines-day-recipes",
       "id": "valentine-cookies-recipe"
+    },
+    {
+      "title": "Spinach Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Paratha dough recipe\n",
+        "2 cups flour",
+        "1 tbsp. fat (oil or ghee)",
+        "salt to taste",
+        "water to knead\n\n",
+        "1 cup spinach cleaned & finely chopped",
+        "1 tsp. red chilli powder",
+        "1/2 tsp. chat masala",
+        "salt to taste",
+        "2 tbsp. plain flour",
+        "oil to shallow fry"
+      ],
+      "preparation": [
+        "Preparing Paratha Dough \n\n Mix all ingredients except water. Add a little at a time and form a soft pliable dough.",
+        "Keep for 30 minutes before using.",
+        "Always keep covered with a moist cloth, and see that the cloth is kept moist.",
+        "One paratha requires a pingpong ball sized lump of dough. Henceforth in this section 1 lump means this size.",
+        "For rolling, use dry flour as in phulka, etc., to roll easier. Dust the roti with dry flour now and then.\n\n",
+        "The spinach must be towel dried well.",
+        "Or else the filling will ooze out and make rolling difficult.",
+        "Mix all dry ingredients together.",
+        "Roll a lump of dough as for paratha.",
+        "Spread some spinach over it.",
+        "Sprinkle some dry mixture all over.",
+        "Make a tight swiss roll. Now twist into a coil.",
+        "Press together and reroll to full size.",
+        "Shallow fry as given in introduction.",
+        "Serve hot.",
+        "Variation: Use chopped fenugreek leaves instead of spinach."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "spinach-parathas"
+    },
+    {
+      "title": "Paneer Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Paratha dough recipe\n",
+        "2 cups flour",
+        "1 tbsp. fat (oil or ghee)",
+        "salt to taste",
+        "water to knead\n\n",
+        "1 cup paneer crumbs",
+        "4-5 green chillies finely chopped",
+        "1 onion finely chopped",
+        "1 tbsp. coriander finely chopped",
+        "1 tsp. mint leaves finely chopped",
+        "salt to taste",
+        "2 tbsp. ghee",
+        "ghee or oil to shallow fry"
+      ],
+      "preparation": [
+        "Preparing Paratha Dough \n\n Mix all ingredients except water. Add a little at a time and form a soft pliable dough.",
+        "Keep for 30 minutes before using.",
+        "Always keep covered with a moist cloth, and see that the cloth is kept moist.",
+        "One paratha requires a pingpong ball sized lump of dough. Henceforth in this section 1 lump means this size.",
+        "For rolling, use dry flour as in phulka, etc., to roll easier. Dust the roti with dry flour now and then.\n\n",
+        "Roll dough to a large square.",
+        "Spread some ghee all over.",
+        "Fold in half. Spread ghee.",
+        "Fold in quarter. Spread ghee.",
+        "Roll again to full size. Repeat above procedure.",
+        "Roll into a tight swissroll. Refrigerate for 15 minutes.",
+        "Break off lumps and use as regular paratha dough.",
+        "Mix all filling ingredients.",
+        "Take a lump of dough.",
+        "Roll halfway. Spread some filling.",
+        "Make a tight swissroll. Twist to a spiral.",
+        "Press roll to full size.",
+        "Shallow fry. Serve hot with any gravy vegetable."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "paneer-parathas"
+    },
+    {
+      "title": "Tomato Onion Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Paratha dough recipe\n",
+        "2 cups flour",
+        "1 tbsp. fat (oil or ghee)",
+        "salt to taste",
+        "water to knead\n\n",
+        "1/2 cup tomato finely chopped",
+        "1 cup onions finely chopped",
+        "1 tbsp. coriander finely chopped",
+        "1 tsp. red chilli powder",
+        "1/2 tsp. cumin powder",
+        "salt to taste",
+        "oil to shallow fry"
+      ],
+      "preparation": [
+        "Preparing Paratha Dough \n\n Mix all ingredients except water. Add a little at a time and form a soft pliable dough.",
+        "Keep for 30 minutes before using.",
+        "Always keep covered with a moist cloth, and see that the cloth is kept moist.",
+        "One paratha requires a pingpong ball sized lump of dough. Henceforth in this section 1 lump means this size.",
+        "For rolling, use dry flour as in phulka, etc., to roll easier. Dust the roti with dry flour now and then.\n\n",
+        "Mix all ingredients, except dough and oil.",
+        "Take a lump of dough as per introduction.",
+        "Divide into 2 lumps. Roll both separately into thin chappatis.",
+        "Drain excess water from the mixture every now and then.",
+        "Spread some filling on the chappati, moisten the rim with water.",
+        "Press the other chappati over it, seal the rims together.",
+        "Shallow fry as per introduction.",
+        "Serve hot and crisp with butter or chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "tomato-onion-parathas"
+    },
+    {
+      "title": "Cauliflower Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Paratha dough recipe\n",
+        "2 cups flour",
+        "1 tbsp. fat (oil or ghee)",
+        "salt to taste",
+        "water to knead\n\n",
+        "1 cup grated cauliflower",
+        "1 cup grated cabbage",
+        "1/2 tsp. ginger grated",
+        "6 green chillies crushed",
+        "1 tbsp. coriander leaves chopped",
+        "1/2 tsp. garam masala",
+        "2 tbsp. cornflour or plain flour",
+        "salt to taste",
+        "oil to shallow fry"
+      ],
+      "preparation": [
+        "Preparing Paratha Dough \n\n Mix all ingredients except water. Add a little at a time and form a soft pliable dough.",
+        "Keep for 30 minutes before using.",
+        "Always keep covered with a moist cloth, and see that the cloth is kept moist.",
+        "One paratha requires a pingpong ball sized lump of dough. Henceforth in this section 1 lump means this size.",
+        "For rolling, use dry flour as in phulka, etc., to roll easier. Dust the roti with dry flour now and then.\n\n",
+        "Sprinkle some salt over grated cauliflower and cabbage.",
+        "After 5 minutes, press and remove all excess water.",
+        "Add all other ingredients and mix well, except oil.",
+        "Roll one lump of dough (refer introduction), place a tbsp. of mixture.",
+        "Roll paratha as shown in introduction.",
+        "Shallow fry as shown in introduction.",
+        "Serve hot with chilli garlic sauce or tamarind chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "cauliflower-parathas"
+    },
+    {
+      "title": "Besan Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Paratha dough recipe\n",
+        "2 cups flour",
+        "1 tbsp. fat (oil or ghee)",
+        "salt to taste",
+        "water to knead\n\n",
+        "1/2 cup gram flour",
+        "1 1/2 tsp. red chilli powder",
+        "1/2 tsp. turmeric powder",
+        "3-4 pinches asafoetida",
+        "1/2 tsp. cumin seeds",
+        "1 tbsp. coriander finely chopped (towel dried)",
+        "oil or ghee to shallow fry"
+      ],
+      "preparation": [
+        "Preparing Paratha Dough \n\n Mix all ingredients except water. Add a little at a time and form a soft pliable dough.",
+        "Keep for 30 minutes before using.",
+        "Always keep covered with a moist cloth, and see that the cloth is kept moist.",
+        "One paratha requires a pingpong ball sized lump of dough. Henceforth in this section 1 lump means this size.",
+        "For rolling, use dry flour as in phulka, etc., to roll easier. Dust the roti with dry flour now and then.\n\n",
+        "Mix the gram flour, chilli powder, turmeric powder, asafoetida, cumin seeds,",
+        "corriander.",
+        "Take a lump of dough as per introduction.",
+        "Roll, spread oil on the chapati.",
+        "Sprinkle some filling over it.",
+        "Tightly roll into a swissroll.",
+        "Form an overlapping spiral.",
+        "Press and reroll to full size.",
+        "Shallow fry and serve hot with curds and pickle."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "besan-parathas"
+    },
+    {
+      "title": "Potato (Aloo) Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Paratha dough recipe\n",
+        "2 cups flour",
+        "1 tbsp. fat (oil or ghee)",
+        "salt to taste",
+        "water to knead\n\n",
+        "2 large potatoes boiled and peeled",
+        "4-5 green chillies finely chopped",
+        "1/2 tsp. ginger grated",
+        "4-5 garlic flakes crushed",
+        "1 tbsp. coriander leaves chopped fine",
+        "1/2 tsp. turmeric powder",
+        "salt to taste",
+        "1 tbsp. oil",
+        "oil to shallow fry"
+      ],
+      "preparation": [
+        "Preparing Paratha Dough \n\n Mix all ingredients except water. Add a little at a time and form a soft pliable dough.",
+        "Keep for 30 minutes before using.",
+        "Always keep covered with a moist cloth, and see that the cloth is kept moist.",
+        "One paratha requires a pingpong ball sized lump of dough. Henceforth in this section 1 lump means this size.",
+        "For rolling, use dry flour as in phulka, etc., to roll easier. Dust the roti with dry flour now and then.\n\n",
+        "Mash the potatoes.",
+        "Heat 1 tbsp. oil in a heavy pan.",
+        "Add ginger, chilli, garlic, stir.",
+        "Add coriander, potatoes and other ingredients.",
+        "Mix well.",
+        "Roll each paratha as per instructions in introduction.",
+        "Deep fry each parathas as per instructions in introduction.",
+        "Serve hot with tomato ketchup, chutneys or pickle or just plain fresh curds."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "potato-aloo-parathas"
+    },
+    {
+      "title": "Gobhi Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "1 cup of grated gobhi (cauliflower)",
+        "3 cups of wheat flour for paratha",
+        "4 green chillies",
+        "2 spoons butter",
+        "1 spoon salt",
+        "corriander leaves"
+      ],
+      "preparation": [
+        "Cut the chillies into very small pieces.",
+        "Take wheat flour in a vessel, add grated gobhi, cut chillies,butter,corriander leaves",
+        "and salt.",
+        "Mix all this with warm water , in such a way that you must be able to make paratha",
+        "/ roti with the dough.",
+        "Take small pieces of dough and press it with roti maker into round paratha.",
+        "Place the non-stick tawa on the stove . After heating, place the paratha on it and",
+        "add 1spoon of oil on either sides of paratha.",
+        "Keep it on the tawa until it becomes brown on both sides by repeatedly changing",
+        "the sides.",
+        "Serve this hot with some pickle."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "gobhi-paratha"
+    },
+    {
+      "title": "Red Beet Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "2 cups wheat flour",
+        "2 tbsp chana flour",
+        "1 red beet",
+        "1 bunch of coriander leaves",
+        "1 tbsp oil",
+        "2 tbsp sesame seeds",
+        "1 tbsp red chilli powder or 5 to 6 green chillies (optional)",
+        "1/2 tbsp haldi",
+        "1/4 tbsp asafoetida and salt to taste"
+      ],
+      "preparation": [
+        "Grate the red beet and finely chop the coriander.",
+        "Add all the above listed ingredients and make a dough out of it.",
+        "Take a small portion of the dough and roll them into parathas.",
+        "Roast them onto the tava by adding little ghee to it .",
+        "Delicious Parathas are ready and tastes very good with spicy tomato chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "red-beet-paratha"
+    },
+    {
+      "title": "Mulli Ke Parathe",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "1 medium sized mulli (radish)",
+        "3 cups wheat flour",
+        "Oil",
+        "Salt",
+        "Powdered Coriander seeds, Red Chilli,",
+        "Turmeric and Dry Mango Powder"
+      ],
+      "preparation": [
+        "Wash and grate the mulli and keep aside after mixing some salt.",
+        "After sometime press the mulli between hands to remove the water.",
+        "Heat oil in a kadai add the mulli to it and season with the dry powders.",
+        "Warm it for sometime and then remove it from heat.",
+        "After it cools down add it to the flour along with some oil and salt and make a tight",
+        "dough mixing water carefully or the dough will become too loose.",
+        "Keep aside for some time.",
+        "Then make small balls and roll them like parathas.",
+        "Put the paratha on the tawa and make like you make any paratha.",
+        "Serve hot with curd and chutney of your choice."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "mulli-ke-parathe"
+    },
+    {
+      "title": "Cabbage Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "1 small cabbage",
+        "4 cups of wheat flour",
+        "1 tbsp grated ginger",
+        "2 tbsp grated tomato / puree",
+        "2 green chillies",
+        "6 stems of coriander leaves",
+        "2 tsp ghee",
+        "Oil to fry",
+        "Salt to taste"
+      ],
+      "preparation": [
+        "Grate the cabbage and finely chop the green chillies & coriander leaves.",
+        "Take the wheat flour in a bowl, add the Ghee and mix.",
+        "Add the grated cabbage, ginger, tomato, coriander leaves, green chillies & salt.",
+        "Knead & make a dough by adding small amount of water as needed.",
+        "Make 6-8 balls, roll them into round parathas with a rolling pin.",
+        "Roast them on both sides on a Tawa by adding oil to it.",
+        "Serve hot with pickles or curd.",
+        "Let me know how did you like it."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "cabbage-paratha"
+    },
+    {
+      "title": "Bhendi Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "250 grams ladies finger",
+        "1/2 tbsp jeera",
+        "1 tbsp chilli powder",
+        "1/2 garma masala",
+        "Salt to taste",
+        "100 gms onion",
+        "250 grams of wheat flour"
+      ],
+      "preparation": [
+        "Take a Pan, put oil and saute jeera.",
+        "Fry bhendi and onion, add chilli powder, garam masala powder.",
+        "Take a big bowl put wheat flour, salt and the bendi mixture.",
+        "Mix gradually, and keep it aside for 1 hour.",
+        "Make small balls of it and roll them and roast them on a tava.",
+        "Serve with dals or vegetable gravy."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "bhendi-paratha"
+    },
+    {
+      "title": "Shahi Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "250 gm. Wheat flour",
+        "100 gm. Maida",
+        "2 tsp. Sugar",
+        "1 tsp. Baking powder",
+        "1 tsp. Yeast",
+        "1 tsp. Onion seeds",
+        "1/2 cup Ghee",
+        "1 tsp. Ajwain",
+        "1 tsp. Salt",
+        "11/2 cup Buttermilk for kneading flour",
+        "1/2 cup Warm Water"
+      ],
+      "preparation": [
+        "Sieve the flour and baking powder together and set aside.",
+        "Blend yeast and half cup warm water.",
+        "Keep in a warm place for about 1/2 an hour or till it ferments.",
+        "Mix the yeast mixture into the flour with ajwain and knead well with buttermilk.",
+        "Keep aside the dough for about 45 minutes for it to rise.",
+        "Knead again and divide into balls. Bake or fry them. Tastes great with tandoori",
+        "chicken."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "shahi-parathas"
+    },
+    {
+      "title": "Tandoori Stuffed Aloo Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "The Stuffing for the Paratha:",
+        "2 boiled Potatoes",
+        "1 small finely chopped Onion (optional)",
+        "Coriander leaves finely chopped",
+        "Small piece of Ginger (very finely chopped or grated)",
+        "1 or 2 green Chillies (finely chopped)",
+        "Salt, Red Chilli powder and Graram masala as per taste.",
+        "Butter",
+        "For the cover:",
+        "Make dough out of wheat flour as you would do for any parantha/roti."
+      ],
+      "preparation": [
+        "Mash the potatoes.",
+        "Add all the stuffing items to mashed potatoes and mix it properly.",
+        "Make two medium size chapati, add the filling to the one chappati and cover it with",
+        "the second one.",
+        "Now roll it slightly.",
+        "Put it in a pre-heated oven at 450 degree (broil). (Cover top tray with aluminium",
+        "foil for easy baking)",
+        "When top side is done change the side and keep a check (till properly baked)",
+        "Spread butter over it.",
+        "Serve hot with yogurt."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "tandoori-stuffed-aloo-paratha"
+    },
+    {
+      "title": "Coriander Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "2 -3 bunches coriander (wash and spread on paper towels,",
+        "let dry completely.)",
+        "1 tsp. poppy seeds",
+        "1 tsp. sesame seeds",
+        "2 tbsp. minced onion.",
+        "1 tsp. very finely grated ginger",
+        "2 tsp. garam masala",
+        "1 tsp. chili powder",
+        "1/2 tsp. turmeric powder",
+        "Lemon juice and salt to taste",
+        "cooking oil",
+        "wheat flour"
+      ],
+      "preparation": [
+        "Chop the coriander leaves very finely.",
+        "Lightly roast the sesame seeds and poppy seeds.",
+        "Mix together ingredients 2 to 9.",
+        "Knead a soft dough with wheat flour.",
+        "Prepare stuffed parathas as usual using the coriander mixture.",
+        "Roast on greased tava adding little oil.",
+        "Serve hot with yogurt or pickle."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "coriander-parathas"
+    },
+    {
+      "title": "Methi Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "6 cups Wheat Flour",
+        "1 cup Besan",
+        "1 tspn. Cumin seeds",
+        "Salt as per taste",
+        "1/2 tspn. Turmeric Powder",
+        "2 tspn. Chilli Powder",
+        "2 bunch of fresh green Methi Leaves",
+        "1 bunch of Coriander Leavesr"
+      ],
+      "preparation": [
+        "Cut methi leaves and coriander leaves into small pieces.",
+        "Crush the cumin seeds and keep aside",
+        "Take a wide mouthed container, put wheat flour, besan, salt (as per taste), turmeric",
+        "powder, chilli powder, crushed cumin seeds, cut methi leaves, coriander leaves",
+        "and mix well. Put water in the mixture and make it a dough.",
+        "Convert the dough into small size balls enough to roll like chapatis.",
+        "Roll each ball like chapatis and put on the pre-heated pan on the stove. When one",
+        "side becomes brown, flip on the other side.",
+        "When both sides are done apply ghee on both sides",
+        "Your hot-hot methi parathas are ready. Serve them hot with Yoghurt and any",
+        "pickles"
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "methi-paratha"
+    },
+    {
+      "title": "Cheese Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "For ough:",
+        "1.5 cups Wheat Flour",
+        "1/2 teaspoon Salt",
+        "Water to knead",
+        "(grease hands with oil and smoothen the dough. Cover and keep aside)",
+        "For Filling:",
+        "250 gms Mozerella Cheese or Cheddar Cheese (grated long)",
+        "2 Onions (finely chopped)",
+        "1 green chilli (finely chopped)",
+        "1 tbsp Black Pepper powder",
+        "handful - chopped Coriander Leaves",
+        "(Mix all filling together in a bowl and keep aside)"
+      ],
+      "preparation": [
+        "Prepare dough like you would for chapati/roti.",
+        "Roll out 2 medium sized thick chapatis",
+        "Take 4-6 tablespoons of the filling and spread on one of the rotis.",
+        "Take the second roti and stick it on top of the first roti that has the filling",
+        "Heat your girdle well. Apply butter or ghee on it and place your roti. Let cook on",
+        "medium heat until browned. Repeat the same with the other side. Make sure not to",
+        "flip the roti many times as the filling may spill out",
+        "Serve hot with Ketchup.",
+        "The more adventurous ones could try adding finely diced vegetables with some",
+        "extra spices. Boiled. shredded chicken, scrambled egg should also taste good with",
+        "the above mixture."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "cheese-paratha"
+    },
+    {
+      "title": "Peas Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "1 cup wheat flour",
+        "1 cup maida (all purpose flour)",
+        "1 cup shelled peas (or frozen) (chop this by means of a mixie)",
+        "2 Tablespoons oil",
+        "Salt to taste.",
+        "Garam masala 1 Teaspoon.",
+        "Red chili powder 1/2 teaspoon",
+        "Ginger-garlic-green chili paste 1 Teaspoon",
+        "1/4 cup milk (used for kneading all the above)"
+      ],
+      "preparation": [
+        "Knead all the above ingredients with the milk. If needed a small amout of water",
+        "can be used.",
+        "Keep it for 1/2 an hour.",
+        "Then make small balls out of the dough.",
+        "Roll out each ball and cook on a nonstick pan."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "peas-paratha"
+    },
+    {
+      "title": "Aloo Dhania Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "potatoes 1/2 kg",
+        "dhania 1 bunch",
+        "green chillies 4 nos.",
+        "1/4 tsp hing powder"
+      ],
+      "preparation": [
+        "Boil aloos and mash well.",
+        "Grind together dhania leaves , green chillies and hing powder.",
+        "Add this paste to the mashed potatoes and mix well so that there are no lumps.",
+        "Knead the wheat flour with 2 tbsp oil, salt and water and keep aside for 1 hour.",
+        "Take a sizeable portion of the dough and make a dent in the center as you would",
+        "while making modaks.",
+        "Take a portion of the aloo dhania mix shape it into balls and put it in the centre of",
+        "the dough.",
+        "Close it and roll out into parathas.",
+        "Fry them on a tava and serve with butter on top and chilled dahi."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "aloo-dhania-parathas"
+    },
+    {
+      "title": "Tofu Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "whole wheat flour - 1 cup",
+        "firm tofu - 2 oz.",
+        "cooked tur dal - 1/2 cup",
+        "salt - 1/2 tsp",
+        "chilli powder - 1/2 tsp",
+        "jeera powder - 1/2 tsp",
+        "dhania powder - 1/2 tsp",
+        "pepper powder - 1/4 tsp",
+        "oil - 1 tsp",
+        "coriander leaves - 1 tbsp"
+      ],
+      "preparation": [
+        "Mix all the ingredients in a bowl and keep it covered for an hour.",
+        "Take a small portion of it and make it into a ball and roll it.",
+        "Heat the griddle on medium flame, when it is hot enough put the paratha on it and",
+        "shallow fry on both sides till golden color."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "tofu-paratha"
+    },
+    {
+      "title": "Chat Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "maida 250 gm.",
+        "potato (boiled) 5-6 no.",
+        "khatti chatni 2 tbsp.",
+        "mithi chatni 2-3 tbsp.",
+        "besan 1/2 tbsp.",
+        "salt as per taste",
+        "turmeric 1/2 tsp.",
+        "red chili 1/4 tsp.",
+        "coriander powder 1/2 tsp.",
+        "ghee/butter 1 tbsp."
+      ],
+      "preparation": [
+        "Add ghee to Maida and knead with water like puree dough (slightly hard).",
+        "Make a thin paratha with this dough.",
+        "With the paratha turning brown on the girdle,",
+        "Make a thick paste of besan, adding coriander powder, chili powder and salt.",
+        "Add small cut pieces of potato in this paste.",
+        "Apply a layer of this paste to one side of the paratha, with paste starting to stick",
+        "turn over the paratha.",
+        "Applying some ghee cook till golden brown, serve with Khatti and Mithi chatni."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "chat-paratha"
+    },
+    {
+      "title": "Bhutte Ka Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "corn (bhutta) 2 nos.",
+        "gehu ka atta 1 cup",
+        "makke ka atta 3/4 cup",
+        "ginger garlic paste 1 tsp",
+        "curry leaves 10",
+        "chopped green chillies 2",
+        "red chilly powder 1/2 tsp",
+        "dhania powder 1/2 tsp",
+        "jeera powder 1/4 tsp",
+        "garam masala 1/4 tsp",
+        "hing a pinch",
+        "jeera 1/2 tsp",
+        "chopped coriander 1 tbsp",
+        "oil 2 teaspoon",
+        "salt to taste"
+      ],
+      "preparation": [
+        "Mix Gehu ka atta, 1/2 cup makke ka atta, salt and water to make a dough. Grate",
+        "the corn (Bhutta).",
+        "Heat the oil and add jeera till it splutters. Add hing, curry leaves and chopped",
+        "green chillies and cook for a few seconds.",
+        "Add grated corn, ginger garlic paste and cook for 1 minute. Add red chilli powder,",
+        "dhania powder, jeera powder, salt, garam masala and 1/4 cup makke ka atta.",
+        "Add chopped coriander. Cook and keep stirring it often till it becomes granulated.",
+        "Allow it to cool. Stuff this stuffing into the dough and roll out parathas.",
+        "Cook the paratha on both sides using ghee. Serve hot with Chutney and Dahi."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "bhutte-ka-paratha"
+    },
+    {
+      "title": "Phedhe ka Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "7, 8 nos pedha (smashed)",
+        "1 cup plain flour",
+        "salt to taste",
+        "ghee"
+      ],
+      "preparation": [
+        "Mix a little salt and make dough as we make for puran poli, bit loose.",
+        "Make small puris, fill pedha in it, close it and then roll it to make parathas.",
+        "Roast them on a pan, brush with ghee.",
+        "Sweet and tasty parathas are ready to serve those who really hate sweets."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "phedhe-ka-paratha"
+    },
+    {
+      "title": "Soya Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "soya flour 1 cup",
+        "wheat flour 1 cup",
+        "any greens such as spinach, methi",
+        "or grated carrots/cabbage/zucchini",
+        "yogurt 1/4 cup",
+        "oil to shallow fry",
+        "salt to taste",
+        "ginger, garlic, green chillies paste to taste",
+        "sugar",
+        "turmeric powder. 1/2 tsp.",
+        "till 1 tbsp"
+      ],
+      "preparation": [
+        "Mix both flour and mix with 2 tbsp. of oil.",
+        "Add whatever vegetables you have, lets as spinach which is chopped nicely.",
+        "Mix all the ingredients.",
+        "Knead the atta just like paratha atta.",
+        "Make parathas and fry in the frying pan.",
+        "Serve with yogurt."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "soya-paratha"
+    },
+    {
+      "title": "Aloo Cheese ka Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "1 cup wheat flour",
+        "1/2 cup boiled & mashed potatoes",
+        "1/4 cup grated cheese",
+        "1 chopped green chilli",
+        "1/2 tea spoon garam masala",
+        "1/2 tea spoon red chilli powder",
+        "1/2 tea spoon coriander powder",
+        "1/2 tea spoon ginger garlic paste",
+        "salt to taste",
+        "1/2 cup oil"
+      ],
+      "preparation": [
+        "Take all the above ingredients add 2 table spoon oil and knead a dough.",
+        "Roll chappathi out of that dough and fry it with oil on a pan or on tawa.",
+        "Serve it with Green Chutney or with Tomato Ketchup."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "aloo-cheese-ka-paratha"
+    },
+    {
+      "title": "Papaya Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "raw papaya (small to medium ) gratings",
+        "two medium size boiled potato, mashed",
+        "green chillies 2 to 3 finely chopped",
+        "finely chopped coriander small bunch",
+        "garam masala one tea spoon",
+        "pinch of asafoetida",
+        "salt to taste",
+        "methi finely chopped (optional)"
+      ],
+      "preparation": [
+        "Make soft chappathi dough and keep it aside.",
+        "Mix all above mentioned ingredients and make round balls which is used to stuff",
+        "the chappathi and roll the parathas as usual and roast them in non stick pan with",
+        "or without oil.",
+        "Serve it with Tomatoes and Onion Rings.",
+        "For taste enjoy while parathas are hot. Healthy snack for every one for it contains",
+        "rich source of vitamin \"A\"."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "papaya-paratha"
+    },
+    {
+      "title": "Vegetable and Cheese Parathas",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "atta - 2 handful",
+        "salt - as per taste",
+        "1/2 spoon garam masala",
+        "1/2 spoon turmeric",
+        "1/2 spoon red chilly powder",
+        "oil",
+        "water",
+        "For Stuffing:",
+        "1 tbsp. cheese",
+        "finely chopped boiled carrots, cauliflower & garden peas",
+        "finely chopped onion",
+        "finely chopped coriander",
+        "finely chopped 2 small green chillies",
+        "salt",
+        "bc spoon garam masala",
+        "bc spoon red chilly powder",
+        "bc spoon ajwain"
+      ],
+      "preparation": [
+        "Knead the atta with oil, salt, garam masala, red chilly powder and turmeric powder",
+        "in water to make dough.",
+        "Mix all the ingredients for stuffing. Make 2 small small balls and roll them into the",
+        "shape of puris.",
+        "Place the stuffing on one puri, cover with another puri and press the edges",
+        "together well. Roll out to size of paratha.",
+        "Fry on tava till brown on normal flame. Serve hot with butter."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "vegetable-and-cheese-parathas"
+    },
+    {
+      "title": "Broccoli Paratha",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "For Making Paratha",
+        "3 cups wheat flour (atta)",
+        "3 tbsp. oil",
+        "2 tsp salt",
+        "warm water for mixing",
+        "For the Filling",
+        "1 head of medium size broccoli (finely chopped).",
+        "green chillies 1 or 2 (finely chopped).",
+        "1 onion (medium) (finely chopped).",
+        "1 tbsp grated coconut.",
+        "2 tsp. coriander leaves/ cilantro (finely chopped).",
+        "1/2 tsp. sugar.",
+        "1 tsp salt (or as per taste).",
+        "oil for frying"
+      ],
+      "preparation": [
+        "Mix wheat flour, salt, oil and warm water. Knead well. Make dough stiff enough for",
+        "roti/ paratha. Keep aside.",
+        "Mix grated broccoli, green chillies, coriander leaves, grated coconut, chopped",
+        "onion, salt and sugar. Keep aside.",
+        "Take two medium size balls of dough and roll them into two rotis.",
+        "Place a (non-stick) Tawa over medium heat and brush a little oil. Place one roti on",
+        "the tawa, spread the vegetable mixture all over the roti, except half an inch from all",
+        "around the edges.",
+        "Now place the second roti on top of it and press the edges of the two rotis together",
+        "to seal. Brush the paratha with a little oil and fry both sides till golden brown.",
+        "Serve hot with Imli Chutney or Mango Pickles."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "broccoli-paratha"
+    },
+    {
+      "title": "Tomato Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Wheat flour - 2 cups",
+        "Tomato sauce - 2 cups",
+        "Chilli powder - 1 tsp",
+        "Cilantro - 1 cup",
+        "Salt - as required"
+      ],
+      "preparation": [
+        "Boil the tomato sauce, chilli powder, cilantro, salt for 15 minutes till it turns to a",
+        "paste.",
+        "Then add it to the wheat flour little by little and knead it well.",
+        "Then make it into the regular chappathis with a rolling pin and toast them in a pan",
+        "with a little ghee.",
+        "The rotis can be served hot and doesn't require a side dish."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "tomato-roti"
+    },
+    {
+      "title": "Chatpati Chapatti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "4-5 Chapatis",
+        "Oil to fry",
+        "Salt to taste",
+        "Red Chilli powder",
+        "Chat masala"
+      ],
+      "preparation": [
+        "Cut the chapatis into long strips. (Use a pair of scissors).",
+        "Fry them in oil till deep brown.",
+        "Lay these fried strips on tissue paper.",
+        "Apply salt, chilli powder and chat masala to these strips.",
+        "You can also use grated cheese.",
+        "Serve with tomato sauce. Serve hot."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "chatpati-chapatti"
+    },
+    {
+      "title": "Sago (Saboodana) Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Potato 1 (big sized)",
+        "Sago 1 cup",
+        "Green chillies 4 (finely chopped)",
+        "Coriander (finely chopped) a small bunch",
+        "Roasted and coarsely powdered peanuts",
+        "Salt to taste"
+      ],
+      "preparation": [
+        "Wash the sago with water and drain it. Keep it moist for 3 hours.",
+        "When ready to make the roti.",
+        "Peel potato and grate it.",
+        "Then add chillies, coriander, salt, peanuts and mix well.",
+        "Then add sago to the mixture. Add water if necessary.",
+        "The consistency of the mixture should be such that it can be patted on a tava/",
+        "girdle.",
+        "Then take a ball of mixture and pat it on a tawa in a circular pattern with your fin-",
+        "gers.",
+        "Then pour some oil around and cover it and heat until the bottom of roti turns",
+        "golden brown.",
+        "Turn the roti and repeat the same.",
+        "Serve this hot with Coconut chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "sago-saboodana-roti"
+    },
+    {
+      "title": "Veggi Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Rice flour - 2 cups",
+        "Finely grated vegetables - carrot, choyote, cucumber,bell pepper",
+        "and onion, one each",
+        "Jeera - 1/2 tsp",
+        "Green chillies - finely chopped",
+        "Coriander and curry leaves - finely chopped",
+        "1/2 cup fresh coconut -finely grated (optional)",
+        "Salt according to taste",
+        "Oil or fat-free cooking spray",
+        "Note : Quantity of rice flour and vegetables depends on number of eaters.",
+        "Quantity of green chillies depends on tolerance of taste buds."
+      ],
+      "preparation": [
+        "Mix the grated vegetables, jeera, green chillies and the curry /coriander leaves in a",
+        "large bowl. Add rice flour and salt to this mixture till it becomes a soft dough. You",
+        "can add a little water if it isn't soft enough, but usually the juices from the grated",
+        "vegetables will be enough to form the dough. Knead the dough a little bit to mix",
+        "properly and shape it into small balls. Spray a non-stick pan with some cooking",
+        "spray or coat it with a few drops of oil. Place one small ball on the pan and slowly",
+        "press it into a round-shaped \"rotti\". This rotti should be thin like a chapati. Make a",
+        "few holes on the rotti with your index finger. (I really don't know the need for this,",
+        "but the rotti looks pretty delicious this way!)",
+        "Place this pan on the stove under medium heat. When the rotti gets cooked (it",
+        "changes color from white to golden brown), turn it over with a non-stick handle.",
+        "This part is a bit tricky because the rotti will stick to the pan if the non-stick has",
+        "worn off or there isn't enough oil coated on the pan.",
+        "Remove the rotti from the pan, serve hot with pickle, chutney, sugar or spicy pow-",
+        "der and butter/ghee.",
+        "Have a few non-stick pans ready so that you don't have to wait till this pan cools",
+        "down."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "veggi-roti"
+    },
+    {
+      "title": "Ragi Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Ragi flour - to make the dough.",
+        "Fresh grated coconut - 1/2 cup.",
+        "Coriander - 1 bunch (cleaned and finely chopped).",
+        "Onions - 4 (finely chopped).",
+        "Curry leaves - finely chopped.",
+        "Green chillies - finely chopped (according to your taste).",
+        "Salt to taste.",
+        "Sugar - little",
+        "Water."
+      ],
+      "preparation": [
+        "Mix coconut, onions, curry leaves, green chillies, coriander leaves, and salt prop-",
+        "erly with little water.",
+        "Add the ragi flour with some more water and mix properly so that it mixes with",
+        "other ingredients (This dough should be like chapati dough).",
+        "Set aside for some time.",
+        "Put some oil on tava (cooled tava). Roll small portions of dough to form medium",
+        "sized roti. Apply oil around the roti and bake at low flame till it is done.",
+        "Eat the ragi roti with delicious pudina chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "ragi-roti"
+    },
+    {
+      "title": "Masala Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "4 Rotis (Leftover / Fresh)",
+        "2 medium sized Tomatoes",
+        "7 cloves of Garlic (crushed)",
+        "2 small Green Chillies (crushed)",
+        "1/2 tsp Turmeric powder.",
+        "1 1/2 tsp Corriander powder",
+        "2 tsps chopped Corriander leaves",
+        "1/2 tsp Red Chilli powder",
+        "1 tbsp Oil",
+        "Salt"
+      ],
+      "preparation": [
+        "Cut each roti into 5-6 pieces and keep them aside.",
+        "Heat oil in a pan. Add the crushed garlic and green chillies.",
+        "Fry the garlic and green chillies for 10 secs.",
+        "Add chopped tomatoes. Cook them till they become soft.",
+        "Then add salt, turmeric powder, corriander powder and red chilli powder. Mix well.",
+        "Finally add the Roti pieces and Mix well. Cover it for 4-5 minutes on low flame.",
+        "Decorate it with corriander leaves. Serve hot."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "masala-roti"
+    },
+    {
+      "title": "Sal Phulka",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Chappati 3-4 or more",
+        "Onion 1",
+        "Tomatoes 2-3",
+        "Green Chillies 3-4",
+        "Garlic paste 1 tsp",
+        "Coriander leaves",
+        "Turmeric pwd 1/2 tsp",
+        "Red chilly pwd 1/2 tsp",
+        "Coriander pwd 1 tsp",
+        "Garam Masala 1/2 tsp",
+        "Salt",
+        "Oil",
+        "Mustard seeds 1/2 tsp",
+        "Cummin seeds 1/2 tsp"
+      ],
+      "preparation": [
+        "Break the chappatis into small pieces. Take a tsp of oil & add the mustard &",
+        "cummin seeds into it...once it splutters add the chopped onions & green chillies.",
+        "Add the garlic paste & fry the mixture till the onion is pink in colour & loses its raw",
+        "smell.",
+        "Add the chopped tomatoes & cook till it is smashed. Now add on the masalas & fry",
+        "for 2 minutes.",
+        "Next add 2 cups of water & add salt (as per taste & be careful as the chappati",
+        "already has salt in it)....... & let the water start boiling.",
+        "Then add the chappati pieces & mix properly in the gravy.",
+        "Cook in medium heat & keep mixing or else the chappati pieces might get stuck to",
+        "the botom of the pan.",
+        "Once the water is soaked & dry keep for 2 more minutes. Sprinkle the chopped",
+        "coriander leaves on top & serve immediately."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "sal-phulka"
+    },
+    {
+      "title": "Dill Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "Dill - 1 bunch",
+        "Rice Flour - 1 1/2 cup",
+        "Green Chillies - 2 to 3 (or as per taste)",
+        "Cumin seeds - 1/2 tsp",
+        "Salt as per taste",
+        "Oil for preparing rotis"
+      ],
+      "preparation": [
+        "Chop dill and green chillies.",
+        "Mix rice flour, green chillies, cumin seeds, salt and dill properly by adding water.",
+        "(consistency : as required for chapathis)",
+        "Keep it aside for 1/2 an hour.",
+        "Make them into small round balls.",
+        "Grease tawa, shape the balls into thin round rotis by hand on tawa.",
+        "Bake it under medium heat with 1/2 tea spoon of oil again on the top of the roti.",
+        "When done on one side turn on the other side and fry properly till both sides turn",
+        "light golden colour.",
+        "Serve hot with Yogurt or Curds.",
+        "Roti with Brinjal:",
+        "Here instead of dill you can use the chyote squash (white brinjal, called as Banga-",
+        "lore badanekai in kannada) It comes out crispy. Here you have to grate the squash",
+        "and add to the flour. You can add 1 squash for 1 1/2 cup of rice flour. Do not add",
+        "more water because, chyote squash leaves out water when mixed with salt.",
+        "Note: I prefer using more vegetable in roti than rice flour. Depending on the taste,",
+        "you can use as much as you want."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "dill-roti"
+    },
+    {
+      "title": "Palak Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "1 bunch of Palak leaves",
+        "1/2 inch Ginger",
+        "3/4 Green Chillies (this one can be really spicy)",
+        "A small bunch of Coriander Leaves",
+        "Ball of Tamarind",
+        "2 tsp Jeera",
+        "Salt to taste",
+        "Flour for the Rotis"
+      ],
+      "preparation": [
+        "Blanch the palak well i.e boil in hot water for 2 mins and put them under cold run-",
+        "ning water.",
+        "Grind all the above ingredients to as fine paste.",
+        "Mix this mixture with the flour and make a malleable dough. Roll out the rotis and",
+        "applly ghee on both sides.",
+        "Can be served with Pickle or Dahi or you can have it with Tea as an evening",
+        "snack."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "palak-roti"
+    },
+    {
+      "title": "Vegetable Stuffed Chapatti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "For Chapatti:",
+        "200 g fine whole Wheat Flour",
+        "1 tsp Oil",
+        "125 ml Water",
+        "For Filling:",
+        "1 tsp Fennel powder",
+        "1 Onion, thinly sliced",
+        "2 cm Ginger, minced",
+        "2 Green Chillies, sliced",
+        "3 tsp Meat Curry Powder",
+        "350 gm Cauliflower, cut into small pieces",
+        "3 medium Potatoes, boiled, peeled & diced",
+        "100 gm Peas, softened in hot water for 1/2 minute",
+        "1/3 tsp Salt"
+      ],
+      "preparation": [
+        "To Make Chapatti:",
+        "Put flour, oil & water in a bowl. Knead to form a smooth dough; leave aside for",
+        "1/2 hour.",
+        "Divide into 8 balls; roll each ball into chapattis.",
+        "Place on wok and cook on both sides, about 1 minute each. Set aside.",
+        "To Make Filling",
+        "Heat 2 tbsp oil and fry fennel for about 30 seconds.",
+        "Add onion, ginger, garlic, chillies and fry for 30 seconds. Add all the ingredients",
+        "& stir fry for 15 minutes until the mixture is quite dry.",
+        "Put 2 tbsp of filling on chapatti end; roll up thightly. Serve."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "vegetable-stuffed-chapatti"
+    },
+    {
+      "title": "Carrot Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": ["Wheat flour 1 cup", "carrot 4 Oz", "Salt to taste"],
+      "preparation": [
+        "Grate carrot.",
+        "Knead the wheat flour with carrot,salt and water.",
+        "Make small balls and roll into rotis",
+        "Cook on tawa. Spray pam on both sides",
+        "Serve with pickle and raitha.",
+        "Variations :",
+        "Try the above recipe with finely cut cabbage, spinach (very finely cut or blended",
+        "with wheat flour in a food processor). Spread butter on both sides and soak in milk",
+        "with sugar."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "carrot-roti"
+    },
+    {
+      "title": "Missi Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "1 cup besan (gram flour)",
+        "1 cup atta (whole wheat flour)",
+        "2 tbsp oil or ghee",
+        "1 tbsp kasoori methi (dry fenugreek leaves)",
+        "1/2 tsp salt",
+        "1/2 tsp red chilli powder.",
+        "1/2 tsp jeera (cumin seeds)",
+        "a pinch of hing (asafoetida)",
+        "a pinch of haldi (turmeric powder.)"
+      ],
+      "preparation": [
+        "Mix all the ingredients. Add enough water to make a dough of rolling consistency.",
+        "Cover it and keep aside for half an hour.",
+        "Make small balls and roll them slightly thicker than the usual chapati.",
+        "Cook on hot tawa with or without oil or in a hot tandoor."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "missi-roti"
+    },
+    {
+      "title": "Stuffed Rice Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "rice flour -- 3 cups",
+        "onions-finely chopped -- 2 (big ones)",
+        "green chillies-finely chopped -- 4",
+        "carrot-grated -- 1 tbsp",
+        "coriander(cilantro)leaves-chopped finely -- 1/2 cup",
+        "cumin seeds-coarsely pound -- 2 tsp",
+        "salt to taste",
+        "water-for mixing -- 1/2 cup to 1 cup",
+        "oil for shallow frying"
+      ],
+      "preparation": [
+        "Mix all the ingredients above, except the oil, in a mixing bowl. Add enough water",
+        "to bind all the ingredients together to form one whole mass.",
+        "Grease a frying pan(or tava) with a little oil.",
+        "Take a ball of the mixture(as big as a tennis ball) and place it in the middle of the",
+        "greased frying pan.",
+        "Flatten the mixture on the pan with your fingers until it is round and flat.",
+        "Spread a little oil on it.",
+        "Cover the frying pan with a covering lid and cook it in med-low flame until it is",
+        "cooked (color changes).",
+        "Remove the lid and fry it for a couple of minutes.",
+        "Turn it and fry it on the other side for a few more minutes.",
+        "Serve hot with salted butter or Mango Achar or coconut chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "stuffed-rice-roti"
+    },
+    {
+      "title": "Sago (Saboodana) Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "potato 1 (big sized)",
+        "sago 1 cup",
+        "green chillies 4 (finely chopped)",
+        "coriander (finely chopped) a small bunch",
+        "roasted and coarsely powdered peanuts",
+        "salt to taste"
+      ],
+      "preparation": [
+        "Wash the sago with water and drain it. Keep it moist for 3 hours.",
+        "When ready to make the roti.",
+        "Peel potato and grate it.",
+        "Then add chillies, coriander, salt, peanuts and mix well.",
+        "Then add sago to the mixture. Add water if necessary.",
+        "The consistency of the mixture should be such that it can be patted on a tava/",
+        "girdle.",
+        "Then take a ball of mixture and pat it on a tawa in a circular pattern with your",
+        "fingers.",
+        "Then pour some oil around and cover it and heat until the bottom of roti turns",
+        "golden brown.",
+        "Turn the roti and repeat the same.",
+        "Serve this hot with Coconut chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "sago-saboodana-roti"
+    },
+    {
+      "title": "Ragi Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "ragi flour - to make the dough.",
+        "fresh grated coconut - 1/2 cup.",
+        "coriander - 1 bunch (cleaned and finely chopped).",
+        "onions - 4 (finely chopped).",
+        "curry leaves - finely chopped.",
+        "green chillies - finely chopped (according to your taste).",
+        "salt to taste.",
+        "sugar - little.",
+        "water."
+      ],
+      "preparation": [
+        "Mix coconut, onions, curry leaves, green chillies, coriander leaves, and salt",
+        "properly with little water.",
+        "Add the ragi flour with some more water and mix properly so that it mixes with",
+        "other ingredients (This dough should be like chapathi dough).",
+        "Set aside for some time.",
+        "Put some oil on tava (cooled tava). Roll small portions of dough to form medium",
+        "sized roti.",
+        "Apply oil around the roti and bake at low flame till it is done.",
+        "Eat the ragi roti with delicious pudina chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "ragi-roti"
+    },
+    {
+      "title": "Masala Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "4 rotis (leftover/fresh)",
+        "2 medium sized tomatoes",
+        "7 cloves of garlic (crushed)",
+        "2 small green chillies (crushed)",
+        "1/2 tsp turmeric powder",
+        "1 1/2 tsp coriander powder",
+        "2 tsps chopped coriander leaves",
+        "1/2 tsp red chilli powder",
+        "1 tbsp oil",
+        "salt"
+      ],
+      "preparation": [
+        "Cut each roti into 5-6 pieces and keep them aside.",
+        "Heat oil in a pan. Add the crushed garlic and green chillies.",
+        "Fry the garlic and green chillies for 10 secs.",
+        "Add chopped tomatoes. Cook them till they become soft.",
+        "Then add salt, turmeric powder, coriander powder and red chilli powder. Mix well.",
+        "Finally add the Roti pieces and Mix well. Cover it for 4-5 minutes on low flame.",
+        "Decorate it with coriander leaves. Serve hot."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "masala-roti"
+    },
+    {
+      "title": "Dill Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "dill - 1 bunch",
+        "rice flour - 1 1/2 cup",
+        "green chillies - 2 to 3 (or as per taste)",
+        "cumin seeds - 1/2 tsp",
+        "salt as per taste",
+        "oil for preparing rotis"
+      ],
+      "preparation": [
+        "Chop dill and green chillies.",
+        "Mix rice flour, green chillies, cumin seeds, salt and dill properly by adding water.",
+        "(consistency : as required for chapathis)",
+        "Keep it aside for 1/2 an hour.",
+        "Make them into small round balls.",
+        "Grease tawa, shape the balls into thin round rotis by hand on tawa.",
+        "Bake it under medium heat with 1/2 tea spoon of oil again on the top of the roti.",
+        "When done on one side turn on the other side and fry properly till both sides turn",
+        "light golden colour.",
+        "Serve hot with Yogurt or Curds.",
+        "Roti with Brinjal:",
+        "Here instead of dill you can use the chyote squash (white brinjal, called as",
+        "Bangalore badanekai in kannada) It comes out crispy. Here you have to grate the",
+        "squash and add to the flour. You can add 1 squash for 1 1/2 cup of rice flour. Do",
+        "not add more water because, chyote squash leaves out water when mixed with",
+        "salt."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "dill-roti"
+    },
+    {
+      "title": "Carrot Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": ["wheat flour 1 cup", "carrot 4 oz", "salt to taste"],
+      "preparation": [
+        "Grate carrot.",
+        "Knead the wheat flour with carrot,salt and water.",
+        "Make small balls and roll into rotis",
+        "Cook on tawa. Spray pam on both sides",
+        "Serve with pickle and raitha.",
+        "Variations :",
+        "Try the above recipe with finely cut cabbage, spinach (very finely cut or blended",
+        "with wheat flour in a food processor).",
+        "Spread butter on both sides and soak in milk with sugar."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "carrot-roti"
+    },
+    {
+      "title": "Tandoori Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "2 cups slightly coarse wheat flour",
+        "1/4 cups maida",
+        "2 tbsp ghee",
+        "2 tbsp curd",
+        "salt to taste"
+      ],
+      "preparation": [
+        "Knead slightly stiff dough cover and keep for 2 hours.",
+        "Take naan sized dough and make a ball.",
+        "Roll to a thickish roti (4-5 mm thick).",
+        "Heat griddle (tawa) place on tawa and dry one side.",
+        "Wet upper side with water and invert.",
+        "Invert griddle and roast over gas flame (or if available a barb-que coal fire).",
+        "It will fall off when done.",
+        "Serve hot with desired vegetables."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "tandoori-roti"
+    },
+    {
+      "title": "Dabeli (Double Roti) Kutch",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "aloo 1 kg",
+        "onions 4 medium sized",
+        "double roti masala or garam masala can be used",
+        "peanuts 1 cup",
+        "salt 2 tsp",
+        "red chilly powder 2 tsp",
+        "emlee and gur chutney 4 tbsp",
+        "lasoon chutney 2 tbsp"
+      ],
+      "preparation": [
+        "Boil the aloos and after pealing mash them well and keep aside.",
+        "In a dekchi heat 1/2 cup oil for frying the peanuts, deep fry and add salt about",
+        "1 tsp, 1 tspn sugar, red chilly powder 1/2 tsp.",
+        "In the remaining oil add lason chutney, allow to sizzle,add garam masala, red",
+        "chilly powder, emlee chutney, to this add the mashed aloos.",
+        "Serve hot as filling in bun with fried peanuts & chopped onions."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "dabeli-double-roti-kutch"
+    },
+    {
+      "title": "Crisp Jaadi (Fat) Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "2 cups wheat flour",
+        "1/4 cups fine semolina",
+        "2 tbsp butter",
+        "2 tbsp ghee",
+        "salt to taste",
+        "hot or warm water to knead"
+      ],
+      "preparation": [
+        "Mix all ingredients and make very stiff dough. Take dough the size of a cricket ball.",
+        "Knead till smooth and round. Roll to a thick chappathi. About 1-1 1/2 cm thick.",
+        "Prick with a knife - point.",
+        "Place on a hot griddle on lowest heat. Let one side dry. Then let other side get",
+        "crisp.",
+        "Meanwhile pinch the roti on upper side in a circular motion till small mounds are",
+        "formed on the whole roti.",
+        "Use a mesh with stand over direct flame to roast the pinched side. Keep flame low",
+        "to get crisp rotis.",
+        "Serve with ghee and with lots of dal and rice or with curds. It may be crumbled and",
+        "dipped in dal too."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "crisp-jaadi-fat-roti"
+    },
+    {
+      "title": "Stuffed Rice Roti",
+      "category": "Rotis and Parathas",
+      "ingredients": [
+        "rice flour -- 3 cups",
+        "onions-finely chopped -- 2 (big ones)",
+        "green chillies-finely chopped -- 4",
+        "carrot-grated -- 1 tbsp",
+        "coriander(cilantro)leaves-chopped finely -- 1/2 cup",
+        "cumin seeds-coarsely pound -- 2 tsp",
+        "salt to taste",
+        "water-for mixing -- 1/2 cup to 1 cup",
+        "oil for shallow frying"
+      ],
+      "preparation": [
+        "Mix all the ingredients above, except the oil, in a mixing bowl. Add enough water",
+        "to bind all the ingredients together to form one whole mass.",
+        "Grease a frying pan(or tava) with a little oil.",
+        "Take a ball of the mixture(as big as a tennis ball) and place it in the middle of the",
+        "greased frying pan.",
+        "Flatten the mixture on the pan with your fingers until it is round and flat.",
+        "Spread a little oil on it.",
+        "Cover the frying pan with a covering lid and cook it in med-low flame until it is",
+        "cooked (color changes).",
+        "Remove the lid and fry it for a couple of minutes.",
+        "Turn it and fry it on the other side for a few more minutes.",
+        "Serve hot with salted butter or Mango Achar or coconut chutney."
+      ],
+      "category_id": "rotis-and-parathas",
+      "id": "stuffed-rice-roti"
     }
   ]
 };

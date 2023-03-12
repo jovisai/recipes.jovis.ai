@@ -87,7 +87,7 @@ class RecipePage extends ConsumerWidget implements IPage {
                               height: 50,
                             ),
                             const Text(
-                              "Search Results powered by Google",
+                              "More Results powered by Google",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: AppDefault.ssFontSize),

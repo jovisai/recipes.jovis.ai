@@ -66,8 +66,6 @@ class CategoriesPage extends ConsumerWidget implements IPage {
                                             ":id", recipeCategories[index].id)),
                                     padding: const EdgeInsets.only(
                                         left: 0, top: 10.0, bottom: 28),
-                                    subtitle: Text(
-                                        "${recipeCategories[index].count} recipes"),
                                     title: Text(
                                       recipeCategories[index].name,
                                       style: const TextStyle(
