@@ -132,7 +132,9 @@ class SearchEngineResultsView extends ConsumerWidget {
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Image.network(sresults[index].imageUrl),
+                          Image.network(sresults[index].imageUrl,
+                              errorBuilder: (context, error, stackTrace) =>
+                                  const SizedBox.shrink()),
                           Padding(
                             padding: const EdgeInsets.only(top: 8.0),
                             child: Text(sresults[index].title,
