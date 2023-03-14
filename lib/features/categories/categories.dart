@@ -37,15 +37,12 @@ class CategoriesPage extends ConsumerWidget implements IPage {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Padding(
-                      padding: EdgeInsets.only(top: 8.0, bottom: 8.0),
-                      child: Text(
-                        "What would you like to cook today?",
-                        style: TextStyle(fontSize: AppDefault.xxFontSize),
-                      ),
+                    const Text(
+                      "What would you like to cook today?",
+                      style: TextStyle(fontSize: AppDefault.xxFontSize),
                     ),
                     Padding(
-                        padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+                        padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
                         child: CupertinoSearchTextField(
                             controller: _textSearchController,
                             onChanged: (value) => _debouncer.run(() => ref
@@ -65,7 +62,7 @@ class CategoriesPage extends ConsumerWidget implements IPage {
                                         PageConstant.recipes.replaceFirst(
                                             ":id", recipeCategories[index].id)),
                                     padding: const EdgeInsets.only(
-                                        left: 0, top: 10.0, bottom: 28),
+                                        left: 0, top: 10.0, bottom: 15),
                                     title: Text(
                                       recipeCategories[index].name,
                                       style: const TextStyle(

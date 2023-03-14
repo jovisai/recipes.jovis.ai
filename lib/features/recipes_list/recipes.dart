@@ -27,7 +27,7 @@ class RecipeListPage extends ConsumerWidget implements IPage {
         child: CupertinoPageScaffold(
             navigationBar: const CupertinoNavigationBar(
                 border: Border(bottom: BorderSide.none),
-                padding: EdgeInsetsDirectional.only(top: 20),
+                padding: EdgeInsetsDirectional.only(top: 15),
                 leading:
                     NavigationBackButton(backRoute: PageConstant.categories)),
             child: SafeArea(
@@ -78,8 +78,7 @@ class RecipeList extends StatelessWidget {
                                   Modular.args.params['id'] ?? ""),
                               arguments: recipes[index])
                         },
-                    padding:
-                        const EdgeInsets.only(left: 0, top: 10.0, bottom: 28),
+                    padding: const EdgeInsets.only(left: 0, top: 0, bottom: 30),
                     title: Text(recipes[index].title,
                         style:
                             const TextStyle(fontSize: AppDefault.mFontSize))),

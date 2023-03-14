@@ -63,10 +63,13 @@ class RecipePage extends ConsumerWidget implements IPage {
                               height: 30,
                             ),
                             const Text(
-                              "Ingredients\n",
+                              "Ingredients",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: AppDefault.ssFontSize),
+                            ),
+                            Container(
+                              height: 15,
                             ),
                             Text(_ingredients(recipe.ingredients),
                                 style: const TextStyle(
@@ -75,16 +78,19 @@ class RecipePage extends ConsumerWidget implements IPage {
                               height: 30,
                             ),
                             const Text(
-                              "Preparation\n",
+                              "Preparation",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: AppDefault.ssFontSize),
+                            ),
+                            Container(
+                              height: 15,
                             ),
                             Text(_preparation(recipe.preparation),
                                 style: const TextStyle(
                                     fontSize: AppDefault.sFontSize)),
                             Container(
-                              height: 50,
+                              height: 60,
                             ),
                             const Text(
                               "More Results powered by Google",
@@ -127,7 +133,7 @@ class SearchEngineResultsView extends ConsumerWidget {
                         Uri.parse(sresults[index].link),
                         mode: LaunchMode.externalApplication),
                     child: Padding(
-                      padding: const EdgeInsets.only(top: 10.0, bottom: 25.0),
+                      padding: const EdgeInsets.only(top: 15.0, bottom: 15.0),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
