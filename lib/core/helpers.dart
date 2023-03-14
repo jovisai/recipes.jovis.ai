@@ -21,7 +21,7 @@ class AppDefault {
   static const double sFontSize = 16.00;
   static const double xsFontSize = 12.00;
   static const double sizeDown = 2;
-  static const String fontFamily = 'Quicksand';
+  static const String fontFamily = 'GowunDodum';
 }
 
 //

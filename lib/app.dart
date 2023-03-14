@@ -3,6 +3,8 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
+import 'core/helpers.dart';
+
 class AppEntry extends ConsumerWidget {
   const AppEntry({Key? key}) : super(key: key);
 
@@ -38,9 +40,15 @@ class MainApplication extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return CupertinoApp.router(
       theme: const CupertinoThemeData(
+          scaffoldBackgroundColor: Color.fromRGBO(236, 239, 244, 1),
+          textTheme: CupertinoTextThemeData(
+              textStyle: TextStyle(
+                  fontFamily: AppDefault.fontFamily,
+                  color: Color.fromRGBO(46, 52, 64, 1)),
+              navTitleTextStyle: TextStyle(fontFamily: AppDefault.fontFamily)),
           primaryColor: CupertinoColors.activeGreen,
           brightness: Brightness.light,
-          barBackgroundColor: CupertinoColors.white),
+          barBackgroundColor: Color.fromRGBO(236, 239, 244, 1)),
       routeInformationParser: Modular.routeInformationParser,
       routerDelegate: Modular.routerDelegate,
       debugShowCheckedModeBanner: false,
